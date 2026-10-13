@@ -140,3 +140,7 @@ A [matriz de 12 cenários M04.01](M04-01_TESTES_IMPASSES.csv) confronta centrali
 **Pendente:** pesquisa histórica da Constituinte e Senado, jurisprudência federativa ampla, cálculo de efeitos fiscais reais, literatura empírica sobre veto e qualidade de serviços, simulação populacional de fórmulas de votação, estrutura do órgão territorial e deliberação das alternativas.
 
 **Estado decisório:** hipóteses e questões abertas, nenhuma norma `CF-NOR`, nenhuma ratificação substantiva. Integrar este dossiê à `main` não encerra a issue #21 nem escolhe segunda câmara.
+
+## Ressalva superveniente M05.01 — omissão do art. 167 § 7º (13/10/2026)
+
+Este dossiê analisou riscos de imposição de encargos sem receita, mas **não mencionou expressamente** que a CF/1988 **já veda**, no art. 167 §7º (incluído pela **EC 128/2022**), a imposição ou transferência legislativa de encargos financeiros decorrentes da prestação de serviço público sem fonte orçamentária/financeira necessária ou transferência correspondente, ressalvadas obrigação espontânea e fixação do salário mínimo. A omissão foi identificada e registrada no [M05.01](../M05-financas/M05-01_ENCARGOS_FINANCIAMENTO_EQUALIZACAO_v0.1.md), com fontes e ressalvas. A pesquisa M04.01 deve ser lida **sob esta correção**, e a hipótese de criar uma garantia nova deve ser reformulada como eventual aperfeiçoamento, depois de demonstrar insuficiência do art. 167 §7º. O presente adendo não implica decisão de alteração constitucional.
