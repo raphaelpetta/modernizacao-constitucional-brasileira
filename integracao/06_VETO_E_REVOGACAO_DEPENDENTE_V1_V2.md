@@ -1,7 +1,7 @@
 # CF-IC-001 — Recepção adversarial V1/V2: veto, eficácia da revogação e cobertura incompleta
 
 **ID:** CF-INT-006 · **Data:** 13/10/2026 · **Status:** H/A/V; **NÃO APROVADO COMO TEXTO CONSTITUCIONAL**.  
-**CF base:** `e2a94d0df28a629bb1f19052e54e330adc65c93d`. **CLF base:** `74aa56d2942d1499044fbf5256909692be904ece`.  
+**CF base:** `e2a94d0df28a629bb1f19052e54e330adc65c93d`. **CLF base:** `74aa56d2942d1499044fbf5256909692be904ece`; **pesquisa integrada** no commit `1d4fbd2ea3ba792b8c7137e9bb26b68a04b721e8` (PR #20).  
 **Origem em pesquisa:** [CLF PR #20 — V1/V2](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/20), `modulos/T01/M04/ANALISE_09_VETO_REVOGACAO_E_COBERTURA.md`, `HIPOTESES_NORMATIVAS_09_V1_V2.md`, `MATRIZ_VETO_DEPENDENCIAS_09.csv` (**24 casos: quatro fatos oficiais e vinte simulações**).  
 **Destinatários:** M03.01 (processo legislativo/veto), M00.02 (tipologia e força dos atos), M14 (transição), M04 (direitos federativos e participação territorial), M06 (autonomia judicial), M01 (direitos).
 
