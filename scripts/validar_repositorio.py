@@ -62,7 +62,7 @@ if reserve_file.exists():
         seen_reserves: set[str] = set()
         for index, row in enumerate(reserve_rows, 1):
             identifier = (row.get("id") or "").strip()
-            if identifier in seen_reserves or not re.fullmatch(r"\\d{2,}", identifier):
+            if identifier in seen_reserves or not re.fullmatch(r"[0-9]{2,}", identifier):
                 errors.append(f"M00.02:{index}: ID duplicado ou malformado: {identifier}")
             seen_reserves.add(identifier)
             if None in row or any(v is None for v in row.values()):
