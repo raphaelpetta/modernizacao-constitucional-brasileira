@@ -2,7 +2,7 @@
 
 **ID:** CF-INT-004 · **Data:** 13/10/2026 · **Origem:** CLF T01.M04, pesquisa sobre promulgação e atualização.  
 **Status:** H/A/V — hipóteses, perguntas e verificações; **SEM decisão constitucional ratificada**.  
-**CF lida:** `6e91df55d8801b1a14e0295b511f5e56dbb100eb`. **CLF base:** `c04c78aa5dc42ae8f40da9641c6c4726709d046e`; pesquisas adicionadas em [PR CLF #18](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/18).  
+**CF lida:** `6e91df55d8801b1a14e0295b511f5e56dbb100eb`. **CLF base:** `c04c78aa5dc42ae8f40da9641c6c4726709d046e`; pesquisa integrada à `main` do CLF no commit `3a5a4977b51b4666d16ab453769ed98cb0442982` via [PR CLF #18](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/18).  
 **Vínculos constitucionais:** M00.01/M00.02 (fontes, espécies, reservas), M03.01 (processo legislativo e bicameralismo), M04 (competências), M14 (transições/reforma constitucional), sem impor arquitetura de módulos.  
 **Premissas externas:** no CLF, **DEC-001** é objetivo de um Código único realmente integrado; **DEC-016** permanece pendência sobre a forma jurídica. Nenhuma das opções a seguir foi escolhida.
 
