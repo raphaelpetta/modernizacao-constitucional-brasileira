@@ -2,7 +2,7 @@
 
 **Estado:** pesquisa não aprovada. **Corte:** 13/10/2026.
 
-Origem: [CLF PR #21](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/21). Compara quatro minutas M0–M3 e 36 cenários de veto e continuidade normativa.
+Origem: [CLF PR #21] (integrado à main CLF em `189860ee90d24eb57c698c54b7a4bf04e090270d`)(https://github.com/raphaelpetta/codigo-legislacao-federal/pull/21). Compara quatro minutas M0–M3 e 36 cenários de veto e continuidade normativa.
 
 **Resultado:** art. 66, §2º, da CF/1988 só admite veto parcial ao texto integral de artigo, parágrafo, inciso ou alínea. Revogação e condição no mesmo artigo indiviso não podem ter apenas palavras da condição vetadas; o artigo inteiro pode ser vetado. Uma condição em parágrafo separado pode ser vetada isoladamente. Um metadado editorial não tem efeito de lei.
 
