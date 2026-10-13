@@ -202,6 +202,36 @@ for relative_path, prefix, expected_count in [
     if len(study_rows) != expected_count:
         errors.append(f"M05.01: esperado {expected_count}, obtido {len(study_rows)} em {relative_path}")
 
+# M05.02: esquema vazio e catálogo de fontes rastreáveis (não dados empíricos).
+source_catalog = BASE / "modulos/M05-financas/M05-02_CATALOGO_FONTES.csv"
+schema_file = BASE / "modelos/M05_02_ESQUEMA_NORMALIZADO.csv"
+for target in [source_catalog, schema_file]:
+    if not target.is_file():
+        errors.append(f"M05.02: arquivo obrigatório ausente {target}")
+if source_catalog.is_file():
+    with source_catalog.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        docs = list(reader)
+    source_ids: set[str] = set()
+    for i, document in enumerate(docs, 1):
+        identity = (document.get("id") or "").strip()
+        if identity in source_ids or not re.fullmatch(r"M05-FONT-[0-9]{3}", identity):
+            errors.append(f"M05.02:{i}: fonte duplicada ou inválida: {identity}")
+        source_ids.add(identity)
+        if not (document.get("pagina_ou_api_oficial") or "").startswith("https://"):
+            errors.append(f"M05.02:{i}: URL de fonte ausente")
+        if "NAO" not in (document.get("estado_verificacao_2026_10_13") or "") and "VERIFICADA" not in (document.get("estado_verificacao_2026_10_13") or ""):
+            errors.append(f"M05.02:{i}: estado de verificação não informado")
+    if len(docs) < 10:
+        errors.append("M05.02: catálogo inicial incompleto")
+if schema_file.is_file():
+    with schema_file.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        if not {"codigo_ibge", "ano", "ano_populacao", "fonte_contas", "fonte_populacao"}.issubset(set(reader.fieldnames or [])):
+            errors.append("M05.02: cabeçalho do esquema incompatível")
+        if list(reader):
+            errors.append("M05.02: esquema não pode conter observações presumidamente oficiais")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue
