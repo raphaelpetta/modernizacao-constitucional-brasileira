@@ -35,3 +35,6 @@ O código dos módulos **não** determina a divisão em títulos, capítulos ou 
 ## Regra fundamental
 
 **Chat é ambiente de trabalho, Git é a fonte de estado.** Discussão não equivale a decisão. Proposta não equivale a texto aprovado. Cada sessão deve fixar a versão do repositório que leu, documentar conclusões e conflitos e encerrar com pacote de continuidade. Somente decisões validadas são registradas como tais; versões conflitantes não são mescladas silenciosamente.
+## Controle documental
+
+A verificação estrutural pode ser executada localmente com `python scripts/validar_repositorio.py` e é acionada pelo GitHub Actions em PRs e na `main`. Ela confere presença dos arquivos, IDs e dependências do catálogo, além de links Markdown locais. **Não** certifica validade jurídica, integridade de precedentes ou deliberações.

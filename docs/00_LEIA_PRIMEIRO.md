@@ -20,3 +20,7 @@ M00.01: reserva constitucional, fontes, hierarquia e competências; M01.01: teor
 
 ## Referências antigas
 O anteprojeto v0.1 contém 174 artigos permanentes, 13 títulos e 18 artigos de disposições transitórias; a numeração antiga não delimita a futura redação. Arquivos estão em `referencias/`. Para consulta exata do PDF, conservar também o original binário do pacote inicial, pois no GitHub foi incluída a extração textual.
+
+## Verificação técnica
+
+Executar `python scripts/validar_repositorio.py` antes da integração, além da revisão substantiva humana. O GitHub Actions confere estrutura em PRs; falha de estrutura bloqueia a conclusão técnica do ciclo. Referências normativas, jurisprudência e qualidade constitucional exigem verificação própria. Consultar `governanca/10_PROVENIENCIA_E_IDS.md` para campos mínimos de fonte, norma, decisão e proposta.

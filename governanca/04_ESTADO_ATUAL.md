@@ -10,7 +10,7 @@ Constituição brasileira modernizada com liberdade de reconstrução e auditori
 - `main` = versão integrada. Cada chat deve registrar o SHA efetivamente lido.
 - Guia-mestre histórico arquivado em `referencias/guia_mestre_constitucional_v0.1.md`.
 - Texto do anteprojeto antigo arquivado em `referencias/anteprojeto_constitucional_v0.1_texto.md`; o PDF original permanece no pacote inicial para eventual depósito binário.
-- Metodologia funcional e catálogo inicial de 15 módulos: proposta operacional de pesquisa, não divisão final do texto constitucional.
+- Metodologia funcional, validação automática de estrutura e catálogo inicial de 15 módulos: proposta operacional de pesquisa, não divisão final do texto constitucional.
 - CLF: https://github.com/raphaelpetta/codigo-legislacao-federal ; interface já documentada naquele repositório em `docs/09_INTERFACE_CONSTITUCIONAL.md`. A matriz de 34 interfaces refere-se à minuta constitucional v0.1, não ao projeto novo como definitivo.
 
 ## Não decidido

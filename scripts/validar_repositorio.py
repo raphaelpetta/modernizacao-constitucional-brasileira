@@ -1,30 +1,63 @@
 #!/usr/bin/env python3
-"""Validação estrutural mínima; não atesta qualidade jurídica das propostas."""
+"""Verifica integridade documental. Não verifica direito vigente ou qualidade científica."""
+from __future__ import annotations
+
 import csv
 from pathlib import Path
+import re
+import sys
 
-root = Path(__file__).resolve().parent.parent
+BASE = Path(__file__).resolve().parent.parent
+errors: list[str] = []
 required = [
     "README.md", "docs/00_LEIA_PRIMEIRO.md",
     "governanca/01_MANIFESTO.md", "governanca/02_METODOLOGIA.md",
     "governanca/03_DECISOES.md", "governanca/04_ESTADO_ATUAL.md",
     "governanca/05_DEPENDENCIAS.md", "governanca/06_CONTINUIDADE_VERSIONAMENTO.md",
-    "catalogo/MODULOS.csv", "modelos/PACOTE_CONTINUIDADE.md",
-    "integracao/01_INTERFACE_CLF.md",
+    "governanca/08_ROTEIRO_INICIAL.md", "governanca/09_AUDITORIA_GARANTIAS.md",
+    "governanca/10_PROVENIENCIA_E_IDS.md", "catalogo/MODULOS.csv",
+    "modelos/PACOTE_CONTINUIDADE.md", "modelos/MATRIZ_GARANTIAS.csv",
+    "integracao/01_INTERFACE_CLF.md", "chatgpt/INSTRUCOES_PROJETO.md",
     "referencias/guia_mestre_constitucional_v0.1.md",
-    "referencias/anteprojeto_constitucional_v0.1_texto.md"
+    "referencias/anteprojeto_constitucional_v0.1_texto.md",
 ]
-errors = ["Arquivo obrigatório ausente: " + p for p in required if not (root / p).is_file()]
-with (root / "catalogo/MODULOS.csv").open(encoding="utf-8-sig", newline="") as f:
-    rows = list(csv.DictReader(f))
-ids = [r["id_modulo"] for r in rows]
-if len(ids) != len(set(ids)): errors.append("IDs duplicados no catálogo")
-if set(ids) != {"M%02d" % i for i in range(15)}: errors.append("Conjunto M00-M14 incompleto")
-for r in rows:
-    for dep in filter(None, r["interfaces"].split(";")):
-        if dep not in ids:
-            errors.append("Dependência inexistente: " + r["id_modulo"] + " -> " + dep)
-for problem in errors: print("ERRO:", problem)
-if errors: raise SystemExit(1)
-print("OK:", len(rows), "módulos; arquivos e dependências coerentes.")
-print("Nota: esta checagem não valida direito vigente, decisões nem qualidade de pesquisa.")
+for item in required:
+    if not (BASE / item).is_file(): errors.append("Arquivo ausente: " + item)
+
+def rows_for(path: Path) -> list[dict[str,str]]:
+    if not path.is_file(): return []
+    with path.open(encoding="utf-8-sig",newline="") as f:
+        reader=csv.DictReader(f)
+        columns=reader.fieldnames or []
+        if len(set(columns))!=len(columns): errors.append("Cabeçalho repetido: "+str(path))
+        rows=list(reader)
+        for idx,row in enumerate(rows,2):
+            if None in row or any(value is None for value in row.values()):
+                errors.append(f"{path.name}:{idx}: colunas inconsistentes")
+        return rows
+
+modules=rows_for(BASE/"catalogo/MODULOS.csv")
+identifiers=[(r.get("id_modulo") or "").strip() for r in modules]
+if len(identifiers)!=len(set(identifiers)): errors.append("IDs duplicados em MODULOS.csv")
+if set(identifiers)!={f"M{i:02d}" for i in range(15)}: errors.append("Conjunto M00 a M14 incompleto")
+for r in modules:
+    for dep in filter(None,(r.get("interfaces") or "").split(";")):
+        if dep not in identifiers:
+            errors.append(f"Dependência inexistente: {r.get('id_modulo')} -> {dep}")
+rows_for(BASE/"modelos/MATRIZ_GARANTIAS.csv")
+
+# Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
+for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
+    if not md.is_file(): continue
+    text=md.read_text(encoding="utf-8")
+    for dest in re.findall(r"\]\(([^)]+)\)",text):
+        if dest.startswith(("http://","https://","mailto:","#")): continue
+        clean=dest.split("#",1)[0]
+        if clean and not (md.parent/clean).exists():
+            errors.append(f"{md.relative_to(BASE)}: link local inválido {clean}")
+
+if errors:
+    for e in errors: print("ERRO:",e,file=sys.stderr)
+    raise SystemExit(1)
+print(f"OK: {len(modules)} módulos, dependências e arquivos obrigatórios conferidos.")
+print("Validação de estrutura apenas; fontes, decisões e qualidade jurídica exigem auditoria.")
