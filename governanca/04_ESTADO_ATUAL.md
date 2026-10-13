@@ -17,7 +17,7 @@ Constituição brasileira modernizada com liberdade de reconstrução e auditori
 Sistema de governo, mecanismo eleitoral, desenho de Câmara alta, repartição fina de competências, finanças federativas, Justiça constitucional, conteúdo de reservas normativas, regimes territoriais, reforma constitucional e regras de transição. Todas as hipóteses antigas podem ser reexaminadas.
 
 ## Situação dos módulos
-M00–M14: **PLANEJADO**, sem declaração de auditoria concluída.
+M00: **PESQUISA INICIADA** no subciclo M00.01 (F0 delimitada; F1 preliminar, não exaustiva), documento `modulos/M00-fundamentos/M00-01_RESERVA_CONSTITUCIONAL_E_FONTES.md`, issue #4. M01–M14: **PLANEJADO**. Nenhum módulo auditado ou redação constitucional material ratificada.
 
 ## Próxima trilha
 1. Validar o contrato metodológico e proveniência das antigas diretrizes.
