@@ -72,8 +72,37 @@ if reserve_file.exists():
                     errors.append(f"M00.02:{index}: módulo inexistente: {dep}")
             if not (row.get("localizacao_constitucional") or "").strip():
                 errors.append(f"M00.02:{index}: dispositivo vazio")
-        if len(reserve_rows) < 53:
-            errors.append("M00.02: baseline esperada de 53 registros não encontrada")
+        if len(reserve_rows) < 74:
+            errors.append("M00.02: baseline esperada de 74 registros não encontrada")
+
+# ADCT: validação estrutural dos registros temporais não exaustivos.
+adct_file = BASE / "modulos/M00-fundamentos/M00-02_ADCT_MATRIZ_TEMPORAL_v0.2.csv"
+if adct_file.exists():
+    with adct_file.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        required_adct_fields = {
+            "id", "localizacao_adct", "tipo", "fonte_normativa_ou_procedimento",
+            "marco_temporal", "efeito_resumido", "estado_temporal_inicial",
+            "modulos", "pendencia", "url_fonte_oficial"
+        }
+        if not required_adct_fields.issubset(set(reader.fieldnames or [])):
+            errors.append("M00.02 ADCT: colunas obrigatórias ausentes")
+        adct_rows = list(reader)
+        ids_adct: set[str] = set()
+        for index, row in enumerate(adct_rows, 1):
+            identity = (row.get("id") or "").strip()
+            if identity in ids_adct or not re.fullmatch(r"ADCT-[0-9]{3}", identity):
+                errors.append(f"ADCT:{index}: ID duplicado ou malformado: {identity}")
+            ids_adct.add(identity)
+            if None in row or any(value is None for value in row.values()):
+                errors.append(f"ADCT:{index}: colunas irregulares")
+            for module in (row.get("modulos") or "").split(";"):
+                if module and module not in identifiers:
+                    errors.append(f"ADCT:{index}: módulo inexistente: {module}")
+            if not (row.get("url_fonte_oficial") or "").startswith("https://"):
+                errors.append(f"ADCT:{index}: fonte oficial sem URL HTTPS")
+        if len(adct_rows) < 18:
+            errors.append("M00.02 ADCT: baseline esperada de 18 registros ausente")
 
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
