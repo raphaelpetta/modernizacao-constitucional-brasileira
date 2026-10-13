@@ -104,6 +104,35 @@ if adct_file.exists():
         if len(adct_rows) < 18:
             errors.append("M00.02 ADCT: baseline esperada de 18 registros ausente")
 
+# M03.01: matriz adversarial e matriz de classificação por matéria.
+for relative_path, prefix, expected_count in [
+    ("modulos/M03-parlamento/M03-01_TESTES_PROCESSO_LEGISLATIVO.csv", "CF-TEST-M03-", 12),
+    ("modulos/M03-parlamento/M03-01_TRIAGEM_MATERIAS_PROCEDIMENTOS.csv", "M03-MAT-", 10),
+]:
+    target = BASE / relative_path
+    if not target.is_file():
+        errors.append(f"M03.01: arquivo ausente {relative_path}")
+        continue
+    with target.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        current_rows = list(reader)
+    if not current_rows or "id" not in (reader.fieldnames or []):
+        errors.append(f"M03.01: cabeçalho ou dados inválidos {relative_path}")
+        continue
+    observed: set[str] = set()
+    for index, row in enumerate(current_rows, 1):
+        identity = (row.get("id") or "").strip()
+        if identity in observed or not re.fullmatch(re.escape(prefix) + r"[0-9]{3}", identity):
+            errors.append(f"M03.01:{index}: ID inválido ou duplicado {identity}")
+        observed.add(identity)
+        if None in row or any(v is None for v in row.values()):
+            errors.append(f"M03.01:{index}: colunas irregulares em {relative_path}")
+        for dep in (row.get("modulos") or "").split(";"):
+            if dep and dep not in identifiers:
+                errors.append(f"M03.01:{index}: módulo inválido {dep}")
+    if len(current_rows) != expected_count:
+        errors.append(f"M03.01: esperado {expected_count}, obtido {len(current_rows)} em {relative_path}")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue

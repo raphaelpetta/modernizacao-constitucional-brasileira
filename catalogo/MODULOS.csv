@@ -1,8 +1,8 @@
 id_modulo,nome,escopo_funcional_inicial,interfaces,status,ressalva
-M00,"Fundamentos e teoria constitucional","Natureza constitucional, princípios, fontes, técnica, hierarquia e competências de normas","M01;M03;M04;M14",PLANEJADO,"Divisão funcional provisória; não determina títulos constitucionais"
+M00,"Fundamentos e teoria constitucional","Natureza constitucional, princípios, fontes, técnica, hierarquia e competências de normas","M01;M03;M04;M14",PESQUISA,"Divisão funcional provisória; não determina títulos constitucionais"
 M01,"Direitos fundamentais — parte geral e liberdades","Titularidade, igualdade, eficácia, restrições, tutela, liberdades e garantias penais","M06;M09;M10;M11;M12",PLANEJADO,"Divisão funcional provisória; não determina títulos constitucionais"
 M02,"Democracia e sistema eleitoral","Sufrágio, partidos, eleições, financiamento, participação e autoridade eleitoral","M03;M06;M14",PLANEJADO,"Divisão funcional provisória; não determina títulos constitucionais"
-M03,"Parlamento, Governo e processo legislativo","Formação, destituição, chefia de Estado, bicameralismo, procedimento de lei","M02;M04;M05;M06;M14",PLANEJADO,"Divisão funcional provisória; não determina títulos constitucionais"
+M03,"Parlamento, Governo e processo legislativo","Formação, destituição, chefia de Estado, bicameralismo, procedimento de lei","M02;M04;M05;M06;M14",PESQUISA,"Divisão funcional provisória; não determina títulos constitucionais"
 M04,"Federação e organização territorial","Estados, Municípios, capital, competências, regiões e intervenção","M03;M05;M07;M09;M11",PLANEJADO,"Divisão funcional provisória; não determina títulos constitucionais"
 M05,"Finanças e sistema tributário","Tributação, autonomia fiscal, equalização, orçamento e dívida","M03;M04;M07;M09",PLANEJADO,"Divisão funcional provisória; não determina títulos constitucionais"
 M06,"Justiça e instituições de garantia","Jurisdição constitucional, justiça comum, MP, Defensoria e fiscalização","M01;M02;M03;M04;M14",PLANEJADO,"Divisão funcional provisória; não determina títulos constitucionais"
