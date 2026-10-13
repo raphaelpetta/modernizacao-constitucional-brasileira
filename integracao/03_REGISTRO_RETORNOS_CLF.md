@@ -28,3 +28,9 @@ A revisão de alternativas do Parlamento e produção normativa foi aberta na [i
 O CLF T01.M04 produziu [seis modelos de promulgação, dois esboços constitucionais rivais e 18 testes](04_CODIGO_UNICO_MODELOS_PROMULGACAO_CLF.md) a partir do [PR CLF #18](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/18). O material foi **recebido apenas como hipótese de pesquisa**, para confrontação em M00.02/M03.01/M14, respeitando a matriz do próprio projeto constitucional de fontes, reservas e garantias.
 
 **P3/CP:** procedimento coordenado que tentaria produzir texto positivo uno sem criar espécie nominal. **P4/CE:** espécie Código, com reserva material e iniciativas por componentes. Ambas **não aprovadas** e ainda têm pendências essenciais sobre forma do ato de integração, sanção/veto, bicameralismo, reedição C0 reservada, atualização e efeitos de promulgação incompleta. A existência dos arquivos **não transfere decisão jurídica** ao projeto CF. A linha `CF-IC-001` permanece `IDENTIFICADO/PESQUISA`.
+
+## Teste CP/CE — simulação da origem à primeira alteração (13/10/2026)
+
+O CLF [PR #19](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/19) apresenta simulação por **72 estados** (CP/CE × componentes T/O/J × 12 fases), com **20 falhas adversariais**. [Nota de recebimento constitucional](05_SIMULACAO_CP_CE_VETO_E_ATUALIZACAO.md).
+
+**Resultado:** CP/P3 não definiu a forma jurídico-constitucional de promulgação do ato único; CE/P4 a denomina, mas ainda **não** disciplina integralmente sanção/veto, bicameralismo, revogação condicional e iniciativa não exercida. Veto real da **LC 236/2026** e componente atual de LO **Lei 9.784/1999 art. 2º** corrigem exemplos anteriores que confundiam texto vetado/histórico com norma vigente. CE/CP **permanecem hipóteses H/A**, e a interface CF-IC-001 aguarda respostas de M00.02/M03.01/M14 antes de qualquer deliberação material.
