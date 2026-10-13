@@ -1,0 +1,10 @@
+# Todos os números são INVENTADOS exclusivamente para ensino do raciocínio, em unidades monetárias fictícias.
+# NÃO representam reais, municípios brasileiros, dados Tesouro, direitos a transferências ou resultados empíricos.
+# M=max(0,B-A); Gprev=max(0,M-R-Tprev); Gefet=max(0,M-R-Trec).
+"id","perfil_sintetico","custo_minimo_B","gasto_existente_A","receita_disponivel_R","transferencia_prevista_Tprev","transferencia_recebida_Trec","custo_incremental_M","lacuna_planejada_Gprev","lacuna_efetiva_Gefet","observacao"
+"HYP-M05-001","Município pequeno sintético","100","30","10","60","50","70","0","10","Custo inicial de equipe maior em escala pequena"
+"HYP-M05-002","Município médio sintético","120","50","20","50","50","70","0","0","Transferência planejada recebida integralmente"
+"HYP-M05-003","Metrópole sintética","250","160","45","45","35","90","0","10","Repasse recebido inferior ao planejado"
+"HYP-M05-004","Município de alta capacidade sintético","150","100","45","5","5","50","0","0","Maior receita residual local reduz necessidade de compensação"
+"HYP-M05-005","Município remoto sintético","140","30","10","100","70","110","0","30","Custo de prestação hipoteticamente maior por logística"
+"HYP-M05-006","Município com déficit ex ante sintético","110","45","20","30","20","65","15","25","Mesmo transferência prevista integralmente deixa lacuna"

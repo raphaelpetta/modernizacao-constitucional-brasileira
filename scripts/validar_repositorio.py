@@ -72,8 +72,8 @@ if reserve_file.exists():
                     errors.append(f"M00.02:{index}: módulo inexistente: {dep}")
             if not (row.get("localizacao_constitucional") or "").strip():
                 errors.append(f"M00.02:{index}: dispositivo vazio")
-        if len(reserve_rows) < 74:
-            errors.append("M00.02: baseline esperada de 74 registros não encontrada")
+        if len(reserve_rows) < 75:
+            errors.append("M00.02: baseline esperada de 75 registros não encontrada")
 
 # ADCT: validação estrutural dos registros temporais não exaustivos.
 adct_file = BASE / "modulos/M00-fundamentos/M00-02_ADCT_MATRIZ_TEMPORAL_v0.2.csv"
@@ -161,6 +161,46 @@ for relative_path, prefix, expected_count in [
                 errors.append(f"M04.01:{line_number}: módulo inválido {module}")
     if len(values) != expected_count:
         errors.append(f"M04.01: esperado {expected_count}, encontrado {len(values)} em {relative_path}")
+
+# M05.01: validar matriz adversarial e cenários numéricos exclusivamente fictícios.
+for relative_path, prefix, expected_count in [
+    ("modulos/M05-financas/M05-01_TESTES_ENCARGOS.csv", "CF-TEST-M05-", 12),
+    ("modulos/M05-financas/M05-01_SIMULACAO_ILUSTRATIVA.csv", "HYP-M05-", 6),
+]:
+    location = BASE / relative_path
+    if not location.is_file():
+        errors.append(f"M05.01: arquivo ausente {relative_path}")
+        continue
+    with location.open(encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(line for line in f if line.strip() and not line.startswith("#"))
+        study_rows = list(reader)
+    seen_study: set[str] = set()
+    for i, record in enumerate(study_rows, 1):
+        identity = (record.get("id") or "").strip()
+        if identity in seen_study or not re.fullmatch(re.escape(prefix) + r"[0-9]{3}", identity):
+            errors.append(f"M05.01:{i}: ID inválido/duplicado: {identity}")
+        seen_study.add(identity)
+        if None in record or any(x is None for x in record.values()):
+            errors.append(f"M05.01:{i}: linha com colunas inválidas")
+        for dep in (record.get("modulos") or "").split(";"):
+            if dep and dep not in identifiers:
+                errors.append(f"M05.01:{i}: módulo inexistente: {dep}")
+        if identity.startswith("HYP-M05-"):
+            try:
+                B = float(record["custo_minimo_B"])
+                A = float(record["gasto_existente_A"])
+                R = float(record["receita_disponivel_R"])
+                prev = float(record["transferencia_prevista_Tprev"])
+                real = float(record["transferencia_recebida_Trec"])
+                increment = max(0, B - A)
+                if (abs(float(record["custo_incremental_M"]) - increment) > 1e-9
+                    or abs(float(record["lacuna_planejada_Gprev"]) - max(0, increment - R - prev)) > 1e-9
+                    or abs(float(record["lacuna_efetiva_Gefet"]) - max(0, increment - R - real)) > 1e-9):
+                    errors.append(f"M05.01:{i}: cálculo didático inconsistente")
+            except (KeyError, TypeError, ValueError):
+                errors.append(f"M05.01:{i}: colunas numéricas inválidas")
+    if len(study_rows) != expected_count:
+        errors.append(f"M05.01: esperado {expected_count}, obtido {len(study_rows)} em {relative_path}")
 
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
