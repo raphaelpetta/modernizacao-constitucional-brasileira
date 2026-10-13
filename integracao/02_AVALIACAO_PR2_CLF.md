@@ -11,4 +11,4 @@ Para a Constituição, a pergunta fundamental é **o que necessita de rigidez co
 ## Não importar
 Obrigação de consolidar todos os diplomas federais, forma de código único, transposição fiel de leis e pressupostos de outra simulação política. Um anteprojeto antigo não equivale a decisão ratificada. Referências administrativas de avaliação regulatória não substituem pesquisa constitucional especializada.
 
-**Status temporal:** o PR #2 estava em rascunho quando examinado, em 13/10/2026; consultar seu estado real no momento de usar.
+**Atualização 13/10/2026:** o PR #2 foi posteriormente incorporado à `main` do CLF. O PR #3 também foi incorporado, com governança operacional, padrões de proveniência e CI estrutural. Ambos são decisões internas do CLF; este projeto constitucional utiliza metodologia própria adaptada, e nenhuma hipótese material constitucional foi aprovada por esses merges.
