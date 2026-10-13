@@ -106,3 +106,7 @@ Consultar [12 casos normativos e de execução](M05-01_TESTES_ENCARGOS.csv) e [c
 5. **F6:** se houver evidência e preferência aprovada, elaborar **CF-NOR** com regra de garantias, custeio, equalização, participação, implementação e transição. **Ainda não há escolha ratificada.**
 
 **Distinguir resultados:** o artigo constitucional, o processo STF e as fontes administrativas estão documentados; todo juízo sobre suficiência da regra, otimização normativa e fórmula de custos é *inferência/metodologia* e permanece aberto. Não classificar a existência do problema jurídico como ausência textual no ordenamento vigente.
+
+## Continuidade M05.02 — 13/10/2026
+
+O subciclo [M05.02](M05-02_PROTOCOLO_EMPIRICO_E_AUDITORIA_v0.1.md) verificou dez fontes/serviços oficiais em nível de documentação, organizou esquema vazio de dados municipais e implementou auditor descritivo com testes sintéticos. **Nenhuma tabela fiscal de municípios reais foi coletada/harmonizada**, e as seis simulações anteriores continuam classificadas como inteiramente fictícias. O estudo não sustenta, ainda, alterar o art. 167 §7º ou escolher fórmula de equalização; a possibilidade de aperfeiçoamento A/B/C/D permanece em avaliação.
