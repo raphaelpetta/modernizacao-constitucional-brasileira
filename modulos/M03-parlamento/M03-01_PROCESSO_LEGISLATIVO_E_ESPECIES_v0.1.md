@@ -49,6 +49,8 @@ A eficiência deve ser comparada com: custo de veto, captura por incumbentes, pr
 - África do Sul: https://justice.gov.za/legislation/constitution/chp04.html (arts. 73–79); Departamento de Justiça https://www.justice.gov.za/legislation/legprocess.htm (classificação e tramitação).
 - Espanha: https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229 (arts. 81, 82, 86 e 90, consolidação BOE atualizada em 20/05/2026).
 - França: https://www.legifrance.gouv.fr/loda/texte_lc/LEGITEXT000006071194/ (arts. 38, 45, 46; consultar versão vigente e não versões históricas isoladas).
+**Detalhe institucional sul-africano importante:** no art. 76(1), após insucesso da mediação, a Assembleia Nacional pode, em certas hipóteses, aprovar novamente o projeto com **dois terços de seus membros**, mesmo quando se trate de legislação que afeta províncias; portanto não há veto absoluto universal do Conselho. Fonte: https://justice.gov.za/legislation/constitution/chp04.html (art. 76(1)(e),(i),(j)). Essa superação qualificada é hipótese comparativa de equilíbrio entre autonomia e governabilidade, não solução ratificada para o Brasil.
+
 **Cautela:** descrição de texto legal e explicação institucional não provam desempenho superior. Sem transplantar prazos, quóruns ou órgãos automaticamente.
 
 ## 4. Distinção decisiva — ESPÉCIE de lei versus PROCEDIMENTO da matéria
@@ -91,7 +93,7 @@ A cada etapa identificar **quem pode bloquear, por quanto tempo e quem resolve o
 
 ## 7. Testes adversariais: matriz separada
 
-A [matriz de 12 cenários M03.01](M03-01_TESTES_PROCESSO_LEGISLATIVO.csv) documenta impasse bicameral, governo sem maioria, manipulação de espécie, iniciativa, urgência, lei mista, regimentos, orçamento, representação local, fiscalização judicial e interface CLF. Cada cenário confronta **desenho excessivamente permissivo** e **desenho excessivamente rígido**.
+A [matriz de 12 cenários M03.01](M03-01_TESTES_PROCESSO_LEGISLATIVO.csv) e a [triagem simulada de 10 matérias](M03-01_TRIAGEM_MATERIAS_PROCEDIMENTOS.csv) documentam impasse bicameral, governo sem maioria, manipulação de espécie, iniciativa, urgência, lei mista, regimentos, orçamento, representação local, fiscalização judicial e interface CLF. Cada cenário confronta **desenho excessivamente permissivo** e **desenho excessivamente rígido**.
 
 A pesquisa não determina regras de preferência do usuário: todas permanecem H/P/A/V.
 
