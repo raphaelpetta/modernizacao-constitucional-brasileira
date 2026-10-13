@@ -17,7 +17,7 @@ Constituição brasileira modernizada com liberdade de reconstrução e auditori
 Sistema de governo, mecanismo eleitoral, desenho de Câmara alta, repartição fina de competências, finanças federativas, Justiça constitucional, conteúdo de reservas normativas, regimes territoriais, reforma constitucional e regras de transição. Todas as hipóteses antigas podem ser reexaminadas.
 
 ## Situação dos módulos
-M00: **PESQUISA INICIADA** no subciclo M00.01 (F0 delimitada; F1 preliminar, não exaustiva), documento `modulos/M00-fundamentos/M00-01_RESERVA_CONSTITUCIONAL_E_FONTES.md`, issue #4. M01–M14: **PLANEJADO**. Nenhum módulo auditado ou redação constitucional material ratificada.
+M00: **PESQUISA EM CURSO**, subciclo M00.01 (F0 delimitada; F1 verificação normativa focalizada e F3 pesquisa comparada inicial, ambas ainda não exaustivas). Dossiê inicial `modulos/M00-fundamentos/M00-01_RESERVA_CONSTITUCIONAL_E_FONTES.md`; pesquisa ampliada `modulos/M00-fundamentos/M00-01_PESQUISA_COMPARADA_E_CRITERIOS_v0.2.md` (integração PR #10, commit `fed09101315e0733390b911e186c50759bdee7d8`). Questões de reserva legal, tipologia legislativa e hierarquia ainda como hipóteses; issue #4 segue aberta. M01–M14: **PLANEJADO**. Nenhum módulo auditado nem texto constitucional material ratificado.
 
 ## Próxima trilha
 1. Validar o contrato metodológico e proveniência das antigas diretrizes.
