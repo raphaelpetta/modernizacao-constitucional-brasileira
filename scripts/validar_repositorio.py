@@ -133,6 +133,35 @@ for relative_path, prefix, expected_count in [
     if len(current_rows) != expected_count:
         errors.append(f"M03.01: esperado {expected_count}, obtido {len(current_rows)} em {relative_path}")
 
+# M04.01: verificação estrutural dos cenários e triagens de consentimento.
+for relative_path, prefix, expected_count in [
+    ("modulos/M04-federacao/M04-01_TESTES_IMPASSES.csv", "CF-TEST-M04-", 12),
+    ("modulos/M04-federacao/M04-01_TRIAGEM_CONSENTIMENTO.csv", "CF-M04-MAT-", 10),
+]:
+    candidate = BASE / relative_path
+    if not candidate.is_file():
+        errors.append(f"M04.01: arquivo ausente {relative_path}")
+        continue
+    with candidate.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        values = list(reader)
+    if not values or "id" not in (reader.fieldnames or []):
+        errors.append(f"M04.01: tabela inválida {relative_path}")
+        continue
+    observed: set[str] = set()
+    for line_number, record in enumerate(values, 1):
+        identity = (record.get("id") or "").strip()
+        if identity in observed or not re.fullmatch(re.escape(prefix) + r"[0-9]{3}", identity):
+            errors.append(f"M04.01:{line_number}: ID inválido ou repetido {identity}")
+        observed.add(identity)
+        if None in record or any(v is None for v in record.values()):
+            errors.append(f"M04.01:{line_number}: número de colunas irregular")
+        for module in (record.get("modulos") or "").split(";"):
+            if module and module not in identifiers:
+                errors.append(f"M04.01:{line_number}: módulo inválido {module}")
+    if len(values) != expected_count:
+        errors.append(f"M04.01: esperado {expected_count}, encontrado {len(values)} em {relative_path}")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue
