@@ -46,6 +46,35 @@ for r in modules:
             errors.append(f"Dependência inexistente: {r.get('id_modulo')} -> {dep}")
 rows_for(BASE/"modelos/MATRIZ_GARANTIAS.csv")
 
+# Inventário M00.02: registros rastreáveis, sem atribuir a este teste força jurídica.
+reserve_file = BASE / "modulos/M00-fundamentos/M00-02_INVENTARIO_RESERVAS_CF1988.csv"
+if reserve_file.exists():
+    with reserve_file.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        required_fields = {
+            "id", "localizacao_constitucional", "categoria_analitica",
+            "instrumento_vigente", "titular_competencia", "objeto",
+            "observacoes_e_pendencias", "modulos"
+        }
+        if not required_fields.issubset(set(reader.fieldnames or [])):
+            errors.append("M00.02: colunas obrigatórias ausentes")
+        reserve_rows = list(reader)
+        seen_reserves: set[str] = set()
+        for index, row in enumerate(reserve_rows, 1):
+            identifier = (row.get("id") or "").strip()
+            if identifier in seen_reserves or not re.fullmatch(r"[0-9]{2,}", identifier):
+                errors.append(f"M00.02:{index}: ID duplicado ou malformado: {identifier}")
+            seen_reserves.add(identifier)
+            if None in row or any(v is None for v in row.values()):
+                errors.append(f"M00.02:{index}: colunas irregulares")
+            for dep in (row.get("modulos") or "").split(";"):
+                if dep and dep not in identifiers:
+                    errors.append(f"M00.02:{index}: módulo inexistente: {dep}")
+            if not (row.get("localizacao_constitucional") or "").strip():
+                errors.append(f"M00.02:{index}: dispositivo vazio")
+        if len(reserve_rows) < 53:
+            errors.append("M00.02: baseline esperada de 53 registros não encontrada")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue
