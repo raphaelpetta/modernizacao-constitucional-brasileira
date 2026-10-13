@@ -85,3 +85,7 @@ Todos são **hipóteses de auditoria**, ainda não problemas empírica ou juridi
 - **Não entregue:** revisão completa da CF/1988, auditoria empírica, matriz histórica final, decisões materiais ratificadas, nova redação constitucional.
 - **Mudanças decididas:** nenhuma opção material.
 - **Pergunta da próxima sessão:** que critérios objetivos/interpretativos permitem separar a matéria constitucional essencial do conteúdo delegável à legislação, mantendo direitos e controle democrático sob risco de captura?
+
+## Atualização da pesquisa — 13/10/2026
+
+Foi produzida a [auditoria normativa e comparada v0.2](M00-01_PESQUISA_COMPARADA_E_CRITERIOS_v0.2.md), com verificação focalizada de CF/1988, STF (SV 62, RE 377.457/Tema 71), LC 95/1998 e constituições da Alemanha, Suíça, Portugal, Colômbia e África do Sul. O documento formula critérios de alocação CONSTITUICAO/LEI/LEI_QUALIFICADA_A_AVALIAR/REGULAMENTO/OUTRO, aplica exemplos e registra alternativas e testes adversariais. **Nenhum critério ou opção material foi aprovado como decisão final; F1/F3 permanecem incompletas.**
