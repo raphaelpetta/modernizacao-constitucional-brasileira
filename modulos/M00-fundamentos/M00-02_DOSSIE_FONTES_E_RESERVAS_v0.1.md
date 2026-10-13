@@ -107,3 +107,7 @@ A matriz do CLF e as demandas IC-2026-010/026 devem ser examinadas com esse requ
 **Nível de confiança:** localização das 53 referências **conferida no texto atualizado**, mas sua interpretação jurídica, recepção, aplicabilidade temporal ou relação com atos regulamentadores **nem sempre verificada**. Por isso o status é **TRIAGEM_DOCUMENTAL**, não INVENTARIO_COMPLETO, AUDITADO ou INTEGRADO como regime jurídico.
 
 **Nenhuma decisão material adotada nesta rodada.**
+
+## Atualização da pesquisa — v0.2, 13/10/2026
+
+O inventário inicial de 53 registros permanece preservado como marco histórico da F1. A [matriz permanente](M00-02_INVENTARIO_RESERVAS_CF1988.csv) foi ampliada a **74 registros** e passou a tratar também de decretos com competência constitucional própria (art. 84 VI), regimentos, resoluções, tratados com rito qualificado, controles do Congresso, efeitos jurisdicionais vinculantes e proteção dos Tribunais de Contas pela EC 139/2026. Foi criada a [matriz do ADCT, com 18 registros e marcos temporais](M00-02_ADCT_MATRIZ_TEMPORAL_v0.2.csv), incluindo 2026, 2033, 2043, 2077 e 2097. A [nota analítica e comparação de quatro modelos](M00-02_ARQUITETURA_DE_FONTES_HIPOTESES_v0.2.md) esclarece que **unidade editorial não equivale a única espécie normativa** e que transitoriedade não implica hierarquia inferior. A F1 segue **não exaustiva**, não houve análise completa das leis regulamentadoras nem decisões constitucionais ratificadas.
