@@ -1,0 +1,2 @@
+# M05.02: ESQUEMA, SEM DADOS; não preencher com números fictícios como se fossem observações.
+codigo_ibge,uf,municipio,ano,ano_populacao,populacao,receita_total_realizada,receita_tributaria_realizada,transferencias_correntes_realizadas,despesa_saude_paga,despesa_educacao_paga,fonte_contas,fonte_populacao
