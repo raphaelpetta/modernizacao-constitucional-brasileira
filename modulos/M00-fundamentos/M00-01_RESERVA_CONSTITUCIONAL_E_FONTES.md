@@ -89,3 +89,7 @@ Todos são **hipóteses de auditoria**, ainda não problemas empírica ou juridi
 ## Atualização da pesquisa — 13/10/2026
 
 Foi produzida a [auditoria normativa e comparada v0.2](M00-01_PESQUISA_COMPARADA_E_CRITERIOS_v0.2.md), com verificação focalizada de CF/1988, STF (SV 62, RE 377.457/Tema 71), LC 95/1998 e constituições da Alemanha, Suíça, Portugal, Colômbia e África do Sul. O documento formula critérios de alocação CONSTITUICAO/LEI/LEI_QUALIFICADA_A_AVALIAR/REGULAMENTO/OUTRO, aplica exemplos e registra alternativas e testes adversariais. **Nenhum critério ou opção material foi aprovado como decisão final; F1/F3 permanecem incompletas.**
+
+## Auditoria aplicada de 20 conjuntos normativos — 13/10/2026
+
+Foi publicada a [auditoria analítica com 20 grupos da CF/1988](M00-01_AUDITORIA_20_CASOS.md) e sua [matriz estruturada CSV](M00-01_AMOSTRA_20_DISPOSITIVOS.csv). A triagem testa explicitamente garantias materiais, detalhes potencialmente legislativos, riscos de reforma e dependências. **É amostra intencional, não inventário constitucional completo nem deliberação de mudanças.** Os exemplos especialmente controvertidos incluem arts. 7º, 29, 40, 212/212-A e 59–69.
