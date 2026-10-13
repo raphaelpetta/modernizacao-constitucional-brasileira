@@ -47,7 +47,7 @@ def divide(numerator: Decimal | None, denominator: Decimal | None, digits: str) 
 
 def run(source: Path, output: Path) -> dict:
     with source.open(encoding="utf-8-sig", newline="") as handle:
-        reader = csv.DictReader(handle)
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
         missing = [name for name in FIELDS if name not in (reader.fieldnames or [])]
         if missing:
             raise ValueError("Colunas ausentes: " + ", ".join(missing))
