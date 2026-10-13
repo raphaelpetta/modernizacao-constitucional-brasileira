@@ -20,3 +20,5 @@ jobs:
           python-version: '3.11'
       - name: Verificar catálogo, dependências e links
         run: python scripts/validar_repositorio.py
+      - name: Testar pipeline descritivo M05.02 com dados sintéticos
+        run: python -m unittest discover -s tests -p 'test_m05_02_auditar_dados.py' -v
