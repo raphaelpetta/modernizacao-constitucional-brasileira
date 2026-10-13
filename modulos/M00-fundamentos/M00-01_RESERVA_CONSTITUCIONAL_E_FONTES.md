@@ -93,3 +93,7 @@ Foi produzida a [auditoria normativa e comparada v0.2](M00-01_PESQUISA_COMPARADA
 ## Auditoria aplicada de 20 conjuntos normativos — 13/10/2026
 
 Foi publicada a [auditoria analítica com 20 grupos da CF/1988](M00-01_AUDITORIA_20_CASOS.md) e sua [matriz estruturada CSV](M00-01_AMOSTRA_20_DISPOSITIVOS.csv). A triagem testa explicitamente garantias materiais, detalhes potencialmente legislativos, riscos de reforma e dependências. **É amostra intencional, não inventário constitucional completo nem deliberação de mudanças.** Os exemplos especialmente controvertidos incluem arts. 7º, 29, 40, 212/212-A e 59–69.
+
+## Terceira rodada de pesquisa — proteção e três filtros (13/10/2026)
+
+Estudo intermodular publicado em [04_ROTEIRO_DELIBERACAO.md](M00-01_04_ROTEIRO_DELIBERACAO.md) e dividido em: [04A — salvaguardas eleitorais](M00-01_04A_SALVAGUARDAS_ELEITORAIS.md), [04B — reserva legal e delegação](M00-01_04B_RESERVA_DE_LEI_E_DELEGACAO.md), [04C — continuidade material dos direitos](M00-01_04C_AUDITORIA_DIREITOS_MATERIAIS.md) e [CSV com 12 testes](M00-01_04_MATRIZ_TESTES_ADVERSARIAIS.csv). A pesquisa utiliza ADI 3.685, RE 633.703, Comissão de Veneza 2025, Alemanha/Suíça/África do Sul e síntese OCDE de 2022. O **modelo de três filtros** é H (hipótese analítica), sem decisões constitucionais aprovadas. Próximas revisões: M02, M01, M03, M04/M05, M06 e interface CLF.
