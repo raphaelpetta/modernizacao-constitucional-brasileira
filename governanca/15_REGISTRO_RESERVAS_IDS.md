@@ -76,3 +76,7 @@ A entrada histórica acima que aponta `M01.12` como código de liberdades civis 
 ## Reserva adicional — M09.03 e interface M06/privacidade, 14/10/2026
 
 **M09.03** oficialmente vinculada à [issue #68](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/68), dossiê e CSVs no [PR #63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63); **nenhuma CF-NOR reservada/criada**. Não reutilizar M09.03 para capítulo previdenciário ou pisos sem exame da issue. **M06.02** incluiu parecer de interface com privacidade no [PR #62](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/62); **não** foi ocupado o código M06.03 (tutela coletiva futura permanece sugestão pendente, não reserva). CF-NOR 0030/0031 seguem reservadas no PR59 H/draft, jamais afirmar integração à main.
+
+
+## Reserva de subciclo M12.01 — 14/10/2026
+A [issue #80](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/80) registra **M12.01 — investigação digital e Tema 977**, com estudo independente no [PR #82](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/82), draft. M12 abrange polícias/investigação segundo `catalogo/MODULOS.csv`. A reserva é de **subciclo**, não de ficha `CF-NOR` nem decisão constitucional. **FEITO:** designação e parecer; **PENDENTE:** interoperabilidade M01/M06/M07; **PRÓXIMO:** revisão conjunta sem ocupar novos IDs até deliberação.
