@@ -52,3 +52,11 @@
 - [ ] No fechamento, atualizar **Feito / Pendente / Próximo** e registrar eventual alteração de reserva.
 
 Se o estado do GitHub mudar antes da criação do arquivo ou merge, repetir o preflight. O protocolo **reduz**, mas não elimina atomicamente, corridas entre branches independentes: neste caso prevalece a verificação de conflitos no momento de integrar.
+
+## Adendo de reserva — 14/10/2026
+
+A [issue #57](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/57) reservou formalmente **CF-NOR-0030** para privacidade e **CF-NOR-0031** para dados pessoais; textos H foram propostos no [PR #59](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/59), **ainda draft e não integrados à main** na fotografia `d346f71140656263216cdeb137a775e2b3fc73a9`. As ordens editoriais candidatas são 0210/0220, independentes dos IDs. 
+
+**Não disponíveis para outro PR enquanto a issue #57 estiver ativa:** 0030, 0031. **Não liberados para privacidade/dados:** 0012 e 0013, ocupados por dignidade e vida na main. Consultar PRs e índice novamente antes de integrar; a reserva documental não é travamento atômico do GitHub.
+
+Subciclos iniciados no tracker: **M01.12 [#54](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/54)**, **M06.01 [#55](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/55)**, **M09.01 [#56](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/56)**, **M01.13 [#57](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/57)**. Isto reserva escopo, não aprova texto nem conclui pesquisa.
