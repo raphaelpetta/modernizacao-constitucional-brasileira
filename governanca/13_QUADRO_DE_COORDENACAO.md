@@ -64,3 +64,16 @@
 Nenhuma norma `CF-NOR-0001–0020` da fotografia recebeu status `D`. O registro de decisões mantém diretrizes gerais e as decisões históricas do guia com proveniência diferenciada. Não deliberar forma de governo, eleições, Câmara alta, Justiça ou tributação apenas porque estudos já existem.
 
 **Próxima atualização deste quadro:** após saneamento de PR #45 e abertura M06/M09, ou quando a main mudar estruturalmente. Toda nova rodada deve fazer handoff mesmo se este quadro ainda não tiver sido editado.
+
+## Adendo verificado de saneamento (14/10/2026; main base `d346f71140656263216cdeb137a775e2b3fc73a9`)
+
+**Prevalece sobre fotografias anteriores nas matérias específicas indicadas**; ainda assim, conferir GitHub em tempo real antes de novas operações.
+
+- **Governança:** [PR #51](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/51) foi integrado (commit `80f5e05d3ce772c856ecf20e6b3231b0c7989e37`). Protocolo de FEITO/PENDENTE/PRÓXIMO passou a valer nos canais e templates.
+- **Catálogo antigo M01:** [PR #58](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/58) integrado (commit `d346f71140656263216cdeb137a775e2b3fc73a9`), com cópia histórica integral dos arquivos do PR #19 e [concordância M01](../modulos/M01-direitos-fundamentais/M01-00_CONCORDANCIA_PR19_PR22_PR45.md); **PR #19 fechado sem merge**, não houve perda de fonte.
+- **Pesquisa corrente:** PR #22 **permanece draft** (29 arquivos). Sua revisão jurídica, confronto incremental com `CF-NOR` H e eventual integração ainda são **pendências**, não fatos concluídos.
+- **Privacidade e dados:** antigo PR #45 **fechado sem merge por colisão**. Nova [issue #57](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/57) e [PR #59](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/59) em **draft** apresentam `CF-NOR-0030` e `0031` H, reservados; CI estrutural **success** no head `62161a6b9eb7dc62aad6efe4c914b1bd85fee411`, PR clean na leitura. Ainda não mergeado nem auditado materialmente.
+- **Issues de frentes abertas:** [#53 coordenação](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/53), [#54 M01.12 liberdades](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/54), [#55 M06.01 tutela e remédios](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/55), [#56 M09.01 direitos sociais](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/56), [#57 M01.13 privacidade](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/57). Ter issue aberta **não é pesquisa F1–F5 concluída**.
+- **CLF:** [PR #29](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/29) integrado (commit `7d0db6a63131b8d976b008adbb6d37e34c5c105f`), padronizando continuidade, sem ratificação legislativa.
+
+**Próximo marco prioritário:** auditar PR #22 à luz das H realmente na main e abrir o primeiro dossiê efetivo M06.01/M09.01; o PR #59 deve receber revisão material antes de qualquer merge. Evitar chamar questões abertas de decisões.
