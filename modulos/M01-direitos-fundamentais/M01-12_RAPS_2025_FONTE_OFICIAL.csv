@@ -1,0 +1,9 @@
+# M01.12: transcrição de números agregados OFICIAIS MS, tabelas 21 e 22, páginas impressas 73–74.
+# Não é microdado, série longitudinal, medida de internação involuntária, taxa per capita, capacidade operacional ou prova causal.
+"regiao","ano_referencia","data_extracao_fonte","caps_habilitados","residenciais_agregados_srt_e_ua","leitos_saude_mental_hospital_geral","total_heterogeneo","fonte","pagina_impressa","observacao"
+"Centro-Oeste","2025","2025-12-31","186","27","99","312","https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2025/relatorio-de-gestao-integrado/@@download/file","74","Tabela 22; serviços residenciais incluem categorias SRT e UA; não confundir total com estabelecimentos uniformes"
+"Nordeste","2025","2025-12-31","1030","199","339","1568","https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2025/relatorio-de-gestao-integrado/@@download/file","74","Tabela 22; não usar sem população/necessidade"
+"Norte","2025","2025-12-31","207","13","91","311","https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2025/relatorio-de-gestao-integrado/@@download/file","74","Tabela 22; não mede internação"
+"Sudeste","2025","2025-12-31","1148","733","849","2730","https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2025/relatorio-de-gestao-integrado/@@download/file","74","Tabela 22; não mede qualidade/cobertura"
+"Sul","2025","2025-12-31","499","70","791","1360","https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2025/relatorio-de-gestao-integrado/@@download/file","74","Tabela 22; não mede demanda"
+"BRASIL","2025","2025-12-31","3070","1042","2169","6281","https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2025/relatorio-de-gestao-integrado/@@download/file","73","Tabelas 21-22; 1042 inclui SRT 956 e UA 86; 224 equipes multiprofissionais fora da soma"
