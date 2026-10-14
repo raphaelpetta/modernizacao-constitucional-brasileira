@@ -79,3 +79,19 @@ A recusa injustificada de adaptação razoável constitui discriminação. O aju
 Medidas especiais destinadas a prevenir ou superar desvantagens persistentes e a promover a igualdade efetiva não constituem discriminação pelo simples fato de estabelecerem tratamento diferenciado, desde que sua finalidade e seus critérios sejam constitucionalmente legítimos, adequados e proporcionais.
 
 Essas medidas serão submetidas a acompanhamento e revisão compatíveis com seus objetivos e efeitos, sem prazo de extinção automática nem afastamento das garantias das pessoas alcançadas.
+
+## CF-NOR-0012 — Privacidade domicílio e comunicações [H; A]
+
+Toda pessoa tem direito à intimidade, à vida privada, à honra e à imagem, com proteção contra interferências arbitrárias ou ilícitas em sua esfera pessoal, física ou digital.
+
+São protegidas a inviolabilidade do domicílio e a confidencialidade das comunicações. O ingresso coercitivo, a interceptação e o acesso estatal invasivo a sistemas informáticos dependem das hipóteses e garantias específicas desta Constituição, de disciplina legal suficiente e dos controles cabíveis, inclusive autorização judicial prévia quando constitucionalmente exigida.
+
+A violação desses direitos enseja tutela preventiva e reparação adequada.
+
+## CF-NOR-0013 — Proteção de dados pessoais [H; A]
+
+Toda pessoa tem direito à proteção dos dados pessoais que lhe digam respeito, inclusive nos meios digitais e em operações de coleta, associação, inferência, utilização, compartilhamento e conservação.
+
+O tratamento depende de fundamento jurídico legítimo e finalidade determinada, observadas necessidade, adequação, segurança e responsabilização. São assegurados meios efetivos de informação, acesso, correção e contestação de tratamentos e decisões que afetem significativamente os direitos e interesses da pessoa, na forma da Constituição e da lei.
+
+O tratamento de dados pessoais, inclusive pelo poder público, estará sujeito à fiscalização efetiva por autoridade independente, com competências, garantias e controle democrático definidos em lei.
