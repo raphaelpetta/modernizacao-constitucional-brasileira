@@ -20,3 +20,7 @@ Governo sem maioria; bicameralismo bloqueado; encargos estaduais sem recursos; n
 ## Revisão transversal M04.01 (13/10/2026)
 
 A análise do processo legislativo com participação territorial deve distinguir **consulta, objeção superável, consentimento forte e reforma constituinte**, sem considerar as faixas T0–T3 decisões ratificadas. Em cada matéria, identificar separadamente competência para legislar, execução, custo líquido, receitas, participação municipal, controle e transição. Exigir parecer de M03, M05, M06 e M14 antes de fixar quórum, composição de câmara ou hipótese de veto. Dossiê: `modulos/M04-federacao/M04-01_CONSENTIMENTO_TERRITORIAL_E_IMPASSES_v0.1.md`.
+
+## Técnica editorial transversal M00.03 (13/10/2026)
+
+Toda disposição futura `CF-NOR` interage com sua **regra geral e seus instrumentos especiais**, independentemente de qual módulo a pesquisou. O projeto de texto integrado, registrado em `redacao/indice.csv`, deve controlar duplicações, conflitos entre competências e deveres, remissões cruzadas, disposições transitórias e garantias em `governanca/09_AUDITORIA_GARANTIAS.md`. A pesquisa redacional se distribui entre M00, M01, M03–M06, M09 e M14; o CLF permanece instrumento jurídico separado. Não considerar módulos como capítulos obrigatórios.
