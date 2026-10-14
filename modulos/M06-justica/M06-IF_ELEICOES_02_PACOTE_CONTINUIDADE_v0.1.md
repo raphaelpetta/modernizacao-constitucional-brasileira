@@ -31,3 +31,6 @@
 - MS34.722 ementa republicada: https://www.jusbrasil.com.br/jurisprudencia/stf/768218522
 - MS37.721 republicação: https://www.jusbrasil.com.br/jurisprudencia/stf/1652522800/inteiro-teor-1652522801
 - MS38.596 ementa de acórdão no clipping órgão público: https://escolasuperior.rr.def.br/wp-content/uploads/2025/04/CLIPPING_DEZ_2024.pdf .
+
+## ATUALIZAÇÃO M06-IF-ELEI-003
+A linha jurisprudencial MS20.257/34.722/37.721/38.596 já foi **aplicada a 16 fórmulas funcionais B** da M03.02.05, sem formular artigos CF-NOR nem alegar PEC existente. Ver `M06-IF_ELEICOES_03_PARECER_ARTICULADO_TESTE_PARLAMENTARISMO_B_ART60_v0.1.md`, 16 cláusulas, oito contraexemplos, dez provas F6 ABERTAS, QA estrutural PASS. Os precedentes confirmam cabimento preventivo EXCEPCIONAL, mas **não dão chancela à B** e não autorizam prognosticar liminar sem texto/ato legislativo real. Pendência mais importante: escolha da arquitetura e redação concreta em etapa F6 EXPRESSA, sem presumir concordância do usuário.
