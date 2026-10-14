@@ -38,3 +38,9 @@ O código dos módulos **não** determina a divisão em títulos, capítulos ou 
 ## Controle documental
 
 A verificação estrutural pode ser executada localmente com `python scripts/validar_repositorio.py` e é acionada pelo GitHub Actions em PRs e na `main`. Ela confere presença dos arquivos, IDs e dependências do catálogo, além de links Markdown locais. **Não** certifica validade jurídica, integridade de precedentes ou deliberações.
+
+## Coordenação permanente e resultado de cada rodada
+
+O projeto opera com o [protocolo transversal de ciclos](governanca/12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md), um [quadro de frentes, entregas, pendências e próximas tarefas](governanca/13_QUADRO_DE_COORDENACAO.md), o [registro de marcos e handoffs](governanca/14_REGISTRO_DAS_RODADAS.md) e o [controle de identificadores](governanca/15_REGISTRO_RESERVAS_IDS.md).
+
+**Toda rodada substantiva deve encerrar com `FEITO / PENDENTE / PRÓXIMO`, registrar estado Git e dependências e salvar um pacote de continuidade.** Antes de reservar `CF-NOR` ou iniciar subciclo Mxx.yy, conferir também PRs e issues abertos. Quadro e contagens são fotografias datadas; verificar sempre `main` ao começar e antes de integrar. Nenhum resultado de pesquisa ou CI equivale a ratificação de conteúdo constitucional.
