@@ -3,7 +3,7 @@
 **Sessão:** CF-M10.01-S008 · **Corte:** 14/10/2026 · **Issue:** [#88](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/88) · **PR:** [#89](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/89), draft.  
 **Main de entrada:** `2a770a8136f8ca4877e865be3e3b7745a6d4b168`. **PR HEAD de entrada:** `377c1fae178b220a8ac5ecc28b2f107c75e72e3a`.  
 **Estado:** F1/F4/F5 documental, sem F6 decidida, F7 redigida ou F8 de equivalência real.  
-**Produtos:** `M10-01_R8_TRIAGEM_PROBATORIA_QUATRO_EIXOS.csv` (**14 questões em quatro eixos**), `M10-01_R8_CRONOLOGIA_ART225_VIII_EC132.csv` (**5 marcos**), `M10-01_R8_TESTES_SUfICIENCIA_PROVA.csv` (**8 testes documentais**), parecer e handoff.
+**Produtos:** `M10-01_R8_TRIAGEM_PROBATORIA_QUATRO_EIXOS.csv` (**14 questões em quatro eixos**), `M10-01_R8_CRONOLOGIA_ART225_VIII_EC132.csv` (**5 marcos**), `M10-01_R8_TESTES_SUFICIENCIA_PROVA.csv` (**8 testes documentais**), parecer e handoff.
 
 ## 1. Critério de verificação
 
