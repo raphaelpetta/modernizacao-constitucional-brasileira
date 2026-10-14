@@ -50,7 +50,7 @@ actual_fiscal = {(r["legislatura"],(r["modelo_fiscal"],r["exercicio_sintetico"],
 assert len(actual_fiscal) == len(F)
 assert actual_fiscal == expected_fiscal, ("combinação fiscal ausente", expected_fiscal ^ actual_fiscal)
 assert all(r["id"] == "-".join([r["legislatura"],r["modelo_fiscal"],r["exercicio_sintetico"],r["fase"],r["categoria"]]) for r in F)
-assert all((r["legislatura"] != "L2" or "PRE-CONFIANÇA" in r["revisao_necessaria"]) for r in F), "L2 deve cortar confiança original"
+assert all((r["legislatura"] != "L2" or "NÃO incorpora questão de confiança de t5" in r["revisao_necessaria"]) for r in F), "L2 deve cortar confiança original"
 assert all("Y2" not in r["fase"] for r in F), "Y2 é EXERCICIO, não reinicialização H1"
 assert not any(r["modelo_fiscal"] == "FISC-C" and r["exercicio_sintetico"] == "Y2" and r["fase"] == "H1-B" for r in F), "H1 não deve reiniciar Y2"
 assert all(r["categoria"] != "DIVIDA_NOVA" or r["resultado_hipotetico"] == "SEM_AUTORIZACAO_AUTOMATICA_PARA_NOVO_CREDITO" for r in F)
