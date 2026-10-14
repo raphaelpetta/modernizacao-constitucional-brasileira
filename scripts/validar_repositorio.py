@@ -350,6 +350,62 @@ else:
     if len(capacity_rows) != 18:
         errors.append("M01.11: esperado 18 testes adversariais")
 
+# M01.12: verificar integridade documental de cenários e transcrição agregada RAPS.
+m0112_dir = BASE / "modulos/M01-direitos-fundamentais"
+m0112_tests = m0112_dir / "M01-12_MATRIZ_TESTES_E_CONFLITOS.csv"
+m0112_raps = m0112_dir / "M01-12_RAPS_2025_FONTE_OFICIAL.csv"
+for path, required in [
+    (m0112_tests, {"id", "hipotese", "regime_legal_fonte", "protecao_atual_identificavel", "lacuna_a_testar", "resposta_A_B_C_D", "interfaces", "status"}),
+    (m0112_raps, {"regiao", "ano_referencia", "caps_habilitados", "residenciais_agregados_srt_e_ua", "leitos_saude_mental_hospital_geral", "total_heterogeneo", "fonte"})
+]:
+    if not path.is_file():
+        errors.append(f"M01.12: fonte de auditoria ausente {path}")
+if m0112_tests.is_file():
+    with m0112_tests.open(encoding="utf-8-sig", newline="") as stream:
+        tests_reader = csv.DictReader(line for line in stream if line.strip() and not line.startswith("#"))
+        tests_m0112 = list(tests_reader)
+    if not {"id", "hipotese", "regime_legal_fonte", "protecao_atual_identificavel", "lacuna_a_testar", "resposta_A_B_C_D", "interfaces", "status"}.issubset(set(tests_reader.fieldnames or [])):
+        errors.append("M01.12: colunas de testes incompletas")
+    seen_m0112 = set()
+    for pos, row in enumerate(tests_m0112, 1):
+        code = (row.get("id") or "").strip()
+        if code in seen_m0112 or not re.fullmatch(r"M01-12-T[0-9]{3}", code):
+            errors.append(f"M01.12:{pos}: cenário com identificador repetido/inválido")
+        seen_m0112.add(code)
+        if None in row or any(value is None or value == "" for value in row.values()):
+            errors.append(f"M01.12:{pos}: campos vazios/malformados")
+        if row.get("status") not in {"TESTE_HIPOTETICO", "A_VERIFICAR", "FONTE_AGREGADA_SEM_CAUSALIDADE"}:
+            errors.append(f"M01.12:{pos}: status confundiu cenário com dado comprovado")
+    if len(tests_m0112) != 22:
+        errors.append("M01.12: matriz deve ter 22 casos")
+if m0112_raps.is_file():
+    with m0112_raps.open(encoding="utf-8-sig", newline="") as stream:
+        raps_reader = csv.DictReader(line for line in stream if line.strip() and not line.startswith("#"))
+        raps_rows = list(raps_reader)
+    raps_fields = {"regiao", "ano_referencia", "caps_habilitados", "residenciais_agregados_srt_e_ua", "leitos_saude_mental_hospital_geral", "total_heterogeneo", "fonte"}
+    if not raps_fields.issubset(set(raps_reader.fieldnames or [])):
+        errors.append("M01.12: cabeçalho RAPS incompleto")
+    if len(raps_rows) != 6:
+        errors.append("M01.12: RAPS deve conter cinco regiões e Brasil")
+    else:
+        try:
+            region_names = {r["regiao"] for r in raps_rows[:-1]}
+            if region_names != {"Centro-Oeste", "Nordeste", "Norte", "Sudeste", "Sul"} or raps_rows[-1]["regiao"] != "BRASIL":
+                errors.append("M01.12: regiões RAPS incorretas")
+            for row in raps_rows:
+                if row["ano_referencia"] != "2025" or not row["fonte"].startswith("https://"):
+                    errors.append("M01.12: ano/fonte do dado oficial RAPS inválido")
+                numbers = [int(row[k]) for k in ("caps_habilitados", "residenciais_agregados_srt_e_ua", "leitos_saude_mental_hospital_geral")]
+                if sum(numbers) != int(row["total_heterogeneo"]):
+                    errors.append("M01.12: soma por região não confere")
+            for field in ("caps_habilitados", "residenciais_agregados_srt_e_ua", "leitos_saude_mental_hospital_geral", "total_heterogeneo"):
+                if sum(int(r[field]) for r in raps_rows[:-1]) != int(raps_rows[-1][field]):
+                    errors.append(f"M01.12: regiões não reconciliam com Brasil em {field}")
+            if any(int(raps_rows[-1][k]) != n for k, n in {"caps_habilitados": 3070, "residenciais_agregados_srt_e_ua": 1042, "leitos_saude_mental_hospital_geral": 2169, "total_heterogeneo": 6281}.items()):
+                errors.append("M01.12: transcrição diverge de tabela oficial 2025")
+        except (KeyError, ValueError, TypeError):
+            errors.append("M01.12: RAPS contém campo numérico ausente ou inválido")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue

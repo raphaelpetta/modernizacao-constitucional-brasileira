@@ -47,3 +47,11 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PRÓXIMO:** parecer M06 ao PR59 sobre HD/acesso/tutela urgente e aprofundamento da negociação sindical M09.03; estudo quantitativo M09.04 com M05. Reservar identificadores antes de novas fichas. **Estado jurídico:** sem F6/D; nenhuma `CF-NOR` editada.
 
 **Fontes-chave verificadas:** STF ADI4296 e Tema1046; STJ Tema1178; Constituição 1988 art5 e 7–11; Leis 12.016/2009, 13.300/2016, 9.507/1997, 4.717/1965; OIT NORMLEX 2026 e Declaração 1998/2022.
+
+## CF-M01-20261014-12 — coerção e capacidade da RAPS (pesquisa inicial)
+
+**Data:** 14/10/2026. **Main de entrada:** `50b498885e17fa1709e66b0861f40e5387b4f4b0`. **Issue:** #49 (M01.12); branch `pesquisa/m01-12-coercao-raps-f0f5-v01`. **Main de saída e PR/CI:** ver conferência de encerramento; não presumir merge prévio.
+
+**FEITO:** preflight verificou que a colisão com M01.14 havia sido **resolvida por outra frente**; mantidos IDs, sem duplicação. Pesquisas sobre Lei 10.216, Lei 11.343 art. 23-A/Lei 13.840, LBI/CDPD, STJ Informativo 533 (precedente antigo), OMS/OHCHR e Comitê CDPD (orientações), dados nacionais/regionais RAPS 2025; dossiê M01.12, 22 cenários, 6 linhas oficiais agregadas e handoff. Nenhum CF-NOR novo nem ratificação D.
+
+**PENDENTE:** revisão de jurisprudência posterior à LBI, dados individuais/agregados de internações e fiscalização, acesso territorial real, custos, pareceres M06/M09/M05, revisão humana de conclusões. **PRÓXIMO:** M01.12.02 na issue #49, indicadores e controles de internação, não novo ciclo colidente. **QA:** script de estrutura verificará esquemas e soma das regiões, mas não validade jurídica nem causalidade clínica. [Continuidade M01.12](../modulos/M01-direitos-fundamentais/M01-12_PACOTE_CONTINUIDADE_v0.1.md).
