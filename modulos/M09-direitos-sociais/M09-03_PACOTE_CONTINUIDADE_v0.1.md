@@ -49,3 +49,13 @@
 **PENDENTE:** custos eleitorais e de auditoria verificáveis, taxas reais de comparecimento, de oposição e de pessoas únicas cobertas por ACT/CCT, base de empregador doméstico, proteção de dados e estudos M02/M05; não calcular custo observado de registros de CNAE ou dos valores da simulação antiga.
 
 **PRÓXIMO:** [issue #76](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/76) coletar bases públicas por recorte/denominador e estimar custos de votação por estabelecimento/território; retornar à escolha de modelo apenas depois da análise de representatividade **e** viabilidade financeira. CI no HEAD final da branch PR63 a confirmar.
+
+## Marco R4 — Protocolo eleitoral e custos por canal (14/10/2026)
+
+**Preflight:** main `f6b95d977bfe293fd393972d499ca5d1965a1bcd`; PR #63 draft e [issue #76](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/76).
+
+**FEITO:** `M09-03_PROTOCOLO_ELEITORAL_CUSTEIO_IND_DOM_R4_v0.1.md` define **três eleições com denominadores diferentes** — ELE-S direção sindical, ELE-R escolha da representação por trabalhadores abrangidos, RAT-C aprovação de acordo — mais **dez portas processuais verificáveis** em cada modelo A/B, para indústria por turnos e trabalho doméstico por território. `M09-03_PROTOCOLO_ELEITORAL_CUSTOS_AUDITAVEIS.csv` acrescenta **24 controles**, fontes, responsáveis e lacunas. Atualizados STF Tema935: **novos embargos destacados em 05/10/2026, sem decisão colegiada final**; protege direito de oposição e limite de contribuição. LC150/2015 art1: empregado doméstico exige mais de dois dias semanais e demais requisitos; diaristas não são automaticamente abrangidas pelo mesmo regime de emprego. IBGE dados 2025: **8,8%** total, **11,4%** Indústria Geral, **2,5% grupo de atividade Serviços Domésticos, mas **2,8% por posição trabalhador doméstico**; denominadores distintos. CNES/Mediador não medem votos/cobertura únicos.
+
+**PENDENTE:** nenhum custo real de ELE-R, órgão certificador ou oposição foi medido; faltam eleitorado e participação, base setorial doméstica real, financiamento e análise de direitos de minorias, M02/M05/M06/M14. **Não há desenho B aprovado nem CF-NOR.**
+
+**PRÓXIMO:** issue #76 solicitar M02/M05 roteiros e primeiro levantamento de fontes para variáveis de custos por canal e colégio eleitoral, preferindo documentos agregados à coleta identificável de filiação e votos. Em seguida aplicar auditoria jurídico-institucional aos dois modelos e só então eventualmente propor H.
