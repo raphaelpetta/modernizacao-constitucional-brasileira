@@ -406,6 +406,55 @@ if m0112_raps.is_file():
         except (KeyError, ValueError, TypeError):
             errors.append("M01.12: RAPS contém campo numérico ausente ou inválido")
 
+
+# M01.12.02: integridade das fontes, indicadores e amostra normativa CAPS 2025.
+m011202_base = BASE / "modulos/M01-direitos-fundamentais"
+m011202_specs = [
+    ("M01-12_02_CATALOGO_BASES_E_CONTROLES.csv", "id", 15, r"M0112-FONT-[0-9]{3}"),
+    ("M01-12_02_DICIONARIO_INDICADORES.csv", "id", 14, r"IND-[0-9]{3}"),
+    ("M01-12_02_AMOSTRA_PORTARIA_CAPS_2025.csv", "id", 5, r"[0-9]+")
+]
+for filename, id_col, expected, id_pattern in m011202_specs:
+    file = m011202_base / filename
+    if not file.is_file():
+        errors.append(f"M01.12.02: ausente {filename}")
+        continue
+    with file.open(encoding="utf-8-sig", newline="") as stream:
+        reader = csv.DictReader(line for line in stream if line.strip() and not line.startswith("#"))
+        entries = list(reader)
+    if len(entries) != expected or id_col not in (reader.fieldnames or []):
+        errors.append(f"M01.12.02: {filename} não tem {expected} registros ou ID")
+    keys = set()
+    for i, entry in enumerate(entries, 1):
+        id_ = (entry.get(id_col) or "").strip()
+        if id_ in keys or not re.fullmatch(id_pattern, id_):
+            errors.append(f"M01.12.02: ID duplicado ou inválido {filename}:{i}")
+        keys.add(id_)
+        if None in entry or any(value is None or not value.strip() for value in entry.values()):
+            errors.append(f"M01.12.02: coluna ou campo vazio {filename}:{i}")
+    if filename == "M01-12_02_CATALOGO_BASES_E_CONTROLES.csv":
+        for entry in entries:
+            if not (entry.get("url_oficial") or "").startswith("https://"):
+                errors.append("M01.12.02: fonte institucional sem URL HTTPS")
+    elif filename == "M01-12_02_DICIONARIO_INDICADORES.csv":
+        for entry in entries:
+            if (entry.get("status") or "") not in {"AGREGADOS_NAO_OBTIDOS", "ARQUIVOS_BRUTOS_NAO_EXTRAIDOS", "AMOSTRA_5_CNES", "SERIE_NAO_EXTRAIDA"}:
+                errors.append("M01.12.02: indicador confundido com dado empírico")
+    elif filename == "M01-12_02_AMOSTRA_PORTARIA_CAPS_2025.csv" and len(entries) == 5:
+        try:
+            for entry in entries:
+                if int(entry["custeio_mensal_autorizado_rs"]) * 12 != int(entry["acrescimo_anual_autorizado_rs"]):
+                    errors.append("M01.12.02: anualização incorreta em portaria CAPS")
+            grouped = {}
+            for entry in entries:
+                grouped[entry["uf"]] = grouped.get(entry["uf"], 0) + int(entry["custeio_mensal_autorizado_rs"])
+            if grouped != {"RJ": 42994, "SP": 288474}:
+                errors.append("M01.12.02: subtotais RJ/SP divergem do anexo")
+            if sum(int(e["custeio_mensal_autorizado_rs"]) for e in entries) != 331468:
+                errors.append("M01.12.02: soma normativa mensal não confere")
+        except (KeyError, ValueError, TypeError):
+            errors.append("M01.12.02: valores/campos financeiros da portaria inválidos")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue
