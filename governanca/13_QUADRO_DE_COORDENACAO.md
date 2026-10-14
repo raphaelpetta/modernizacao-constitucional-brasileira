@@ -77,3 +77,17 @@ Nenhuma norma `CF-NOR-0001–0020` da fotografia recebeu status `D`. O registro 
 - **CLF:** [PR #29](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/29) integrado (commit `7d0db6a63131b8d976b008adbb6d37e34c5c105f`), padronizando continuidade, sem ratificação legislativa.
 
 **Próximo marco prioritário:** auditar PR #22 à luz das H realmente na main e abrir o primeiro dossiê efetivo M06.01/M09.01; o PR #59 deve receber revisão material antes de qualquer merge. Evitar chamar questões abertas de decisões.
+
+## Adendo de execução — 14/10/2026: auditoria M01 e abertura efetiva M06/M09
+
+**SHA da main relida:** `10374bf79927131d000710954d408ac98fbc1b49` (integrações CF–CLF avançaram em paralelo; nenhum dispositivo constitucional foi modificado nesta rodada).
+
+| Frente | Feito no PR, não ainda na main | Pendente | Próximo |
+|---|---|---|---|
+| **M01.09 auditoria jurídica/integrativa** | [PR #22](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/22), agora **31 arquivos**: dossiê incremental + correspondência N:N dos **96 grupos** do inventário original com 20 propostas H e PR59. Classificação provisória: **7 parcial específico, 68 geral não equivalente, 16 sem especial na main, 5 somente em PR59**. | Revisão jurídica granular por conjunto, testes de não regressão e integração dos pareceres de M06/M09; **nenhuma equivalência material certificada** | Revisar blocos de garantias de processo e trabalho com M06.01/M09.01 |
+| **M06 Justiça, tutela e remédios** | [PR #62](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/62), **draft**, 3 arquivos: dossiê, 20 testes e continuidade; CI estrutural success | Avaliação de HC, MS, MI, HD e popular por instituto, custos e dados CNJ; M06 sem texto H | M06.02 candidato, detalhe de legitimidade, prova, custas e execução |
+| **M09 Sociais e trabalho** | [PR #63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63), **draft**, 3 arquivos: dossiê, 24 testes e continuidade; CI estrutural success | Art. 7º inciso a inciso e efeitos financeiros; dados reais M05, entes e transição; M09 sem texto H | M09.02 candidato, direitos trabalhistas e materialidade M09.03 |
+| **Privacidade M01.13** | [PR #59](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/59) permanece proposta redacional H 0030/0031, não na main | Revisão das reservas de domicílio/comunicações e tutela de dados pela nova M06.01 | Parecer cruzado M06/M07/M12 antes de eventual merge |
+| **CF ↔ CLF** | main CF recebeu estudo sobre provas/pareceres/cautelares T07.M03 via CF-IC-001 no commit `10374bf7` | Confrontar processo administrativo de CF, M06 e CLF antes de redigir regras gerais de boa administração | Interface M07 e M06 sobre devido processo administrativo |
+
+**Nota:** status documental `PESQUISA` de M06/M09 refere-se a trabalhos em **PR draft**, não integração à main, nem decisão material. **Atualizar este quadro apenas em marcos relevantes**.
