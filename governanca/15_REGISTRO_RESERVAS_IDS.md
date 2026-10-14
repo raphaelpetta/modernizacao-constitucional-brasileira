@@ -72,3 +72,7 @@ Subciclos iniciados no tracker: **M01.12 [#54](https://github.com/raphaelpetta/m
 A entrada histórica acima que aponta `M01.12` como código de liberdades civis ficou **superada apenas nesse aspecto**. Não usar simultaneamente o mesmo código em dois estudos; links por número de issue permanecem estáveis.
 
 **Próximos códigos M06.03, M09.03, M09.04 são apenas sugestões, ainda NÃO reservas**, até novo preflight em main/issues/PRs. A política de source-of-truth de `redacao/indice.csv` e controle de IDs CF-NOR continua inalterada.
+
+## Reserva adicional — M09.03 e interface M06/privacidade, 14/10/2026
+
+**M09.03** oficialmente vinculada à [issue #68](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/68), dossiê e CSVs no [PR #63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63); **nenhuma CF-NOR reservada/criada**. Não reutilizar M09.03 para capítulo previdenciário ou pisos sem exame da issue. **M06.02** incluiu parecer de interface com privacidade no [PR #62](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/62); **não** foi ocupado o código M06.03 (tutela coletiva futura permanece sugestão pendente, não reserva). CF-NOR 0030/0031 seguem reservadas no PR59 H/draft, jamais afirmar integração à main.
