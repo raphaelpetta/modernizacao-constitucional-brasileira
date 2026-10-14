@@ -20,3 +20,7 @@
 **Prioridade:** confrontar a variante P3-S e P3-E com o parecer M06, **corrigir de forma expressa o perímetro do encontro fortuito** e as técnicas de preservação sem ampliar acesso; exigir revisão do M07 quanto a dados administrativos e da M06 quanto ao contraditório antes de texto H. Construir concordância N:N entre CF5 X/XII/LV/LVI/LXXIX, Tema977 e minuta E-COM. Só preparar CF-NOR com reserva e decisão material explícita.
 
 **Coordenação:** issue #80, PR draft M12 e links ao PR59/PR62; main de saída a confirmar na integração documental separada. 
+
+
+## Atualização após abertura do PR de pesquisa
+**FEITO:** [PR #82](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/82) aberto como draft, abrangendo parecer próprio de M12.01 e matriz de 24 cenários. **PENDENTE:** opinião cruzada M01/M06/M07, acórdãos e custos, nenhuma hipótese ratificada D. **PRÓXIMO:** devolver resultados à issue #80 e PRs #59/#62, respeitando o bloqueio de E-COM e a fonte normativa única. CI do último SHA a verificar.
