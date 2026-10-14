@@ -289,6 +289,36 @@ else:
     if len(eq_rows) != 16:
         errors.append("M01.09: esperados 16 registros na amostra")
 
+# M01.10: verificação de estrutura e ressalvas de continuidade em bioética.
+bio_file = BASE / "modulos/M01-direitos-fundamentais/M01-10_MATRIZ_CONTINUIDADE.csv"
+if not bio_file.is_file():
+    errors.append("M01.10: matriz de garantias ausente")
+else:
+    with bio_file.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        bio_rows = list(reader)
+    required_bio = {"id", "fonte_direito_vigente", "garantia_ou_materia", "propostas_relacionadas",
+                    "avaliacao_inicial", "risco_de_regressao_ou_excesso", "teste_adversarial", "modulos"}
+    if not required_bio.issubset(set(reader.fieldnames or [])):
+        errors.append("M01.10: colunas ausentes")
+    bio_ids = set()
+    for i, record in enumerate(bio_rows, 1):
+        key = (record.get("id") or "").strip()
+        if key in bio_ids or not re.fullmatch(r"M01-BIO-AUD-[0-9]{3}", key):
+            errors.append(f"M01.10:{i}: ID repetido/inválido: {key}")
+        bio_ids.add(key)
+        if None in record or any(val is None for val in record.values()):
+            errors.append(f"M01.10:{i}: linha irregular")
+        if record.get("avaliacao_inicial") not in {
+            "NAO_COBERTO", "NAO_EQUIVALENTE", "PARCIAL_E_INDETERMINADO", "INDETERMINADO"
+        }:
+            errors.append(f"M01.10:{i}: alegação não demonstrada de equivalência material")
+        for module in (record.get("modulos") or "").split(";"):
+            if module and module not in identifiers:
+                errors.append(f"M01.10:{i}: módulo inexistente {module}")
+    if len(bio_rows) != 20:
+        errors.append("M01.10: são esperados 20 casos de continuidade")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue
