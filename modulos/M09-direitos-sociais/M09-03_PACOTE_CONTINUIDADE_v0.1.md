@@ -18,3 +18,12 @@
 **Prioridade:** elaborar cenários institucionais completos de unicidade democratizada (A) e pluralismo representativo (B), comparando base de representação, financiamento com oposição, regras de eleição interna, negociação, proteção de grupos minoritários e transição; submeter crítica a M02/M05/M06 antes de nova norma H. Continuar M09.04 quantitativos laborais com pesquisa empírica M05, sujeito a reserva de ID.
 
 **Resultado decisório:** nenhum D nem aprovação de modelo sindical ou de financiamento.
+
+## Handoff complementar — modelagem comparada e testes paramétricos (14/10/2026)
+
+**Versão de entrada da main:** `5ac08b622d7552b7d3b37a695a3027b4b9d827d4`; PR #63 permanece pesquisa draft.
+**FEITO:** `M09-03_MODELOS_REPRESENTACAO_E_TRANSICAO_v0.1.md` desenvolveu modelos **A (unicidade com eleições e fiscalização)** e **B (pluralismo com representatividade e coalizões)** e contramodelo C, com regras de legitimação, voto sindical versus voto de toda a categoria, contribuição/oposição, boa-fé, minorias, greve e transição. Confrontados França (audiência 10% empresa / 8% ramo-nacional sob demais requisitos) e México (voto pessoal secreto e aprovação democrática) como comparações NÃO vinculantes. IBGE PNAD 2024, publicada 19/11/2025: **8,9% de sindicalização**, aproximadamente 9,1 milhões, **não** cobertura de acordos nem taxa de legitimação por categoria. `M09-03_MATRIZ_CENARIOS_INSTITUCIONAIS.csv`: **16 simulações e riscos**, inclusive eleições com 600 votos fictícios e 3 cenários artificiais de receitas com oposição 20/40/80%. Todos parâmetros são hipotéticos, sem inferência fiscal/causal.
+**PENDENTE:** dados de sindicatos por ramo, acordos coletivos e financiamento real, custos de certificação/eleição, efeitos de limiares de votos, validação por M02/M05/M06/M08, precedentes integrais e Tema 935 em andamento 2026. Não houve norma CF-NOR, escolha de pluralismo nem ratificação D.
+**PRÓXIMO:** auditoria setorial A/B de (1) indústria e serviços, (2) trabalho doméstico e pequenos estabelecimentos, (3) trabalhadores de plataformas/terceirização, (4) greve de serviços indispensáveis; obter M05 custos/indicadores IBGE e verificar legitimidade eleitoral e transição M14. Somente então preparar opções normativas H para deliberação.
+
+**QA:** confirmar HEAD/CI PR63 na conclusão desta rodada; testes são cenários analíticos sem validação de impactos.
