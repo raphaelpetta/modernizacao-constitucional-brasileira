@@ -259,6 +259,36 @@ else:
     if len(m01_items) != 16:
         errors.append("M01.07: matriz inicial deve conter 16 linhas")
 
+# M01.09: matriz de continuidade da igualdade, sem declarar equivalência.
+eq_csv = BASE / "modulos/M01-direitos-fundamentais/M01-09_MATRIZ_IGUALDADE_E_GARANTIAS.csv"
+if not eq_csv.is_file():
+    errors.append("M01.09: matriz de igualdade ausente")
+else:
+    with eq_csv.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        eq_rows = list(reader)
+    required = {"id", "garantia_vigente", "fonte_primaria", "candidatas_cf_nor",
+                "estado_de_continuidade", "risco_ou_lacuna", "teste_adversarial", "modulos"}
+    if not required.issubset(set(reader.fieldnames or [])):
+        errors.append("M01.09: colunas faltantes")
+    eq_ids: set[str] = set()
+    for i, entry in enumerate(eq_rows, 1):
+        key = (entry.get("id") or "").strip()
+        if key in eq_ids or not re.fullmatch(r"M01-EQ-AUD-[0-9]{3}", key):
+            errors.append(f"M01.09:{i}: identificador inválido/duplicado {key}")
+        eq_ids.add(key)
+        if None in entry or any(value is None for value in entry.values()):
+            errors.append(f"M01.09:{i}: linha malformada")
+        if entry.get("estado_de_continuidade") not in {
+            "INDETERMINADO", "PARCIAL_E_INDETERMINADO", "NAO_EQUIVALENTE", "NAO_COBERTO"
+        }:
+            errors.append(f"M01.09:{i}: alegação indevida de equivalência material")
+        for module in (entry.get("modulos") or "").split(";"):
+            if module and module not in identifiers:
+                errors.append(f"M01.09:{i}: dependência desconhecida {module}")
+    if len(eq_rows) != 16:
+        errors.append("M01.09: esperados 16 registros na amostra")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue

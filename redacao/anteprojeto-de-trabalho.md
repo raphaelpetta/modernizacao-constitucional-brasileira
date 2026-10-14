@@ -47,3 +47,35 @@ Este artigo não autoriza, por si, a criação de restrições nem afasta reserv
 A lei e os demais atos do poder público não excluirão da apreciação judicial lesão ou ameaça a direito, individual ou coletivo.
 
 A tutela deverá ser acessível, efetiva, tempestiva e adequada à natureza da violação, preservadas as garantias processuais constitucionais e a possibilidade de meios legítimos de solução consensual de conflitos.
+
+## CF-NOR-0008 — Igualdade jurídica e material [H; G]
+
+Todas as pessoas são iguais perante a Constituição e a lei e têm direito à igual proteção e ao igual benefício de suas garantias.
+
+O poder público promoverá condições efetivas de igualdade, enfrentando obstáculos discriminatórios e desigualdades estruturais que impeçam o exercício dos direitos fundamentais.
+
+## CF-NOR-0009 — Vedação à discriminação direta e indireta [H; E]
+
+> Regra geral de referência: CF-NOR-0008. Relação em exame.
+
+É vedada a discriminação injustificada, direta ou indireta, em razão de características pessoais, origem, pertencimento ou condição social, inclusive quando resultante da combinação de fatores de exclusão.
+
+Medidas aparentemente neutras que produzam desvantagem discriminatória relevante deverão ser justificadas à luz de sua finalidade legítima e da necessidade e proporcionalidade dos meios empregados.
+
+A prevenção, a proteção e a reparação observarão a natureza da relação jurídica e as garantias constitucionais das pessoas envolvidas.
+
+## CF-NOR-0010 — Acessibilidade e adaptações razoáveis [H; E]
+
+> Regra geral de referência: CF-NOR-0009. Relação em exame.
+
+As pessoas com deficiência têm direito à acessibilidade e às adaptações razoáveis necessárias ao exercício de seus direitos em igualdade de condições.
+
+A recusa injustificada de adaptação razoável constitui discriminação. O ajuste individual será avaliado segundo sua necessidade e adequação, sem impor ônus desproporcional e indevido, preservados os deveres gerais de acessibilidade e inclusão.
+
+## CF-NOR-0011 — Medidas especiais para igualdade efetiva [H; E]
+
+> Regra geral de referência: CF-NOR-0008. Relação em exame.
+
+Medidas especiais destinadas a prevenir ou superar desvantagens persistentes e a promover a igualdade efetiva não constituem discriminação pelo simples fato de estabelecerem tratamento diferenciado, desde que sua finalidade e seus critérios sejam constitucionalmente legítimos, adequados e proporcionais.
+
+Essas medidas serão submetidas a acompanhamento e revisão compatíveis com seus objetivos e efeitos, sem prazo de extinção automática nem afastamento das garantias das pessoas alcançadas.
