@@ -39,3 +39,13 @@
 **PRÓXIMO:** primeiro piloto de auditoria setorial aprofundado em indústria concentrada **e** serviços domésticos dispersos, comparando A/B em base eleitoral, custos, proteção de não filiados e preservação de acordos; solicitar roteiro de coleta M05/M02 antes de simular valores ou propor lei constitucional.
 
 **QA:** pesquisa versionada e testes conceituais; conferir CI no HEAD, sem equiparar validação estrutural a revisão econômica ou jurídica.
+
+## Rodada piloto IND-01 × DOM-01 e PNAD 2025 — 14/10/2026
+
+**Preflight:** `main=a763f5edf058a6622cd3d239efa6bf8e77b46e09`; [issue #76](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/76), PR63 draft; **nenhuma escolha sindical D**.
+
+**FEITO:** dossiê `M09-03_PILOTOS_INDUSTRIA_DOMESTICO_2025_v0.1.md` examina a viabilidade procedimental de A (unicidade democratizada) versus B (pluralismo com representante eleito) em **indústria concentrada** e **trabalho doméstico disperso**: eleitorado, autonomia, mandatos, votação de não filiados, ratificação de normas, custo público e privado, privacidade, proteção de domésticos/diaristas, transição e objeções. `M09-03_PILOTOS_IND_DOM_CUSTOS_M02_M05.csv` registra **16 variáveis** com denominadores. **Dado novo:** IBGE PNAD 2025 divulgado set/2026: sindicalização nacional **8,8%**, Indústria Geral **11,4%**, Serviços domésticos (agrupamento de atividades) **2,5%**. Comparadores 2024: 8,9%, 11,4%, 2,6%, respectivamente. São **filiação e grupos estatísticos**, não voto nem cobertura. Fonte CNES/Mediador e nota 169 entidades são cadastrais, não microdados de legitimação.
+
+**PENDENTE:** custos eleitorais e de auditoria verificáveis, taxas reais de comparecimento, de oposição e de pessoas únicas cobertas por ACT/CCT, base de empregador doméstico, proteção de dados e estudos M02/M05; não calcular custo observado de registros de CNAE ou dos valores da simulação antiga.
+
+**PRÓXIMO:** [issue #76](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/76) coletar bases públicas por recorte/denominador e estimar custos de votação por estabelecimento/território; retornar à escolha de modelo apenas depois da análise de representatividade **e** viabilidade financeira. CI no HEAD final da branch PR63 a confirmar.
