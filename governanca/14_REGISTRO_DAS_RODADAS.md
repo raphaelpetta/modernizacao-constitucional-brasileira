@@ -123,3 +123,7 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PRÓXIMO:** (i) M12/M01/M06 testar alternativas P3-E/P3-R e escolher conscientemente o que constitucionalizar, sob auditoria material; (ii) M02/M05 buscar apenas fontes legais de dados agregados por colégio eleitoral e rubricas de custo e construir primeiro protocolo reprodutível IND/DOM; (iii) reiniciar preflight de main/PRs antes de qualquer decisão editorial.
 
 **Validação:** GitHub Actions estrutural ≠ parecer M12, equivalência jurídica ou mensuração fiscal.
+
+
+## CF-COORD-20261014-10 — parecer M12 e dados sindicais
+**Base:** main b9dbdc540310ed5dc34fb1e5f314c46af343dc98. **FEITO:** [PR82](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/82) independente M12.01, 3 arquivos, 24 testes L/I/C, versões P3-E/R/S ainda abertas, CI estrutural success no head ad5085cadbf2b853acab41e16f81130a00715be5; [PR63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63), 18 variáveis de fonte CNES/Mediador/RAIS, dados domésticos 2022, custos não mensurados, CI success no head 73025dab37796b5d6785a5d647b5274254857b80. Issues #80/#76 atualizadas. **PENDENTE:** texto E-COM ainda bloqueado por reservas judiciais, prova e dados de terceiros; votos e custos reais sindicais não disponíveis. **PRÓXIMO:** confrontar parecer M12 com M06/M07 e executar amostra pública setorial CNES/Mediador, sem dados identificados; nenhuma decisão D ou CF-NOR criada. CI apenas estrutural.
