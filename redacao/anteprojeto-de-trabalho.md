@@ -47,3 +47,27 @@ Este artigo não autoriza, por si, a criação de restrições nem afasta reserv
 A lei e os demais atos do poder público não excluirão da apreciação judicial lesão ou ameaça a direito, individual ou coletivo.
 
 A tutela deverá ser acessível, efetiva, tempestiva e adequada à natureza da violação, preservadas as garantias processuais constitucionais e a possibilidade de meios legítimos de solução consensual de conflitos.
+
+## CF-NOR-0008 — Igualdade e não discriminação [H; A]
+
+Todas as pessoas têm direito à igual proteção e ao igual benefício da lei. É vedada a discriminação injustificada, direta ou indireta, fundada em características pessoais, condições sociais ou pertencimento a grupos, observados os demais direitos e garantias desta Constituição.
+
+Medidas proporcionais destinadas a superar desvantagens persistentes e assegurar igualdade efetiva são admissíveis, sujeitas a finalidade justificável, avaliação e controle.
+
+A proteção contra discriminação abrange, segundo a natureza da relação, a atuação de particulares. Às pessoas com deficiência são asseguradas acessibilidade e adaptação razoável, observado o limite do ônus desproporcional e indevido e as garantias constitucionais específicas.
+
+## CF-NOR-0009 — Privacidade domicílio e comunicações [H; A]
+
+Toda pessoa tem direito à intimidade, à vida privada, à honra e à imagem, com proteção contra interferências arbitrárias ou ilícitas em sua esfera pessoal, física ou digital.
+
+São protegidas a inviolabilidade do domicílio e a confidencialidade das comunicações. O ingresso coercitivo, a interceptação e o acesso estatal invasivo a sistemas informáticos dependem das hipóteses e garantias específicas desta Constituição, de disciplina legal suficiente e dos controles cabíveis, inclusive autorização judicial prévia quando constitucionalmente exigida.
+
+A violação desses direitos enseja tutela preventiva e reparação adequada.
+
+## CF-NOR-0010 — Proteção de dados pessoais [H; A]
+
+Toda pessoa tem direito à proteção dos dados pessoais que lhe digam respeito, inclusive nos meios digitais e em operações de coleta, associação, inferência, utilização, compartilhamento e conservação.
+
+O tratamento depende de fundamento jurídico legítimo e finalidade determinada, observadas necessidade, adequação, segurança e responsabilização. São assegurados meios efetivos de informação, acesso, correção e contestação de tratamentos e decisões que afetem significativamente os direitos e interesses da pessoa, na forma da Constituição e da lei.
+
+O tratamento de dados pessoais, inclusive pelo poder público, estará sujeito à fiscalização efetiva por autoridade independente, com competências, garantias e controle democrático definidos em lei.
