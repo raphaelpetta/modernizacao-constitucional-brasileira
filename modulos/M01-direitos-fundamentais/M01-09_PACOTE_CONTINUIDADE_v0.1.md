@@ -50,3 +50,18 @@
 - manter proteções financeiras e distribuição M05/M09, especialmente pisos constitucionais e transições até 2097 quando pertinentes.
 
 **Nada foi ratificado por este pacote.** A futura aprovação de norma requer decisão explícita documentada. CI valida apenas estrutura, não direito vigente, equivalência, mérito nem causalidade.
+
+## Atualização de concorrência e piloto de F7 — ainda em 13/10/2026
+
+Após esta auditoria, a `main` avançou para `c321aecf9c6a479e7f4635cf44775706a9baeb0e` e **recebeu quatro cláusulas adicionais H**:
+- `CF-NOR-0008` igualdade jurídica/material (G);
+- `CF-NOR-0009` discriminação direta/indireta (E da 0008);
+- `CF-NOR-0010` acessibilidade e adaptação razoável (E da 0009);
+- `CF-NOR-0011` medidas especiais para igualdade efetiva (E da 0008).
+
+A matriz de **96 grupos acima é fotografada contra o piloto de CINCO normas `0003–0007` da main no SHA de entrada**, **não** deve ser reproduzida como retrato atualizado da cobertura de igualdade depois da adição de `0008–0011`. A mudança posterior exige **nova auditoria incremental**, sem apagar a linha histórica.
+
+Um primeiro PR editorial exploratório [#44](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/44) colidiu com os IDs `0008–0010`; foi **fechado SEM MERGE** para proteger a fonte única. Sua proposta de igualdade foi descartada como duplicação editorial, e a privacidade/dados foram refeitos em branch da main atual com IDs livres:
+- [PR #45 — `CF-NOR-0012` privacidade e `0013` dados pessoais](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/45), ambos **A/H**, com índice e vista derivados atualizados, SEM decisão D, SEM equivalência demonstrada e SEM integração à main. Verificar resultado CI e conflitos antes de qualquer merge.
+
+**Procedimento futuro obrigatório:** ler `main` imediatamente antes de reservar IDs e, caso tenha avançado, reconciliar índice e vista gerada. Não tentar forçar merge de branch antiga, nem reabrir #44 sem reconstrução. Os documentos do PR #22 e do #45 têm funções distintas: **pesquisa e auditoria** versus **piloto editorial hipotético**.
