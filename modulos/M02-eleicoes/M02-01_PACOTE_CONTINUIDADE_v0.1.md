@@ -1,0 +1,34 @@
+# M02.01 — FEITO / PENDENTE / PRÓXIMO
+**Data:** 14/10/2026 · **responsável funcional:** M02 · **issue [#14](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/14)** · **branch:** `pesquisa/m02-01-integridade-eleitoral-20261014` · **main SHA inicial:** `2a770a8136f8ca4877e865be3e3b7745a6d4b168`. **Interface:** M14 PR #91 (M14.01.03) e M03 PR #85, ambos draft e fora da main. **Estado:** F0–F5/F8, hipóteses H/P, questões A e checagens V; F6/D/F7 NÃO realizados; nenhuma regra eleitoral escolhida, CF-NOR, decisão `governanca/03_DECISOES.md`, CLF ou alteração da main.
+
+## FEITO — pesquisa independentemente versionada M02
+1. `M02-01_PARECER_AUTONOMO_INTEGRIDADE_E_TRANSICAO_ELEITORAL_v0.1.md`: parecer próprio M02 sobre CF16, ADI3685, RE633703, ADI7212 (j.2024/DJE2025), ADI3741, proteção de igualdade, eleição inaugural, dissolução e consulta. Confirma apenas interface M14 sob fontes e condições; não ratifica primeira eleição nem plebiscito obrigatório.
+2. **Nova verificação de legislação 2026**: TSE **Res.23.772 de 06/08/2026**, DJE 14/08/2026, alterou Res.23.385/2012 art4 sobre turno de CONSULTAS subnacionais realizadas junto a eleições municipais/gerais. O art4 fala de consulta “a que se refere esta Resolução”, cujo âmbito e procedimentos específicos (arts2/3, TRE/frentes estaduais/municipais) não tornam a resolução **norma geral para plebiscito NACIONAL** sobre sistema de governo. Não prometer convocação federal no primeiro/segundo turno da próxima eleição ou competência específica da Presidência do TSE por mera transposição territorial. Exigir norma e ato de consulta nacional com Lei9709 art8 e controle M02/M06.
+3. **Lei 9.709/1998 arts2–3,8–10**: consulta prévia e referendo posterior, proposta de decreto legislativo nacional mediante mínimo de 1/3 de membros de uma Casa (**não quórum de aprovação**), Justiça Eleitoral organiza após ato convocatório, projeto objeto de plebiscito **convocado** tem tramitação sustada até proclamação (art9), resultado homologado pelo TSE por maioria simples (art10), **não emenda art60 nem diploma de titular**. Em R-CON1/2, dever jurídico de plebiscito prévio para B/C permanece controvertido; doutrina Gussoli/Hachem (Sequência edição 2022 publicada online 2023) defende dever, MS22972 STF extinto sem julgamento de mérito.
+4. **Comparação soft law**: Comissão Veneza CDL-AD(2024)027 reconhece reparação de violação de padrões eleitorais, decisões judiciais e reforma consensual amplamente consultada como situações a diferenciar da proibição rígida de mudar regras fundamentais a menos de um ano; **isto NÃO cria exceção já vigente à CF16/STF**. Analisar efeito e paridade concreto.
+5. `M02-01_MATRIZ_16_ENQUADRAMENTOS_ART16_E_PLEBISCITO.csv`: 16 classificações (risco elevado, caso a caso, consulta nacional, inaugurais e extraordinárias) sob H/A/V.
+6. `M02-01_MATRIZ_12_TESTES_ADVERSARIAIS.csv`: 12 ataques, incluindo lei 14 meses anterior ainda casuística, correção judicial em período curto, orçamento usado para dissolução, uso indevido do TSE 2026 e fake waiver da Comissão Veneza.
+7. `M02-01_CHECKLIST_10_PROVAS_PRIMEIRO_PLEITO.csv`: dez condições de legalidade/prova, **todas PENDENTES**, sem pleito, data de reforma ou posse reconhecidos.
+8. `scripts/validar_m02_01_matrizes.py`: auditor de estrutura, não julgamento de mérito. **QA independente realmente executada em JavaScript lendo os 3 CSV no GitHub:** PASS, 16/12/10 registros; 10/9/7 campos; IDs exclusivos e sequenciais; status H/A/V/PENDENTE completos, sem vazios. O Python foi versionado, **não afirmar que rodou pela CI** sem evidência.
+9. **M00** `M00-01_04A_SALVAGUARDAS_ELEITORAIS.md` e matriz E01–E03 já têm pesquisa na main. Esta etapa incrementa fontes e interfaces, **não substitui** o registro M00 ou suas alternativas. Não importar hipótese de “Brasil alternativo” em M02 constitucional.
+
+## PENDENTE — respostas verificáveis
+- **M06 issue #55:** parecer jurídico autônomo sobre grau de proteção art16/ADI7212, reforma reparadora vs manipulação e R-CON1/R-CON2 plebiscito obrigatório; MS22972 sem mérito, validade de plebiscito e art60; tutela urgente sobre aplicação eleitoral/posse, sem escolher gabinete judicialmente.
+- **M14 issue #90/PR91:** incorporar esta resposta M02 e a atualização Res23772/2026 com escopo subnacional; calendário inicial CF82 EC111 e CF57§4; título do presidente já eleito e Câmara, governo em funções, efeito legal da consulta art9.
+- **M03 issue #84/PR85:** regras de primeiro-ministro, chefe de Estado e investidura após Câmara apta, dissolução taxativa sem derrota da LOA, calendário ELE-X, finance caretaker com M05.
+- **M01/M04/M07:** direitos de candidatas/candidatos, acesso de minorias, administração eleitoral, revisão de limites de distritos/competência federativa; sem fórmula ou número de deputados escolhido.
+- **Evidência eleitoral real:** ainda sem dispositivo constitucional futuro, fórmula, data de pleito inaugural e instrução nacional específica do TSE. Não definir qual regra entra em vigor com 12 meses genéricos sem texto e marco concretos.
+- **F6:** art16 no futuro texto, limites a mudanças pré-convocação, formas de consulta, iniciativa, efeito de reformas inclusivas e calendário/autoridade nacional permanecem em A/V.
+- **CI e PR:** consultar SHA HEAD final, workflow e divergência da main. Aprovação estrutural não dá aprovação de mérito nem transforma parecer em norma constitucional.
+
+## PRÓXIMO — M02.01.02
+**Parar geração de exemplos abstratos após a presente classificação.** Priorizar parecer M06 sobre (a) art16 e exceções juridicamente existentes, (b) consulta prévia nacional controvertida, (c) controle sobre decisão administrativa/judicial que mude competição eleitoral. Com M14, obter texto transitório real apenas depois de escolher A/B/C, datas e forma eleitoral por F6. A primeira eleição não será declarada executável sem instrumento, norma aplicável, certidão de mandato e orçamento/competência válidos. Se parecer não vier, **registrar pendência sem CF-NOR**.
+
+## FONTES
+- STF art16 ADI3685/ADI7212/ADI3741/RE633703: https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=16&abrirBase=CF
+- Lei9709: https://www.tse.jus.br/legislacao/codigo-eleitoral/leis-ordinarias/lei-nb0-9.709-de-18-de-novembro-de-1998
+- Res23772/2026: https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-772-de-6-de-agosto-de-2026
+- Res23385/2012: https://www.tse.jus.br/legislacao/compilada/res/2012/resolucao-no-23-385-de-16-de-agosto-de-2012
+- EC111: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm
+- Comissão Veneza 2024: https://www.venice.coe.int/webforms/documents/?match=CDL-AD
+- M14 PR91, M03 PR85. **Rastro:** branch de pesquisa; nenhum merge e nenhuma D/F6/F7.
