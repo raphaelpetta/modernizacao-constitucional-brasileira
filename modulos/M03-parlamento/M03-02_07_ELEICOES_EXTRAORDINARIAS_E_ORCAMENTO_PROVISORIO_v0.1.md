@@ -1,5 +1,5 @@
 # M03.02.07 — Eleições extraordinárias e orçamento provisório: dois relógios que não podem ser manipulados
-**ID:** CF-M03.02-EST-007 · **Data de corte:** 14/10/2026 · **Issue:** #84 · **PR:** #85 (draft) · **base main do preflight:** fd539dada2be003c5054f10c8e94f6f2723113a2 é HEAD da branch anterior; main lida 2a770a8136f8ca4877e865be3e3b7745a6d4b168.
+**ID:** CF-M03.02-EST-007 · **Data de corte:** 14/10/2026 · **Issue:** #84 · **PR:** #85 (draft) · **main do preflight:** 2a770a8136f8ca4877e865be3e3b7745a6d4b168 · **branch anterior ao ciclo:** fd539dada2be003c5054f10c8e94f6f2723113a2.
 **Status:** F0–F5/F8 hipótese H, preferência analítica P, lacuna A e verificação V. F6 não ratificado; F7 não iniciado, sem CF-NOR, sem reforma eleitoral/financeira aprovada. **Não importar os parâmetros do Brasil alternativo.**
 **Propriedade:** M03; interfaces obrigatórias M02 (integridade eleitoral), M05/M04 (orçamento/consentimento territorial), M06 (urgência e controle), M07 (continuidade administrativa), M14 (dissolução/transição), M12 (emergência).
 
