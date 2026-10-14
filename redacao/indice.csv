@@ -1,0 +1,3 @@
+id,ordem,tema,modulo,tipo,status,arquivo,regra_geral,justificativa_especialidade,decisao,auditoria_garantias,dependencias
+CF-NOR-0001,0010,Coerência entre competência execução e financiamento,M04,G,H,redacao/propostas/CF-NOR-0001.md,,, ,PENDENTE,"M03;M05;M09"
+CF-NOR-0002,0020,Encargos financeiros decorrentes de serviços públicos,M05,E,H,redacao/propostas/CF-NOR-0002.md,CF-NOR-0001,"Operacionaliza o elo entre competência e custeio com fonte ou transferência e exceções; manter exame de suficiência e efetividade",,PENDENTE,"M04;M09;M14"
