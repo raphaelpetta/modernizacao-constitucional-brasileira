@@ -111,3 +111,15 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PENDENTE:** aprovação efetiva M12/M07 das exceções de acesso digital e direito à prova, núcleo de HD gratuito; pesquisa eleitoral/fiscal M02/M05 sobre custos de indústria/domésticos e cobertura de acordos, diferenciação doméstico/diarista, dados anonimizados, autoridade fiscalizadora e transição. Nenhum H→D e nenhuma `CF-NOR` nova; STJ HC598051 não é acórdão vinculante nacional pelo só fato de ser orientação de Sexta Turma.
 
 **PRÓXIMO:** submeter E-COM P2 a avaliação penal independente M12, E-HD ao M06 e dados M07; abrir piloto M02/M05 de apuração real por denominador (eleitorado, comparecimento, contribuição, gasto), com resultados `INDETERMINADO` quando não há fontes. Evitar conflito em `governanca/` reaplicando sobre main mais recente.
+
+## CF-COORD-20261014-09 — Operações digitais e custos sindicais auditáveis
+
+**Data:** 14/10/2026. **Main preflight:** `f6b95d977bfe293fd393972d499ca5d1965a1bcd`. Pesquisas em [PR62](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/62) e [PR63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63), **ambos draft, CI success e sem conflitos**, sem alteração constitucional na main.
+
+**FEITO:** M06.02 elaborou terceiro parecer P3 Tema977 com cinco operações (apreensão, identificação fortuita, acesso, preservação e interceptação), variantes constitucionais **P3-E/P3-R** (efeitos materiais diferentes), 22 testes; leitura da literalidade integral da tese, sobretudo tensão da expressão "referido acesso" no item2 e sua aplicação prospectiva; requisição independente M12 formalizada na [issue #80](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/80). HEAD PR62 `50e4b81ac15992b4cd5f6314e1a562ccaf8652d1`. M09.03 estruturou ELE-S/ELE-R/RAT-C como atos distintos, dois pilotos/setores, 24 verificações de voto/custeio, dez portas de qualidade, equações de custos público e privado **não estimadas**; atualização PNAD2025, LC150 art1 e **novos embargos Tema935 destacados em 05/10/2026**. HEAD PR63 `3af91958050ab100fc9c64e09dbee856de576128`. Pacotes de continuidade e issues #65/#68/#76/PR59 receberam handoffs.
+
+**PENDENTE:** revisão penal M12 verdadeiramente independente e revisão M07 do acesso digital, análise de embargos STF/inteiro teor quando necessário, critérios de prova ilícita e cadeia de custódia, eventual solução constitucional da exceção identificadora, custos/eleitorados reais M02/M05, transição e dados jurídicos trabalho doméstico. **E-COM permanece bloqueada; nenhum CF-NOR novo; nenhum D.**
+
+**PRÓXIMO:** (i) M12/M01/M06 testar alternativas P3-E/P3-R e escolher conscientemente o que constitucionalizar, sob auditoria material; (ii) M02/M05 buscar apenas fontes legais de dados agregados por colégio eleitoral e rubricas de custo e construir primeiro protocolo reprodutível IND/DOM; (iii) reiniciar preflight de main/PRs antes de qualquer decisão editorial.
+
+**Validação:** GitHub Actions estrutural ≠ parecer M12, equivalência jurídica ou mensuração fiscal.
