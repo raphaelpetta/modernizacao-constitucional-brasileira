@@ -77,3 +77,15 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PENDENTE:** pedidos agregados não enviados, resposta de órgãos públicos, séries territoriais baixadas, comprovação de revisão por juiz/Defensoria, cobertura dos notificadores, recursos pagos, resultados clínicos, prova de equivalência jurídica.
 
 **PRÓXIMO:** M01.12.03 sob issue #49, dados agregados e pareceres transversais M06/M09/M05, com proteção a dados sensíveis. **Nenhuma CF-NOR nova e nenhuma decisão F6/D.**
+
+## CF-COORD-20261014-06 — alternativas M01.13 e simulações M09.03
+
+**Data de corte:** 14/10/2026. **Base inicialmente consultada:** CF main `5ac08b622d7552b7d3b37a695a3027b4b9d827d4`; **releitura final antes do quadro:** main `48166d04ff85634dfd70caa2de549ed866e6591e` (pesquisa M01.12.02 integrada por outra frente). **Não se editou** `redacao/` nem documentos M01.12 nesta rodada.
+
+**FEITO:** [PR #59](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/59), draft, recebeu 3 arquivos: modelos A/B/C de cláusulas especiais para domicílio, interceptação, aparelho e remédio gratuito de dados; 20 casos adversariais, pacote; STF Temas280/977 de 2015/2025 verificados com limites/exceções. `CF-NOR-0030` e `0031` H **não foram editadas**. [PR #63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63), draft, recebeu modelos institucionais A unicidade auditável e B pluralismo representativo, contramodelo C, 16 casos paramétricos e handoff; França/México comparados; IBGE PNAD 2024 8,9% filiação **não mede representação/negociação**. Ambos passaram CI estrutural nos heads `fecd6d46` e `d344293b`, limpos na verificação; [issues #57](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/57) e [#68](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/68) receberam continuidade.
+
+**PENDENTE:** integração de pesquisa (PR59/63 ainda draft), revisão jurídico-material e complementos E de domicílio, comunicações e habeas data; proteção diante de acesso a celular segundo distinções Tema977; revisão M06/M07/M12; dados de custos, filiação/representatividade sindical e atualização Tema935; nenhuma aprovação material D.
+
+**PRÓXIMO:** (1) M01.13/M06/M07/M12 elaborar variante reconciliada de reservas e tutela de dados com exame de direitos de terceiros, manter unificada a fonte `redacao/` quando vier a existir ficha H; (2) M09/M02/M05 submeter modelos A/B a análise setorial/financeira, garantir liberdade de organização, mandatos e participação de não filiados. Revalidar SHA, PR e ID ao começar.
+
+**QA:** GitHub Actions verifica estrutura e caminhos, não eficácia jurídica, direito vigente futuro, votação sindical real ou dados empíricos. Nenhuma norma existente promovida de H para D.
