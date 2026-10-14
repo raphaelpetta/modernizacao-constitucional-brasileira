@@ -319,6 +319,37 @@ else:
     if len(bio_rows) != 20:
         errors.append("M01.10: são esperados 20 casos de continuidade")
 
+# M01.11: salvaguardas de capacidade, diretivas e intervenções involuntárias.
+capacity_csv = BASE / "modulos/M01-direitos-fundamentais/M01-11_MATRIZ_SALVAGUARDAS.csv"
+if not capacity_csv.is_file():
+    errors.append("M01.11: matriz de salvaguardas ausente")
+else:
+    with capacity_csv.open(encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(line for line in f if line.strip() and not line.startswith("#"))
+        capacity_rows = list(reader)
+    required_capacity = {"id", "eixo", "cenario", "direito_vigente_e_fonte", "clausulas_h",
+                         "risco_regressao_ou_abuso", "controle_adicional_pendente",
+                         "modulos", "estado_continuidade"}
+    if not required_capacity.issubset(set(reader.fieldnames or [])):
+        errors.append("M01.11: cabeçalho inválido")
+    seen_capacity: set[str] = set()
+    for idx, row in enumerate(capacity_rows, 1):
+        id_ = (row.get("id") or "").strip()
+        if id_ in seen_capacity or not re.fullmatch(r"M01-11-AUD-[0-9]{3}", id_):
+            errors.append(f"M01.11:{idx}: ID inválido/duplicado {id_}")
+        seen_capacity.add(id_)
+        if None in row or any(v is None for v in row.values()):
+            errors.append(f"M01.11:{idx}: colunas irregulares")
+        if row.get("estado_continuidade") not in {
+            "NAO_COBERTO", "NAO_EQUIVALENTE", "INDETERMINADO", "PARCIAL_E_INDETERMINADO"
+        }:
+            errors.append(f"M01.11:{idx}: equivalência não demonstrada")
+        for module in (row.get("modulos") or "").split(";"):
+            if module and module not in identifiers:
+                errors.append(f"M01.11:{idx}: módulo inexistente {module}")
+    if len(capacity_rows) != 18:
+        errors.append("M01.11: esperado 18 testes adversariais")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue
