@@ -91,3 +91,15 @@ Nenhuma norma `CF-NOR-0001–0020` da fotografia recebeu status `D`. O registro 
 | **CF ↔ CLF** | main CF recebeu estudo sobre provas/pareceres/cautelares T07.M03 via CF-IC-001 no commit `10374bf7` | Confrontar processo administrativo de CF, M06 e CLF antes de redigir regras gerais de boa administração | Interface M07 e M06 sobre devido processo administrativo |
 
 **Nota:** status documental `PESQUISA` de M06/M09 refere-se a trabalhos em **PR draft**, não integração à main, nem decisão material. **Atualizar este quadro apenas em marcos relevantes**.
+
+## Adendo — 14/10/2026: M06.02/M09.02 e reconciliação de M01.12
+
+**Main de referência inicial:** `eaab37bcd5467d48db0cc0bda133c62ee7801ffe`. **Atenção:** estes trabalhos de pesquisa constam em branches/PRs draft, NÃO foram incorporados à main; consultar HEAD antes do merge.
+
+| Frente | FEITO em PR (não na main) | PENDENTE | PRÓXIMO |
+|---|---|---|---|
+| **M06.02 — remédios** ([issue #65](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/65)) | [PR #62](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/62) agora abrange M06.01–02; dossiê, **12 funções de tutela** e **22 testes especializados** adicionais; fonte ADI4296, leis HC/MS/MI/HD/popular, gratuidade. GitHub Actions success em `5ae0238d9e0eb3dfbc42a179267d35bfe3abfe26`. | Inteiro teor de acórdãos, números CNJ/Defensoria, prova de equivalência, crítica ao PR59 de dados, M07/CLF. | Emitir parecer M06 ao PR59; avaliar M06.03 de tutela coletiva/execução. |
+| **M09.02 — trabalho** ([issue #66](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/66)) | [PR #63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63) agora abrange M09.01–02; **35 registros art7** (34 incisos + PU), **11 funções arts8–11**, **24 testes especializados** adicionais, OIT/STF Tema1046. CI success em `41d381c569e42ce7e974fb8018de86badf9c6710`. | CLT/ADCT e dados reais de custos/horas, representatividade sindical e limites à negociação, M05; não existe CF-NOR M09. | M09.03 negociação/sindicatos/greve, M09.04 pisos/jornada com dados M05. |
+| **M01.12 / M01.14** | **Colisão de ciclo resolvida administrativamente:** a [issue #49](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/49), mais antiga, mantém `M01.12` para coerção em saúde; a [issue #54](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/54) de liberdades civis foi reidentificada **M01.14**, preservando escopo e histórico. | F1–F5 de ambas as frentes, sem normas novas. | Iniciar as pesquisas pela issue responsável correspondente. |
+
+**Classificação:** consulta a fontes primárias, testes adversariais documentais, **nenhuma decisão material D**. A atualização de nomenclatura M01 é operacional, não revisão de direitos constitucionais. A integridade dos arquivos foi testada, **não** sua exatidão jurídica integral.

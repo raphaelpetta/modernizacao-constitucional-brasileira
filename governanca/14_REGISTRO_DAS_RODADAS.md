@@ -35,3 +35,15 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PENDENTE:** CI final do PR22 no último SHA, auditoria legal e empírica granular dos 96 grupos, revisão do PR59 por M06/M07/M12, estudos aprofundados M06/M09 e M05; PR22/59/62/63 draft, sem merge. Dispositivos `CF-NOR` vigentes no projeto permanecem H; **nenhuma deliberação material D**.
 
 **PRÓXIMO:** primeiro estudo aprofundado de remédios judiciais e direitos trabalhistas/prestações sociais, com critérios de custas, legitimidade, prazo, financiamento e tutela; depois revisão crítica do PR22 em blocos jurídicos. A coordenação CF–CLF de provas/pareceres/cautelares deve ser encaminhada ao M06/M07.
+
+## Marco CF-COORD-20261014-04 — remédios, direito do trabalho e colisão de ciclos
+
+**Data:** 14/10/2026. **Base de entrada CF main:** `eaab37bcd5467d48db0cc0bda133c62ee7801ffe`. **Branches de pesquisa:** M06 PR62 e M09 PR63, sem merge.
+
+**FEITO:** (i) M06.02, [issue #65](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/65): 1 dossiê, 12 funções, 22 cenários adversariais e handoff no PR62, CI estrutural success no `5ae0238d`; (ii) M09.02, [issue #66](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/66): 1 dossiê, 35 registros de art7, 11 funções arts8–11, 24 cenários e handoff no PR63, CI estrutural success no `41d381c5`; (iii) corrigida **colisão M01.12**: issue #49 coerção mantém M01.12, issue #54 liberdades renomeada M01.14.
+
+**PENDENTE:** auditoria material de fontes e mérito, dados empíricos CNJ/Defensoria/mercado de trabalho, integração com M01 e CLF, parecer de proteção de dados PR59, M05 financiamento, ratificação constitucional. **PR62/63 permanecem em draft; pesquisas ainda não integradas à main.**
+
+**PRÓXIMO:** parecer M06 ao PR59 sobre HD/acesso/tutela urgente e aprofundamento da negociação sindical M09.03; estudo quantitativo M09.04 com M05. Reservar identificadores antes de novas fichas. **Estado jurídico:** sem F6/D; nenhuma `CF-NOR` editada.
+
+**Fontes-chave verificadas:** STF ADI4296 e Tema1046; STJ Tema1178; Constituição 1988 art5 e 7–11; Leis 12.016/2009, 13.300/2016, 9.507/1997, 4.717/1965; OIT NORMLEX 2026 e Declaração 1998/2022.
