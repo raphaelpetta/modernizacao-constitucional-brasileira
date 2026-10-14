@@ -29,3 +29,6 @@
 - EC111: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm
 - Lei 9709: https://www.planalto.gov.br/ccivil_03/leis/l9709.htm
 - M03.02.05 B1–B6 e M03.02.12 — PR85 draft, nenhum F6.
+
+## ADITAMENTO M06-IF-ELEI-004 (14/10/2026)
+Foi atendida a assimetria metodológica assinalada neste pacote: a M06 comparou também **A (presidencialismo reformado) e C (premier-presidencial)** junto a B em 12 dimensões COMUNS do art60§4, na matriz `M06-IF_ELEICOES_04_MATRIZ_12_COMPARACOES_SIMETRICAS_A_B_C.csv`, parecer `M06-IF_ELEICOES_04_CONTROLE_SIMETRICO_A_B_C_ART60_v0.1.md`. **Não comparar 5/9/2 da triagem B (16 cláusulas H) com os eixos A/B/C como estatística ou preferência constitucional.** QA JS PASS 12/12 ABERTAS. Próximo ponto jurídico material: **se e como art60§4 II limita a reforma da eleição presidencial direta do art77 e a alteração de seu objeto**, diferentemente da eleição parlamentar do gabinete, sem atribuir decisão ao STF inexistente. Todas alternativas e F6 continuam abertas.
