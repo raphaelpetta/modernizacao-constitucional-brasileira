@@ -30,3 +30,6 @@ Critério: cada teste identifica ator, quorum, prazo, procedimento, direito da o
 
 ## CONTROLE
 Trabalho desenvolvido exclusivamente no PR #85. Merge, CI estrutural ou concordância documental NÃO ratificam o conteúdo constitucional.
+
+## Revisão de concorrência e QA — ao encerrar a rodada
+A main avançou do SHA inicial 19cd7a58 para c28f254a76fb14c0ea4c553ebdbd07f7822ad4e8. A comparação demonstrou mudanças APENAS em governanca/13_QUADRO_DE_COORDENACAO.md e governanca/14_REGISTRO_DAS_RODADAS.md (coordenação independente, PR #86). O PR #85 não edita esses caminhos: conflitos textuais não identificados, e o GitHub informa mergeable=true nesta verificação. Não houve rebase ou merge e nenhuma contribuição concorrente foi sobrescrita. O status combinado do commit dfa16e5187267551d5e1da113648a0c593f4afc1 retornou lista vazia de status: não existe CI comprovada por essa consulta, não declarar sucesso. QA local documental: 7, 8 e 10 registros nas três matrizes novas; primeira coluna com IDs distintos. Validação material e GitHub Actions permanecem pendentes. Conferir base e HEAD novamente antes de integração.
