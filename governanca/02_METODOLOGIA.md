@@ -30,3 +30,7 @@ Não exigir estudos estrangeiros ornamentais nem inventar dados. Separar FATO_VE
 
 ## Fontes
 Normas e precedentes brasileiros devem ser verificados em fontes oficiais e datados. Jurisprudência estrangeira não é vinculante por si. Estudos empíricos devem indicar escopo, metodologia, limitações e inferências possíveis. O CLF e o anteprojeto antigo são referências, não autoridades do direito vigente.
+
+## Ampliação editorial de F7 — M00.03 (13/10/2026)
+
+A redação constitucional experimental poderá iniciar **por funções e artigos candidatos**, mesmo quando certas escolhas institucionais permanecerem abertas, desde que a norma seja identificada como hipótese `H` e não altere decisão material sem ratificação. Usar [protocolo de redação integrada](11_TECNICA_DE_REDACAO_E_INTEGRACAO.md): regra geral única preferencial, especialização/exceção justificadas, regra autônoma quando a função o exigir, disposições transitórias com continuidade, terminologia controlada e auditora de garantias. O índice `CF-NOR` e texto derivado são versionados; scripts verificam estrutura e integridade literal, **não** direitos, equivalência normativa ou redundância semântica. [Texto de trabalho](../redacao/anteprojeto-de-trabalho.md) permanece H/P até deliberação expressa.
