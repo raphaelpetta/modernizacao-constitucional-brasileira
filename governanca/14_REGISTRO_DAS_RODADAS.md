@@ -55,3 +55,15 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **FEITO:** preflight verificou que a colisão com M01.14 havia sido **resolvida por outra frente**; mantidos IDs, sem duplicação. Pesquisas sobre Lei 10.216, Lei 11.343 art. 23-A/Lei 13.840, LBI/CDPD, STJ Informativo 533 (precedente antigo), OMS/OHCHR e Comitê CDPD (orientações), dados nacionais/regionais RAPS 2025; dossiê M01.12, 22 cenários, 6 linhas oficiais agregadas e handoff. Nenhum CF-NOR novo nem ratificação D.
 
 **PENDENTE:** revisão de jurisprudência posterior à LBI, dados individuais/agregados de internações e fiscalização, acesso territorial real, custos, pareceres M06/M09/M05, revisão humana de conclusões. **PRÓXIMO:** M01.12.02 na issue #49, indicadores e controles de internação, não novo ciclo colidente. **QA:** script de estrutura verificará esquemas e soma das regiões, mas não validade jurídica nem causalidade clínica. [Continuidade M01.12](../modulos/M01-direitos-fundamentais/M01-12_PACOTE_CONTINUIDADE_v0.1.md).
+
+## CF-COORD-20261014-05 — Parecer dados/remédios e sindicalismo/greve
+
+**Data:** 14/10/2026. **Base de entrada:** CF main `50b498885e17fa1709e66b0861f40e5387b4f4b0`; **main conferida ao preparar registro:** `8cc7e0b572d77e4f8889243afa06d1e01a062394` (avanço paralelo da interface CF–CLF). Pesquisas em PRs draft, sem merge editorial nesta rodada.
+
+**FEITO:** (i) parecer M06 à redação H privacidade/dados PR59, `M06-02_PARECER_INTERFACE_PRIVACIDADE_PR59_v0.1.md`, 16 testes e 10 critérios, arquivos no PR62; PR59 e issue #57 receberam vínculo. (ii) [Issue #68](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/68) M09.03 aberta, dossiê, matriz de 14 escolhas e 20 testes + handoff no PR63. (iii) fontes atuais: CF/LGPD/Lei9507/ADI6387/6649 e STF Temas935 (ED nov2025, atos 2026),1046,531; OIT C87 não, C98 ratificada; Lei7783. (iv) **PR62 9 arquivos e PR63 12**, ambos CI estrutural success nos HEADs `e3c49cd2` e `7852866f`, sem conflitos. Não editados `redacao/propostas` nem a `main` em pesquisa.
+
+**PENDENTE:** reservas especiais de domicílio/comunicações, remédio constitucional de dados, parecer M07/M12, acórdãos integrais, estatísticas e custos reais M05, decisão sobre unicidade versus pluralismo, atualização final dos recursos Tema935. PR22/59/62/63 seguem draft; H não é D.
+
+**PRÓXIMO:** testar alternativas H de garantias especiais de privacidade e habeas data (sem duplicar M01/M06) e comparar integralmente A unicidade democratizada vs B pluralismo sindical representativo com custo/transição M05; verificar compatibilidade dos procedimentos administrativos CF–CLF com M06/M07.
+
+**Validação:** CI de estrutura não constitui exame jurídico, resultado empírico ou ratificação.
