@@ -27,3 +27,15 @@
 **PRÓXIMO:** auditoria setorial A/B de (1) indústria e serviços, (2) trabalho doméstico e pequenos estabelecimentos, (3) trabalhadores de plataformas/terceirização, (4) greve de serviços indispensáveis; obter M05 custos/indicadores IBGE e verificar legitimidade eleitoral e transição M14. Somente então preparar opções normativas H para deliberação.
 
 **QA:** confirmar HEAD/CI PR63 na conclusão desta rodada; testes são cenários analíticos sem validação de impactos.
+
+## Marco R2 — Testes setoriais e pedidos concretos a M02/M05 (14/10/2026)
+
+**Base:** CF main `e648bd71227f407f2b46207e9c8d546a255254d2`; PR #63 draft; issue #68.
+
+**FEITO:** `M09-03_AUDITORIA_SETORIAL_A_B_M02_M05_v0.1.md` compara modelos A unicidade democratizada e B pluralismo representativo **em oito perfis** (indústria, comércio/serviços, administração/saúde/educação, domésticos, plataformas, terceirização, agricultura sazonal e transporte). `M09-03_MATRIZ_SETORIAL_A_B.csv` reúne 8 avaliações e `M09-03_TESTES_SETORIAIS.csv` 24 ataques adversariais. `M09-03_DICIONARIO_EVIDENCIA_SETORIAL.csv` discrimina **17 indicadores/fatos/fontes** observados ou não obtidos com universos e riscos de inferência. Fontes oficiais: IBGE PNAD 2024 divulgado 2025 (8,9% filiação nacional, 11,4% Indústria Geral, 15,5% grupo agregado setor público/educação/saúde); MTE CNES 2026 (cadastro não demonstra voto), MTE 17/07/2026 (169 notificações **subconjunto**, sem prova de fraude), Mediador (instrumentos registrados, sem cobertura por pessoa). Sem dados reais de eleições ou orçamento privado/sindical.
+
+**PENDENTE:** extração válida CNES/Mediador por ramo, base de trabalhadores abrangidos e taxa de voto, oposição assistencial por ramo, custos de eleições e órgão certificador, conexão com M02/M05 e análise comparada de transição M14. **Nenhum resultado causal, modelo vencedor, CF-NOR ou ratificação D.**
+
+**PRÓXIMO:** primeiro piloto de auditoria setorial aprofundado em indústria concentrada **e** serviços domésticos dispersos, comparando A/B em base eleitoral, custos, proteção de não filiados e preservação de acordos; solicitar roteiro de coleta M05/M02 antes de simular valores ou propor lei constitucional.
+
+**QA:** pesquisa versionada e testes conceituais; conferir CI no HEAD, sem equiparar validação estrutural a revisão econômica ou jurídica.
