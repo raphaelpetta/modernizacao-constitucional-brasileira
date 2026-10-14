@@ -63,3 +63,9 @@
 
 ## R5 — Auditoria de bases administrativas (14/10/2026)
 **FEITO:** criados `M09-03_TRILHA_FONTES_M02_M05_E_CUSTOS_v0.1.md` e `M09-03_MATRIZ_OBSERVABILIDADE_E_CUSTOS.csv` (18 linhas), com CNES, Mediador, PNAD e categorias de custo; arquivos domésticos disponíveis são históricos de 2022, não 2026. Os procedimentos oficiais para dados RAIS identificados exigem acordo e respeito ao sigilo; nenhum dado pessoal foi acessado. **PENDENTE:** custos e votos reais e extração setorial atual; **PRÓXIMO:** executar amostra pública agregada IND/DOM para M02/M05. PR63 permanece draft, sem decisão D.
+
+## M09.03-R6 — Primeira amostra efetivamente observada (SP/2026)
+
+**FEITO:** `M09-03_AMOSTRA_REAL_MEDIADOR_SP_2026_v0.1.md` e `M09-03_AMOSTRA_REAL_MEDIADOR_SP_2026.csv` (3 linhas) registram com links diretos dois ACTs metalúrgicos (SP002759/2026 São Paulo capital; SP002465/2026 Campinas) e uma CCT de trabalho doméstico (SP004864/2026 Grande SP em municípios explicitados **sem** São Paulo capital) publicados pelo MTE; ACT de Campinas **declara** assembleia em 20/02/2026 mas não publica apuração de votos no trecho disponível. **Amostra intencional indexada, não universo, não probabilística nem medida causal**. CNES por CNPJ, abrangidos únicos, pleitos e custos **NÃO_VERIFICADOS**; nenhuma legislação ou D alterada.
+**PENDENTE:** amostra sistemática por filtros do portal, validação de status CNES individual, atas agregadas, universo e despesas MTE atribuíveis, método M02/M05 para comparador A/B.
+**PRÓXIMO:** aplicar os mesmos filtros de UF/tipo/período em consulta sistemática exportável e validar status CNES dos dois ramos; só então ampliar série e mensurar, sem inventar participação/custos. CI HEAD a conferir; PR63 permanece draft.
