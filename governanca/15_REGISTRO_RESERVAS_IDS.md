@@ -60,3 +60,15 @@ A [issue #57](https://github.com/raphaelpetta/modernizacao-constitucional-brasil
 **Não disponíveis para outro PR enquanto a issue #57 estiver ativa:** 0030, 0031. **Não liberados para privacidade/dados:** 0012 e 0013, ocupados por dignidade e vida na main. Consultar PRs e índice novamente antes de integrar; a reserva documental não é travamento atômico do GitHub.
 
 Subciclos iniciados no tracker: **M01.12 [#54](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/54)**, **M06.01 [#55](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/55)**, **M09.01 [#56](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/56)**, **M01.13 [#57](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/57)**. Isto reserva escopo, não aprova texto nem conclui pesquisa.
+
+## Adendo de reserva e colisão resolvida em 14/10/2026
+
+**M06.02 = [issue #65](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/65)**: dossiê de remédios HC/MS/MI/HD/ação popular no PR62. **M09.02 = [issue #66](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/66)**: art7 I–XXXIV/PU e arts8–11 no PR63. Ambos pesquisa sem CF-NOR nova.
+
+**Correção de reserva M01 feita após identificar colisão real:**
+- `M01.12` = [issue #49](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/49), já anteriormente reservada para internações e tratamentos involuntários, rede comunitária/saúde mental;
+- `M01.13` = [issue #57](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/57), privacidade/dados, PR59 H 0030/0031;
+- `M01.14` = [issue #54](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/54), **renomeada** de M01.12 para liberdades de expressão/religião/reunião/associação. O conteúdo da issue e seu histórico foram preservados.
+A entrada histórica acima que aponta `M01.12` como código de liberdades civis ficou **superada apenas nesse aspecto**. Não usar simultaneamente o mesmo código em dois estudos; links por número de issue permanecem estáveis.
+
+**Próximos códigos M06.03, M09.03, M09.04 são apenas sugestões, ainda NÃO reservas**, até novo preflight em main/issues/PRs. A política de source-of-truth de `redacao/indice.csv` e controle de IDs CF-NOR continua inalterada.
