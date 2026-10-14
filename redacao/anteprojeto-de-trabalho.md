@@ -127,3 +127,33 @@ A participação de pessoa em experimento médico ou científico exige consentim
 A lei estabelecerá controles éticos independentes, proteção reforçada de pessoas em situação de vulnerabilidade e condições para retirada de consentimento sem penalidade indevida.
 
 Nenhum fundamento de emergência, autoridade ou interesse científico autoriza experimentação coercitiva.
+
+## CF-NOR-0018 — Capacidade decisória e apoio à manifestação de vontade [H; E]
+
+> Regra geral de referência: CF-NOR-0016. Relação em exame.
+
+A pessoa exerce, em igualdade de condições, o direito de participar e decidir sobre os cuidados e intervenções que afetem sua saúde e integridade.
+
+A deficiência, o diagnóstico, a idade avançada ou a curatela não constituem, por si sós, fundamento para desconsiderar sua vontade. Serão assegurados informação acessível, meios de comunicação e apoios adequados à compreensão e à manifestação de preferências, com salvaguardas contra conflito de interesses, influência indevida e substituição arbitrária de decisões.
+
+Nos casos em que a manifestação atual não puder ser obtida, a proteção da pessoa observará sua vontade e preferências conhecidas, nos termos e limites das garantias constitucionais.
+
+## CF-NOR-0019 — Diretivas antecipadas e manifestação atual da vontade [H; E]
+
+> Regra geral de referência: CF-NOR-0016. Relação em exame.
+
+Toda pessoa poderá expressar previamente sua vontade sobre cuidados e intervenções de saúde para situações em que não possa manifestá-la de modo atual, observadas as garantias de informação, liberdade e autenticidade.
+
+A manifestação anterior válida será considerada e respeitada conforme seu conteúdo e as circunstâncias relevantes; a vontade atual livre e esclarecida prevalecerá quando puder ser manifestada.
+
+A lei assegurará meios proporcionais de registro, conhecimento, alteração e revogação das diretivas, proteção da confidencialidade, apuração de dúvidas fundadas e controle célere de conflitos, inclusive em situações urgentes.
+
+## CF-NOR-0020 — Garantias frente a medidas involuntárias em saúde [H; E]
+
+> Regra geral de referência: CF-NOR-0014. Relação em exame.
+
+Ninguém será privado de liberdade ou submetido a intervenção em saúde de forma arbitrária, nem exclusivamente em razão de deficiência, diagnóstico ou condição pessoal.
+
+Toda medida involuntária restritiva de liberdade ou integridade estará sujeita ao controle de sua validade constitucional, a fundamento legal estrito, informação acessível, registro de motivos, meios de impugnação, assistência e revisão independente, efetiva e tempestiva, conforme a natureza da medida.
+
+Este dispositivo não institui, por si, hipótese de internação, tratamento compulsório ou outra intervenção sem consentimento, nem autoriza o afastamento de proibições absolutas.
