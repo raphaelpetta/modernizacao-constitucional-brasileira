@@ -89,3 +89,15 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PRÓXIMO:** (1) M01.13/M06/M07/M12 elaborar variante reconciliada de reservas e tutela de dados com exame de direitos de terceiros, manter unificada a fonte `redacao/` quando vier a existir ficha H; (2) M09/M02/M05 submeter modelos A/B a análise setorial/financeira, garantir liberdade de organização, mandatos e participação de não filiados. Revalidar SHA, PR e ID ao começar.
 
 **QA:** GitHub Actions verifica estrutura e caminhos, não eficácia jurídica, direito vigente futuro, votação sindical real ou dados empíricos. Nenhuma norma existente promovida de H para D.
+
+## CF-COORD-20261014-07 — Minuta DOM/COM/HD e teste setorial A/B
+
+**Data:** 14/10/2026. **Main consultada:** `e648bd71227f407f2b46207e9c8d546a255254d2`; PR59/63 atualizados em branches próprias e ainda draft, sem alteração da `redacao/` canônica na main.
+
+**FEITO:** (1) [PR59](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/59): dossiê P de três especialidades propostas E-DOM/E-COM/E-HD, matriz de 24 garantias CF e 24 cenários, handoff; Tema280/977, CF art5, Leis9296/9507 e LGPD, CI success HEAD `222aed01c02df926e2fd139fe0abb5428b08bb9b`. Nenhuma `CF-NOR` criada nem `0030/0031` modificada. (2) [PR63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63): oito perfis sindicais A/B, 24 casos, dicionário de 17 dados/fontes/ausências e pacote; IBGE PNAD2024, MTE CNES/Mediador e comunicado 169 entidades, CI success `da79467a3c6bb0f205864dfe1bd89534c54bd6c5`. (3) Criada [issue #76](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/76) de interface M02/M05 — representação eleitoral/custos de certificação; issues #57 e #68 atualizadas.
+
+**PENDENTE:** equivalência material à CF/1988 (domicílio, sigilo, HD), revisão do trecho digital de exceções com M06/M07/M12, acórdãos integrais; votos, cobertura de acordos, custeio real de sindicatos e órgão público, execução por setor, direitos de minorias e transição de modelos; nenhuma decisão material D.
+
+**PRÓXIMO:** revisar exceções digitais de E-COM e montar Parecer M06/M12 sobre HD/fluxo/armazenamento; estudar indústria e domésticos como pilotos A/B com denominadores de participação e custo M05, sem inventar coeficientes fiscais.
+
+**Qualidade:** os 48 registros de matrizes para M01 e os 49 registros de M09 (8+24+17) são **classificações/testes de documentação**, não pessoas, direitos revogados ou estatística de eficácia. CI apenas estrutural, pesquisas draft.
