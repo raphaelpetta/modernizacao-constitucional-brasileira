@@ -27,5 +27,7 @@
 | CF-DEC-011 | P | Método | Pesquisa histórica, jurídica, comparada, empírica e adversarial proposta como padrão |
 | CF-DEC-012 | A | Interface CLF | Fluxo bilateral e versionamento próprio em implantação |
 
+| CF-DEC-013 | D (operacional) | Continuidade obrigatória por rodada | Solicitação direta do usuário em 14/10/2026: toda frente deve registrar **FEITO / PENDENTE / PRÓXIMO**, versões reais, dependências, status de PR e resultado de integração, conforme CF-GOV-012 e modelo de continuidade. **Não** é decisão sobre direitos, governo, competências ou redação constitucional material. |
+
 ## Entrada nova
 Criar documento em `modelos/DECISAO.md` com ID, problema, alternativas, evidência, melhor objeção, consequências, origem da ratificação, escopo, versão e documentos afetados. Uma alteração em chat não altera uma decisão já registrada.
