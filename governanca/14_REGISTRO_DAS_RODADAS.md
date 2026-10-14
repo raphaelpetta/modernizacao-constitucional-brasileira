@@ -101,3 +101,13 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PRÓXIMO:** revisar exceções digitais de E-COM e montar Parecer M06/M12 sobre HD/fluxo/armazenamento; estudar indústria e domésticos como pilotos A/B com denominadores de participação e custo M05, sem inventar coeficientes fiscais.
 
 **Qualidade:** os 48 registros de matrizes para M01 e os 49 registros de M09 (8+24+17) são **classificações/testes de documentação**, não pessoas, direitos revogados ou estatística de eficácia. CI apenas estrutural, pesquisas draft.
+
+## CF-COORD-20261014-08 — Parecer P2 e pilotos industriais/domésticos
+
+**Corte:** 14/10/2026. **Main revisada:** `a763f5edf058a6622cd3d239efa6bf8e77b46e09`, que incorporou auditoria CF–CLF paralela sem interferência desta rodada. **Material de trabalho permanece somente em PRs de pesquisa draft.**
+
+**FEITO:** M06.02 no [PR #62](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/62): texto crítico DOM/COM/HD P2 (**13 critérios e 18 testes**), fontes STF Temas280/977, STJ HC598051/SP, CF art5 e Lei9507, distinguidos seus graus de autoridade; CI success `44183947693b7d742d07564ffa7a3200ad8e8c57`. PR59 e issue57 receberam devolutiva, `CF-NOR-0030/31` H sem alteração. M09.03 no [PR #63](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/63): estudo comparativo IND-01/DOM-01, taxa PNAD **2025** (8,8% total, indústria 11,4%, domésticos atividade 2,5%; divulgação set/2026), CSV **16 indicadores** e equações financeiras paramétricas sem base falsa; CI success `33db08d1bf6e8b66b9d7ab447b429ece056d5692`; [issues #68](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/68) e [#76](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/76) atualizadas, além de #65 e #57.
+
+**PENDENTE:** aprovação efetiva M12/M07 das exceções de acesso digital e direito à prova, núcleo de HD gratuito; pesquisa eleitoral/fiscal M02/M05 sobre custos de indústria/domésticos e cobertura de acordos, diferenciação doméstico/diarista, dados anonimizados, autoridade fiscalizadora e transição. Nenhum H→D e nenhuma `CF-NOR` nova; STJ HC598051 não é acórdão vinculante nacional pelo só fato de ser orientação de Sexta Turma.
+
+**PRÓXIMO:** submeter E-COM P2 a avaliação penal independente M12, E-HD ao M06 e dados M07; abrir piloto M02/M05 de apuração real por denominador (eleitorado, comparecimento, contribuição, gasto), com resultados `INDETERMINADO` quando não há fontes. Evitar conflito em `governanca/` reaplicando sobre main mais recente.
