@@ -1,7 +1,7 @@
 # CF-IC-001 — Concordância documental e possível anexo normativo no Código único
 
 **ID:** CF-INT-008 · **Data:** 13/10/2026 · **Status:** PESQUISA H/Q, sem deliberação constitucional ou incorporação normativa.  
-**CF baseline:** `afe67ef7cbe0aa2931b555c2936e837bb9704990`. **CLF baseline:** `189860ee90d24eb57c698c54b7a4bf04e090270d`; estudo em [CLF PR #22](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/22).  
+**CF baseline:** `afe67ef7cbe0aa2931b555c2936e837bb9704990`. **CLF baseline:** `189860ee90d24eb57c698c54b7a4bf04e090270d`; estudo integrado na `main` CLF em `d9dadf0f11661cf7d1b040126fdf4700599b6f8b`, via [CLF PR #22](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/22).  
 **Dependências:** M00.02 (fontes/reservas); M03.01 (iniciativa, veto, quórum e sanção); M14 (transição); M01 (direitos); M04/M05 (competência/encargos); CF-IC-001.  
 **Escopo:** separar ato com força de lei e documentação oficial para evitar que a **unidade de consulta** seja confundida com a **unidade jurídico-formal** desejada.
 
