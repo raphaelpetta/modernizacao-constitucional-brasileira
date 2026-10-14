@@ -1,0 +1,34 @@
+# M14.01.03 — FEITO / PENDENTE / PRÓXIMO
+**Data:** 14/10/2026 · **Frente responsável:** M14 · **Issue:** [#90](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/90) · **PR:** [#91](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/91) draft · **branch:** `pesquisa/m14-01-transicao-constitucional-20261014` · **main SHA preflight:** `2a770a8136f8ca4877e865be3e3b7745a6d4b168`.
+**Estágio:** H/P/A/V em F0–F5/F8. Não há escolha constitucional A/B/C, regra de consulta obrigatória, calendário, mandato, primeira investidura ou quórum aprovado; F6/F7 NÃO realizados. Nenhum CF-NOR, `governanca/03_DECISOES.md`, `redacao/indice.csv`, CLF ou main editados. M14 documenta **parecer próprio e pedidos de crítica**, não emite parecer pela M02/M06/M03.01/M05.
+
+## FEITO nesta subrodada
+1. `M14-01_03_PARECER_DE_APLICABILIDADE_ELEITORAL_E_TRAVAS_DE_TRANSICAO_v0.1.md`: confere eficácia EC111/2021 **art.5º**, que só aplica a nova posse presidencial de **5 de janeiro** aos eleitos a partir de 2026 (primeiro marco 5/1/2027 no calendário vigente), contrapondo posse da Câmara **a partir de 1/2** sob CF57§4. É DESENCONTRO DE CICLOS, não vacância obrigatória do Congresso ou autoridade executiva antiga.
+2. **Novidade jurídica principal:** Lei9.709/1998 **arts.8–9**, além de arts.2–3 já conhecidos. Após aprovação do ato convocatório, a Justiça Eleitoral fixa a data, publica cédula/instruções e assegura divulgação; **convocado** o plebiscito, a tramitação do projeto legislativo/medida objeto da consulta fica SUSPENSA até proclamação do resultado. Propor o decreto NÃO equivale a convocar; 1/3 da Casa é condição de iniciativa de decreto legislativo nacional, NÃO quórum de sua aprovação nem rito de PEC art60. Consulta favorável não é votação do texto constitucional nem diplomação de gabinete.
+3. **Nova nuance STF:** página anotada art16 identifica **ADI 7.212** (decidida 2024, DJE 2025) que reafirma garantia eleitoral mesmo contra emenda constitucional que deforme competição; ADI 3.685 e RE633.703 permanecem referências. **ADI 6.965/2022** considerou constitucional remover exigência de plebiscito para desestatização de estatais estaduais, com distinção sobre exigências expressas; essa é apenas analogia LIMITADA e não decisão sobre sistema federal de Governo. **Gussoli/Hachem, periódico v43(92) 2022, publicação eletrônica 04/04/2023** defendem plebiscito prévio de governo por PEC, questão ainda controversa, MS22.972 sem mérito.
+4. `M14-01_03_CHECKLIST_12_PARECERES_E_PROVAS.csv`: **12 quesitos Q01–Q12**, nenhum simulado como parecer M02 efetivamente concluído.
+5. `M14-01_03_MATRIZ_14_CONDICOES_DE_SEQUENCIA.csv`: **14 transições S01–S14**, explicitando proposta/convocação, Justiça Eleitoral, suspensão Lei9709 art9, resultado, EC art60, regra CF16, eleição, diplomação, Câmara, gabinete e transferência final sem ordens concorrentes. R-CON1 sem consulta está separado do R-CON2 e não recebe constitucionalidade presumida.
+6. `M14-01_03_MATRIZ_8_CONTRAEXEMPLOS_DE_TITULARIDADE.csv`: **8 contraprovas E01–E08** de gabinete investido antes de Câmara, quórum de convocação confundido, suspensão ignorada, referendo em vez de plebiscito prévio, EC aplicando regra extemporânea, mandato presidencial abreviado, finanças/defesa conflitantes e retenção de receita municipal.
+7. `scripts/validar_m14_01_03_aplicabilidade.py`: script reutilizável de consistência e status H/A/V. **Auditoria independente REALMENTE executada em JavaScript com conteúdo diretamente obtido do GitHub:** PASS, 12/14/8 linhas, 8/10/8 colunas, IDs em ordem e únicos, nenhum campo vazio, todas pendentes, controles de fonte EC111/CF57/Lei9709 art9. **Não alegar que o Python rodou pela CI sem logs do workflow.**
+8. **Resultado inferencial:** avanço de qualificação jurídica, NÃO cronograma de implementação, PEC juridicamente homologada, prova de que novo Governo seria financiável ou parecer independente de M02/M06. O ano 2027 é marco de posse de direito positivo EC111, **não** data de transição já escolhida pelo projeto.
+
+## PENDENTE — bloqueios concretos e respostas desejadas
+- **M02 #14:** classificar normas que afetam processo eleitoral para aplicação CF16, garantir igualdade (inclusive exceção reparadora e direitos da oposição), primeira eleição de novos cargos, diplomação/posse, parecer Lei9709 arts2/3/8/9 e tipo de efeito do resultado plebiscitário. Não tratar chamada de revisão como revisão efetivamente respondida.
+- **M06 #55:** art60, restrições materiais e tese de plebiscito obrigatório (doutrina Gussoli/Hachem x ADCT2 x STF MS22972 e alcance limitado da ADI6965), impugnação, governo e nomeação vinculada G3A/B.
+- **M03 #84/PR85:** instâncias de eleição de premier, escolha da chefia Estado, confiança/censura e governo em funções durante hiato; B segue protótipo P, não D.
+- **M03.01 #18 / M05 #25:** competência de proposta orçamentária/repasses/crédito durante caretaker, fonte e caixa reais, LOA sob governo impedido de apresentar projeto, não criar dívida automática.
+- **M04 #21 / M12 / M07:** autonomia estadual e municipal, cadeia única de comando e contratos/serviços; FED1 mínimo de ruptura continua P, não regra.
+- **F6:** sem decisão sobre R-CON1/2, instrumentos legais de consulta, art16 aplicado ao texto concreto, prorrogação de mandatos, modelo de governo e transição. Nenhum dispositivo CF-NOR redigido.
+
+## PRÓXIMO
+**M14.01.04 (condicional):** **incorporar parecer escrito/autônomo M02** sobre art16 e Lei9709 arts8/9 e M06 sobre controvérsia do plebiscito, junto a crítica M03/M05 do caretaker. Se não houver resposta, encaminhar formalmente os 12 quesitos e registrar V/A; não converter a falta de parecer em mais simulações cartesianas, textos normativos ou decisão D. Em seguida preparar um único fluxo de autorização G0–G6 referenciado em provas, **após** interfaces resolvidas. Manter PR #91 draft até decisão expressa e auditoria legal.
+
+## FONTES PRIMÁRIAS
+- CF arts57§4, 82, 16 e 60: https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html
+- EC111/2021, arts4–5: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm
+- Lei9.709/1998, arts2/3/8/9: https://www.tse.jus.br/legislacao/codigo-eleitoral/leis-ordinarias/lei-nb0-9.709-de-18-de-novembro-de-1998
+- STF art16 anotado: https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=16&abrirBase=CF
+- STF ADI6965: https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=485826
+- Gussoli/Hachem: https://periodicos.ufsc.br/index.php/sequencia/article/view/91977
+- STF MS22972: https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=380829
+**Rastro:** todo M14.01.03 está em branch do PR91; nenhuma integração/decisão constitucional ocorreu. CI/mergeabilidade serão verificados ao final do último commit.
