@@ -15,6 +15,10 @@ O anteprojeto histórico e o guia-mestre são fontes de referência, não consti
 ## Fluxo do GitHub
 `main` = versão documental integrada; branches/pull requests = propostas em avaliação. Primeiro pesquisar e comparar; depois produzir dossiê/decisões/minuta. Reconciliar conflitos e atualizar `04_ESTADO_ATUAL.md` após integração. Se houver arquivo antigo carregado como fonte do Projeto ChatGPT, conferir sempre o remoto atualizado.
 
+## Redação integrada e recuperação idêntica
+
+A partir de M00.03, a redação exploratória reside em `redacao/propostas/CF-NOR-####.md` (fonte única) e `redacao/indice.csv` (posição, tipo, status). A leitura integrada fica em `redacao/anteprojeto-de-trabalho.md`, gerado por `python scripts/gerar_anteprojeto.py` e conferido em CI com `--check`. **Não editar a vista integrada manualmente.** Cada módulo deve usar [protocolo de técnica redacional](../governanca/11_TECNICA_DE_REDACAO_E_INTEGRACAO.md), preservar garantias e distinguir hipótese H de decisão D. Texto recuperado de chat anterior, arquivo antigo do Projeto e GitHub **não se sincronizam automaticamente**; conferir SHA da `main` antes de usar ou redigir qualquer trecho.
+
 ## Primeiros ciclos
 M00.01: reserva constitucional, fontes, hierarquia e competências; M01.01: teoria geral de direitos e salvaguardas; rodada estrutural M03–M05 para mapear Parlamento, federação, tributos e capacidade fiscal; revisão transversal M06 e M14 para justiça e transição. Ver `governanca/08_ROTEIRO_INICIAL.md`.
 
