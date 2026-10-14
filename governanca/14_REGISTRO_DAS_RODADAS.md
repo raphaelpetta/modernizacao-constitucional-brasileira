@@ -67,3 +67,13 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PRÓXIMO:** testar alternativas H de garantias especiais de privacidade e habeas data (sem duplicar M01/M06) e comparar integralmente A unicidade democratizada vs B pluralismo sindical representativo com custo/transição M05; verificar compatibilidade dos procedimentos administrativos CF–CLF com M06/M07.
 
 **Validação:** CI de estrutura não constitui exame jurídico, resultado empírico ou ratificação.
+
+## CF-M01-20261014-12-02 — Dados de fiscalização, RAPS e precedente processual
+
+**Entrada:** `5ac08b622d7552b7d3b37a695a3027b4b9d827d4`. **Issue:** #49 M01.12, código reservado e sem colisão; **branch:** `pesquisa/m01-12-02-indicadores-fiscalizacao-v01`. **PR e SHA de saída:** verificar GitHub após integração, sem afirmação antecipada de aprovação.
+
+**FEITO:** pesquisados MPMG SIAPI, MPRJ MSM 2.0 e MPSP, SIH, CNES, RAPS, SISMAC, portaria CAPS 2025, CNJ Res. 487 e STJ REsp 2.228.271 (competência, não autorização material); dossiê, 15 fontes, 14 indicadores, 5 valores autorizados e testes automatizados de integridade. A soma de cinco CAPS é R$ 331.468 mensal e R$ 3.977.616 anualizada, **não pagamentos efetivos**. Não houve coleta de bases institucionais nominais nem dados regionais de coerção comprovados.
+
+**PENDENTE:** pedidos agregados não enviados, resposta de órgãos públicos, séries territoriais baixadas, comprovação de revisão por juiz/Defensoria, cobertura dos notificadores, recursos pagos, resultados clínicos, prova de equivalência jurídica.
+
+**PRÓXIMO:** M01.12.03 sob issue #49, dados agregados e pareceres transversais M06/M09/M05, com proteção a dados sensíveis. **Nenhuma CF-NOR nova e nenhuma decisão F6/D.**
