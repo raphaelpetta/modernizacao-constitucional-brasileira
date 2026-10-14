@@ -19,3 +19,9 @@
 ## PRÓXIMO
 **Prioridade:** emitir parecer M06 para PR59 sobre habeas data, reserva de domicílio/comunicações e técnicas urgentes, a partir deste inventário; depois propor M06.03 sobre tutela coletiva, Defensoria e dados reais. Reservar o código M06.03 com busca de issues/PRs atual.
 **Interfaces:** M00, M01, M05, M07, M09, M12, M13, M14, CLF T07.M03. **Critério de saída futuro:** matriz material N:N de garantias vigentes × redação, com prova de equivalência de acesso, urgência, prova e execução.
+
+## Handoff adicional — parecer M06 para PR59, 14/10/2026
+
+**Base verificada:** CF main `50b498885e17fa1709e66b0861f40e5387b4f4b0`; PR59 head `62161a6b9eb7dc62aad6efe4c914b1bd85fee411`; PR62 pesquisa draft.
+**FEITO:** `M06-02_PARECER_INTERFACE_PRIVACIDADE_PR59_v0.1.md` examinou textos literais `CF-NOR-0030` e `0031` em H, concluiu pela necessidade de reservas especiais e tutela equivalente ao habeas data, mas **não** aprovou nem rejeitou definitivamente as duas cláusulas. `M06-02_MATRIZ_PARECER_PRIVACIDADE.csv` acrescentou **16 verificações conceituais**, com riscos/links M07/M12. Foram consultados CF art5, Lei 9507 arts7–8 e LGPD arts4/6/18/20 e STF ADI 6387/6649, com limites de autoridade explicitados.
+**PENDENTE:** exames integrais do STF, redação especial de domicílio/interceptação, comparação granular com HD, supervisão institucional e análise de privacidade de terceiros. Falta parecer de M07/M12; o PR59 segue draft. **PRÓXIMO:** repassar recomendações de 10 controles ao PR59 e issue #57, elaborar alternativas de salvaguardas H pela frente M01.13 após conferência de IDs. Esta pesquisa **não** ocupa código M06.03, reservado para eventual estudo de tutela coletiva. **QA:** conferir CI no HEAD após atualizar.
