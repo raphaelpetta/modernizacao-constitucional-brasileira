@@ -24,3 +24,9 @@
 
 ## Atualização após abertura do PR de pesquisa
 **FEITO:** [PR #82](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/82) aberto como draft, abrangendo parecer próprio de M12.01 e matriz de 24 cenários. **PENDENTE:** opinião cruzada M01/M06/M07, acórdãos e custos, nenhuma hipótese ratificada D. **PRÓXIMO:** devolver resultados à issue #80 e PRs #59/#62, respeitando o bloqueio de E-COM e a fonte normativa única. CI do último SHA a verificar.
+
+## M12.01-R2 — Redline P4 e STJ 2026 (14/10/2026)
+
+**FEITO:** `M12-01_REDLINE_P4_EXCECAO_E_CADEIA_CUSTODIA_v0.1.md` criou duas alternativas de revisão detalhadas: **P4-E** (exceção identificadora do celular encontrado fortuitamente, estrita em sujeito/fato/finalidade, com registro e revisão) e **P4-R** (exige ordem judicial até para essa finalidade, como opção material mais restritiva). `M12-01_TESTES_REDLINE_P4.csv` = **18 ataques**. Pesquisa STJ: JTes281 03/06/2026, Informativo879 AgRg HC1014212/ES (dúvida razoável exige perícia), RHC237288/AM (15/09/2026, publicação 21/09/2026) sobre necessidade de indício concreto e contraditório; proíbe conclusões opostas falsas de nulidade automática por todo vício e validação de prova ilícita por integridade perfeita. **Nenhuma ficha CF-NOR criada, nenhuma opção D**.
+**PENDENTE:** colisão do conceito de encontro fortuito com flagrante, perícia de conservação de conteúdo e sigilo de terceiro, revisão cruzada M06/M07/M01, acórdãos integrais e infraestrutura plantão, não regressão N:N.
+**PRÓXIMO:** registrar feedback ao PR59/62, reunir M06/M07 em redação P5 sem circularidade e submeter a deliberação consciente E/R antes de qualquer reserva de ID. CI HEAD a conferir; PR82 permanece draft.
