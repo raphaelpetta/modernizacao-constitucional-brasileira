@@ -4,7 +4,7 @@
 **Corte:** 14/10/2026 · **Condução:** M10 — ambiente, clima e gerações futuras  
 **Questão:** delimitar o direito ambiental constitucional brasileiro e a agenda de questões ainda abertas.
 **Versão de entrada CF main:** `2a770a8136f8ca4877e865be3e3b7745a6d4b168`.
-**Branch:** `pesquisa/m10-01-ambiente-clima-20261014` · **Issue:** [#88](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/88) · **PR:** a vincular.
+**Branch:** `pesquisa/m10-01-ambiente-clima-20261014` · **Issue:** [#88](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/88) · **PR:** [#89](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/89).
 **CLF:** nenhuma modificação; SHA não consultado por inexistir alteração bilateral proposta.
 
 ## FEITO — pesquisa documentada, não decisão normativa
@@ -40,7 +40,7 @@
 - [x] Consultados catálogo, quadro de frentes, controle de reservas e PRs/issues abertos.
 - [x] Abertura formal do subciclo #88 sem duplicar frente ativa.
 - [x] Pesquisa documentada em branch isolada; nenhuma norma ou decisão material.
-- [ ] Testes estruturais/CI no HEAD da PR ainda a verificar.
+- [x] CI estrutural de GitHub Actions concluído com `success` no HEAD inicial `0e73b62d4354e8608afb64ef7887f3659b0108ca`; a validação estrutural **não** atesta consistência jurídica ou equivalência de direitos. Após esta atualização documental, verificar novamente o CI do novo HEAD.
 - [ ] Parecer de revisão externa ou cruzada.
 - [ ] Matrizes de equivalência completas.
 - [ ] Verificação de HEAD de main e status antes de possível integração.
