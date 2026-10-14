@@ -1,3 +1,5 @@
+**Sincronização GitHub:** [CLF PR #33](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/33), integrado à `main` em `9c84d9cc7e0c729b36b6fba2b81a59adec70f5e5`; somente pesquisa e texto experimental, sem homologação jurídica.
+
 # CF-IC-001 — Dever de decidir, coordenação administrativa e motivação
 
 **Corte:** 14 de outubro de 2026. **Natureza:** pesquisa para a modernização constitucional, sem aprovação normativa ou deliberação constituinte.
