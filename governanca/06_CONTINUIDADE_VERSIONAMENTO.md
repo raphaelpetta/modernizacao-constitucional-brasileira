@@ -19,3 +19,9 @@ Comparar a base do trabalho com `main` no momento de integrar. Usar branches e p
 
 ## Regra de desempate
 Se `main` divergir de uma sessão anterior, ler diff/commits e reconciliar; jamais sobrescrever um estado posterior com resumo antigo. Em caso de disputa substantiva, manter ambas as alternativas rastreadas até nova deliberação.
+
+## Regra obrigatória de encerramento e sincronização (14/10/2026)
+
+Complemento vinculante de operação: [CF-GOV-012 — protocolo de rodadas](12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md). **Todo ciclo substantivo**, com ou sem redação, deve persistir `FEITO / PENDENTE / PRÓXIMO` e registrar data, SHA de entrada e saída, artefatos/PRs, status H/P/D/V, fontes, testes, interfaces e responsável funcional. Usar o [modelo atualizado](../modelos/PACOTE_CONTINUIDADE.md) e atualizar o [quadro transversal](13_QUADRO_DE_COORDENACAO.md) em mudanças relevantes.
+
+**Obrigação adicional pré-merge:** verificar PRs concorrentes, `redacao/indice.csv`, [reserva de IDs](15_REGISTRO_RESERVAS_IDS.md) e SHA da main ATUAL; não mergear PR editorial com colisão ou id já ocupado, mesmo quando a checagem estrutural de sua branch tenha passado anteriormente. Registrar colisões e reconstruir contra a main, sem sobrescrever trabalho alheio.
