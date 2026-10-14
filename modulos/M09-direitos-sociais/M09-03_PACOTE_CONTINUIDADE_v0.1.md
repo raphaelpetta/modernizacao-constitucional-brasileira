@@ -59,3 +59,7 @@
 **PENDENTE:** nenhum custo real de ELE-R, órgão certificador ou oposição foi medido; faltam eleitorado e participação, base setorial doméstica real, financiamento e análise de direitos de minorias, M02/M05/M06/M14. **Não há desenho B aprovado nem CF-NOR.**
 
 **PRÓXIMO:** issue #76 solicitar M02/M05 roteiros e primeiro levantamento de fontes para variáveis de custos por canal e colégio eleitoral, preferindo documentos agregados à coleta identificável de filiação e votos. Em seguida aplicar auditoria jurídico-institucional aos dois modelos e só então eventualmente propor H.
+
+
+## R5 — Auditoria de bases administrativas (14/10/2026)
+**FEITO:** criados `M09-03_TRILHA_FONTES_M02_M05_E_CUSTOS_v0.1.md` e `M09-03_MATRIZ_OBSERVABILIDADE_E_CUSTOS.csv` (18 linhas), com CNES, Mediador, PNAD e categorias de custo; arquivos domésticos disponíveis são históricos de 2022, não 2026. Os procedimentos oficiais para dados RAIS identificados exigem acordo e respeito ao sigilo; nenhum dado pessoal foi acessado. **PENDENTE:** custos e votos reais e extração setorial atual; **PRÓXIMO:** executar amostra pública agregada IND/DOM para M02/M05. PR63 permanece draft, sem decisão D.
