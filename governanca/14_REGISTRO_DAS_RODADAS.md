@@ -47,3 +47,15 @@ Este log não substitui os pacotes de continuidade completos e não deve catalog
 **PRÓXIMO:** parecer M06 ao PR59 sobre HD/acesso/tutela urgente e aprofundamento da negociação sindical M09.03; estudo quantitativo M09.04 com M05. Reservar identificadores antes de novas fichas. **Estado jurídico:** sem F6/D; nenhuma `CF-NOR` editada.
 
 **Fontes-chave verificadas:** STF ADI4296 e Tema1046; STJ Tema1178; Constituição 1988 art5 e 7–11; Leis 12.016/2009, 13.300/2016, 9.507/1997, 4.717/1965; OIT NORMLEX 2026 e Declaração 1998/2022.
+
+## CF-COORD-20261014-05 — Parecer dados/remédios e sindicalismo/greve
+
+**Data:** 14/10/2026. **Base de entrada:** CF main `50b498885e17fa1709e66b0861f40e5387b4f4b0`; **main conferida ao preparar registro:** `8cc7e0b572d77e4f8889243afa06d1e01a062394` (avanço paralelo da interface CF–CLF). Pesquisas em PRs draft, sem merge editorial nesta rodada.
+
+**FEITO:** (i) parecer M06 à redação H privacidade/dados PR59, `M06-02_PARECER_INTERFACE_PRIVACIDADE_PR59_v0.1.md`, 16 testes e 10 critérios, arquivos no PR62; PR59 e issue #57 receberam vínculo. (ii) [Issue #68](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/68) M09.03 aberta, dossiê, matriz de 14 escolhas e 20 testes + handoff no PR63. (iii) fontes atuais: CF/LGPD/Lei9507/ADI6387/6649 e STF Temas935 (ED nov2025, atos 2026),1046,531; OIT C87 não, C98 ratificada; Lei7783. (iv) **PR62 9 arquivos e PR63 12**, ambos CI estrutural success nos HEADs `e3c49cd2` e `7852866f`, sem conflitos. Não editados `redacao/propostas` nem a `main` em pesquisa.
+
+**PENDENTE:** reservas especiais de domicílio/comunicações, remédio constitucional de dados, parecer M07/M12, acórdãos integrais, estatísticas e custos reais M05, decisão sobre unicidade versus pluralismo, atualização final dos recursos Tema935. PR22/59/62/63 seguem draft; H não é D.
+
+**PRÓXIMO:** testar alternativas H de garantias especiais de privacidade e habeas data (sem duplicar M01/M06) e comparar integralmente A unicidade democratizada vs B pluralismo sindical representativo com custo/transição M05; verificar compatibilidade dos procedimentos administrativos CF–CLF com M06/M07.
+
+**Validação:** CI de estrutura não constitui exame jurídico, resultado empírico ou ratificação. 
