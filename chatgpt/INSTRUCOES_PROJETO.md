@@ -14,3 +14,9 @@ Ao encerrar cada ciclo ou antes de se esgotar a conversa, produzir `modelos/PACO
 ## Redação constitucional integrada
 
 Sempre que elaborar ou modificar um dispositivo futuro, consultar `governanca/11_TECNICA_DE_REDACAO_E_INTEGRACAO.md`, `redacao/indice.csv`, `redacao/propostas/` e o SHA atual da `main`. O texto de consulta `redacao/anteprojeto-de-trabalho.md` é **gerado**; nunca edite apenas essa cópia. Anotar classe G/E/X/A/T, regra geral existente, hipótese H/P versus D e relação com auditoria de garantias. Não copiar automaticamente a versão antiga de `referencias/` nem presumir que textos guardados em outras conversas sejam sincrônicos. Antes de relatar conclusão, conferir merge, SHA e arquivo consolidado realmente atualizados.
+
+## Obrigação após CADA rodada (regra permanente de coordenação, 14/10/2026)
+
+Antes de cada tarefa leia também [protocolo de sincronização](../governanca/12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md), [quadro de frentes](../governanca/13_QUADRO_DE_COORDENACAO.md) e [reservas de IDs](../governanca/15_REGISTRO_RESERVAS_IDS.md), confrontando-os com SHA atual da main, PRs e issues; os arquivos são fotografias, não estado automaticamente atualizado.
+
+Ao terminar cada trabalho, **SEM EXCEÇÃO** apresente e persista no pacote da rodada: **FEITO**, **PENDENTE / NÃO VERIFICADO**, **PRÓXIMO PASSO RECOMENDADO** (tarefa concreta, por prioridade) e **COORDENAÇÃO / DEPENDÊNCIAS**, identificando fontes, arquivos, branches/PRs, SHA e status real de validações. Ao mexer na redação, releia o índice e PRs concorrentes para impedir colisões. Se não houver possibilidade de persistência, declare explicitamente que o handoff ficou apenas nesta conversa. Merge ou CI nunca torna uma cláusula `H` ratificada `D`.
