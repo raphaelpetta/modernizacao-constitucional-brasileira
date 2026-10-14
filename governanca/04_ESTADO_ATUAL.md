@@ -64,3 +64,9 @@ O [dossiê M01.11](../modulos/M01-direitos-fundamentais/M01-11_CAPACIDADE_DIRETI
 
 ## Revisões
 Atualizar esta síntese ao final de integração substancial. Referências de versão devem apontar commits, nunca a mera memória da conversa.
+
+## Adendo operacional de coordenação — 14/10/2026
+
+Para o **estado mais recente das frentes**, consultar [CF-GOV-013 — quadro transversal](13_QUADRO_DE_COORDENACAO.md), [CF-GOV-014 — diário](14_REGISTRO_DAS_RODADAS.md), [CF-GOV-015 — reservas](15_REGISTRO_RESERVAS_IDS.md) e [CF-GOV-012 — regra após cada rodada](12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md). Os textos acima são relatos históricos de diferentes commits e podem registrar contagens anteriores de cláusulas H; o **índice canônico e o SHA atual da main** sempre prevalecem.
+
+Na última conferência documentada, `main` tinha `CF-NOR-0001–0020` H e a redação privacidade/dados `CF-NOR-0030/0031` figurava só no PR #59 (draft). PR #19 e PR #45 foram fechados sem merge e suas fontes preservadas conforme concordância; pesquisa #22 mantém 29 arquivos draft. PRs #51 e #58 integrados. Novas issues #53–57 para coordenação, liberdades, Justiça, direitos sociais e dados. O CLF possui protocolo compatível integrado no seu PR #29. **Nada disso constitui deliberação material D**.
