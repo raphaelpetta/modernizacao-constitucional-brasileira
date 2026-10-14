@@ -1,3 +1,8 @@
 id,ordem,tema,modulo,tipo,status,arquivo,regra_geral,justificativa_especialidade,decisao,auditoria_garantias,dependencias
 CF-NOR-0001,0010,Coerência entre competência execução e financiamento,M04,G,H,redacao/propostas/CF-NOR-0001.md,,, ,PENDENTE,"M03;M05;M09"
 CF-NOR-0002,0020,Encargos financeiros decorrentes de serviços públicos,M05,E,H,redacao/propostas/CF-NOR-0002.md,CF-NOR-0001,"Operacionaliza o elo entre competência e custeio com fonte ou transferência e exceções; manter exame de suficiência e efetividade",,PENDENTE,"M04;M09;M14"
+CF-NOR-0003,0030,Titularidade universal e coletiva,M01,G,H,redacao/propostas/CF-NOR-0003.md,,,,INDETERMINADO,M00;M02;M06;M11;M13
+CF-NOR-0004,0040,Aplicação imediata e deveres públicos,M01,G,H,redacao/propostas/CF-NOR-0004.md,,,,INDETERMINADO,M00;M05;M06;M09;M14
+CF-NOR-0005,0050,Incidência de direitos nas relações privadas,M01,E,H,redacao/propostas/CF-NOR-0005.md,CF-NOR-0004,A vinculação pública geral exige especialização funcional dos deveres de particulares e respeito à autonomia privada,,INDETERMINADO,M00;M06;M07;M08;M09
+CF-NOR-0006,0060,Condições e limites de restrições de direitos,M01,G,H,redacao/propostas/CF-NOR-0006.md,,,,INDETERMINADO,M00;M03;M06;M12;M13
+CF-NOR-0007,0070,Tutela jurisdicional de direitos,M01,A,H,redacao/propostas/CF-NOR-0007.md,,,,INDETERMINADO,M06;M09;M11;M12

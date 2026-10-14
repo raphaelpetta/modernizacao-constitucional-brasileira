@@ -26,3 +26,7 @@
 ## Como recuperar a mesma versão em outro chat
 
 Solicitar recuperação de `redacao/anteprojeto-de-trabalho.md` diretamente da `main` do GitHub e conferir o **SHA**, ou usar URL com SHA fixo para congelar a exata revisão. Arquivos antigos anexados ao ChatGPT e mensagens em outros chats podem ficar desatualizados. **Fonte documental do projeto = GitHub; nunca atualizar duas cópias manuais do texto.**
+
+## Piloto de regime geral de direitos — M01.07
+
+A etapa F7 recebeu **cinco hipóteses H de direitos fundamentais**: `CF-NOR-0003` titularidade, `0004` aplicação imediata/deveres públicos, `0005` especialidade de incidência privada, `0006` limites de restrição e `0007` tutela. [Dossiê](../modulos/M01-direitos-fundamentais/M01-07_MINUTA_PILOTO_REGIME_GERAL_v0.1.md) e [auditoria com 16 conjuntos da CF/1988](../modulos/M01-direitos-fundamentais/M01-07_MATRIZ_DE_CONTINUIDADE.csv). O PR de pesquisa M01.01–M01.06 permanece draft [#22](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/22), não integrado automaticamente. A inclusão H e a montagem do texto **não aprovam** titularidades, cláusula geral de restrição, efeitos privados ou arquitetura judicial; a matriz marca equivalência não demonstrada e direitos especiais pendentes.

@@ -232,6 +232,33 @@ if schema_file.is_file():
         if list(reader):
             errors.append("M05.02: esquema não pode conter observações presumidamente oficiais")
 
+# M01.07: auditoria amostral sem alegar equivalência constitucional e cinco normas H.
+m01_matrix = BASE / "modulos/M01-direitos-fundamentais/M01-07_MATRIZ_DE_CONTINUIDADE.csv"
+if not m01_matrix.is_file():
+    errors.append("M01.07: matriz amostral de garantias ausente")
+else:
+    with m01_matrix.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(line for line in handle if line.strip() and not line.startswith("#"))
+        m01_items = list(reader)
+    required_m01 = {"id", "fonte_cf1988", "garantia_vigente", "propostas_relacionadas", "resultado_inicial", "risco_de_equivalencia", "pesquisa_necessaria", "modulos"}
+    if not required_m01.issubset(set(reader.fieldnames or [])):
+        errors.append("M01.07: colunas ausentes")
+    ids_m01 = set()
+    for idx, item in enumerate(m01_items, 1):
+        code = (item.get("id") or "").strip()
+        if code in ids_m01 or not re.fullmatch(r"M01-AUD-[0-9]{3}", code):
+            errors.append(f"M01.07:{idx}: ID inválido/repetido {code}")
+        ids_m01.add(code)
+        if None in item or any(v is None for v in item.values()):
+            errors.append(f"M01.07:{idx}: colunas irregulares")
+        if item.get("resultado_inicial") not in {"INDETERMINADO", "PARCIAL_E_INDETERMINADO", "NAO_COBERTO", "NAO_EQUIVALENTE"}:
+            errors.append(f"M01.07:{idx}: equivalência material não foi validada: {item.get('resultado_inicial')}")
+        for dep in (item.get("modulos") or "").split(";"):
+            if dep and dep not in identifiers:
+                errors.append(f"M01.07:{idx}: módulo desconhecido: {dep}")
+    if len(m01_items) != 16:
+        errors.append("M01.07: matriz inicial deve conter 16 linhas")
+
 # Verifica links Markdown locais; não testa URLs remotas, direito ou fontes externas.
 for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md")]:
     if not md.is_file(): continue
