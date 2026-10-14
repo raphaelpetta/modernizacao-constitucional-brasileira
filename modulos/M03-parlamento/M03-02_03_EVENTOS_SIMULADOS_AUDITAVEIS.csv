@@ -1,5 +1,5 @@
-"id","cenario","trajetoria","ordem","ato","proponente","partidos_sim","partidos_nao","partidos_abstencao","votos_sim","votos_nao","abstencoes","total_membros","resultado_B1","resultado_B2_fase2","resultado_B3","censura_51","maioria_simples","interpretacao"
-"L1-P1-1","L1","P1","1","investidura","A","A+B","C+D","","70","30","0","100","APROVA","APROVA_FASE_2","NAO_REJEITADO","NA","NA","A+B elege governo majoritário; satisfaz B1/B2/B3"
+"id","cenario","trajetoria","ordem","ato","proponente","partidos_sim","partidos_nao","partidos_abstencao","votos_sim","votos_nao","abstencoes","total_membros","resultado_B1","resultado_B2_fase_indicada","resultado_B3","censura_51","maioria_simples","interpretacao"
+"L1-P1-1","L1","P1","1","investidura","A","A+B","C+D","","70","30","0","100","APROVA","APROVA_FASE_1","NAO_REJEITADO","NA","NA","A+B elege governo majoritário; satisfaz B1/B2/B3"
 "L1-P1-2","L1","P1","2","orcamento","Governo A","A+B","C+D","","70","30","0","100","NA","NA","NA","NA","MAIORIA_SIMPLES_SIM","Orçamento aprovado sob maioria simples hipotética"
 "L1-P1-3","L1","P1","3","orcamento","Governo A","A","B+C+D","","44","56","0","100","NA","NA","NA","NA","MAIORIA_SIMPLES_NAO","B rompe coalizão; orçamento rejeitado, sem queda automática"
 "L1-P1-4","L1","P1","4","censura_construtiva","Candidato B","B+C+D","A","","56","44","0","100","NA","NA","NA","APROVA_SUBSTITUICAO","NA","B+C+D apresenta candidato B, maioria de membros 56"
