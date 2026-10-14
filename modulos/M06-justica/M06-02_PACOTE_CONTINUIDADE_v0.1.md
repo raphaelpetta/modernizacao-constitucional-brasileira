@@ -35,3 +35,11 @@
 **PENDENTE:** parecer efetivo M12 e M07, escolha sobre constitucionalizar excepcionalidade STF977, acórdãos integrais quando necessário, controle de provas e sigilo de terceiros, harmonização CF-NOR0030/31 H em PR59 e risco de omissão do direito vigente. **Sem equivalência certificada.**
 
 **PRÓXIMO:** devolver parecer ao PR59/issue #57, exigir revisão M12 da redação de E-COM e compatibilizar com M06 (prova, nulidade e controle), só então considerar criação de fichas especiais H com IDs disponíveis e fonte única. CI do SHA final da branch M06 a confirmar.
+
+## Marco R4 — Protocolo de revisão penal Tema 977 (14/10/2026)
+
+**Preflight:** main `f6b95d977bfe293fd393972d499ca5d1965a1bcd`; PR #62 draft. **FEITO:** arquivo `M06-02_PROTOCOLO_REVISAO_PENAL_OPERACOES_TEMA977_P3_v0.1.md`: identifica **cinco operações** distintas CAP, IDF, ACE, PRE e INT, relê literalmente a tese STF Tema977 e registra a ambiguidade da expressão "**razões de referido acesso**" no item de preservação. **Não** elevar exigências do voto-vista prévio à tese final. Confronta duas variantes P3-E (exceção estreita de identificação expressa em Constituição) versus P3-R (reserva judicial mais restritiva, distinta do direito vigente), 10 portões de mérito. `M06-02_TESTES_DIGITAIS_P3.csv` acrescenta **22 testes conceituais**. Fontes STF Tema977/280, CF5, CPP, Lei9296 e Marco Civil. Aberta [issue de interface M12 #80](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/80) para solicitar **parecer penal verdadeiramente independente**, não emitido nesta rodada. **Nenhuma CF-NOR nova e nenhuma ratificação D.**
+
+**PENDENTE:** manifestação M12, acórdão integral para controvérsias técnicas, eventual julgamento dos embargos após corte, tratamento de nuvem/segurança e investigação não penal, restrições probatórias, revisão M07/M01; não demonstrada equivalência. **E-COM permanece bloqueada.**
+
+**PRÓXIMO:** M12 comparar P3-E/P3-R e delimitar encontro fortuito/preservação; M01.13/M06 decidir se estrutura especial E incorporará exceção expressa ou modelo restritivo, com estudo N:N e reserva de ID somente na fase canônica autorizada.
