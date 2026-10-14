@@ -79,3 +79,51 @@ A recusa injustificada de adaptação razoável constitui discriminação. O aju
 Medidas especiais destinadas a prevenir ou superar desvantagens persistentes e a promover a igualdade efetiva não constituem discriminação pelo simples fato de estabelecerem tratamento diferenciado, desde que sua finalidade e seus critérios sejam constitucionalmente legítimos, adequados e proporcionais.
 
 Essas medidas serão submetidas a acompanhamento e revisão compatíveis com seus objetivos e efeitos, sem prazo de extinção automática nem afastamento das garantias das pessoas alcançadas.
+
+## CF-NOR-0012 — Dignidade da pessoa humana [H; A]
+
+A dignidade de toda pessoa humana é inviolável e constitui fundamento da ordem constitucional.
+
+Os poderes públicos e os particulares, conforme a natureza de seus deveres, devem respeitá-la e protegê-la. Sua invocação não autoriza, por si só, restrição arbitrária à autonomia nem dispensa a fundamentação constitucional de medidas que afetem direitos fundamentais.
+
+## CF-NOR-0013 — Direito à vida e prevenção de privação arbitrária [H; A]
+
+Toda pessoa tem direito à vida e à proteção contra a sua privação arbitrária.
+
+O poder público deve adotar medidas razoáveis e efetivas de prevenção da violência, proteção e socorro a pessoas sob risco, observados os demais direitos e garantias desta Constituição.
+
+## CF-NOR-0014 — Integridade física e psíquica e autonomia corporal [H; G]
+
+Toda pessoa tem direito à integridade física e psíquica, à segurança do próprio corpo e à autodeterminação em decisões que lhe digam respeito.
+
+A proteção abrange intervenções arbitrárias e violência praticadas por agentes públicos ou particulares, assegurada a tutela adequada de sua integridade e autonomia.
+
+## CF-NOR-0015 — Proibição de tortura e tratamentos degradantes [H; E]
+
+> Regra geral de referência: CF-NOR-0014. Relação em exame.
+
+Ninguém será submetido a tortura, nem a tratamento ou pena cruel, desumano ou degradante.
+
+A proibição subsiste em guerra, calamidade e estado de emergência e não pode ser afastada por ordem superior, razões de segurança pública ou alegação genérica de interesse coletivo.
+
+A integridade e a dignidade das pessoas sob custódia do Estado serão respeitadas e protegidas.
+
+## CF-NOR-0016 — Consentimento e recusa de intervenções em saúde [H; E]
+
+> Regra geral de referência: CF-NOR-0014. Relação em exame.
+
+A intervenção em saúde que incida sobre o corpo ou a integridade de pessoa depende de consentimento livre, informado e específico, observadas as condições excepcionais previstas constitucionalmente e reguladas em lei.
+
+Toda pessoa tem direito a informação acessível e adequada sobre a intervenção proposta, seus riscos, alternativas e consequências da recusa, bem como aos apoios necessários para decidir, e ao respeito à manifestação válida de sua vontade.
+
+Na impossibilidade de colher a vontade atual, a lei estabelecerá salvaguardas estritas para situações urgentes, consideradas as manifestações anteriores válidas e os direitos da pessoa afetada.
+
+## CF-NOR-0017 — Proteção reforçada em pesquisas e experimentação humana [H; E]
+
+> Regra geral de referência: CF-NOR-0014. Relação em exame.
+
+A participação de pessoa em experimento médico ou científico exige consentimento livre, informado e específico, prestado ou manifestado na forma compatível com suas condições de participação e com as garantias constitucionais de proteção.
+
+A lei estabelecerá controles éticos independentes, proteção reforçada de pessoas em situação de vulnerabilidade e condições para retirada de consentimento sem penalidade indevida.
+
+Nenhum fundamento de emergência, autoridade ou interesse científico autoriza experimentação coercitiva.
