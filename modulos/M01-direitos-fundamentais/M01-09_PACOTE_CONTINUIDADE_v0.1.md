@@ -65,3 +65,19 @@ Um primeiro PR editorial exploratório [#44](https://github.com/raphaelpetta/mod
 - [PR #45 — `CF-NOR-0012` privacidade e `0013` dados pessoais](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/45), ambos **A/H**, com índice e vista derivados atualizados, SEM decisão D, SEM equivalência demonstrada e SEM integração à main. Verificar resultado CI e conflitos antes de qualquer merge.
 
 **Procedimento futuro obrigatório:** ler `main` imediatamente antes de reservar IDs e, caso tenha avançado, reconciliar índice e vista gerada. Não tentar forçar merge de branch antiga, nem reabrir #44 sem reconstrução. Os documentos do PR #22 e do #45 têm funções distintas: **pesquisa e auditoria** versus **piloto editorial hipotético**.
+
+## Rodada incremental de 14/10/2026 — auditoria com o anteprojeto realmente existente
+
+**Versão principal relida:** CF `main=df689704613ab389bdbef4228857f162e66ae8cd` (20 fichas H `CF-NOR-0001–0020`, 18 materiais do M01). **PR de redação #59** com `0030/0031` H *não integrado*. **Pesquisa PR #22** permanece draft. Fonte vigente CF atualizada EC139/2026.
+
+**FEITO:**
+- [Auditoria incremental do PR22](M01-09_AUDITORIA_INCREMENTAL_PR22_MAIN_20261014.md) e [matriz 96×20 H](M01-09_ATUALIZACAO_96_CONJUNTOS_CF_NOR_0020.csv) adicionadas ao PR22. Estado classificatório: **7 parcial específico, 68 geral não equivalente, 16 sem especial na main e 5 somente em PR59**, todas sem equivalência material certificada.
+- Comparados textos efetivos `CF-NOR-0003–0020` e dossiês M01.06/.07/.08/.09 e M01.10/.11; lacunas materiais identificadas em tutela, penas/garantias penais, privacidade/dados, liberdades civis e direitos sociais.
+- STF [Tema 698](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=698), [Tema 548](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5085176&numeroTema=548), [Tema 6](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=6), [Tema 1234](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=6335939&numeroTema=1234) (com alterações em 2026) e STJ [Tema 1178](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=1178&cod_tema_inicial=1178&novaConsulta=true&tipo_pesquisa=T) checados em páginas oficiais; esgotamento de todo material decisório **não** afirmado.
+- M06.01 [issue #55](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/55) e M09.01 [issue #56](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/56) iniciaram pesquisa própria em PRs separados.
+
+**PENDENTE:** auditoria granular juridicamente exaustiva dos 96 conjuntos e 29 arquivos originais, exame integral dos precedentes e fontes empíricas, revisão de compatibilidade com as especializações da main, dados fiscais M05 e interfaces M06/M09/M12/M13, CI do último SHA do PR22 e eventual merge. **Não** declarar suprimidos os direitos identificados como lacuna: o piloto é incompleto, não direito positivo. PR #59 exige revisão das reservas de domicílio e comunicações antes de merge.
+
+**PRÓXIMO:** iniciar auditoria especializada de remédios judiciais e devido processo com M06.01, direitos materiais trabalho/saúde/educação com M09.01; revisar PR22 em lotes de fontes e compatibilidade, **antes** de sugerir integração. Não editar `redacao/` nesta branch, nem elevar H a D.
+
+**Qualidade/proveniência:** matriz N:N por 96 *grupos* e remissões **não equivale** a 96 artigos, direitos individuais ou certificação material de proteção. O GitHub Action é apenas estrutural. Fechar rodada com status de PR, SHA e check atualizados.
