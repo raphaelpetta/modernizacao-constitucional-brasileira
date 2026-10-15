@@ -251,3 +251,17 @@ Não se aplicam às terras indígenas as regras gerais de incentivo à garimpage
 Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, cabendo ao Estado emitir-lhes os títulos respectivos.
 
 O procedimento de identificação, reconhecimento, delimitação e titulação respeitará a identidade, a organização e a participação efetiva das comunidades, os vínculos territoriais e culturais e as garantias do devido processo legal, incluídos os direitos legítimos de terceiros na forma desta Constituição e da lei, sem tornar a expedição do título condição constitutiva da propriedade já reconhecida.
+
+## CF-NOR-0033 — Habeas corpus e mandado de injunção [H; E]
+
+> Regra geral de referência: CF-NOR-0007. Relação em exame.
+
+Conceder-se-á habeas corpus sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder, assegurada sua gratuidade e a apreciação judicial efetiva e tempestiva.
+
+Conceder-se-á mandado de injunção sempre que a falta total ou parcial de norma regulamentadora tornar inviável o exercício de direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania, assegurada tutela capaz de enfrentar a omissão e viabilizar o exercício do direito, observado o regime constitucional de competência normativa e os limites previstos em lei.
+
+## CF-NOR-0034 — Jornada de turnos ininterruptos de revezamento [H; E]
+
+> Regra geral de referência: CF-NOR-0027. Relação em exame.
+
+A jornada de trabalho realizado em turnos ininterruptos de revezamento será de seis horas, salvo negociação coletiva, sem prejuízo das demais garantias constitucionais de repouso, saúde, segurança e remuneração aplicáveis.

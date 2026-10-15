@@ -1,0 +1,16 @@
+id,origem_constitucional,funcao_preservada,hipotese_destino,resultado_auditoria,limite_ou_reserva,interface
+C6-01,CF5 LXVIII,habeas corpus preventivo e repressivo,CF-NOR-0033 paragrafo1,EXPRESSO,legitimados rito urgencia e interpretacao,M06;M12
+C6-02,CF5 LXXVII,gratuidade do habeas corpus,CF-NOR-0033 paragrafo1,EXPRESSO,nao inclui aqui gratuidade do habeas data,M05;M06
+C6-03,CF5 LXXI,mandado de injuncao por omissao normativa,CF-NOR-0033 paragrafo2,PARCIAL,alcance efeitos legitimados e tutela coletiva,M03;M06
+C6-04,CF5 LXIX-LXX,mandado de seguranca individual e coletivo,SEM_DESTINO_NESTE_RECORT,NAO_COBERTO,protecao de direito liquido e certo,M06
+C6-05,CF5 LXXII e LXXVII,habeas data e gratuidade,SEM_DESTINO_NESTE_RECORT,NAO_COBERTO,articulacao com M01 PR59,M01;M06
+C6-06,CF5 LXXIII,acao popular e custo salvo ma-fe,SEM_DESTINO_NESTE_RECORT,NAO_COBERTO,controle civico e legitimidade,M06;M10
+C6-07,CF5 LXXIV,assistencia juridica integral gratuita,SEM_DESTINO_NESTE_RECORT,NAO_COBERTO,insuficiencia e Defensoria,M05;M06
+C6-08,CF5 XXXV,tutela geral contra lesao ameaca,CF-NOR-0007,PARCIAL,nao equivale ao conjunto especifico de remedios,M01;M06
+C6-09,CF7 XIII,jornada normal oito quarenta quatro,CF-NOR-0027 inciso I,PARCIAL,compensacao horas e trabalhadores diversos,M09
+C6-10,CF7 XIV,jornada seis horas turnos de revezamento,CF-NOR-0034,EXPRESSO,negociacao coletiva e direitos indisponiveis,M09;M06
+C6-11,CF7 XV-XVII,repouso extra minimo e ferias,CF-NOR-0027 incisos II-IV,PARCIAL,regimes especiais e provas,M09
+C6-12,CF7 restante,patamares salariais protecao maternidade etc,SEM_DESTINO_NESTE_RECORT,NAO_COBERTO,nao regressao quantitativa e qualitativa,M09;M05
+C6-13,CF8-11,liberdade e negociacao coletiva,SEM_DESTINO_NESTE_RECORT,NAO_COBERTO,unicidade modelo sindical e greve,M03;M09
+C6-14,CF231 6,efeitos patrimoniais nulidade territorial,CF-NOR-0028,PARCIAL,terceiros tema1031 e indenizacao,M04;M06;M11
+C6-15,CF225 1 III e 2-3,areas protegidas e danos,CF-NOR-0026,PARCIAL,fauna biomas e regimes ambientais restantes,M06;M10
