@@ -465,6 +465,40 @@ for md in [BASE/"README.md",*BASE.glob("docs/*.md"),*BASE.glob("governanca/*.md"
         if clean and not (md.parent/clean).exists():
             errors.append(f"{md.relative_to(BASE)}: link local inválido {clean}")
 
+# Cobertura funcional operacional CF: verifica apenas catálogo, não equivalência material.
+coverage_path = BASE / "catalogo/COBERTURA_FUNCIONAL.csv"
+coverage = rows_for(coverage_path)
+valid_maturities = {
+    "NAO_EXAMINADA", "MAPEADA", "RECONSTRUIDA",
+    "PROPOSTA", "INTEGRADA_PROVISORIA", "AUDITADA_NO_RECORTE",
+}
+required_coverage = {
+    "id_modulo", "recorte_inicial_nao_exaustivo", "maturidade_recorte",
+    "situacao_documental", "fonte_de_verificacao", "pendencia_critica",
+    "proxima_entrega",
+}
+if not coverage_path.is_file():
+    errors.append("Mapa funcional operacional ausente")
+else:
+    with coverage_path.open(encoding="utf-8-sig", newline="") as stream:
+        headers = set(csv.DictReader(stream).fieldnames or [])
+    if not required_coverage.issubset(headers):
+        errors.append("Mapa funcional: colunas obrigatórias ausentes")
+    ids_seen = set()
+    for row in coverage:
+        ident = (row.get("id_modulo") or "").strip()
+        if ident in ids_seen or ident not in identifiers:
+            errors.append(f"Mapa funcional: ID duplicado/desconhecido {ident}")
+        ids_seen.add(ident)
+        if row.get("maturidade_recorte") not in valid_maturities:
+            errors.append(f"Mapa funcional: maturidade inválida {ident}")
+        for key in ("recorte_inicial_nao_exaustivo", "situacao_documental",
+                    "fonte_de_verificacao", "pendencia_critica", "proxima_entrega"):
+            if not (row.get(key) or "").strip():
+                errors.append(f"Mapa funcional: campo {key} vazio em {ident}")
+    if ids_seen != set(identifiers):
+        errors.append("Mapa funcional: nem todos os módulos funcionais possuem recorte inicial")
+
 if errors:
     for e in errors: print("ERRO:",e,file=sys.stderr)
     raise SystemExit(1)

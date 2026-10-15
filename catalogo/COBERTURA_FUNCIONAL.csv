@@ -1,0 +1,16 @@
+id_modulo,recorte_inicial_nao_exaustivo,maturidade_recorte,situacao_documental,fonte_de_verificacao,pendencia_critica,proxima_entrega
+M00,Fontes e reservas constitucionais,MAPEADA,PESQUISA_MAIN_E_PR,governanca/04_ESTADO_ATUAL.md,Reconciliar espécie e competência sob variantes do CLF,Matriz de efeitos por espécie/reserva
+M01,Parte geral e garantias pessoais selecionadas,PROPOSTA,H_MAIN_E_PESQUISA_PR22_PR59,redacao/indice.csv,Direitos especiais e não regressão N:N incompletos,Mapa abrangente de funções e salvaguardas
+M02,Integridade eleitoral e consulta/transição,MAPEADA,PESQUISA_PR95,PR #95,Mecanismos eleitorais gerais não deliberados,Conciliar M03/M06/M14 e reservar variantes
+M03,Governo e processo legislativo,PROPOSTA,PESQUISA_MAIN_E_PR85_PR99_PR100,PR #100,Comparar arquiteturas finalistas e competências com M02/M04,Tabela final de incertezas que alteram preferência
+M04,Participação federativa e consentimento,MAPEADA,PESQUISA_MAIN,modulos/M04-federacao/M04-01_CONSENTIMENTO_TERRITORIAL_E_IMPASSES_v0.1.md,Repartição federativa sistêmica não fechada,Mapa de competências receitas e controles
+M05,Encargos e equalização fiscal,MAPEADA,PESQUISA_MAIN,modulos/M05-financas/M05-02_PROTOCOLO_EMPIRICO_E_AUDITORIA_v0.1.md,Sem dados municipais reais harmonizados,Validar primeiro conjunto de dados reais
+M06,Tutela constitucional e prova digital,MAPEADA,PESQUISA_PR62_PR96,PR #62,Remédios e estrutura judicial além do recorte,Matriz remédios titulares custos e implementação
+M07,Administração e boa administração,MAPEADA,PESQUISA_PR102,PR #102,F0 e F1 seletivos de processo e inclusão digital; matriz N:N e revisão especializada ainda pendentes,Auditar destinos constitucionais e cenários de acesso digital
+M08,Ordem econômica e serviços públicos,NAO_EXAMINADA,PLANEJAMENTO,catalogo/MODULOS.csv,Regimes econômicos e prestações ainda não mapeados,F0 de limites constitucionais e remissão ao CLF
+M09,Direitos sociais e representação sindical,MAPEADA,PESQUISA_PR63,PR #63,Direitos sociais gerais e efeitos financeiros não exauridos,Matriz social por titular obrigação custeio tutela
+M10,Ambiente clima e gerações futuras,MAPEADA,PESQUISA_PR89,PR #89,Compatibilidade territorial e econômica ainda não integrada,Mapa de funções e deveres intergeracionais
+M11,Povos indígenas e comunidades tradicionais,MAPEADA,PESQUISA_PR94,PR #94,Tutela autonomia e consulta dependem de integração,Confrontar territórios e proteção internacional
+M12,Segurança e investigação digital,MAPEADA,PESQUISA_PR82,PR #82,Exceções digitais e controles independentes,Revisão cruzada M01/M06/M07
+M13,Tratados e proteção internacional,MAPEADA,PESQUISA_PR98,PR #98,Hierarquia recepção e controles pendentes,Matriz tratados e reservas em M00
+M14,Reforma e transição constitucional,MAPEADA,PESQUISA_PR91,PR #91,Regras dependem das variantes institucionais,Tabela temporal por cenários M02/M03/M06
