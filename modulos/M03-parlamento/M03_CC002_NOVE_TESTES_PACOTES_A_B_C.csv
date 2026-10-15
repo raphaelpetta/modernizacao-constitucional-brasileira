@@ -1,0 +1,10 @@
+id,cenario_critico,regra_A,regra_B,regra_C,critério_de_reprovação,dependencia,estado
+M03-P01,Rejeicao LOA dois anos,mandato fixo sob lei,governo sobrevive sem receita nova,presidente e gabinete sem receita nova,despesa ou credito novo sem titulo,M05;M14,PORTA_ABERTA
+M03-P02,Destituicao por derrotas legislativas,sem voto de confianca,censura sucessor formal,camara destitui premier,usar impeachment como censura ou demissao informal,M02;M06,PORTA_ABERTA
+M03-P03,Chefe Estado recusa nomear,nao aplicavel,ato vinculante investidura,procedimento cameral vinculante,veto politico livre a investidura,M06,PORTA_ABERTA
+M03-P04,Emergencia ordem militar,presidente civil controlado,governo civil unico,cadeia civil unica definida,ordem dupla ou excecao sem controle,M12;M06,PORTA_ABERTA
+M03-P05,Eleicao antecipada estrategica,mandato fixo sem dissolucao,dissolucao taxativa,vedar dissolucao implicita,antecipar votacao para bloquear investigacao,M02;M14,PORTA_ABERTA
+M03-P06,Transicao com mandatos existentes,prospectiva sob risco menor,investidura somente camara instalada,dupla chefia somente apos marco valido,invalidar mandato ou voto direto sem porta juridica,M02;M06;M14,PORTA_ABERTA
+M03-P07,Tribunal questiona voto parlamentar,controle de rito,controle sem escolha de gabinete,controle sem escolha de gabinete,juiz assumir papel parlamentar,M06,PORTA_ABERTA
+M03-P08,Governo baixa norma com forca de lei,reserva de urgencia estrita,reserva de urgencia estrita,nenhum poder implicito presidencial,substituir orçamento ou direitos por decreto,M00;M03;M05,PORTA_ABERTA
+M03-P09,Servicos publicos sob greve/crise,responsabilidade administrativa,ministerio responsavel,ministerio responsavel,nenhum titular identificavel ou corte arbitrario,M07;M08;M09,PORTA_ABERTA
