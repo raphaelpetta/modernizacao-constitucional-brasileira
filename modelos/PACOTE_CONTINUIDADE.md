@@ -52,3 +52,16 @@ Se não houver pendência identificada, explicar por que o critério de saída d
 - [ ] Registrei o pacote no mesmo PR/branch da pesquisa ou expliquei por que não foi possível.
 
 **Protocolo:** `governanca/12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md`; quadro `13_QUADRO_DE_COORDENACAO.md`; controle de IDs `15_REGISTRO_RESERVAS_IDS.md`.
+
+## 6. Progressão do produto (adendo operacional proposto)
+
+**Recorte e ganho de cobertura/integração demonstrável:**  
+**Maturidade técnica do recorte, distinta de D/P/H/A/V:**  
+**Risco material R1/R2/R3 e direito/garantia afetado:**  
+**Destino do elemento normativo ou razão explícita da lacuna:**  
+**Nova evidência que poderia mudar recomendação e critério de parada:**  
+**Tipo do bloqueio:** BLOQUEIA_RATIFICACAO / BLOQUEIA_VARIANTE / NAO_BLOQUEIA_TRABALHO_INVARIANTE  
+**Duas tarefas alternativas desbloqueadas, além da principal:**  
+**Revisão independente necessária e responsável:**  
+
+Não criar progresso artificial para atender à cadência; registrar resultado nulo com bloqueio e próximo recorte útil. Referência: `governanca/17_EXECUCAO_CAMADAS_E_AUDITORIA.md`.
