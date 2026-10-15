@@ -303,3 +303,51 @@ II — irredutibilidade do salário, salvo o disposto em convenção ou acordo c
 III — garantia de remuneração nunca inferior ao salário mínimo para quem perceba remuneração variável;
 
 IV — décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria, conforme o regime constitucional aplicável.
+
+## CF-NOR-0039 — Segurança jurídica e disciplina da transição constitucional [H; A]
+
+As disposições constitucionais que instituírem alterações na composição, eleição, investidura ou competência dos órgãos de Estado e de governo deverão ser acompanhadas de normas transitórias expressas que determinem o início de sua eficácia, os titulares competentes em cada etapa, os procedimentos de investidura e de substituição e a continuidade dos serviços e das obrigações públicas.
+
+Não se presumirão vacância, extinção antecipada de mandato, prorrogação de mandato ou transferência de competência pela mera edição de nova regra de organização institucional, sem disposição constitucional transitória válida e compatível com as garantias da soberania popular, da periodicidade e integridade eleitoral, da separação dos poderes, da federação e dos direitos fundamentais.
+
+Os atos eleitorais e de investidura relacionados à transição observarão o regime constitucional e legal que lhes seja aplicável, inclusive as exigências de competência, deliberação, anterioridade eleitoral, apuração e controle jurisdicional, vedado atribuir poderes a titular ainda não validamente investido.
+
+## CF-NOR-0040 — Legalidade reserva de lei e limites da regulamentação [H; G]
+
+Ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei, observadas as demais garantias constitucionais de legalidade e as competências normativas que esta Constituição expressamente atribuir.
+
+Não haverá crime sem lei anterior que o defina, nem pena sem prévia cominação legal; a instituição ou o aumento de tributos obedecerá à reserva de lei e às demais limitações constitucionais ao poder de tributar.
+
+A regulamentação administrativa destina-se à execução da Constituição e das leis, nos limites das competências e autorizações normativas constitucionalmente admissíveis, sendo vedado substituir por ato infralegal a definição dos elementos essenciais de matérias constitucionalmente reservadas à lei.
+
+## CF-NOR-0041 — Habeas data e gratuidade da tutela de informações pessoais [H; E]
+
+> Regra geral de referência: CF-NOR-0007. Relação em exame.
+
+Conceder-se-á habeas data para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados de entidades governamentais ou de caráter público, bem como para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo.
+
+O habeas data será gratuito, asseguradas tutela efetiva e proteção adequada aos dados de terceiros e às informações cujo sigilo seja constitucionalmente legítimo, nos termos da lei e sem esvaziar o direito de acesso e retificação do titular.
+
+## CF-NOR-0042 — Ação popular e proteção judicial do patrimônio e da probidade [H; E]
+
+> Regra geral de referência: CF-NOR-0007. Relação em exame.
+
+Qualquer cidadão é parte legítima para propor ação popular destinada a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural.
+
+Salvo comprovada má-fé, o autor da ação popular é isento de custas judiciais e do ônus da sucumbência, assegurada tutela judicial efetiva para prevenir ou reparar a lesão, na forma da lei e com respeito ao contraditório.
+
+## CF-NOR-0043 — Licença à maternidade proteção do emprego e licença à paternidade [H; A]
+
+É assegurada à trabalhadora gestante licença à maternidade de cento e vinte dias, sem prejuízo do emprego e do salário, respeitadas as condições mais favoráveis e as demais proteções constitucionais aplicáveis.
+
+É vedada a dispensa arbitrária ou sem justa causa da empregada gestante desde a confirmação da gravidez até cinco meses após o parto, preservadas as garantias legais e constitucionais de estabilidade, reintegração ou reparação aplicáveis.
+
+É assegurada licença à paternidade nos termos da lei, respeitado o período de proteção constitucional transitório enquanto não houver disciplina legislativa aplicável e sem redução de outras garantias parentais asseguradas.
+
+## CF-NOR-0044 — Proibição do trabalho infantil e proteção laboral de adolescentes [H; E]
+
+> Regra geral de referência: CF-NOR-0027. Relação em exame.
+
+É proibido o trabalho noturno, perigoso ou insalubre a menores de dezoito anos, bem como qualquer trabalho a menores de dezesseis anos, salvo na condição de aprendiz a partir de quatorze anos.
+
+A aprendizagem e a inserção profissional de adolescentes observarão a proteção integral, o acesso e a permanência na educação, as condições de saúde e segurança, a fiscalização das atividades e os demais direitos fundamentais próprios de sua condição de pessoa em desenvolvimento.
