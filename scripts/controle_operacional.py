@@ -33,7 +33,9 @@ def require(condition: bool, message: str) -> None:
 
 
 def rows(path: Path) -> list[dict[str, str]]:
-    require(path.is_file(), "Arquivo ausente: " + str(path.relative_to(ROOT)))
+    if not path.is_file():
+        shown = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
+        raise ValueError("Arquivo ausente: " + str(shown))
     with path.open(encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle, strict=True)
         names = reader.fieldnames or []
