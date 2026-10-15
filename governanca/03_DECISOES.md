@@ -29,5 +29,7 @@
 
 | CF-DEC-013 | D (operacional) | Continuidade obrigatória por rodada | Solicitação direta do usuário em 14/10/2026: toda frente deve registrar **FEITO / PENDENTE / PRÓXIMO**, versões reais, dependências, status de PR e resultado de integração, conforme CF-GOV-012 e modelo de continuidade. **Não** é decisão sobre direitos, governo, competências ou redação constitucional material. |
 
+| CF-DEC-015 | D (operacional) | Priorização transversal por ganho marginal | Pedido expresso do usuário em 15/10/2026: avaliar permanentemente o benefício adicional de cada rodada em comparação com outras frentes e evitar aprofundamento desproporcional; escopo integral M00–M14, F0–F8, integração/PRs, segundo [CF-GOV-019](19_POLITICA_GANHO_MARGINAL_GLOBAL.md). **Não aprova texto constitucional, modelo de governo nem ratifica H/P.** A numeração 014 está comprometida em PR #101 e não é reutilizada. |
+
 ## Entrada nova
 Criar documento em `modelos/DECISAO.md` com ID, problema, alternativas, evidência, melhor objeção, consequências, origem da ratificação, escopo, versão e documentos afetados. Uma alteração em chat não altera uma decisão já registrada.
