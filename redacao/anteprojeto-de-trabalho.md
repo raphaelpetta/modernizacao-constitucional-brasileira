@@ -417,3 +417,22 @@ Toda pessoa tem direito a órgão jurisdicional competente, independente, imparc
 A magistratura de carreira terá garantias de permanência no cargo, inamovibilidade e irredutibilidade de subsídio, preservado o regime constitucional de vitaliciedade, com responsabilidade funcional, impedimentos e controle disciplinar sujeitos a procedimentos legais, motivação, defesa e revisão jurisdicional. É vedada a utilização de remoções, nomeações, sanções ou vantagens para punir decisões judiciais legalmente proferidas.
 
 O Poder Judiciário terá autonomia administrativa e financeira, exercida com transparência, prestação de contas, controles constitucionais e respeito às competências orçamentárias dos Poderes.
+
+## CF-NOR-0053 — Consciência crença assistência religiosa e objeção [H; A]
+
+É inviolável a liberdade de consciência, de crença e de não professar religião, assegurados o livre exercício individual e coletivo dos cultos e a proteção dos seus locais e liturgias, vedadas a perseguição, a discriminação e a coerção por crença, descrença ou convicção filosófica.
+
+É assegurada, nos termos da lei, assistência religiosa nas entidades civis e militares de internação coletiva, a pedido ou com consentimento da pessoa destinatária, sem imposição de culto ou prejuízo a quem não a receba.
+
+Ninguém será privado de direitos por crença religiosa ou convicção filosófica ou política, ressalvadas as consequências constitucionalmente admissíveis da recusa de obrigação legal imposta a todos e da prestação alternativa estabelecida em lei. A disciplina da objeção de consciência observará a igualdade, a proporcionalidade, o devido processo e os direitos de terceiros.
+
+O Estado não estabelecerá cultos ou igrejas, não lhes embaraçará o funcionamento nem manterá com eles relações de dependência ou aliança, ressalvada a colaboração de interesse público nos termos da lei, vedado favorecimento discriminatório.
+
+
+## CF-NOR-0054 — Pluralismo e garantias dos partidos políticos [H; A]
+
+É livre a criação, a organização, a fusão, a incorporação e a extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluralismo, os direitos fundamentais e a igualdade de oportunidades na competição eleitoral, na forma desta Constituição.
+
+Os partidos políticos terão autonomia para definir sua estrutura, organização, funcionamento e procedimentos de escolha de candidaturas, observados os deveres constitucionais de transparência, prestação de contas, não discriminação e proteção à participação política. A lei estabelecerá garantias de controle e de tutela contra atos partidários que violem direitos fundamentais, vedada a interferência estatal arbitrária em sua autonomia.
+
+São vedados a utilização de organização paramilitar e o recebimento de recursos financeiros ou a subordinação a governos ou entidades estrangeiros, observadas as hipóteses e salvaguardas previstas nesta Constituição. O regime de financiamento, as condições de funcionamento parlamentar, as coligações e a disciplina e fidelidade partidárias dependerão de regulamentação e garantias próprias, respeitada a expressão da soberania popular e a diferença entre os sistemas eleitorais.
