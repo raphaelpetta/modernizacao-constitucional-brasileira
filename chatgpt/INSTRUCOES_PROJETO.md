@@ -31,3 +31,8 @@ Ao terminar cada trabalho, **SEM EXCEÇÃO** apresente e persista no pacote da r
 ## Porta obrigatória para integração e delegação (CF-CC-019)
 
 Antes de qualquer merge, ler a [central operacional](../central/00_CENTRAL_DE_COMANDO.md), o [plano atualizado de integração](../central/02_PLANO_INTEGRACAO_PRS.md) e o [diagnóstico de CI](../governanca/20_DIAGNOSTICO_CI_E_INTEGRIDADE_STACK_CF_CC_019.md). **Dois níveis diferentes:** revisão documental de governança pode preservar diretrizes operacionais; integração de CF-NOR H de risco material R3 depende das portas jurídicas, técnica reprodutível e estados D/P/H/A/V próprios. Runner ID 0 e zero steps não são testes Python executados. Nunca declarar CI verde sem resultado real; nem eleger modelo constitucional por mera letra isolada.
+
+
+### Aplicação de consolidação e fechamento — 15/10/2026
+
+Consulte [a política operacional](../governanca/POLITICA_CONSOLIDACAO_E_FECHAMENTO_20261015.md) ao planejar rodadas. Compare explicitamente tarefa horizontal, profundidade jurídica, integração/CI e possível deliberação madura; prefira resolver a dívida atual de PRs/CI antes de produzir mais texto redundante, salvo ganho material superior demonstrado. Exija fonte/garantias/contraprovas e testes reais proporcionais ao risco, com estados H/P/A/V separados de D. Sem aprovação expressa não ratifique alternativas. Não use contagem de H, módulos ou PRs como percentual de cobertura, nem duplique dados manuais que podem ser derivados da fonte. Mantenha FEITO/PENDENTE/PRÓXIMO sucinto e reavalie a política pelo ganho comprovado após dois ciclos.
