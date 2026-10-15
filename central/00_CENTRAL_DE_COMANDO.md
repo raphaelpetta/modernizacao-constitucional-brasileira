@@ -39,3 +39,13 @@ A entrega final em construção é um texto constitucional único, legível e cr
 
 ### Referências técnicas
 [Regra de execução por camadas proposta — CF PR #101](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/101) · [Central CLF](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48).
+
+## Controles operacionais verificáveis (propostos no PR)
+- [Fila com recortes, estados, critérios e reservas](FILA_TRABALHO.csv).
+- [Painel calculado exclusivamente do produto no checkout](PAINEL_GERADO.csv) — **presença no produto, não cobertura jurídica global**.
+- [Política de integração experimental, ratificação e concorrência](01_POLITICA_INTEGRACAO_E_CONCORRENCIA.md).
+- [Verificador e gerador do painel](../scripts/controle_operacional.py) (`--write` / `--check`).
+- [Validação local de contingência](../scripts/validar_operacao_local.sh); falha de Actions sem steps não valida nem invalida documentos.
+- [Minuta atual](../redacao/anteprojeto-de-trabalho.md). A compilação é uma vista derivada; não editar suas cópias de forma independente.
+
+Os controles acima passam a ser definitivos somente após revisão e integração da documentação. O registro de tarefas não substitui a conferência dos PRs nem a revisão jurídica, e cada reserva é cooperativa.
