@@ -5,7 +5,7 @@ dhondt_55_45_boycott_oposicao;3;2;0;2;3;4;3;0;3;NAO;SIMULACAO_H
 dhondt_55_45_quorum_tres;3;2;0;2;3;3;3;0;3;SIM;SIMULACAO_H
 dhondt_55_45_nomeacao_4;3;2;0;0;5;4;3;0;4;NAO;SIMULACAO_H
 dhondt_55_45_nomeacao_4_apoio;3;2;0;0;5;4;3;1;4;SIM;SIMULACAO_H
-pivotal_2_2_1_com_independente_agregado_G;3;2;0;0;5;4;2;2;3;SIM;SIMULACAO_H
-pivotal_2_2_1_ausencia_agregado_G;3;2;1;0;4;4;2;2;3;SIM;SIMULACAO_H
+pivotal_2_2_1_com_independente_agregado_G;3;2;0;0;5;3;0;2;3;SIM;SIMULACAO_H
+pivotal_2_2_1_ausencia_agregado_G;3;2;1;0;4;2;0;2;NAO;SIM;SIMULACAO_H
 ausencia_dois_conselheiros;3;2;1;1;3;4;2;1;3;NAO;SIMULACAO_H
 escalonamento_maioria_55_45_constante;5;0;0;0;5;4;5;0;3;SIM;SIMULACAO_H
