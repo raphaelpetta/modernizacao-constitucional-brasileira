@@ -37,7 +37,7 @@
 2. **M11 remoção:** ad referendum de catástrofe/epidemia não autoriza remoção econômica; interesse de soberania requer deliberação do Congresso. O retorno cessa junto do risco. A disciplina do §6 exige confronto com decisões posteriores e proteção de terceiros, sem enfraquecer direitos originários.
 3. **Quilombolas:** direito territorial coletivo do ADCT 68 não equivale à posse indígena; a transposição para capítulo permanente é proposta formal/material própria. Titulação é dever do Estado e não condicionante constitutiva segundo a hipótese editorial, sujeita a parecer específico.
 4. **CLF:** regime de intimação e direitos de terceiros não é deduzido de CF-NOR; [CLF PR #45](https://github.com/raphaelpetta/codigo-legislacao-federal/pull/45) mantém dossiê de ciência digital com cadeias de vigência e lacunas de prova. Não transferir DEC-016 ou declarar recepção de textos hipotéticos.
-5. **CI:** trabalhos anteriores tiveram jobs de falha sem `steps`. O workflow na main define expressamente cinco passos inclusive compilador `--check`; a falha remota sem dados não permite atribuição causal. Precisa auditoria de execução/infrastructure.
+5. **CI:** trabalhos anteriores tiveram jobs de falha sem `steps`. O workflow na main define expressamente seis passos inclusive compilador `--check`; a falha remota sem dados não permite atribuição causal. Precisa auditoria de execução/infrastructure.
 
 ## 4. Portas e próximos trabalhos
 
