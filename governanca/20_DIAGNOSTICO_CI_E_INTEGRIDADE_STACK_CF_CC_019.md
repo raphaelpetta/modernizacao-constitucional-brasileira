@@ -34,3 +34,9 @@ O check-run do PR #124, ID `116598907942`, registra **duas anotações** de erro
 ## Ganho marginal
 
 **FEITO:** isolada condição pré-execução em PRs e `main`, descartada alegação infundada de falha demonstrada de Python, confirmada concordância de **54/54** seções; plano de reconciliação seletiva. **PENDENTE:** causa raiz/CI real e QA integral; auditoria de não regressão constitucional material. **PRÓXIMO:** recuperar anotações por interface autorizada e executar testes; priorizar conclusão dessa dependência ao invés de criar outras CF-NOR H.
+
+## Reexecução controlada CF-CC-020 — 15/10/2026
+
+Na `main` `fae101cdfa5a3af80182e9e56e8debb4ddfcaec9`, o [run 38790002189](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/actions/runs/38790002189) teve **primeira tentativa `failure`** antes de steps. A API de reexecução de jobs malsucedidos aceitou o pedido; a **tentativa 2 foi efetivamente concluída também em `failure`**, com novo job `116615081992`, `runner_id=0` e `steps=[]`. A reexecução **não corrigiu** a indisponibilidade e confirma persistência sob nova tentativa, não revela causa raiz ou qual das duas anotações aponta a falha. Workflow não alterado por tentativa e erro.
+
+**Em paralelo:** [catálogo comparativo de cobertura](../catalogo/COBERTURA_FUNCIONAL.csv) é reconstruído da `main` (**20 H**) e do [PR #124](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/124) (**54 H**), não soma as duas fontes nem representa as branches paralelas #59/#107. Não declarar script Python verificado só porque as fichas normativas foram lidas remotamente. **PENDENTE prioritário:** acesso às anotações/permissões Actions e validação real dos scripts restantes dos PRs #101/#104.
