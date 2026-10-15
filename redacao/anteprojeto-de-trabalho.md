@@ -357,3 +357,19 @@ A aprendizagem e a inserção profissional de adolescentes observarão a proteç
 A lei que alterar o processo eleitoral entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência.
 
 A garantia da anterioridade aplica-se também às emendas constitucionais que alterem o processo eleitoral. São asseguradas a igualdade de oportunidades na disputa e a proteção contra alterações casuísticas das regras eleitorais, sem prejuízo do controle judicial de atos que interfiram na liberdade do voto.
+
+## CF-NOR-0046 — Proteção da confiança nas mudanças de jurisprudência eleitoral [H; E]
+
+> Regra geral de referência: CF-NOR-0045. Relação em exame.
+
+A mudança de jurisprudência do órgão superior da Justiça Eleitoral, ocorrida no curso do pleito ou logo após seu encerramento, não terá aplicação imediata à eleição em questão, em proteção à segurança jurídica, à igualdade da competição e à confiança legítima de eleitores, candidatos e partidos.
+
+A orientação superveniente somente será aplicada a pleitos posteriores, sem prejuízo da apuração de ilícitos segundo o direito anteriormente aplicável e do controle jurisdicional, respeitadas a publicidade, a fundamentação e as garantias de defesa.
+
+## CF-NOR-0047 — Fiscalização parlamentar e direito de investigação das minorias [H; A]
+
+O Poder Legislativo exercerá fiscalização e controle dos atos do Governo e da Administração Pública, assegurados instrumentos efetivos de informação e investigação e a participação das minorias parlamentares, nos limites desta Constituição.
+
+A comissão parlamentar de inquérito será instituída mediante requerimento de um terço dos membros da Casa legislativa competente, para apuração de fato determinado e por prazo certo, independentemente de autorização política da maioria, quando preenchidos os requisitos constitucionais.
+
+A comissão terá poderes de investigação próprios das autoridades judiciais, respeitadas a reserva de jurisdição, as garantias fundamentais e os direitos da pessoa investigada ou convocada, inclusive a não autoincriminação e a assistência por advogado. Suas conclusões serão encaminhadas, quando cabível, ao Ministério Público e aos órgãos competentes, sem substituir suas atribuições constitucionais.
