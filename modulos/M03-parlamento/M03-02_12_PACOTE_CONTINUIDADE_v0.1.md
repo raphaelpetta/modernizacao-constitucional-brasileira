@@ -1,0 +1,35 @@
+# M03.02.12 — FEITO / PENDENTE / PRÓXIMO
+**Corte:** 14/10/2026. **Issue:** [#84](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/84), **PR:** [#85](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/85) **draft**, **branch:** `pesquisa/m03-02-governo-responsabilidade-20261014`, **main preflight:** `2a770a8136f8ca4877e865be3e3b7745a6d4b168`. **Propriedade:** M03, interfaces M02/M03.01/M04/M05/M06/M07/M12/M14 e M00.
+**Estados:** F0–F5/F8 pesquisa H/P/A/V, **F6 material NÃO deliberado**, F7 NÃO iniciado. Nenhum CF-NOR, nenhuma edição em `governanca/03_DECISOES.md`, `redacao/indice.csv`, main ou CLF; B é P investigativa e **não** D de parlamentarismo. Esta rodada encerra **auditoria do acervo R01–R11**, não fecha escolha constitucional.
+
+## FEITO — versão R12 exclusivamente no PR85
+1. `M03-02_12_AUDITORIA_CRITICA_SUFRICIENCIA_E_LIMITES_v0.1.md`: revisão crítica por **onze** rodadas, fontes e limites de inferência, melhores objeções A/B/C, política de parada de simulações fiscais, impedimentos F6 e checagem documental concreta. Ciência política 2004 observacional não implica causalidade para o Brasil 2026. A tem de permanecer opção competitiva e C não é B com presidente livre para demitir premier.
+2. `M03-02_12_MATRIZ_EVIDENCIAS_R01_R11.csv`: **11 entradas** de rastreabilidade, uma por rodada e respectivo relatório original existente, evidência, limites, cautela, interface e saída.
+3. `M03-02_12_INTERFACE_CHECKLIST_F6.csv`: **9 interfaces** M02/M03.01/M04/M05/M06/M07/M12/M14/M00, todas **PENDENTES** de resposta material independente ou decisão expressa. A existência de issue/handoff ou dossiê sobre assunto vizinho não é parecer favorável. M03.01, M04 e M05 têm pesquisas na main; M06 PR62 é draft, M14 #90 tem pauta mas não entrega transitória ratificada.
+4. `M03-02_12_NOTA_PRE_DELIBERATIVA_A_B_C_v0.1.md`: nota **não ratificativa** de quatro alternativas de prioridade investigativa P: A presidencial reformado, B parlamentar racionalizado, C premier-presidencial, D0 continuar estudo condicionado a interfaces. Dez perguntas concretas antes de D, repartição CF versus legislação orgânica futura sem novo ato CLF.
+5. `scripts/validar_m03_02_12_auditoria.py`: auditor reproduzível de schema, 11 caminhos e status de interfaces, **não** revisor de mérito normativo.
+6. **QA independente realizado via JavaScript lendo diretamente os 2 novos CSV e os 11 arquivos originais da branch:** PASS, onze arquivos de origem presentes e não vazios, 11 entradas em sequência R01–R11, nove interfaces IF-01–09, IDs exclusivos e todas sem resposta autônoma aprovada. O script Python foi publicado para reexecução, **não** supor que GitHub Actions o executou sem evidência de workflow.
+7. **Coordenação efetiva:** comentário na [issue #84](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/84) com conclusão de suficiência e handoff na [M14 #90](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/90) sobre art.60, T0–T3, mandatos e consulta de 1993. Handoffs M02/M03.01/M04/M05/M06 foram publicados nas rodadas anteriores, sem equivaler a aceitação formal.
+8. **Correções preservadas:** L2/P2 perde voto de confiança em t5; as rodadas de dois anos usam ramo distinto anterior. GG111(2) teto de crédito alemão não limita globalmente gasto brasileiro. EC128/2022 já prevê CF167§7 contra certos encargos sem fonte/repasse. Lei4320/LRF já regem crédito e contabilidade relevante. LOLF francesa art45 não autoriza genericamente todo gasto por lei especial. F6-00 continua aberta e CF-DEC-006 H/P.
+
+## PENDENTE — o que impede D e F7
+- **M02:** legitimidade eleitoral de chefe de Estado e eleições antecipadas/inaugurais, proteção contra alteração casuística, direitos da oposição.
+- **M03.01/M05:** hipótese válida de lei fiscal especial, iniciativa, quóruns, fontes, dívida, crédito e execução do orçamento por anos sem nova LOA; **sem custos/valores brasileiros harmonizados**; salvaguardas de agregação e caixa.
+- **M04:** poder de Casa territorial em tipos de lei e repartição de receitas/encargos sem custeio; veto territorial não pode virar censura.
+- **M06:** nomeação vinculada G3A/B, controle limitado da dissolução, distinção impeachment/censura, tutela de obrigações e legalidade fiscal sem juiz decidir toda LOA. PR62 de remédios não resolve esta questão.
+- **M07/M12:** governo cessante, serviço e resposta emergencial, cadeia única de comando civil e militar para B/C.
+- **M14 #90:** viabilidade de alteração da CF e limites do art.60 versus outro instrumento jurídico, primeira eleição/mandatos, T0–T3 e eventual consulta popular sem usar 1993 como regra universal.
+- **Dados científicos:** não há inferência causal ou previsão do efeito A/B/C em partidos, confiança, governabilidade, direitos ou contas brasileiras. As centenas de testes são lógicos e não devem ser apresentados como estatística.
+- **Governança:** D de arquitetura, P formal de protótipo se usuário quiser, F6 setoriais/eleitorais/fiscais e F7 permanecem bloqueadas até rito decisório expresso. Não presumir que “bora” decide.
+- **Integração:** checar HEAD/CI/mergeabilidade, comparativo com main após último commit; branch anteriormente divergente 2 commits behind. Sucesso técnico de workflow não basta para integrar pesquisa como norma.
+
+## PRÓXIMO — M03.02.13 ou pausa condicionada a respostas
+**Mudança de ritmo:** não iniciar série R13 de cenários fiscais artificiais sem novo dado. Prioridade verificável: consolidar **pareceres efetivos** M02 (eleição/chefia de Estado), M05/M03.01 (autorização fiscal/LOA), M06 (nomeação e dissolução) e M14 (transição), com M04/M12 para competências federativas e cadeia de comando. Integrar sua crítica simétrica em matriz única A/B/C e somente então pautar **D**, caso exista pedido explícito e material suficiente. Alternativamente, usuário pode orientar **apenas** protótipo P (A/B/C/D0) para continuar pesquisa, mantendo tudo revisável.
+**Critério de parada:** se pareceres ou dados não forem obtidos, registrar `A/V` e suspender redação; não confundir maior extensão da pesquisa com autorização de ratificar. Não criar outra frente no CLF sem alinhamento próprio.
+
+## Fontes primárias relevantes e literatura controlada
+- Brasil CF/1988 https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html
+- Lei4320 https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm ; LRF https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm
+- Alemanha GG https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html ; Espanha CE https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229 ; França LOLF45 https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044611965
+- Estudo observacional de Cheibub/Przeworski/Saiegh (2004): https://doi.org/10.1017/S0007123404000195 .
+**Rastro:** artefatos todos na branch de pesquisa do PR #85, sem merge.

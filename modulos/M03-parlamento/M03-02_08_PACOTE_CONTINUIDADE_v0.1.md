@@ -1,0 +1,33 @@
+# M03.02.08 — FEITO / PENDENTE / PRÓXIMO (14/10/2026)
+**Issue:** [M03 #84](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/84). **PR:** [#85](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/85), draft. **Branch:** `pesquisa/m03-02-governo-responsabilidade-20261014`. **Main preflight:** `2a770a8136f8ca4877e865be3e3b7745a6d4b168`. **Status:** F0–F5/F8 de pesquisa H/P/A/V; F6 NÃO deliberada, F7 não iniciado. Nenhum D, CF-NOR, alteração da main ou CLF. Frente responsável M03, interfaces M02/M04/M05/M06/M07/M12/M14.
+
+## FEITO
+1. Dossiê `M03-02_08_TESTE_BIENAL_FISCAL_E_ELEITORAL_v0.1.md`: aplica ELE-1/ELE-2 e FISC-A/B/C a duas legislaturas FICTÍCIAS por Y1 e Y2, com direitos, orçamento, caixa, dívida, repartição de receita e controles. Distingue obrigação legal, dotação, autorização provisória, fluxo financeiro e capacidade real. Crítica forte ao regime fiscal especial multianual sem maioria política.
+2. `M03-02_08_MATRIZ_112_CONDICOES_FISCAIS.csv`: **112 registros condicionais**, produto cartesiano de 2 legislaturas × 7 regimes-fases × 8 categorias. As fases são A-Y1/Y2, B-Y1/Y2, C-Y1-H1/H2 e C-Y2-H2. **Y2 não reseta H1**; FISC-B mantém última LOA APROVADA Y0 como referência, salvo nova lei/correção válida — não trata o orçamento prorrogado como LOA nova por ficção. Sem números de custos, caixa ou quóruns reais.
+3. `M03-02_08_MATRIZ_16_TESTES_ELEITORAIS.csv`: **16 registros**, 2 legislaturas × ELE-1/ELE-2 × quatro eventos: C1 duas rejeições fiscais NÃO dissolvem; C2 reforma eleitoral antecipada e, em ramo NOVO, crise de investidura autônoma; C3 reforma depois de convocação legítima; C4 dissolução tentada pela chefia de Estado com mero orçamento rejeitado. ELE-2 exige exame da proteção de reforma legítima de direitos, e ELE-1 sozinho não protege reforma oportunista anterior à convocação.
+4. `scripts/validar_m03_02_08_matrizes.py`: verificador reproduzível de combinatória e chaves, **não** de direito ou finanças. **QA independente JavaScript foi EXECUTADO** lendo do GitHub os CSV: **PASS**, 112/16 registros, schemas com 14/12 campos, chaves únicas, produto cartesiano completo, sem vazio, L2 pré-confiança explicitado e vedação de reset fiscal/novos créditos automáticos. Não atribuir execução do script Python ao CI sem prova explícita.
+5. **Correção metodológica importante:** L2/P2 original da R03 perde questão formal de confiança em t5. Para estudo de mesmo governo em Y1 e Y2, a M03.02.08 cria ramo **L2/P2-DERIVAÇÃO PRÉ-CONFIANÇA após t4**, EXCLUINDO t5/t6. L3/P2 preserva ramo original sem pedido de confiança. Outras opções ELE são ramos NOVOS de crise formal, nunca consequência necessária do orçamento rejeitado.
+6. **Achado jurídico central:** receitas constitucionalmente repartidas (tipo FPM, CF158–160) não se confundem com subvenções/convênios discricionários; despesas de serviço exigível não significam automaticamente caixa; pagamento de dívida contratada não equivale a licença para endividamento novo. CF art.167§7, introduzido pela EC128/2022, já protege contra transferência legislativa de encargos de serviço público sem fonte/repasse dentro do escopo textual.
+7. Nenhuma edição em `governanca/03_DECISOES.md`, `redacao/`, CLF ou main; pesquisa permanece no PR. Duas matrizes, dossiê, validador e este pacote perfazem CINCO novos arquivos desta rodada.
+
+## REFERÊNCIAS PRIMÁRIAS E CONTROLE DE PROVENIÊNCIA
+- CF/1988 atualizada Câmara, arts.16, 158–160, 165–169: https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html .
+- EC128/2022: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc128.htm .
+- GG Alemanha art.111 e §2 (teto excepcional de CRÉDITO, não teto global de gasto): https://www.gesetze-im-internet.de/gg/art_111.html .
+- Espanha Lei47/2003 art.38 (exclusão de programas e obrigações findos da prorrogação): https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614 .
+- Comissão de Veneza, estabilidade eleitoral CDL-AD(2024)027: https://www.coe.int/en/web/venice-commission/-/cdl-ad-2024-027-e . Soft law, não vincula Brasil.
+- Dossiês versionados das rodadas M03.02.03 e .07 na mesma branch, sem importação de parâmetros fechados do Brasil alternativo.
+
+## PENDENTE — não substituir o parecer das outras frentes
+- **M05/M04:** classificar origem de receita, prioridade de dívida/contrato, limites e autorizações de crédito e gasto, se serviço constitucional e convênio exigível possuem cobertura financeira suficiente; estimativas reais NÃO OBTIDAS; consentimento territorial futuro indecidido.
+- **M02:** como uma reforma votada muito antes de dissolução pode ser casuística, direito da oposição, exceções para correção de barreira discriminatória, primeira eleição inaugural e certificação oficial da versão de lei.
+- **M06:** tutor judicial de obrigação exigível sob déficit de caixa, recusa presidencial de nomeação, fraude eleitoral/documental e eventual controle limitado de dissolução, sem juiz escolher orçamento.
+- **M07/M12:** contratação emergencial/contingenciamento e qualidade material de serviço de saúde/educação; sem comando militar concorrente ou “emergência” fiscal ilimitada.
+- **M14 [#90](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/90):** cláusulas transitórias prospectivas, capacidade operacional do calendário inaugural, primeira posse, direitos/mandatos e normatização da prorrogação.
+- **F6:** não escolher FISC-C como superior por parecer tecnocrático sem custo/direitos nem B como melhor regime causalmente. O impasse de Executivo protegido de censura e sem orçamento novo por vários exercícios NÃO FOI RESOLVIDO.
+
+## PRÓXIMO — M03.02.09
+Submeter pesquisa específica a M05/M04/M06 sobre os **limites temporais e materiais da continuidade orçamentária por vários anos**. Testar alternância e revisão obrigatória que não sejam nem dissolução eleitoral por veto orçamentário, nem poder executivo para manter orçamento antigo indefinidamente: (i) lei fiscal parcial por matéria ou crédito especial aprovado de forma autônoma, (ii) órgão parlamentar com dever de debate/comissão de mediação, (iii) revisão de rubricas expiradas e obrigações legais a cada exercício, (iv) tutela judicial de obrigação clara que não permita ao juiz escrever orçamento completo. Elaborar parecer do risco de captura e condições para F6 fiscal; nenhuma CF-NOR sem F6 substantivo.
+
+## STATUS DE INTEGRAÇÃO
+Toda entrega M03.02.08 está **apenas na branch do PR #85 draft**. A última verificação de SHA, conflitos e CI deve ser feita depois do último commit; nenhuma confirmação automática de mérito constitucional a partir de CI estrutural.

@@ -1,0 +1,7 @@
+"id","cenario","trajetoria","ordem","ato_legislativo","partidos_sim","partidos_nao","partidos_abstencao","sim","nao","abstencoes","resultado_lei_hipotetico","efeito_politico_em_presidencialismo_reformado"
+"PR1","L1","P1","1","Orçamento com coalizão A+B","A+B","C+D","","70","30","0","APROVA_SIMPLIFICADO","Presidente eleito em eleição autônoma e apoiado por A+B; governa sem censura política ordinária"
+"PR2","L1","P1","2","Orçamento após ruptura de B","A","B+C+D","","44","56","0","REJEITA_SIMPLIFICADO","Presidente mantém mandato, mesmo com maioria opositora; sem substituição por censura"
+"PR3","L2","P1","1","Orçamento com tolerância de Z","X","Y","Z","46","44","10","APROVA_SIMPLIFICADO","Coalizão não é condição necessária para cada lei no presidencialismo"
+"PR4","L2","P2","2","Orçamento quando Z se opõe","X","Y+Z","","46","54","0","REJEITA_SIMPLIFICADO","Presidente de X permanece; bloqueio exige negociação ou regras de continuação fiscal"
+"PR5","L3","P1","1","Orçamento com F neutro","A+C","B+D+E","F","45","47","8","REJEITA_SIMPLIFICADO","Executivo presidencial minoritário pode perder proposta sem término de mandato"
+"PR6","L3","P2","2","Orçamento após F apoiar governo","A+C+F","B+D+E","","53","47","0","APROVA_SIMPLIFICADO","Coalizão variável pode viabilizar medida pontual sem investidura parlamentar"
