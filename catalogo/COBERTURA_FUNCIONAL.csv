@@ -6,7 +6,7 @@ M03,Governo e processo legislativo,PROPOSTA,PESQUISA_MAIN_E_PR85_PR99_PR100,PR #
 M04,Participação federativa e consentimento,MAPEADA,PESQUISA_MAIN,modulos/M04-federacao/M04-01_CONSENTIMENTO_TERRITORIAL_E_IMPASSES_v0.1.md,Repartição federativa sistêmica não fechada,Mapa de competências receitas e controles
 M05,Encargos e equalização fiscal,MAPEADA,PESQUISA_MAIN,modulos/M05-financas/M05-02_PROTOCOLO_EMPIRICO_E_AUDITORIA_v0.1.md,Sem dados municipais reais harmonizados,Validar primeiro conjunto de dados reais
 M06,Tutela constitucional e prova digital,MAPEADA,PESQUISA_PR62_PR96,PR #62,Remédios e estrutura judicial além do recorte,Matriz remédios titulares custos e implementação
-M07,Administração e boa administração,NAO_EXAMINADA,INTERFACES_PARCIAS_SEM_DOSSIE_AUTONOMO,governanca/13_QUADRO_DE_COORDENACAO.md,Boa administração e accountability sem F0 próprio,F0 de administração e proteção digital
+M07,Administração e boa administração,MAPEADA,PESQUISA_PR102,PR #102,F0 e F1 seletivos de processo e inclusão digital; matriz N:N e revisão especializada ainda pendentes,Auditar destinos constitucionais e cenários de acesso digital
 M08,Ordem econômica e serviços públicos,NAO_EXAMINADA,PLANEJAMENTO,catalogo/MODULOS.csv,Regimes econômicos e prestações ainda não mapeados,F0 de limites constitucionais e remissão ao CLF
 M09,Direitos sociais e representação sindical,MAPEADA,PESQUISA_PR63,PR #63,Direitos sociais gerais e efeitos financeiros não exauridos,Matriz social por titular obrigação custeio tutela
 M10,Ambiente clima e gerações futuras,MAPEADA,PESQUISA_PR89,PR #89,Compatibilidade territorial e econômica ainda não integrada,Mapa de funções e deveres intergeracionais
