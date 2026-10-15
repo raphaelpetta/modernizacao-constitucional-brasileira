@@ -1,0 +1,19 @@
+id,origem,garantia_positiva,hipotese_canonica,cobertura_textual,risco_pendente,proximo_responsavel
+CC5-01,CF7 XIII,jornada 8h diarias e 44h semanais,CF-NOR-0027 I,NUCLEO_EXPRESSO,compensacao e fiscalizacao,M09;M06
+CC5-02,CF7 XIV,6h turnos ininterruptos de revezamento,SEM_DESTINO,NAO_COBERTO,quantitativo especial,M09
+CC5-03,CF7 XV,repouso semanal remunerado preferencial domingos,CF-NOR-0027 II,NUCLEO_EXPRESSO,efeitos nos setores especiais,M09
+CC5-04,CF7 XVI,adicional minimo 50 por cento,CF-NOR-0027 III,NUCLEO_EXPRESSO,base de calculo e prova,M09
+CC5-05,CF7 XVII,ferias anuais remuneradas mais um terco,CF-NOR-0027 IV,NUCLEO_EXPRESSO,direito ao gozo e sancoes,M09
+CC5-06,CF7 paragrafo unico,protecoes de empregados domesticos,CF-NOR-0027 ultimo paragrafo,PARCIAL,rol total de protecoes nao coberto,M09
+CC5-07,CF7 demais incisos,direitos de salario dispensa saude maternidade etc,SEM_DESTINO,NAO_COBERTO,mais de trinta funcoes permanecem,M09;M05
+CC5-08,CF8-11,sindicatos greve representacao coletiva,SEM_DESTINO,NAO_COBERTO,nenhum desenho ratificado,M09;M03
+CC5-09,CF231 5,vedacao remocao e retorno,CF-NOR-0028 primeiro paragrafo,NUCLEO_EXPRESSO,prova e implementacao de retorno,M11;M06
+CC5-10,CF231 6,nulidades ocupacao dominio posse e riquezas,CF-NOR-0028 segundo paragrafo,PARCIAL,efeito patrimonial e direito terceiros,M11;M06
+CC5-11,CF231 7,exclusao garimpagem cooperativista,CF-NOR-0028 terceiro paragrafo,PARCIAL,destino art174 3-4,M08;M11
+CC5-12,ADCT68,propriedade definitiva quilombola,CF-NOR-0029 primeiro paragrafo,NUCLEO_EXPRESSO,prova de titularidade e litigos,M11;M04
+CC5-13,ADCT68,emissao de titulos pelo Estado,CF-NOR-0029 primeiro e segundo,NUCLEO_EXPRESSO,efetividade mora e terceiros,M11;M06
+CC5-14,CF215-216,protecao patrimonio cultural quilombola,CF-NOR-0029 segundo paragrafo,PARCIAL,documentos sitios patrimonio e identidade,M11;M10
+CC5-15,OIT169 arts1 6 7,consulta de povos abrangidos e representatividade,CF-NOR-0025 consulta,PARCIAL,quilombolas e outros povos conforme abrangencia,M11;M13
+CC5-16,CF231 3,autorizacao parlamentar recursos hidricos minerais,CF-NOR-0025 especialidade,PARCIAL,ouvida participacao e regime lei,M03;M11
+CC5-17,CF5 XXXIV,peticoes certidoes sem taxa,CF-NOR-0021 paragrafo,PARCIAL,equivalencia e defesa outros procedimentos,M07;M06
+CC5-18,CF167 7,fonte financeira para encargos federativos,CF-NOR-0002,PARCIAL,continuidade sem LOA e custos reais,M04;M05
