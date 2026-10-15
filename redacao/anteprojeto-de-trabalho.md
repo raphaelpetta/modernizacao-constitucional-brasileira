@@ -351,3 +351,9 @@ Salvo comprovada má-fé, o autor da ação popular é isento de custas judiciai
 É proibido o trabalho noturno, perigoso ou insalubre a menores de dezoito anos, bem como qualquer trabalho a menores de dezesseis anos, salvo na condição de aprendiz a partir de quatorze anos.
 
 A aprendizagem e a inserção profissional de adolescentes observarão a proteção integral, o acesso e a permanência na educação, as condições de saúde e segurança, a fiscalização das atividades e os demais direitos fundamentais próprios de sua condição de pessoa em desenvolvimento.
+
+## CF-NOR-0045 — Anterioridade eleitoral e integridade das regras de competição [H; A]
+
+A lei que alterar o processo eleitoral entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência.
+
+A garantia da anterioridade aplica-se também às emendas constitucionais que alterem o processo eleitoral. São asseguradas a igualdade de oportunidades na disputa e a proteção contra alterações casuísticas das regras eleitorais, sem prejuízo do controle judicial de atos que interfiram na liberdade do voto.

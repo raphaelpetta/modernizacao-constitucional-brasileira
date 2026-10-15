@@ -1,0 +1,11 @@
+id,garantia_positiva,fonte_oficial,destino_H,resultado,risco_remanescente,revisor
+M02-010-01,Anterioridade minima de um ano,CF16,CF-NOR-0045-p1,LITERAL,Definicao do processo eleitoral,M02_M06
+M02-010-02,Incidencia em emenda derivada,STF_ADI3685,CF-NOR-0045-p2,EXPRESSA,Limites da transicao constituinte,M02_M14
+M02-010-03,Reforma moralizante nao afasta prazo,STF_RE633703,CF-NOR-0045-p1,INTERPRETATIVA,Classificar inelegibilidade e fases,M02_M06
+M02-010-04,Mudanca meramente procedimental,STF_ADI3741,CF-NOR-0045-p1,INTERPRETATIVA,Evitar universalizacao da anualidade,M02_M07
+M02-010-05,Anticasuismo inclusive desvio fiscal,STF_ADI7212,CF-NOR-0045-p2,PARCIAL,Politicas sociais legitimas e efeitos,M02_M05
+M02-010-06,Virada jurisprudencial com prospectividade,STF_RE637485,NENHUM,AUSENTE,Criar especialidade sem conflito,M02_M06
+M02-010-07,Sufragio e voto de valor igual,CF14,NENHUM,AUSENTE,Direitos politicos materialmente descobertos,M02_M01
+M02-010-08,Alistamento e inelegibilidades,CF14-paragrafos,NENHUM,AUSENTE,Obrigatoriedade e elegibilidade nao decididas,M02_M03
+M02-010-09,Voto presidencial e vacancia,CF60_CF77_CF81_STF_ADI5525,NENHUM,AUSENTE,Revisao de PEC e primeiro mandato,M03_M14
+M02-010-10,Plebiscito nacional e consultas subnacionais,Lei9709_TSE23385_23772,NENHUM,AUSENTE,Competencia e turnos distintos,M02_M14
