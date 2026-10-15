@@ -1,0 +1,13 @@
+id,cenario,nucleo_vigente,pergunta_adversarial,confronto_candidatos,status,revisor
+M02-C009-01,Coligacoes alteradas sete meses antes do pleito,CF16_ADI3685,A mudanca de regra de competicao poderia valer imediatamente,T1 protege um ano T2 prazo vago,V,M02_M06
+M02-C009-02,Reforma de formulas 18 meses antes do pleito,CF14_CF16,Antecedencia superior a um ano dispensa exame de igualdade e casuismo,Nao T1 e S1 exigem controle de paridade,V,M02_M06
+M02-C009-03,Ajuste tecnico em urna poucos dias antes,CF14_ADI5889,Medida altera sigilo ou igualdade apesar de ser operacional,Depende de efeito e prova concreta,V,M02_M07
+M02-C009-04,Emenda constitucional muda coligacoes em ano eleitoral,ADI3685_CF60,A anterioridade alcanca reforma constitucional derivada,Sim em tese sem transpor para poder constituinte originario,V,M02_M14
+M02-C009-05,Programa emergencial e ampliado no ano eleitoral,ADI7212,Ha distorcao da competicao e liberdade de voto,Exigir exame material e contexto sem proibir assistencia em abstrato,V,M02_M05
+M02-C009-06,Reforma inclusiva de acesso ao voto a oito meses,CF14_CF16,A inclusao autoriza afastar anterioridade automaticamente,Nao avaliar alcance e possibilidade de aplicacao legitima,V,M02_M06
+M02-C009-07,Parlamento investe primeiro ministro,CF14_CF60,Investidura parlamentar viola necessariamente voto direto,Nao concluir sem distinguir objeto e competencia,A,M02_M03
+M02-C009-08,PEC elimina eleicao presidencial direta ordinaria,CF60p4II_CF77,Art81p1 de vacancia torna a PEC valida,Nao concluir requer parecer especifico,A,M02_M06
+M02-C009-09,Duas vagas presidenciais em fase final de mandato,CF81p1,Excecao de dupla vacancia equivale a regra geral futura,Nao distinguir excepcionalidade e desenho de regime,V,M02_M14
+M02-C009-10,Convocacao de plebiscito nacional sobre governo,CF14_Lei9709,Consulta por si ratifica PEC e investe governo,Nao competencia e efeitos sao separados,V,M02_M14
+M02-C009-11,Consulta municipal no mesmo dia de pleito,TSE23772_2026,Regra subnacional permite plebiscito federal automatico,Nao verificar texto e limites da norma,V,M02_M07
+M02-C009-12,Secao eleitoral inacessivel e falta de transporte,CF14_ADPF4467,Igualdade formal basta para eficacia do voto,Nao testar barreiras reais e tutela adequada,V,M02_M01
