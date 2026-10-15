@@ -22,7 +22,7 @@
 | Reforma estrutural | | | | | |
 
 ## 7. Deliberações D/P/H/A/V (CF-DEC)
-## 8. Minutas CF-NOR somente após pesquisa e decisão
+## 8. Minutas CF-NOR após pesquisa suficiente: H/P experimental; D apenas após decisão ratificada
 ## 9. Testes de captura, má-fé, baixa capacidade e crises
 ## 10. Auditoria de garantias atuais e dependências cruzadas
 ## 11. Pacote de continuidade e arquivos a atualizar
