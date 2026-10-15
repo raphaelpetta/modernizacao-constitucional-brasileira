@@ -39,6 +39,10 @@ O código dos módulos **não** determina a divisão em títulos, capítulos ou 
 
 A verificação estrutural pode ser executada localmente com `python scripts/validar_repositorio.py` e é acionada pelo GitHub Actions em PRs e na `main`. Ela confere presença dos arquivos, IDs e dependências do catálogo, além de links Markdown locais. **Não** certifica validade jurídica, integridade de precedentes ou deliberações.
 
+## Priorização transversal por ganho marginal
+
+A [política CF-GOV-019 de ganho marginal e rotação justificada](governanca/19_POLITICA_GANHO_MARGINAL_GLOBAL.md) aplica-se a todas as frentes M00–M14, pesquisas F0–F8, texto experimental e integração. **Comparar a próxima rodada com alternativas**, privilegiando ganho material em direitos, cobertura e capacidade decisória, não volume de documentos. Duas rodadas sucessivas no mesmo núcleo ativam reavaliação da carteira; terceira rodada exige motivação específica, sem dispensar rigor em direitos sensíveis. Todo handoff registra ganho esperado/realizado e custo de oportunidade; H/D permanecem distintos.
+
 ## Coordenação permanente e resultado de cada rodada
 
 O projeto opera com o [protocolo transversal de ciclos](governanca/12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md), um [quadro de frentes, entregas, pendências e próximas tarefas](governanca/13_QUADRO_DE_COORDENACAO.md), o [registro de marcos e handoffs](governanca/14_REGISTRO_DAS_RODADAS.md) e o [controle de identificadores](governanca/15_REGISTRO_RESERVAS_IDS.md).
