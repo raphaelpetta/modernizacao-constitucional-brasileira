@@ -1,0 +1,25 @@
+id,fonte_vigente,funcao_garantia,hipotese_destino,estado_textual,risco_pendente,interface
+CC8-01,CF16,anterioridade de mudanca eleitoral,CF-NOR-0039 §3,PARCIAL,não define classificação material nem cronograma,M02;M14
+CC8-02,CF60 §§1–4,rito e limites à reforma,CF-NOR-0039 §2,PARCIAL,não escolhe consulta ou via constituinte,M00;M02;M06;M14
+CC8-03,CF57 §4; CF82,investiduras federais em datas diferentes,CF-NOR-0039 §§1–3,PARCIAL,Camara nova nao investida antes da posse,M02;M03;M14
+CC8-04,ADCT2; Lei9709,consulta plebiscito ou referendo,SEM_DECISAO,ALTERNATIVA_ABERTA,exigibilidade plebiscito mudança governo controvertida,M02;M06;M14
+CC8-05,CF5 XXXVI,ato perfeito e direito adquirido,CF-NOR-0039 como salvaguarda indireta,PARCIAL,regime de transição de direitos privados pendente,M01;M14
+CC8-06,CF5 II,legalidade geral,CF-NOR-0040 §1,NUCLEO_EXPRESSO,competencias normativas constitucionais específicas,M00;M01
+CC8-07,CF5 XXXIX,lei anterior para crime e pena,CF-NOR-0040 §2,NUCLEO_EXPRESSO,retroatividade favoravel e outras regras penais,M00;M12
+CC8-08,CF150 I,legalidade tributária,CF-NOR-0040 §2,PARCIAL,exceções tributarias e anterioridade não cobertas,M00;M05
+CC8-09,CF59;68;84 IV/VI,espécies delegação e regulamentos,CF-NOR-0040 §3,PARCIAL,decretos autonomos e medidas provisórias,M00;M03;CLF
+CC8-10,CF5 LXXII a,HD acesso a dados pessoais em banco publico,CF-NOR-0041 §1,NUCLEO_EXPRESSO,caráter publico e prova de recusa,M01;M06
+CC8-11,CF5 LXXII b,HD retificação dos dados pessoais,CF-NOR-0041 §1,NUCLEO_EXPRESSO,processo sigiloso e efeitos,M01;M06;M07
+CC8-12,CF5 LXXVII,gratuidade habeas data,CF-NOR-0041 §2,NUCLEO_EXPRESSO,extensão dos atos e custos de execução,M05;M06
+CC8-13,Lei9507 art7 III,anotação de explicação/contestação de dado,SEM_DESTINO_H,NAO_COBERTO,função legal ainda não transposta,M06;M01
+CC8-14,CF5 LXXIII,legitimidade cidadã ação popular,CF-NOR-0042 §1,NUCLEO_EXPRESSO,não equivale ACP e legitimidade de outros titulares,M02;M06
+CC8-15,CF5 LXXIII,objetos patrimônio moralidade ambiente cultura,CF-NOR-0042 §1,NUCLEO_EXPRESSO,tutela coletiva e incidências especiais,M06;M10
+CC8-16,CF5 LXXIII,isenção custas sucumbencia salvo comprovada ma-fe,CF-NOR-0042 §2,NUCLEO_EXPRESSO,procedimentos e execução custeio,M05;M06
+CC8-17,CF7 XVIII,licença gestante minimo 120 dias,CF-NOR-0043 §1,NUCLEO_EXPRESSO,adoção domésticas previdência específicos,M05;M09
+CC8-18,ADCT10 II b,estabilidade da gestante cinco meses após parto,CF-NOR-0043 §2,NUCLEO_EXPRESSO,regime de dispensa e titularidade,M06;M09
+CC8-19,CF7 XIX;ADCT10 §1,licença paternidade e transição de cinco dias,CF-NOR-0043 §3,PARCIAL,cinco dias nao explicitado no corpo H,M05;M09;M14
+CC8-20,Lei15371/2026 art11/14,licenca paternidade 2027 10 dias e 2028 15 dias,CF-NOR-0043 documentação,LEI_PUBLICADA_VACATIO,norma só vigorará 01-01-2027,M05;M09;M14
+CC8-21,Lei15371/2026 art11 §§1–2,prazo 20 dias 2029 condicionado meta fiscal,CF-NOR-0043 documentação,EFICACIA_CONDICIONAL,não presumir 20 dias automáticos em 2029,M05;M09
+CC8-22,CF7 XXXIII,limites trabalho infantil 16 anos aprendiz 14,CF-NOR-0044 §1,NUCLEO_EXPRESSO,qualificação de aprendiz e fiscalização,M07;M09
+CC8-23,CF7 XXXIII,proibição noturno perigoso insalubre menor 18,CF-NOR-0044 §1,NUCLEO_EXPRESSO,atividade econômica e ambientes digitais,M09;M12
+CC8-24,CF227,proteção integral crianças/adolescentes,CF-NOR-0044 §2,PARCIAL,educação e direitos gerais não substituídos,M01;M09
