@@ -1,0 +1,23 @@
+id,fonte_vigente,funcao_de_garantia,hipotese_destino,estado,risco_concreto,interface_proxima
+CC7-01,CF5 LVI,proibicao de prova obtida por meio ilicito,CF-NOR-0035 §1,NUCLEO_EXPRESSO,origem ilicita nao convalidada por tecnica,M06;M12
+CC7-02,CF5 X XII LXXIX,intimidade comunicacoes e dados,CF-NOR-0035 §§1-3,PARCIAL,excecoes dados e privacidade PR59 nao consolidados,M01;M07;M12
+CC7-03,CF5 LIV LV,devido processo contraditorio e defesa em prova,CF-NOR-0035 §2,PARCIAL,acesso tecnico sigilo de terceiros urgencia,M06;M12
+CC7-04,CPP arts158-A e seguintes,cadeia de custodia de vestigios,CF-NOR-0035 §2,PARCIAL,nenhum algoritmo ou nulidade automatica aprovado,M06;M12
+CC7-05,STF Tema977,acesso a telefone fortuito apreensao e preservacao,CF-NOR-0035 §3,ALTERNATIVA_ABERTA,P4-E versus P4-R com jurisprudencia temporal,M01;M06;M12
+CC7-06,CF5 §2,abertura de direitos e tratados,CF-NOR-0036 §1,NUCLEO_EXPRESSO,aplicabilidade concreta a cada tratado,M13;M06
+CC7-07,CF5 §3,tratados de DH rito 3/5 dois turnos casas,CF-NOR-0036 §2,NUCLEO_EXPRESSO,distincao tratados ordinarios,M03;M13
+CC7-08,CF49 I e 84 VIII,competencias sobre tratados,CF-NOR-0036 §3,PARCIAL,assinatura e ratificacao nao sao mesmos atos,M03;M13
+CC7-09,CF5 §4,submissao Tribunal Penal Internacional,SEM_DESTINO_AQUI,NAO_COBERTO,reconstruir dispositivo especial,M13;M12
+CC7-10,OIT169 e DL143/2002,consulta de povos com afetação direta,CF-NOR-0025 com M13,PARCIAL,supralegalidade nao equivale emenda,M11;M13
+CC7-11,CF5 LXIX,mandado de seguranca individual,CF-NOR-0037 §1,NUCLEO_EXPRESSO,cabimento prova e urgencia,M06
+CC7-12,CF5 LXX,mandado de seguranca coletivo,CF-NOR-0037 §2,NUCLEO_EXPRESSO,legitimidade associativa e efeitos,M06;M09
+CC7-13,Lei12016 e ADI4296,tutela liminar com filtros constitucionais,CF-NOR-0037 §3,PARCIAL,impedir vedacao categorica e liminar indiscriminada,M06;M07
+CC7-14,CF5 LXXII LXXVII,habeas data acesso e gratuidade,SEM_DESTINO_AQUI,NAO_COBERTO,integrar dados no PR59 sem apagar remedio,M01;M06
+CC7-15,CF5 LXXIII,acao popular gratuita salvo ma-fe,SEM_DESTINO_AQUI,NAO_COBERTO,legitimidade cidada e controle publico,M06;M10
+CC7-16,CF7 IV,salario minimo nacional e preservacao poder aquisitivo,CF-NOR-0038 I,NUCLEO_EXPRESSO,vedacao vinculacao e efeitos fiscais,M05;M09
+CC7-17,CF7 VI,irredutibilidade salvo negociacao coletiva,CF-NOR-0038 II,PARCIAL,indisponibilidade e representatividade,M09;M06
+CC7-18,CF7 VII,remuneracao variavel nao inferior minimo,CF-NOR-0038 III,NUCLEO_EXPRESSO,base temporal calculo e vinculo,M09
+CC7-19,CF7 VIII,decimo terceiro com base remuneracao aposentadoria,CF-NOR-0038 IV,PARCIAL,beneficios regimes previdenciarios e financiamento,M05;M09
+CC7-20,CF7 I III IX XXXIV e ADCT,direitos laborais e especialidades restantes,SEM_DESTINO_COMPLETO,NAO_COBERTO,impossivel declarar equivalencia integral art7,M09;M05
+CC7-21,CF5 LXXIV,assistencia juridica integral aos necessitados,SEM_DESTINO_COMPLETO,NAO_COBERTO,nao basta mencionar tutela acessivel,M06
+CC7-22,CF5 XXXV,inafastabilidade jurisdicional,CF-NOR-0007,PARCIAL,remedios especificos nao substituidos por via geral,M01;M06
