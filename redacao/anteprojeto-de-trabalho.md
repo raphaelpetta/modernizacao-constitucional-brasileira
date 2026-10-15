@@ -195,3 +195,27 @@ A ordem econômica, fundada na valorização do trabalho humano e na livre inici
 É livre o exercício de atividade econômica independentemente de autorização de órgãos públicos, ressalvados os casos previstos em lei e respeitadas as garantias constitucionais de legalidade, proporcionalidade, devido processo e controle jurisdicional na imposição de restrições.
 
 A lei estabelecerá mecanismos de prevenção e repressão do abuso do poder econômico que vise à dominação dos mercados, à eliminação da concorrência ou ao aumento arbitrário dos lucros, com respeito ao contraditório, à ampla defesa e à tutela efetiva dos direitos afetados.
+
+## CF-NOR-0025 — Direitos originários territórios e consulta dos povos indígenas [H; A]
+
+São reconhecidos aos povos indígenas suas organizações sociais, costumes, línguas, crenças e tradições e os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, protegê-las e fazer respeitar seus bens e direitos.
+
+São terras tradicionalmente ocupadas pelos povos indígenas as por eles habitadas em caráter permanente, as utilizadas para suas atividades produtivas, as imprescindíveis à preservação dos recursos ambientais necessários a seu bem-estar e as necessárias à reprodução física e cultural, segundo seus usos, costumes e tradições. O reconhecimento administrativo desses direitos tem caráter declaratório.
+
+As terras tradicionalmente ocupadas destinam-se à posse permanente dos povos indígenas e ao usufruto exclusivo das riquezas do solo, dos rios e dos lagos nelas existentes, observadas as reservas constitucionais especiais aplicáveis. As terras são inalienáveis e indisponíveis, e os direitos sobre elas, imprescritíveis.
+
+Os povos indígenas interessados serão consultados previamente, de boa-fé e por procedimentos apropriados e suas instituições representativas, sobre medidas legislativas ou administrativas suscetíveis de afetá-los diretamente, com o objetivo de alcançar acordo ou consentimento, observadas as garantias específicas constitucionalmente aplicáveis. A audiência pública ambiental geral não substitui a consulta própria quando devida.
+
+O aproveitamento de recursos hídricos, incluídos os potenciais energéticos, e a pesquisa e lavra de riquezas minerais em terras indígenas dependem de autorização do Congresso Nacional, ouvidas as comunidades afetadas e assegurada sua participação nos resultados da lavra, na forma da lei, sem prejuízo dos demais requisitos constitucionais e convencionais aplicáveis.
+
+Os indígenas, suas comunidades e organizações são partes legítimas para ingressar em juízo em defesa de seus direitos e interesses, intervindo o Ministério Público em todos os atos do processo, sem prejuízo das atribuições constitucionais de outros órgãos de defesa.
+
+## CF-NOR-0026 — Áreas especialmente protegidas reparação e responsabilidade ambiental [H; E]
+
+> Regra geral de referência: CF-NOR-0023. Relação em exame.
+
+O poder público definirá, em todas as unidades da Federação, espaços territoriais e seus componentes especialmente protegidos, cuja alteração ou supressão somente poderá ocorrer por lei, vedada qualquer utilização que comprometa a integridade dos atributos que justifiquem sua proteção.
+
+Aquele que explorar recursos minerais fica obrigado a recuperar o meio ambiente degradado, de acordo com solução técnica exigida pelo órgão público competente, na forma da lei, sem prejuízo das responsabilidades correspondentes.
+
+As condutas e atividades lesivas ao meio ambiente sujeitam seus responsáveis, pessoas físicas ou jurídicas, às sanções penais e administrativas cabíveis, independentemente da obrigação de reparar os danos causados, observadas as garantias constitucionais e legais próprias de cada espécie de responsabilidade.

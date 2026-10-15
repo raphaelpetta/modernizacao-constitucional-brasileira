@@ -1,0 +1,17 @@
+id,origem_vigente,garantia_ou_funcao,destino_experimental,resultado_textual,risco_material,proximo_responsavel
+CF4-001,CF231 caput,organizacao social linguas costumes crencas e terras originarias,CF-NOR-0025 §1,PARCIAL,ELEVADO,M11;M01
+CF4-002,CF231 §1,definicao funcional de ocupacao tradicional,CF-NOR-0025 §2,NUCLEO_EXPRESSO_NAO_EQUIVALENTE,ELEVADO,M11;M04
+CF4-003,CF20 XI e CF231 §§2 e 4,bem federal posse usufruto e indisponibilidade,CF-NOR-0025 §3,PARCIAL,ELEVADO,M04;M11
+CF4-004,CF231 §3 e CF49 XVI,mineracao hidrica autorizacao parlamentar oitiva e participacao,CF-NOR-0025 §5,PARCIAL,ELEVADO,M03;M11;M08
+CF4-005,CF231 §5,proibicao de remocao excecoes e retorno,SEM_DESTINO,NAO_COBERTO,CRITICO,M11;M12
+CF4-006,CF231 §6,nulidade de atos e benfeitorias direitos de terceiros,SEM_DESTINO,NAO_COBERTO,CRITICO,M11;M06
+CF4-007,CF231 §7 e CF174 §§3–4,inaplicabilidade de garimpagem cooperativa em terras indigenas,SEM_DESTINO,NAO_COBERTO,ELEVADO,M08;M11
+CF4-008,CF232,legitimidade judicial propria e intervencao MP,CF-NOR-0025 §6,NUCLEO_EXPRESSO_NAO_EQUIVALENTE,ELEVADO,M06;M11
+CF4-009,OIT169 arts1 6 7 15,consulta e deveres de participacao com titularidade apropriada,CF-NOR-0025 §§4–5,PARCIAL,ELEVADO,M11;M13
+CF4-010,ADCT68,propriedade definitiva quilombola titulação,SEM_DESTINO,NAO_COBERTO,CRITICO,M11;M14
+CF4-011,CF225 §1 III,espacos protegidos e alteracao por lei,CF-NOR-0026 §1,NUCLEO_EXPRESSO_NAO_EQUIVALENTE,ELEVADO,M04;M10
+CF4-012,CF225 §2,dever de recuperacao mineracao,CF-NOR-0026 §2,NUCLEO_EXPRESSO_NAO_EQUIVALENTE,ELEVADO,M08;M10
+CF4-013,CF225 §3,sancoes penais administrativas e reparacao independente,CF-NOR-0026 §3,NUCLEO_EXPRESSO_NAO_EQUIVALENTE,ELEVADO,M06;M10;M12
+CF4-014,CF225 §1 V–VII,risco produtos educação ambiental fauna e crueldade,SEM_DESTINO,NAO_COBERTO,CRITICO,M09;M10;M11
+CF4-015,CF225 §§4–7,biomas bens terras nuclear e excepcao cultural,SEM_DESTINO,NAO_COBERTO,CRITICO,M04;M10;M11
+CF4-016,CF225 §1 VIII EC132 2023,regime tributario com vigencia especifica,SEM_DESTINO,NAO_COBERTO,ELEVADO,M05;M10;M14
