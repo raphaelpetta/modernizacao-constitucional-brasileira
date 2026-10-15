@@ -1,0 +1,13 @@
+id,funcao,base_cf_1988,legislacao_detalhe,piso_constitucional_a_verificar,risco,interface,estado,proximo_teste
+M07-F01,peticao e informacao,CF art5 XXXIII XXXIV a,Lei9784 art3; LAI a verificar,Acesso efetivo inclusive a via de peticao,R3,M01 M06 T07,MAPEADA_SEM_EQUIVALENCIA,Verificar alcance acesso e sigilos
+M07-F02,contraditorio e defesa,CF art5 LIV LV,Lei9784 art2 X e arts26 38,Ciencia e defesa efetivas em procedimentos abrangidos,R3,M01 M06 T07,MAPEADA_SEM_EQUIVALENCIA,Testar notificação eletronica e prova
+M07-F03,motivacao e controlabilidade,CF art37 caput; art5 LIV LV,Lei9784 art50,Razoes acessiveis e revisibilidade onde devidas,R3,M06 T07,MAPEADA_SEM_EQUIVALENCIA,Auditar categorias de atos e excecoes
+M07-F04,duracao razoavel,CF art5 LXXVIII,Lei9784 arts49 59 66,Celeridade sem esvaziar defesa,R3,M01 T07,MAPEADA_SEM_EQUIVALENCIA,Comparar dias corridos e uteis
+M07-F05,dados e sigilo,CF art5 X XXXIII LXXIX,LGPD arts6 23; Lei14129 art3,Finalidade seguranca transparencia e direitos,R3,M01 M12 T43,MAPEADA_SEM_EQUIVALENCIA,Testar dado de terceiro e base legal
+M07-F06,acessibilidade e canais,CF art37 par3; art5 XXXIV LV,Lei14129 arts6 14,Acesso real sem exclusao digital,R3,M01 M04 M09 T43,MAPEADA_SEM_EQUIVALENCIA,Teste processo sem canal eletronico
+M07-F07,controle e prestacao de contas,CF arts37 70 74,Lei9784 art2; Lei14129 art3,Controle interno externo e contraditorio pertinente,R3,M05 M06 T07,MAPEADA_SEM_EQUIVALENCIA,Revisar controles e tutelas
+M07-F08,servicos e participacao,CF arts37 par3 175,Lei14129 arts3 14,Reclamacao atendimento e participacao,R2,M04 M09 T43,MAPEADA_SEM_EQUIVALENCIA,Verificar alcance territorial
+M07-F09,federalismo digital,CF arts18 23 24 30 37,Lei14129 art2 III,Respeito a competencias e atos de adesao,R3,M04 T43,MAPEADA_SEM_EQUIVALENCIA,Simular ente sem adesao
+M07-F10,especialidade procedimental,CF art5 LIV LV,Lei9784 arts1 69,Nao suprimir ritos especiais sem justificativa,R3,M06 T07,MAPEADA_SEM_EQUIVALENCIA,Auditar remissoes no CLF
+M07-F11,proteção de vulneraveis,CF art5 caput; art37 par3,Lei14129 arts3 14; CDPD revisar,Igualdade substancial na prestacao digital,R3,M01 M09 T43,MAPEADA_SEM_EQUIVALENCIA,Conferir acessibilidade e apoios
+M07-F12,transicao digital,CF art5 LV LXXVIII; art37 caput,Lei14129 arts5 6 14,Efeitos temporais e alternativas de canal,R3,M14 T07 T43,MAPEADA_SEM_EQUIVALENCIA,Simular falha de sistema e prazos
