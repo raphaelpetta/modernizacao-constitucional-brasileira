@@ -177,3 +177,11 @@ A prestação por particulares, mediante delegação constitucionalmente admitid
 A lei estabelecerá padrões de prestação adequada, condições de interrupção e restabelecimento, fiscalização e participação dos usuários, bem como critérios tarifários compatíveis com a sustentabilidade do serviço e a proteção constitucional das pessoas em situação de vulnerabilidade, vedadas interrupções arbitrárias de serviços essenciais.
 
 Este dispositivo não dispensa exigências constitucionais de contratação e delegação, competências federativas, devido processo legal e garantias específicas de usuários, trabalhadores, consumidores e titulares de direitos fundamentais.
+
+## CF-NOR-0023 — Meio ambiente ecologicamente equilibrado e estudo prévio de impacto [H; A]
+
+Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida. O poder público e a coletividade devem defendê-lo e preservá-lo para as presentes e futuras gerações.
+
+Incumbe ao poder público, no âmbito das competências constitucionais de seus órgãos, preservar e restaurar os processos ecológicos essenciais e proteger a diversidade biológica e a integridade do patrimônio genético, asseguradas a prevenção e a reparação de danos ambientais nos termos desta Constituição e da lei.
+
+Para a instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, exigir-se-á, na forma da lei, estudo prévio de impacto ambiental, ao qual se dará publicidade.
