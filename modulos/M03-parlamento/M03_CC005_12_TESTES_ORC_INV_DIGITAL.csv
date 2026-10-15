@@ -1,0 +1,13 @@
+id,hipotese,arquiteturas,controle_pendente,prova_necessaria,resultado_documental,interface
+CF5-ORC-01,Despesa salarial ja reconhecida sem nova LOA,A;B;C,lei previa nao e caixa,autorizacao previa fonte e disponibilidade,CONDICIONAL,M05;M09
+CF5-ORC-02,Repasse federativo legalmente obrigatorio em impasse,A;B;C,encargo deve ter fonte e via de repasse,lei repasse rubrica e cadeia de execucao,CONDICIONAL,M04;M05
+CF5-ORC-03,Novo programa social aprovado apenas em discurso,A;B;C,exigibilidade nao e credito automatico,lei material orcamento e fonte,NAO_AUTORIZA,M05;M09
+CF5-ORC-04,Compra urgente de servico essencial sem LOA,A;B;C,urgencia nao amplia poder fiscal,competencia fonte contrato e regime emergencial,CONDICIONAL,M05;M07;M08
+CF5-ORC-05,Despesa com dotacao formal sem disponibilidade de caixa,A;B;C,autorizacao nao gera disponibilidade,fluxo financeiro exigibilidade e fonte,NAO_DEMONSTRA_VIABILIDADE,M05
+CF5-ORC-06,Dois anos sem maioria parlamentar para LOA,A;B;C,censura e dissolucao nao criam orçamento,limites executivos periodo e processo legislativo,IMPASSE_ABERTO,M03;M05;M14
+CF5-INV-07,Chefe de Estado recusa ato de investidura valido,B;C,ato vinculado e tutela de rito,ata de votacao quorum prazo e juiz competente,CONDICIONAL,M02;M06
+CF5-INV-08,Camara nao forma maioria para governo,B;C,nao presumir investidura ou dissolucao,quorum e procedimento de tentativa,IMPASSE_ABERTO,M02;M03;M14
+CF5-DIG-09,Sistema de peticao indisponivel no fim de prazo,A;B;C,canal alternativo e efeito sobre prazo,logs indisponibilidade via alternativa e norma,CONDICIONAL,M07;CLF-T07-T43
+CF5-DIG-10,Comunicacao digital enviada sem acesso comprovado,A;B;C,envio difere de recebimento e ciencia,opcao registros autoria e lei especial,NAO_CERTIFICA_CIENCIA,M07;M06;CLF-T07
+CF5-DIG-11,Regime setorial presume ciencia apos prazo de sistema,A;B;C,prova de incidencia temporal e especialidade,texto norma vigente log individual defesa e alteracoes,SEM_VALIDACAO_INDIVIDUAL,M07;CLF-T07
+CF5-TERR-12,Obra emergencial com impacto direto em povo,A;B;C,urgencia nao apaga consulta e competencas,afetação justificativa alternativas consulta e autorizacoes,CONDICIONAL,M11;M10;M03
