@@ -1,0 +1,54 @@
+# M03.03.02 — Parecer adversarial: o que as seis arquiteturas resolvem e não resolvem
+**ID:** CF-M03.03-EST-002 · **Corte:** 15/10/2026 · **Status:** H/P/A/V. **F6/D/F7 não realizados**. **Referências cruzadas:** M03-03_02_SEIS_FICHAS_E_CONFRONTOS_v0.1.md e M03-03_02_MATRIZ_APLICACAO_15_TESTES_6_MODELOS.csv.
+
+## 1. Método e abrangência real
+Seis fichas de dez eixos testadas contra quinze eventos qualitativos, totalizando 90 campos de exposição e resultado no CSV. Códigos: **CRITICO** = falha ou conflito de alta gravidade na configuração experimental SEM salvaguarda ainda validada; **PERSISTE** = impasse não solucionado logicamente; **ATENCAO** = risco que exige especificação/controle; **NAO_ESPECIFICO** = aquele mecanismo não é próprio da arquitetura, NÃO significa isenção de risco; **VERIFICAR** = falta evidência externa. **Nenhum é selo de constitucionalidade, efeito demonstrado ou taxa de falha**. Os eventos são diferentes entre si e alguns deliberadamente dirigidos contra colegiados ou eleições parlamentares: **contar CRITICO por modelo e ranquear seria estatisticamente inválido e metodologicamente enviesado**. Não atribuir probabilidades, custo ou ganho líquido.
+
+Os registros nas fontes jurídicas comparadas comprovam **existência de institutos**, não que modelos completos brasileiros sejam implementáveis por PEC nem que desempenho seja replicável. Em particular, direito estrangeiro não prova que reduzir eleição presidencial direta respeite CF art.60 §4º, II.
+
+## 2. Quatro resultados realmente discriminantes
+**Resultado 1 — X-D não é parlamentarismo B distribuído entre sete pessoas.** O modelo testado opera por mandato colegiado protegido, sem confiança ordinária e com competências materiais do Conselho. A regra de decisão coletiva cria um problema autônomo de agência: secretários/portfólios precisam fazer escolhas no dia a dia e conselho responder por ordens, especialmente em defesa, emergência, orçamento, contratação e representação internacional. Se toda medida exigir sessão e maioria, bloqueia-se urgência. Se presidência rotativa agir livremente, dissolve-se o princípio colegiado. Uma delegação de urgência estritamente conservatória com prazo, ratificação e revisão é o meio-termo plausível, ainda não validado por M07/M12/M06. O Conselho não elimina disputa orçamentária entre Legislativo e Executivo, apenas cria negociação coletiva interna.
+
+**Resultado 2 — X-G não entrega por si o benefício político de B.** Congresso elege presidente de mandato protegido, mas não pode destituí-lo por desacordo ordinário. Ao perder maioria fiscal, esse presidente mantém o mesmo tipo de sobrevivência rígida do A reformado. A escolha parlamentar pode facilitar pacto na origem, mas o apoio pode desaparecer; não existe garantia de disciplina do eleitorado indireto ou proteção contra renegociação. Soma-se o ônus de justificar democraticamente trocar eleição presidencial popular por parlamentar. **Melhor contra-argumento:** a eleição indireta pode fazer sentido por critérios federativos ou capacidade de composição representativa, desde que exista prova específica e que o peso de cada voto seja juridicamente defensável. Não descartar X-G como ideia irracional, mas **não apresentar como cura do bloqueio fiscal**.
+
+**Resultado 3 — X-F é uma alternativa de chefia única e remoção política distinta de B.** A responsabilidade parlamentar permite destituir o presidente sem manter chefia estatal separada. A fonte de responsabilidade é mais clara que a do Conselho em algumas decisões, mas um voto de censura NÃO exige automaticamente sucessor. É necessário governo interino limitado, prazo de eleição e barreiras contra quedas repetitivas. Adotar censura CONSTRUTIVA contra Presidente torna X-F mais semelhante a B, porém a diferença de chefia única subsiste. X-F pode ser concorrente verdadeiro a B, mas precisa de desenho tão completo quanto B e de auditoria do sufrágio presidencial e captura dos controles pela maioria.
+
+**Resultado 4 — X-H cria duas arenas de pressão.** O eleitorado escolhe o titular, mas a candidatura depende de filtro legislativo e uma censura pode causar eleições para ambos os poderes. O custo recíproco talvez reduza censuras oportunistas, mas também pode desencorajar fiscalização legítima, incentivar eleições antecipadas no momento conveniente e restringir competição. Não existe demonstração de que tais efeitos produzam equilíbrio melhor do que A/B. Uma versão que libera candidaturas independentemente da aprovação parlamentar altera substantivamente X-H e se aproxima de outras arquiteturas; uma versão sem dissolução recíproca perde seu mecanismo distintivo. **A alternativa não deve ser aprovada por simples atratividade da expressão 'custo recíproco'.**
+
+## 3. O problema comum permanece transversal
+**T01/T11 — orçamento e coalizões:** A/G: titular fixo permanece; B: gabinete sem maioria sucessora permanece; D: conselho permanece mesmo sem voto interno/externo eficaz; F: presidente pode ser destituído sem produzir a maioria fiscal sucessora; H: eleição extraordinária pode repetir a fragmentação. Nenhum mecanismo produz votos ou dinheiro. **LOA rejeitada não pode ser tratada como censura implícita, autorização nova de despesa, dissolução automática ou declaração de ilicitude parlamentar.**
+
+**T12 — administração transitória:** uma arquitetura que troca titulares com maior frequência deve definir iniciador de autorização fiscal instrumental para obrigações já exigíveis, sem abrir espaço para despesas programáticas ou novos créditos sem lei e fonte. Alemanha GG111, Espanha CE134(4) e legislação brasileira arts165–169 oferecem categorias, não solução brasileira ratificada.
+
+**T06/T09 — defesa e urgência:** a distinção relevante não é 'um conselho é incapaz de emergências' versus 'um presidente é capaz', mas a existência de autoridade decisória definida, revisão pronta e ausência de concentração extraordinária sem prazo. Colegiados podem delegar atos estritamente conservatórios. Direções unipessoais podem usurpar controles.
+
+**T08/T10/T14 — legitimidade eleitoral/federativa:** a origem por sufrágio diretamente popular ou por eleição de representantes transforma o conteúdo real do voto presidencial. Voto parlamentar ainda deriva de sufrágio, mas não garante automaticamente compatibilidade com cláusula de proteção do voto direto, nem se confunde com a eleição extraordinária do art.81 §1º. A consulta de 1993 e eventual novo plebiscito continuam questão autônoma controversa; nenhum modelo recebeu parecer de constitucionalidade brasileiro.
+
+## 4. Reparos e variantes: benefícios e risco de descaracterização
+| Problema | Reparo analítico possível (H) | Custo/risco novo |
+|---|---|---|
+| D sem decisão tempestiva | Delegação urgente conservatória a conselheiro titular, prazo, ratificação e controle | Chefe executivo oculto se delegação ampla ou indefinida |
+| D captura colegiada | Nomeações de órgãos de controle por procedimentos separados, voto registrável e oposição fiscalizadora | Cartel pode controlar simultaneamente Parlamento e Conselho |
+| D responsabilidade diluída | Atas por votos e assinatura por portfólio + responsabilidade da decisão colegiada | Exposição de deliberações sensíveis requer sigilo legal excepcional |
+| G isolamento executivo | Diálogo orçamentário formal e garantias de transparência | Continua sem saída política para falta permanente de confiança |
+| G remoção por perda de apoio | Moção construtiva com sucessor | Muda natureza de G, aproxima de F/B e deixa mandato de ser protegido |
+| F quedas sucessivas | Censura construtiva ou janela curta de sucessor | Pode gerar bloqueio minoritário semelhante a B |
+| H chantagem de eleições | Quóruns e limitações materiais da censura/dissolução | Pode tornar mecanismo inoperável quando oposição precisa fiscalizar |
+| B gabinete fiscalmente bloqueado | Leis instrumentais e continuidade restrita sob controle real | Pode prolongar interinidade e reduzir decisão parlamentar sobre orçamento |
+| A mandato fixo isolado | Agenda e coalizões transparentes, controle das urgências, fiscalização robusta | Não cria mecanismo ordinário de troca do presidente |
+
+## 5. Julgamento de suficiência e próxima decisão, sem ratificação
+**Forte inferência institucional:** origem eleitoral, sobrevivência e substituição não são inseparáveis. X-G e X-F demonstram o contrário por construção jurídica: ambos podem ser eleitos por Câmara, mas um não admite censura comum e o outro sim.
+
+**Crítica adversarial:** a proliferação de opções é um risco real de pesquisa sem conclusão. O próximo trabalho não deve criar X-L/X-M por criatividade isolada. Os quatro confrontos e os 15 testes já expuseram a questão capaz de discriminar projetos: **como manter simultaneamente unidade de comando, controles contra captura e saída democrática em crise, sem desenhar despesa pública não autorizada?**
+
+**Conclusão não ordinal:** nenhum vencedor; A e B permanecem concorrentes fortes; **F merece aprofundamento igual ao de B** por modificar o eixo de responsabilidade com chefia única; **D merece aprofundamento direcionado** à delegação e à responsabilidade colegiada; **G só deve avançar se algum ganho próprio (federativo/legitimador) puder ser especificado além da rigidez de A**; **H precisa demonstrar que seus incentivos de eleições recíprocas e a pré-seleção parlamentar não sacrificam competição livre**. São prioridades de pesquisa, não classificações de adequação constitucional.
+
+## 6. Próximas portas verificáveis
+**R03.1 M03 + M07/M12:** especificar X-D colegiado em decisões materiais exaustivas: portfólio, urgente, ordinário, guerra, eleição, voto, veto, prazo, controle e sucessão. Confrontar com X-A unipessoal e o mecanismo X-K parcialmente colegiado.
+**R03.2 M03 + M02/M06:** desenvolver X-F parlamentar eleito e censurável, simulando não apenas votação mas cadeia de posse/sucessão e proteção dos órgãos autônomos. Contrastar com X-B e X-G.
+**R03.3 M03.01 + M05/M04:** pacote fiscal comum para seis modelos, com dados reais federativos e custos de continuidade. Sem números fictícios apresentados como previsões.
+**R03.4 M14/M02/M06:** distinguir preferência de projeto/constituinte de permissibilidade sob rito da CF atual e direitos adquiridos aos mandatos; texto concreto antes de conclusão jurídica.
+**R03.5 controles:** pesquisar casos empíricos de estabilidade/conflito governamental em regimes colegiados e sistemas de executivo parlamentar, com explicações rivais e fontes oficiais.
+
+**FEITO:** seis fichas e 15 testes aplicados qualitativamente com premissas, riscos e reparos condicionais. **PENDENTE:** pareceres especializados, prova causal, texto normativo e deliberação. **PRÓXIMO:** aprofundar X-D e X-F sem descontinuar A/B; conservar X-G e X-H como testes adversariais, não D. **Nenhum CF-NOR, CF-DEC, CLF ou merge na main.**
