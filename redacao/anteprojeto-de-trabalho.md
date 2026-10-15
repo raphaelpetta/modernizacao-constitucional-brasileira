@@ -157,3 +157,15 @@ Ninguém será privado de liberdade ou submetido a intervenção em saúde de fo
 Toda medida involuntária restritiva de liberdade ou integridade estará sujeita ao controle de sua validade constitucional, a fundamento legal estrito, informação acessível, registro de motivos, meios de impugnação, assistência e revisão independente, efetiva e tempestiva, conforme a natureza da medida.
 
 Este dispositivo não institui, por si, hipótese de internação, tratamento compulsório ou outra intervenção sem consentimento, nem autoriza o afastamento de proibições absolutas.
+
+## CF-NOR-0021 — Garantias na atuação e no procedimento administrativo [H; G]
+
+No exercício da função administrativa, o poder público assegurará atendimento acessível e não discriminatório, recepção e exame de petições e reclamações, informação adequada sobre procedimentos e decisões que afetem as pessoas interessadas e resposta fundamentada em prazo razoável, ressalvados os sigilos constitucionalmente legítimos e os direitos de terceiros.
+
+Independentemente do pagamento de taxas, é assegurado a todas as pessoas o direito de petição aos poderes públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, bem como a obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal.
+
+Nos processos administrativos em que figurem litigantes ou acusados, são assegurados o contraditório e a ampla defesa, com os meios e recursos a eles inerentes. Nos demais procedimentos capazes de afetar direitos ou interesses juridicamente protegidos, será garantida oportunidade efetiva de ciência e manifestação compatível com a natureza do ato, sem prejuízo das garantias constitucionais especiais.
+
+A adoção de meios digitais não poderá inviabilizar o exercício dos direitos de petição, informação e defesa, nem o acesso efetivo aos serviços públicos. Serão assegurados acessibilidade, apoio apropriado e canais alternativos adequados quando necessários ao exercício desses direitos, na forma da lei e observadas as competências federativas.
+
+Este dispositivo não afasta o devido processo legal, a tutela jurisdicional, a proteção de dados pessoais, as garantias de publicidade e sigilo constitucionalmente aplicáveis, nem os mecanismos de controle da administração pública.
