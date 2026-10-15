@@ -1,0 +1,19 @@
+# CF-NOR-0055 — Autonomia federativa e repartição cooperativa de competências
+
+**Estado:** H/A/V, norma experimental não ratificada; **módulo:** M04; **tipo:** A; **corte:** 15/10/2026. **Base:** PR #123 HEAD `9541d25eb3d5ca04fb32933e9816508c78568ca0`; main `7c3bd80470899a09e31f25a6a3a47d7c9cca669c`, CF-GOV-019 já integrada. **Risco material:** R3 por competências, igualdade e tutela. **Ganho marginal:** acrescentar função constitucional ainda não coberta pela norma geral de seu módulo.
+
+<!-- NORMA-INICIO -->
+A República Federativa do Brasil compreende União, Estados, Distrito Federal e Municípios autônomos, com competências políticas, administrativas, legislativas e financeiras definidas nesta Constituição, vedada a subordinação de um ente federativo a outro fora das hipóteses constitucionais expressas.
+
+O exercício das competências administrativas comuns observará cooperação, coordenação, responsabilidade e proteção efetiva dos direitos, sem que a atuação de um ente afaste, por si, a competência dos demais. Na competência legislativa concorrente, caberá à União estabelecer normas gerais e aos Estados e ao Distrito Federal suplementá-las; na ausência de normas gerais federais, exercerão competência legislativa plena para suas peculiaridades, e a superveniência de norma geral federal suspenderá a eficácia da norma local no que lhe for contrário.
+
+Os Municípios legislarão sobre assuntos de interesse local e suplementarão a legislação federal e estadual no que couber, respeitadas as competências constitucionais dos demais entes. A definição de encargos, de recursos e de instrumentos cooperativos observará as demais garantias constitucionais de financiamento, controle e autonomia.
+<!-- NORMA-FIM -->
+
+## Fontes, objeções e continuidade da proteção
+
+**Âncoras positivas:** [CF/1988 arts. 18, 21–25, 30 e 32](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm); [STF ADI 6341](https://portal.stf.jus.br/textos/verTexto.asp?pagina=resumocovid_adi&servico=resumocovid); [STF anotação do art. 24](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=24&abrirBase=CF). A ADI 6341 confirma que coordenação federal e poderes locais podem coexistir, não que cada ente detenha competência ilimitada ou idêntica. A regra experimental amplia a CF-NOR-0001 (nexo competência/financiamento) com conteúdo **material não repetido**: autonomia dos quatro entes, distinção administrativa/legislativa, normas gerais, legislação suplementar e interesse local. **Não** redesenha em detalhe a lista de competências privativas (art. 21–22), concorrentes (art. 24 incisos), serviços locais (art. 30 V–IX), Distrito Federal, competências residuais dos Estados, territórios, regiões metropolitanas, intervenção, repartição tributária e peculiaridades indígenas, ambientais e sanitárias.
+
+**Melhor objeção:** manter a estrutura atual pode congelar a federação presente em uma Constituição que pretende avaliar alterações estruturais, mas apagar sua autonomia pode dissolver direitos locais; a H preserva um piso para comparação, **não escolhe** modelo federativo definitivo. **Risco jurídico específico:** legislação municipal suplementar não deve ser artificialmente equiparada à competência concorrente do art. 24 (que lista União/Estados/DF); nem execução comum torna serviço livremente transferível sem custeio. **Dependências:** M03/M05/M06/M07/M09/M10/M11/M14. Sem D/F6.
+
+**FEITO:** núcleo específico H e razões contra redundância. **PENDENTE:** destinos de garantias atuais fora do núcleo, prova de operacionalidade e parecer intermodular/jurídico independente. **PRÓXIMO:** revisar os itens marcados como ausência na matriz CF-CC-018, sem presumir equivalência nem continuar automaticamente nesta matéria por inércia. **D/P/H/A/V e F0–F8 permanecem distintos.**
