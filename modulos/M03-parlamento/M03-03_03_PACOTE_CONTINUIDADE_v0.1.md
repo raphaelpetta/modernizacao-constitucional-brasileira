@@ -24,3 +24,6 @@
 4. Convergir avaliação jurídica/empírica; conservar F6 como escolha expressa futura entre alternativas completas.
 
 **Regra operacional:** estudo iniciado após autorização do usuário para pesquisar; consentimento para pesquisa não é aprovação constitucional de arquitetura, eleição, quórum, direitos ou via de reforma.
+
+## Validação de integração da rodada 03
+No commit exato `1328c3d8953e81c4bbf762b4a5b5a6ae8c4401ff`, GitHub Actions `Validação estrutural constitucional`, execução `38687845346`, informou `completed / success` (consulta nesta rodada). A verificação estrutural **não** comprova conformidade constitucional, superioridade comparada nem validade dos testes qualitativos. Se este documento receber novo commit, o status de CI deverá ser reconfirmado para o novo HEAD.
