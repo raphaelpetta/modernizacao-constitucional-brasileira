@@ -38,3 +38,7 @@ A redação constitucional experimental poderá iniciar **por funções e artigo
 ## Prestação de contas por ciclo e coordenação entre frentes (14/10/2026)
 
 Em todas as fases F0–F8, a conclusão documental de uma rodada exige **entrega verificada, pendências explícitas e próximo passo executável**, com SHA de entrada/saída, dependências e estado D/P/H/A/V, segundo [CF-GOV-012](12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md). A pesquisa de uma frente não pode presumir os resultados nem usar IDs de outra sem conferir o [quadro](13_QUADRO_DE_COORDENACAO.md) e [registro de reservas](15_REGISTRO_RESERVAS_IDS.md). A pendência não deve ser confundida com conclusão; a síntese do chat deve esclarecer se houve escrita na main, em PR ou nenhuma.
+
+## Progressividade decisória e suficiência — 15/10/2026
+
+Aplicar a diretriz transversal [CF-GOV-016](16_PROGRESSIVIDADE_DECISORIA.md) nas fases F5–F6: preservar pesquisa aberta a soluções relevantes, inclusive hipotéticas, mas **submeter à decisão quando houver suficiência fundamentada**, com ônus específico para adiar. A suficiência é proporcional ao risco e não dispensa garantias, análise institucional, dependências nem ratificação material explícita. Separar preferência pelo arranjo final do percurso incremental de implementação; manter D/P/H/A/V e F0–F8.
