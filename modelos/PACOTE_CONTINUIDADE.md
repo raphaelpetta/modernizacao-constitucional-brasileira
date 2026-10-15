@@ -41,6 +41,18 @@ Se não houver pendência identificada, explicar por que o critério de saída d
 **Quem precisa revisar / interfaces (incluindo CF–CLF):**  
 **Outras tarefas em fila (não iniciadas):**
 
+## 4A. GANHO MARGINAL — avaliação e rotação obrigatórias (CF-GOV-019)
+
+**Carreira comparativa da rodada (prévia):** candidatas H (lacuna horizontal), V (aprofundamento), I (integração), sempre que disponíveis: **qual resultado verificável cada uma poderia entregar e a que custo relativo?**  
+**Tarefa escolhida e melhor alternativa preterida:**  
+**Por que a escolha tinha maior ganho marginal plausível?** (não inventar percentuais; considerar direito/risco e dependência)  
+**Ganho prometido vs. ganho REAL:** `NOVO / INCREMENTAL / BAIXO-REDUNDANTE / BLOQUEADO`; apontar o *delta* efetivo, não quantidade de arquivos.  
+**Esta foi a segunda ou terceira rodada consecutiva no mesmo núcleo?** Se sim, fundamentar continuar ou rotacionar, com critério de parada e risco à garantia.  
+**Situação de pausa (se couber):** `SUFICIENTE_NESTE_RECORTE / PAUSADO_POR_DEPENDENCIA / EXIGE_DECISAO`. Esses rótulos **não** significam F6/D.  
+**Na PRÓXIMA rodada:** qual opção independente teria ganho maior? Comparar explicitamente antes de continuar.
+
+Referência obrigatória: [política global de ganho marginal](../governanca/19_POLITICA_GANHO_MARGINAL_GLOBAL.md). **A avaliação deve ser leve, proporcional ao trabalho e não consumir mais esforço do que poupa.**
+
 ## 5. Integridade e integração
 
 - [ ] Conferi SHA atual da `main` antes de relatar resultado.

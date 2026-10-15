@@ -55,6 +55,12 @@ E. Congelar o escopo e definir critério de saída (dossiê, matriz, norma H, an
 
 É considerada **documentalmente fechada** quando o pacote versionado informa base/saída, entrega e status, ao menos uma pendência ou afirmação comprovável de nenhuma, um próximo passo identificável, interfaces e QA. Isso **não** representa conclusão do módulo, decisão constitucional D ou mérito jurídico certificado.
 
+## 6A. Porta de priorização e de encerramento por GANHO MARGINAL
+
+Aplicar, antes do preflight de qualquer matéria e antes de uma terceira rodada consecutiva no mesmo núcleo, a **[CF-GOV-019](19_POLITICA_GANHO_MARGINAL_GLOBAL.md)**. A tarefa escolhida precisa ser comparada com pelo menos uma alternativa preterida; idealmente examinar três classes candidatas: lacuna horizontal, ganho vertical e integração. Registrar expectativa de incremento verificável, custo relativo, risco se não agir, incerteza que poderia mudar o resultado e ponto de parada. **Ao encerrar**, confrontar ganho prometido e obtido, e classificar `NOVO`, `INCREMENTAL`, `BAIXO/REDUNDANTE` ou `BLOQUEADO`, sem criar indicadores numéricos artificiais.
+
+Duas rodadas no mesmo núcleo exigem reavaliação explícita. Terceira rodada seguida só por exceção documentada de risco relevante, prova decisiva, oportunidade de conclusão ou dependência crítica; a regra não afasta pesquisa indispensável a direitos nem produz rotatividade automática de temas. Registrar `SUFICIENTE_NESTE_RECORTE` / `PAUSADO_POR_DEPENDENCIA` / `EXIGE_DECISAO` quando pertinente, **sem confundir com F6/D ou com cobertura integral**. O [modelo de handoff](../modelos/PACOTE_CONTINUIDADE.md) inclui porta específica.
+
 ## 7. Aplicação à situação atual
 
 - `CF-NOR-0001…0020` constam na `main` consultada no início da coordenação, todos H; **aumenta conforme trabalhos paralelos**, nunca usar o número sem refazer consulta.

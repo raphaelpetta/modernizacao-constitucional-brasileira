@@ -20,6 +20,10 @@ A metodologia incorpora criticamente o método de pesquisa interdisciplinar prop
 
 Não exigir estudos estrangeiros ornamentais nem inventar dados. Separar FATO_VERIFICADO, INTERPRETACAO_JURIDICA, HIPOTESE_EMPIRICA, PROPOSTA_INSTITUCIONAL, ESCOLHA_VALORATIVA e PENDENTE_DE_CHECAGEM.
 
+## Teste de ganho marginal ANTES de iniciar ou prolongar F0–F8
+
+**Regra permanente aprovada operacionalmente em 15/10/2026:** [CF-GOV-019 — ganho marginal global](19_POLITICA_GANHO_MARGINAL_GLOBAL.md). A profundidade de F0–F8 depende de quanto a investigação ADICIONAL pode alterar proteção de direitos, alternativas, confiança da conclusão ou integração. Fazer preflight da carteira M00–M14, comparar candidatas de cobertura horizontal, aprofundamento vertical e integração; registrar ganho esperado, custo de oportunidade e critério de parada. Em caso de saturação ou dependência, mudar o recorte, não repetir dossiês. Não enfraquecer diligências R3 por eficiência aparente, nem confundir rapidez, número de H e cobertura material constitucional.
+
 ## Questões permanentes
 - Precisa constar da Constituição ou pode ser regulado por lei?
 - Quem detém o direito, quem deve prestá-lo, qual o mecanismo de tutela e o financiamento, se pertinente?
