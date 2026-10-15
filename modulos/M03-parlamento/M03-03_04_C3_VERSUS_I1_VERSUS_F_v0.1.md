@@ -1,5 +1,5 @@
 # M03.03 — R04-C: diretório C3, presidente protegido I1 e presidente responsável F
-**Data/corte:** 15/10/2026 · pesquisa H/A/V; F6/D/F7 ABERTOS; CF-DEC-006 H/P inalterada. Contrastes cruzam M03.03 R03 e catálogo histórico \`M03-03_03_MATRIZ_20_ATOS_XD_XF.csv\`, sem sobrescrevê-lo.
+**Data/corte:** 15/10/2026 · pesquisa H/A/V; F6/D/F7 ABERTOS; CF-DEC-006 H/P inalterada. Contrastes cruzam M03.03 R03 e catálogo histórico `M03-03_03_MATRIZ_20_ATOS_XD_XF.csv`, sem sobrescrevê-lo.
 
 ## 1. Delimitação das três opções, evitando confusão entre forma e sobrevivência
 **C3:** cinco conselheiros como hipótese instrumental, eleitos pela Câmara por procedimento ainda em aberto; colegiado é CHEFIA política material e chefia de Estado coletiva. Mandato protegido, sem censura simples de conselheiros. Presidência semestral/anual rotativa, sem voto de desempate automático. Gabinete de ministros administrativos executa decisões legais e dirige serviços dentro de delegações vinculadas. Este C3 incorpora I2 quanto à origem/sobrevivência, mas seu atributo novo é a colegialidade com separação do gabinete.
