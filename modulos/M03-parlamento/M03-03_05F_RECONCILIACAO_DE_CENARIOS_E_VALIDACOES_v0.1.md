@@ -1,0 +1,45 @@
+# M03.03 R05-F — Reconciliação crítica entre os dois conjuntos de testes S1/C3
+**ID:** CF-M03.03-SYN-005 · **Corte:** 15/10/2026 · **Status:** H/A/V; nenhuma decisão de arquitetura F6/D, nenhuma CF-NOR. **Documentos já existentes no PR #100**: `M03-03_05_PARECER_S1_COM_DADOS_TSE_v0.1.md`, `M03-03_05_PARECER_C3_SELECAO_QUORUM_v0.1.md`, `M03-03_05_SINTESE_COMPARATIVA_E_PORTAS_R06_v0.1.md`, `M03-03_05_PACOTE_CONTINUIDADE_v0.1.md`, todos preservados sem sobrescrita. Esta nota integra **casos complementares**, não uma confirmação empírica adicional.
+
+## 1. Dois níveis de teste eleitoral — ambos não observacionais
+**Conjunto R05-TSE (trabalho paralelo já incorporado):**
+- `M03-03_05_DADOS_TSE_2022_BASE.csv` apresenta 17 grupos, 513 cadeiras, 109.491.000 votos agregados; fontes TSE: https://www.tse.jus.br/eleicoes/tabela-com-a-representatividade-dos-partidos-politicos-e-das-federacoes-na-camara-dos-deputados-e-no-senado-federal ; https://www.tse.jus.br/legislacao/compilada/prt/2023/portaria-no-10-de-12-de-janeiro-de-2023 .
+- Totalizações de cadeiras até 20/07/2024 e votos extraídos de 2023 são períodos de publicação distintos; agrupamentos decorrentes de fusões partidárias são hipóteses de agregação histórica. A tabela referente apenas a partidos/federações que satisfazem o requisito art.3 EC97 soma **510** eleitos, excluindo explicitamente 3, enquanto a versão expandida R05-TSE inclui os três; NÃO são bases contraditórias.
+- `M03-03_05_SIMULADOR_S1.js` e `M03-03_05_CENARIOS_S1_TSE_2022.csv` operam transferências preferencias INVENtADAS sobre votos partidários históricos como proxy; isso é contrafactual de matriz de 2022, **não** votação ordinal observada, pleito 2026 ou atribuição causal ao Brasil.
+- Principal achado: para determinada distribuição do ranking, PL termina com cerca de **50,263%** dos votos preferenciais finais e Federação Brasil com 49,737%, mas o método `floor` aloca **81 lugares para cada finalista**. Uma maioria eleitoral preferencial, portanto, não garante maioria no Colégio nas configurações discretas de magnitude fixa; o procedimento para empate **é decisão substantiva pendente do M02/M06**, não erro sanado por trocar o número depois de ver o resultado. Confirme-se: se Federação Brasil ancora com 81 lugares, `floor(81 × 50,263/49,737) = 81`.
+
+**Conjunto R05-unitário (acréscimo da presente rodada):**
+- `M03-03_05_SIMULADOR_DIDATICO_S1.js` e `M03-03_05_RESULTADOS_4_CENARIOS_S1.csv` executam transferência de cédulas ORDINAIS realmente especificadas, em Parlamento 100/100 deliberadamente fictício, sem usar como entrada bancadas brasileiras.
+- Quatro testes: A42/B58 → confiança A21/B29; alterando nove rankings secundários sem mudar primeiras preferências → A51/B49 e confiança A30/B29; cinco rankings exauridos → 95 votos finais ativos A42/B53, confiança A22/B29; 15 cadeiras de primeira preferência para partido B, voto final B65/A35 → Colégio total 23 com B15/A8. Eliminações E→D→C são computadas em vez de inventar apenas placar final.
+- **O caso de exaustão e o de Colégio pequeno não aparecem da mesma forma nos oito cenários TSE**, que assumiram cédulas artificiais completas e PL/FE como finalistas. Esses novos casos testam propriedades efetivamente diferentes, mas NÃO são novas observações populacionais.
+
+## 2. Auditoria distinta dos dados públicos
+A fonte TSE **não possui o segundo, terceiro e subsequentes rankings de voto partidário**, pois a eleição de deputados de 2022 recolheu voto nominal ou de legenda por UF, não a cédula de preferência única nacional do modelo Ganghof. Portanto:
+- A base reduzida `M03-03_05_BASE_TSE_ELEITOS_2022_RETOT_2024.csv` contabiliza **510** dos grupos expressamente listados no recorte do TSE, excluindo três eleitos que a própria nota TSE manda excluir; **não** quer dizer que a Câmara possua 510 cadeiras.
+- A base expandida preexistente `M03-03_05_DADOS_TSE_2022_BASE.csv` contabiliza 513 após incluir os outros eleitos e agrega votos nominais+legenda até **109.491.000**, preservando agrupamentos partidários tal como definidos no respectivo estudo, não medindo rankings.
+- Converter voto observado em partidos/candidatos por UF diretamente em primeiro voto nacional de lista fechada é **proxy analítica**, não igualdade jurídica de regimes eleitorais. A validade da classificação por partido/federação e de número de cadeiras sob outra regra requer M02/M04.
+
+## 3. C3 — as duas comparações são complementares
+**C3 com base TSE (estudo paralelo):** coalizão MATEMÁTICA PL99+União59+PP47+Republicanos40+MDB42=**287 de 513** pode escolher cinco pessoas em cinco eleições individuais de maioria simples; não é fato que votaria assim. D'Hondt para cinco posições atribui PL2/FE1/União1/PP1 sob votos ponderados pelas bancadas; PL2+União1 = 3 de 5 apesar de sua soma parlamentar ser 158/513 (~30,8%), se coordenarem votos no Conselho. Isso é risco de dissociação entre peso parlamentar e composição do órgão, não prova de captura ocorrida.
+**C3 simplificado** `M03-03_05_SIMULADOR_DIDATICO_C3.js` e `M03-03_05_RESULTADOS_10_CENARIOS_C3.csv`: 55/45 hipotéticos na Câmara; cinco vagas por D'Hondt geram 3/2; cinco eleições simples ou cinco vagas escalonadas com maioria estável podem gerar 5/0. Em Conselho 3/2 e quórum 4/5, boicote dos dois minoritários gera 3 presentes e bloqueio; com quórum de três permite maioria agir; superquórum de 4 para nomeações requer apoio externo, mas pode criar barganha/impasse. Um membro independente em Conselho G2/O2/I1 pode ser pivotal; se ausente, dois votos favoráveis não aprovam proposta com limiar três.
+**Inferência comum:** diversidade numérica de conselheiros não impede cartel, pois G3 pode aprovar ordinariamente e organizar agenda, e minorias com poder de ausência podem bloquear. Regras de nomeação e exoneração de auditores/cortes, acesso a informações, fiscalização e controle de emergência M06/M07/M12 são necessárias independentemente de quórum.
+**Regra de comparabilidade:** D'Hondt 55/45 em **duas listas** e D'Hondt nas **17 siglas agregadas** do TSE são ALGORITMOS COM INSUMOS DIFERENTES. Não somar seus resultados nem afirmar que os dois provam como o Conselho seria eleito pelo Brasil.
+
+## 4. QA INDEPENDENTE — conteúdo real relido na branch
+- R05-TSE histórico expandido: **17 registros; 513 cadeiras e 109.491.000 votos** por soma de colunas (carregamento conferido). Original do TSE em 2022 com retotalizações posteriores, não padrão novo 2026.
+- R05-unitário: 4 registros × 17 colunas, nenhuma célula vazia/irregular, ativos+exaustos=100, confiança por legenda ≤ assentos eleitos, soma do Colégio correta.
+- R05-C3 simplificado: 10 registros × 12 campos, todas condições de aprovação recontadas, voto individual nunca ultrapassa cadeiras presentes, presença/ausência reconciliada, pivotal corrigido e testado. Fórmula 55/45 proporcional=G3/O2 conferida.
+- Os arquivos têm código JavaScript puro acessível no repositório; os procedimentos foram executados no ambiente de pesquisa e os CSVs relidos. O **workflow habitual do GitHub não executa estes novos simuladores**; qualquer status CI deve ser atribuído exclusivamente ao commit verificado e às verificações efetivamente programadas. O usuário NÃO pediu alterar scripts globais de CI.
+- NÃO transformar quatro + oito perfis inventados em doze amostras independentes de eleitorado. A validade externa continua ZERO.
+
+## 5. Quatro filtros de reprovação da continuidade R06
+**S1-01:** critério de resolução de empate sem manipular ex post o Colégio (caso 81×81); prova de igualdade e voto eficaz dos deputados fora da confiança.
+**S1-02:** ranking exaurido, transferência e fórmula estadual/nacional factíveis e inteligíveis, com representação federativa; evitar eleger governante por Colégio muito pequeno sem tutela democrática suficiente.
+**C3-01:** comparar órgãos independentes sob mesma maioria G3 e quóruns distintos; evitar cartel de nomeações ou veto por ausência em política indispensável.
+**C3-02:** preservar comando civil e responsabilidade dos ministros, limite de delegação em calamidade e orçamento legal, sem primeiro-ministro oculto.
+Comparadores A/B/F3 e I1 continuam necessários sob MESMO dever de LOA, revisão e transição. Via de reforma CF vigente (art.16/60, voto e mandatos) continua A/V, plebiscito controvertido.
+
+## 6. FEITO / PENDENTE / PRÓXIMO
+**FEITO:** dois conjuntos complementares de cenários eleitorais e colegiais reconciliados sem sobrescrita de arquivos; somas históricas auditadas em seu alcance, propriedade de voto exaurido, sensibilidade de rankings, empate 81×81, colégio de 23 e risco de quórum 4/5 documentados. Nenhuma hipótese promovida a decisão.
+**PENDENTE:** pareceres especializados M01/M02/M04/M05/M06/M07/M12/M14; pesquisa de preferências observadas (inexistentes na base), coleta complementar, estrutura eleitoral realizável e proveniência temporal por fonte; CI confiável no HEAD.
+**PRÓXIMO:** R06 verificar voto e simulação estadual/nacional S1 em cenários de desempate e exaustão, C3 seleção plural e quórum/agenda sob controles equivalentes A/B/F3; exigir texto funcional antes de F6. Projeto CF-DEC-006, `main`, CLF e CF-NOR INALTERADOS.
