@@ -185,3 +185,11 @@ Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum
 Incumbe ao poder público, no âmbito das competências constitucionais de seus órgãos, preservar e restaurar os processos ecológicos essenciais e proteger a diversidade biológica e a integridade do patrimônio genético, asseguradas a prevenção e a reparação de danos ambientais nos termos desta Constituição e da lei.
 
 Para a instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, exigir-se-á, na forma da lei, estudo prévio de impacto ambiental, ao qual se dará publicidade.
+
+## CF-NOR-0024 — Princípios da ordem econômica e liberdade de iniciativa [H; G]
+
+A ordem econômica, fundada na valorização do trabalho humano e na livre iniciativa, tem por finalidade assegurar a todas as pessoas existência digna, segundo a justiça social, observados a soberania nacional, a proteção da propriedade e de sua função social, a livre concorrência, a defesa do consumidor e do meio ambiente, a redução das desigualdades regionais e sociais, a busca do pleno emprego e o tratamento favorecido às empresas de pequeno porte nos termos desta Constituição.
+
+É livre o exercício de atividade econômica independentemente de autorização de órgãos públicos, ressalvados os casos previstos em lei e respeitadas as garantias constitucionais de legalidade, proporcionalidade, devido processo e controle jurisdicional na imposição de restrições.
+
+A lei estabelecerá mecanismos de prevenção e repressão do abuso do poder econômico que vise à dominação dos mercados, à eliminação da concorrência ou ao aumento arbitrário dos lucros, com respeito ao contraditório, à ampla defesa e à tutela efetiva dos direitos afetados.
