@@ -24,3 +24,7 @@ Ao terminar cada trabalho, **SEM EXCEÇÃO** apresente e persista no pacote da r
 ## Diretriz de progressividade decisória — desde 15/10/2026
 
 Consultar [CF-GOV-016](../governanca/16_PROGRESSIVIDADE_DECISORIA.md): quando pesquisa, alternativas e salvaguardas forem suficientemente avaliadas, propor deliberação em vez de manter indefinidamente todas as opções abertas. Investigar apenas lacunas concretas capazes de mudar a preferência; diferenciar arquitetura final e transição. Preservar garantias já definidas, dependências e aprovação explícita em F6; usar P/H/A/V para propostas não ratificadas. Registrar orientação e fundamento no FEITO/PENDENTE/PRÓXIMO.
+
+## Desenvolvimento escalável orientado a garantias — proposta de 15/10/2026
+
+Consulte também [CF-GOV-017](../governanca/17_EXECUCAO_CAMADAS_E_AUDITORIA.md), [CF-GOV-018](../governanca/18_PLANO_DIRETOR_EXECUCAO.md) e `catalogo/COBERTURA_FUNCIONAL.csv`, identificando se ainda estão em PR. Selecione trabalho com ganho verificável de cobertura/reconstrução/proposta condicional/integração/auditoria; não replique matrizes sem pergunta nova. Marque risco R1/R2/R3 **por efeito**, maturidade **do recorte**, fonte, garantia com destino e evidência nova que justificaria reabrir. Quando houver bloqueio político ou técnico, registrar e continuar variante independente/elemento invariante ou outra frente, sem decidir por silêncio. Não declarar completude por quantidade de artigos e não homologar cláusula H ou pesquisa PR. Mantenha fonte canônica de texto em `redacao/propostas/` e índice, nunca em minuta paralela.
