@@ -29,5 +29,8 @@
 
 | CF-DEC-013 | D (operacional) | Continuidade obrigatória por rodada | Solicitação direta do usuário em 14/10/2026: toda frente deve registrar **FEITO / PENDENTE / PRÓXIMO**, versões reais, dependências, status de PR e resultado de integração, conforme CF-GOV-012 e modelo de continuidade. **Não** é decisão sobre direitos, governo, competências ou redação constitucional material. |
 
+
+| CF-DEC-014 | D (operacional; confirmada pelo usuário em 15/10/2026) | Progressividade decisória com abertura epistêmica | Presunção de deliberar após suficiência fundamentada, preservando investigação de opções relevantes, garantias, separação entre solução final e trajetória, F6 material e estados D/P/H/A/V; protocolo [CF-GOV-016](16_PROGRESSIVIDADE_DECISORIA.md). Não ratifica sistema de governo ou cláusulas constitucionais. |
+
 ## Entrada nova
 Criar documento em `modelos/DECISAO.md` com ID, problema, alternativas, evidência, melhor objeção, consequências, origem da ratificação, escopo, versão e documentos afetados. Uma alteração em chat não altera uma decisão já registrada.
