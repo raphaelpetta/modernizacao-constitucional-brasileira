@@ -10,7 +10,7 @@
 6. Escopo é F0–F5/F8, H/P/A/V. Nenhum modelo adotado, nenhuma F6/D/F7, CF-DEC alterada, CF-NOR, mudança do CLF ou merge na main.
 
 ## PENDENTE
-- QA de esquema dos arquivos R02 e estado de checks CI no HEAD exato; registrar após execução e não afirmar sucesso antecipadamente.
+- Verificação jurídica, observacional e material da conclusão dos protótipos; QA de esquema e CI técnica **foram realizadas** em atualização abaixo e não substituem esses pareceres.
 - Pareceres autônomos M02/M04/M05/M06/M07/M12/M14 sobre votação, despesa, controle, defesa, transição, federalismo e direito de oposição.
 - Aferir empiricamente vantagens e custos, sem ranking por quantidade de testes direcionados ou por relatos de minipaíses; checar fontes primárias e alterações legais de Kiribati antes de minuta constitucional.
 - Testar constitucionalmente o efeito sobre voto direto, art.16, art.60§4 e mandatos previamente eleitos em texto realmente proposto.
@@ -23,3 +23,7 @@
 **Regra:** não produzir nova opção somente por rótulo nem transformar mecanismo de exceção em autorização ilimitada. A pauta F6-00 #99 precisa reconhecer que A/B/C não esgotam o universo mas continua sem D.
 
 **Nota de inferência:** quando nenhum desenho gera maioria parlamentar ou recursos, isso não significa que todos sejam equivalentes nos demais critérios; significa que a suposta 'solução automática ao impasse fiscal' não deve ser prometida por nenhum.
+
+## Verificação independente — 15/10/2026
+**QA JS efetivamente executada em arquivos recuperados do GitHub:** seis seções X-A/X-B/X-D/X-F/X-G/X-H, 60 eixos funcionais completos, quatro confrontos C1–C4; matriz com 15 registros T01–T15, 10 colunas, IDs únicos, nenhum campo vazio e códigos de status conhecidos; parecer com seis seções e aviso explícito de que alertas não formam ranking.
+**GitHub Actions no HEAD anterior d934ed794afe8ad6edfd89a8c5672794d86ad096:** workflow `Validação estrutural constitucional` nº 38687453195 `completed/success`. Este registro vale EXATAMENTE para esse commit, não para qualquer posterior edição de arquivo ou PR. Nem QA JS nem workflow validam direito constitucional, jurisprudência, méritos ou causalidade empírica.
