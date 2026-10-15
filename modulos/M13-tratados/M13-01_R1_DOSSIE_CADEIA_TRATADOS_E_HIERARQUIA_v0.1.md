@@ -56,6 +56,8 @@ Na **ADPF708, julgamento de 04/07/2022**, o STF vinculou o dever estatal climát
 
 ### 2.4 Convenção Americana de Direitos Humanos (CADH) — paradigma jurisprudencial
 
+**Cadeia formal específica:** [Decreto Legislativo 27 de 26/05/1992](https://www2.camara.leg.br/legin/fed/decleg/1992/decretolegislativo-27-26-maio-1992-358314-publicacaooriginal-1-pl.html), [carta de adesão depositada em 25/09/1992 e vigência para o Brasil nessa data, Decreto 678/1992](https://legis.senado.leg.br/norma/388856/publicacao/15635063). Aprovação **ordinária**, sem rito CF5 §3 (posterior, de 2004). A adesão inclui declaração interpretativa brasileira indicada no art. 2º do decreto; não estender a declaração a obrigações distintas não abrangidas por seu texto.
+
 [STF RE466.343/HC87.585, julgamento plenário dezembro/2008](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=100258&ori=1) e [Súmula Vinculante25](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1268): a vedação de prisão civil do depositário infiel é exemplo de que tratado de direitos humanos incorporado pelo **rito ordinário** pode bloquear aplicação de normas **infraconstitucionais** incompatíveis sem revogar a CF. Esse resultado **não é equivalência constitucional do tratado**; a posição é **supralegal**. É precedente geral útil para analisar C169, mas precisa de cotejo por matéria.
 
 ## 3. Regimes hierárquicos — classificação e teste de prova
