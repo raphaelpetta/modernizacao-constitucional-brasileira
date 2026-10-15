@@ -373,3 +373,15 @@ O Poder Legislativo exercerá fiscalização e controle dos atos do Governo e da
 A comissão parlamentar de inquérito será instituída mediante requerimento de um terço dos membros da Casa legislativa competente, para apuração de fato determinado e por prazo certo, independentemente de autorização política da maioria, quando preenchidos os requisitos constitucionais.
 
 A comissão terá poderes de investigação próprios das autoridades judiciais, respeitadas a reserva de jurisdição, as garantias fundamentais e os direitos da pessoa investigada ou convocada, inclusive a não autoincriminação e a assistência por advogado. Suas conclusões serão encaminhadas, quando cabível, ao Ministério Público e aos órgãos competentes, sem substituir suas atribuições constitucionais.
+
+## CF-NOR-0048 — Regime provisório de orçamento e proteção de direitos [H; A]
+
+Na ausência de lei orçamentária anual em vigor no início do exercício financeiro, somente serão admitidas, até a entrada em vigor dessa lei, despesas estritamente necessárias ao cumprimento de obrigações constitucionais e legais exigíveis, decisões judiciais executáveis e transferências obrigatórias; à manutenção de instituições e serviços públicos preexistentes essenciais à proteção de direitos fundamentais; e à continuidade de obras, contratos e investimentos anteriormente autorizados, se demonstrado risco grave pela interrupção.
+
+As despesas de continuidade que não decorram de obrigação exigível respeitarão limites cumulativos proporcionais à dotação correspondente do exercício anterior, vedada a reclassificação artificial de despesas, a perpetuação de projetos encerrados e a antecipação para contornar os limites, na forma de lei que considere a sazonalidade.
+
+A autorização orçamentária provisória não equivale à disponibilidade de caixa. A insuficiência de recursos será publicamente demonstrada por fonte e obrigação afetada, observadas as vinculações, os vencimentos, a proteção efetiva dos direitos fundamentais e as preferências legalmente exigíveis. O Executivo apresentará justificativa e proposta de recomposição ou ajuste ao Legislativo competente, sem que isso autorize automaticamente empréstimo, desvio de recursos vinculados ou inadimplemento legal.
+
+A ameaça demonstrada à continuidade de prestação essencial deverá ser comunicada imediatamente ao Legislativo, para deliberação fundamentada de adequação do regime, preservados os limites constitucionais de despesa e os controles independentes. Enquanto perdurar o impasse, o Legislativo realizará exame público periódico da proposta e da execução provisória, sem aprovação tácita.
+
+A aprovação posterior da lei orçamentária exigirá conciliação e prestação de contas, sem convalidar despesas irregulares. A ausência de orçamento não autoriza novos tributos, programas ou endividamento, nem implica por si só destituição de Governo ou dissolução legislativa; ficam preservadas a autonomia financeira de outros Poderes e instituições e as hipóteses constitucionais próprias de crédito extraordinário.
