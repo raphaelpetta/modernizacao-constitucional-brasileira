@@ -219,3 +219,35 @@ O poder público definirá, em todas as unidades da Federação, espaços territ
 Aquele que explorar recursos minerais fica obrigado a recuperar o meio ambiente degradado, de acordo com solução técnica exigida pelo órgão público competente, na forma da lei, sem prejuízo das responsabilidades correspondentes.
 
 As condutas e atividades lesivas ao meio ambiente sujeitam seus responsáveis, pessoas físicas ou jurídicas, às sanções penais e administrativas cabíveis, independentemente da obrigação de reparar os danos causados, observadas as garantias constitucionais e legais próprias de cada espécie de responsabilidade.
+
+## CF-NOR-0027 — Jornada repouso serviço extraordinário e férias [H; E]
+
+> Regra geral de referência: CF-NOR-0004. Relação em exame.
+
+Aos trabalhadores urbanos e rurais são assegurados, sem prejuízo de outros direitos voltados à melhoria de sua condição social:
+
+I — duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais, facultadas a compensação de horários e a redução da jornada mediante acordo ou convenção coletiva de trabalho;
+
+II — repouso semanal remunerado, preferencialmente aos domingos;
+
+III — remuneração do serviço extraordinário superior, no mínimo, em cinquenta por cento à do normal;
+
+IV — gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal.
+
+Esses direitos são assegurados também aos trabalhadores domésticos, sem prejuízo das demais garantias constitucionais próprias dessa relação de trabalho.
+
+## CF-NOR-0028 — Remoção nulidades e salvaguardas territoriais indígenas [H; E]
+
+> Regra geral de referência: CF-NOR-0025. Relação em exame.
+
+É vedada a remoção de grupos indígenas de suas terras, salvo, ad referendum do Congresso Nacional, em caso de catástrofe ou epidemia que ponha em risco sua população, ou no interesse da soberania do País, após deliberação do Congresso Nacional, garantido, em qualquer hipótese, o retorno imediato logo que cesse o risco.
+
+São nulos e extintos, sem produção de efeitos jurídicos, os atos que tenham por objeto a ocupação, o domínio e a posse das terras tradicionalmente ocupadas pelos povos indígenas, ou a exploração das riquezas naturais do solo, dos rios e dos lagos nelas existentes, ressalvado relevante interesse público da União, nos termos de lei complementar. As consequências patrimoniais da nulidade observarão as garantias constitucionais cabíveis e o regime de benfeitorias decorrentes de ocupação de boa-fé, na forma da lei.
+
+Não se aplicam às terras indígenas as regras gerais de incentivo à garimpagem em cooperativas previstas nesta Constituição para outros territórios.
+
+## CF-NOR-0029 — Reconhecimento da propriedade territorial quilombola [H; A]
+
+Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, cabendo ao Estado emitir-lhes os títulos respectivos.
+
+O procedimento de identificação, reconhecimento, delimitação e titulação respeitará a identidade, a organização e a participação efetiva das comunidades, os vínculos territoriais e culturais e as garantias do devido processo legal, incluídos os direitos legítimos de terceiros na forma desta Constituição e da lei, sem tornar a expedição do título condição constitutiva da propriedade já reconhecida.
