@@ -41,14 +41,19 @@ A entrega final em construção é um texto constitucional único, legível e cr
 [Regra de execução por camadas proposta — CF PR #101](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/101) · [Central CLF](https://github.com/raphaelpetta/codigo-legislacao-federal/issues/48).
 
 ## Controles operacionais verificáveis (propostos no PR)
-- [Fila com recortes, estados, critérios e reservas](FILA_TRABALHO.csv).
-- [Painel calculado exclusivamente do produto no checkout](PAINEL_GERADO.csv) — **presença no produto, não cobertura jurídica global**.
+- `Fila com recortes, estados, critérios e reservas` (recurso operacional ainda pendente no PR #104).
+- `Painel calculado exclusivamente do produto no checkout` (recurso operacional ainda pendente no PR #104) — **presença no produto, não cobertura jurídica global**.
 - [Política de integração experimental, ratificação e concorrência](01_POLITICA_INTEGRACAO_E_CONCORRENCIA.md).
-- [Verificador e gerador do painel](../scripts/controle_operacional.py) (`--write` / `--check`).
-- [Validação local de contingência](../scripts/validar_operacao_local.sh); falha de Actions sem steps não valida nem invalida documentos.
+- `Verificador e gerador do painel` (recurso operacional ainda pendente no PR #104) (`--write` / `--check`).
+- `Validação local de contingência` (recurso operacional ainda pendente no PR #104); falha de Actions sem steps não valida nem invalida documentos.
 - [Minuta atual](../redacao/anteprojeto-de-trabalho.md). A compilação é uma vista derivada; não editar suas cópias de forma independente.
 
 Os controles acima passam a ser definitivos somente após revisão e integração da documentação. O registro de tarefas não substitui a conferência dos PRs nem a revisão jurídica, e cada reserva é cooperativa.
 
 ## Integracao de PRs e prioridade da fila (atualizacao operacional)
-O [plano de integracao dos PRs](02_PLANO_INTEGRACAO_PRS.md) registra a dependencia observada **#105 → #106 → #108 → #109**, mais o #107 independente, e as salvaguardas para nao fundir em `main` trabalhos de texto herdados sem conferir cada recorte. A [fila persistente](FILA_TRABALHO.csv) acompanha M07, M08, M10 e M03 como **EM_REVISAO** nesses PRs; nao iniciar do zero ou contabiliza-los como texto ja integrado. A [politica de portas](01_POLITICA_INTEGRACAO_E_CONCORRENCIA.md) separa PR, integracao experimental H e ratificacao D. Os [painéis](PAINEL_GERADO.csv) refletem o checkout das fontes versionadas, nao todos os PRs abertos.
+O [plano de integracao dos PRs](02_PLANO_INTEGRACAO_PRS.md) registra a dependencia observada **#105 → #106 → #108 → #109**, mais o #107 independente, e as salvaguardas para nao fundir em `main` trabalhos de texto herdados sem conferir cada recorte. A `fila persistente` (recurso operacional ainda pendente no PR #104) acompanha M07, M08, M10 e M03 como **EM_REVISAO** nesses PRs; nao iniciar do zero ou contabiliza-los como texto ja integrado. A [politica de portas](01_POLITICA_INTEGRACAO_E_CONCORRENCIA.md) separa PR, integracao experimental H e ratificacao D. Os `painéis` (recurso operacional ainda pendente no PR #104) refletem o checkout das fontes versionadas, nao todos os PRs abertos.
+
+
+## Reserva documental da integração CF-CC-019
+
+A versão integrada desta central **não inclui ainda** os recursos `FILA_TRABALHO.csv`, `PAINEL_GERADO.csv`, `scripts/controle_operacional.py` e `scripts/validar_operacao_local.sh`. Esses artefatos seguem no PR #104 para validação e reconciliação. Quando disponíveis, reativar links relativos, sem inventar saída de scripts. Para execução imediata, usar o [plano de integração](02_PLANO_INTEGRACAO_PRS.md) e a política [CF-GOV-019](../governanca/19_POLITICA_GANHO_MARGINAL_GLOBAL.md).
