@@ -1,0 +1,5 @@
+case;firstA;firstB;firstC;firstD;firstE;finalA;finalB;active;exhausted;irvWinner;confidenceA;confidenceB;totalConfidence;nonConfidence;confidenceLeader;elimination
+base;34;29;17;12;8;42;58;100;0;B;21;29;50;50;B;E/D/C
+invert;34;29;17;12;8;51;49;100;0;A;30;29;59;41;A;E/D/C
+exhaust;34;29;17;12;8;42;53;95;5;B;22;29;51;49;B;E/D/C
+small;35;15;29;13;8;35;65;100;0;B;8;15;23;77;B;E/D/C
