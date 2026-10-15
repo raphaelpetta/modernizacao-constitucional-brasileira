@@ -3,7 +3,7 @@
 **Estado:** H/A/V, hipótese constitucional experimental **não ratificada**; **modulo:** M02; **tipo:** A autônoma. **Corte:** 15/10/2026. **Stack base:** [PR #119](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/119), SHA `948e0405e8fb74d4b0945f1c44007967b5d5b5c0`; **main de governança** `7c3bd80470899a09e31f25a6a3a47d7c9cca669c`, CF-GOV-019 já integrada, sem merge desta H. **Risco:** R3 por afetar direitos políticos e garantias institucionais.
 
 <!-- NORMA-INICIO -->
-A soberania popular é exercida por sufrágio universal e voto direto e secreto, de igual valor para todos, nas eleições submetidas a voto popular, bem como mediante plebiscito, referendo e iniciativa popular, nos termos desta Constituição e da lei.
+A soberania popular é exercida por sufrágio universal e voto direto, secreto e periódico, de igual valor para todos, nas eleições submetidas a voto popular, bem como mediante plebiscito, referendo e iniciativa popular, nos termos desta Constituição e da lei.
 
 O alistamento, o exercício do voto e a participação política serão assegurados em condições de igualdade, acessibilidade, liberdade e proteção contra coação, fraude, discriminação e interferência indevida, com fiscalização independente e meios eficazes de contestação.
 
