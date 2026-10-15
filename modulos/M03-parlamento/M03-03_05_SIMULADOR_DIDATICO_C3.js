@@ -31,12 +31,12 @@ function check(){
  councilCase("dhondt_55_45_quorum_tres",[3,2],3,3,3,0,0,2),
  councilCase("dhondt_55_45_nomeacao_4",[3,2],4,4,3,0),
  councilCase("dhondt_55_45_nomeacao_4_apoio",[3,2],4,4,3,1),
- councilCase("pivotal_2_2_1_com_independente_agregado_G",[3,2],4,3,2,2),
- councilCase("pivotal_2_2_1_ausencia_agregado_G",[3,2],4,3,2,2,1,0),
+ councilCase("pivotal_2_2_1_com_independente_agregado_G",[3,2],4,3,3,0),
+ councilCase("pivotal_2_2_1_ausencia_agregado_G",[3,2],4,3,2,0,1,0),
  councilCase("ausencia_dois_conselheiros",[3,2],4,3,2,1,1,1),
  councilCase("escalonamento_maioria_55_45_constante",[5,0],4,3,5,0)
  ];
- const expect={simultaneo_majoritario_cinco_cargos:"SIM",dhondt_55_45_politica_ordinaria:"SIM",dhondt_55_45_boycott_oposicao:"NAO",dhondt_55_45_quorum_tres:"SIM",dhondt_55_45_nomeacao_4:"NAO",dhondt_55_45_nomeacao_4_apoio:"SIM",pivotal_2_2_1_com_independente_agregado_G:"SIM",pivotal_2_2_1_ausencia_agregado_G:"SIM",ausencia_dois_conselheiros:"NAO",escalonamento_maioria_55_45_constante:"SIM"};
+ const expect={simultaneo_majoritario_cinco_cargos:"SIM",dhondt_55_45_politica_ordinaria:"SIM",dhondt_55_45_boycott_oposicao:"NAO",dhondt_55_45_quorum_tres:"SIM",dhondt_55_45_nomeacao_4:"NAO",dhondt_55_45_nomeacao_4_apoio:"SIM",pivotal_2_2_1_com_independente_agregado_G:"SIM",pivotal_2_2_1_ausencia_agregado_G:"NAO",ausencia_dois_conselheiros:"NAO",escalonamento_maioria_55_45_constante:"SIM"};
  for(const x of R)if(x.approved!==expect[x.case])throw Error("Cenario "+x.case);
  return {dh,rows:R};
 }
