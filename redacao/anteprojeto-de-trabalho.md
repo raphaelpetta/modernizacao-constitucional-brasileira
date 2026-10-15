@@ -265,3 +265,41 @@ Conceder-se-á mandado de injunção sempre que a falta total ou parcial de norm
 > Regra geral de referência: CF-NOR-0027. Relação em exame.
 
 A jornada de trabalho realizado em turnos ininterruptos de revezamento será de seis horas, salvo negociação coletiva, sem prejuízo das demais garantias constitucionais de repouso, saúde, segurança e remuneração aplicáveis.
+
+## CF-NOR-0035 — Licitude integridade e contraditório da prova digital [H; A]
+
+São inadmissíveis, no processo, as provas obtidas por meios ilícitos, sem prejuízo das garantias de privacidade, sigilo das comunicações, proteção de dados pessoais e controle jurisdicional previstas nesta Constituição.
+
+A obtenção, a preservação, a extração, a análise e a apresentação de evidências digitais pelas autoridades públicas observarão suas respectivas competências, as bases legais aplicáveis, a necessidade e proporcionalidade da medida, a integridade e rastreabilidade dos registros e a possibilidade de escrutínio técnico e contraditório efetivo, nos termos da lei e das reservas constitucionais de jurisdição.
+
+O acesso ao conteúdo de dispositivos e registros digitais para finalidade investigativa não decorre automaticamente da licitude da apreensão física do suporte ou da mera preservação técnica de dados. O alcance de eventual autorização, consentimento ou exceção será aferido conforme os requisitos constitucionais aplicáveis à operação específica, vedadas buscas exploratórias sem fundamento legal e finalidade delimitada.
+
+## CF-NOR-0036 — Direitos decorrentes de tratados internacionais e incorporação qualificada [H; A]
+
+Os direitos e garantias expressos nesta Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, nem dos tratados internacionais em que a República Federativa do Brasil seja parte.
+
+Os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais.
+
+A celebração, a aprovação, a ratificação ou adesão, a entrada em vigor para o Brasil e a publicação oficial dos tratados observarão os respectivos procedimentos constitucionais, legais e internacionais, com publicidade de suas reservas, declarações e condições de aplicabilidade, preservado o controle dos órgãos competentes.
+
+## CF-NOR-0037 — Mandado de segurança individual e coletivo [H; E]
+
+> Regra geral de referência: CF-NOR-0007. Relação em exame.
+
+Conceder-se-á mandado de segurança para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, sempre que o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do poder público.
+
+O mandado de segurança coletivo poderá ser impetrado por partido político com representação no Congresso Nacional, por organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, na defesa dos interesses de seus membros ou associados, respeitadas as garantias de representação e tutela efetiva previstas nesta Constituição.
+
+A lei disciplinará o rito, os meios de prova e a concessão de tutela urgente adequada para prevenir lesão irreparável ou de difícil reparação, observados os limites constitucionais do contraditório, da competência jurisdicional e da fundamentação das decisões.
+
+## CF-NOR-0038 — Salário mínimo irredutibilidade e décimo terceiro [H; A]
+
+São direitos dos trabalhadores urbanos e rurais, sem prejuízo dos demais direitos constitucionais e da proteção própria dos trabalhadores domésticos:
+
+I — salário mínimo, fixado em lei, nacionalmente unificado, capaz de atender às suas necessidades vitais básicas e às de sua família com moradia, alimentação, educação, saúde, lazer, vestuário, higiene, transporte e previdência social, com reajustes periódicos que lhe preservem o poder aquisitivo, vedada sua vinculação para qualquer fim nos termos desta Constituição;
+
+II — irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo, observadas as demais garantias constitucionais dos trabalhadores;
+
+III — garantia de remuneração nunca inferior ao salário mínimo para quem perceba remuneração variável;
+
+IV — décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria, conforme o regime constitucional aplicável.
