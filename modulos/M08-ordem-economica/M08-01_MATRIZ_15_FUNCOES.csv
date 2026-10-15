@@ -1,0 +1,16 @@
+id,funcao,fonte_cf1988,cobertura_no_cf_nor_0022,estado,proxima_frente
+M08-F01,Livre iniciativa,170,nenhuma,NAO_COBERTO,M08.02
+M08-F02,Propriedade e funcao social,5 XXII-XXIII e 170 II-III,nenhuma,NAO_COBERTO,M08.02
+M08-F03,Valorizacao do trabalho,170 caput e VIII,remissao,PARCIAL,M09
+M08-F04,Livre concorrencia,170 IV e 173 par4,nenhuma,NAO_COBERTO,M08.02
+M08-F05,Defesa do consumidor,170 V,remissao,PARCIAL,M08.02
+M08-F06,Meio ambiente,170 VI e 225,nenhuma,NAO_COBERTO,M10
+M08-F07,Desigualdades regionais sociais,170 VII,nenhuma,NAO_COBERTO,M04-M05
+M08-F08,Pequenas empresas,170 IX e 179,nenhuma,NAO_COBERTO,M08.02
+M08-F09,Estado empresa,173,nenhuma,NAO_COBERTO,M08.02
+M08-F10,Regulacao e planejamento,174,dever de regular,PARCIAL,M08.02
+M08-F11,Servico publico adequado,175,hipotese H 0022,PARCIAL,M08.01
+M08-F12,Delegacao com licitacao,37 XXI e 175,remissao,PARCIAL,M03-M04
+M08-F13,Tarifas e usuarios,175 paragrafo unico,hipotese H 0022,PARCIAL,M05-M07
+M08-F14,Politica urbana rural,182-191,nenhuma,NAO_COBERTO,M04-M10
+M08-F15,Recursos naturais energia,20 e 176-177,nenhuma,NAO_COBERTO,M04-M10
