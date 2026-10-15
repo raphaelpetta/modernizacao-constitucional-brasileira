@@ -92,6 +92,11 @@ class FilaOperacionalTest(unittest.TestCase):
         self.save(self.item(1, estado="BLOQUEADA", ultima_entrega="incidente Actions #123"))
         self.assertEqual(ops.check_queue(self.allowed), [])
 
+    def test_arquivo_ausente_fora_da_raiz_retorna_erro_esperado(self) -> None:
+        missing = Path(self.temp.name) / "inexistente.csv"
+        with self.assertRaisesRegex(ValueError, "Arquivo ausente"):
+            ops.rows(missing)
+
     def test_fila_real_do_checkout_e_valida(self) -> None:
         ops.QUEUE = self.queue_original
         if ops.CF:
