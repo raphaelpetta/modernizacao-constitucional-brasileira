@@ -26,3 +26,7 @@ jobs:
         run: python scripts/gerar_anteprojeto.py --check
       - name: Testar regras de montagem e anti-duplicação literal
         run: python -m unittest discover -s tests -p 'test_redacao_integrada.py' -v
+      - name: Conferir fila cooperativa e painel de produto derivado
+        run: python scripts/controle_operacional.py --check
+      - name: Testar reservas, colisao e bloqueios da fila
+        run: python3 -m unittest discover -s tests -p 'test_controle_operacional.py' -v
