@@ -1,0 +1,7 @@
+id,modulo,recorte,estado,prioridade,responsavel,branch,pr,base_sha,reserva_ate,dependencias,criterio_aceite,ultima_entrega
+CF-OPS-001,OPS,Determinar causa de falha de runners e instituir teste local reproduzivel,PRONTA,P0,,,,,,,Checkout CF principal e PR104; registrar resultado real do validator,
+CF-OPS-002,OPS,Reconciliar PR101 com PR104 e aprovar protocolo operacional unico,PRONTA,P0,,,,,,,Relacionar arquivos sobrepostos e revisar politica de integracao experimental,
+CF-M07-001,M07,Reconciliar M07 PR102 com lacunas da minuta e produzir CF-NOR H verificada,PRONTA,P1,,,,,,,Texto H com fonte CF vigente e riscos preservados; recompilar a vista,
+CF-M08-001,M08,Primeiro recorte normativo em ordem economica e servicos publicos,PRONTA,P1,,,,,,,Universo e garantia mapeados; dispositivo H ou justificativa de bloqueio,
+CF-M03-001,M03,Escrever variantes funcionais e invariantes a partir dos PRs 99 e 100,PRONTA,P1,,,,,,,Alternativas articuladas com M02 M04 M05 M06 M14; nenhuma ratificada,
+CF-M14-001,M14,Reconciliar transicao CF/ADCT com primeiras variantes institucionais,PRONTA,P1,,,,,,,Riscos temporais e invariantes documentados; sem ratificar,
