@@ -1,0 +1,17 @@
+caso_id,tema,cenario_hipotetico,teste_constitucional,interface,estado
+AMB-T01,risco climático,"Governo suspende todo planejamento climático por um mandato","Distinguir dever geral; planejamento legal; controle judicial; discricionariedade técnica",M03/M06,PESQUISA
+AMB-T02,gerações futuras,"Política concentra benefícios presentes e custos irreversíveis em décadas posteriores","Examinar dever intergeracional; tutela; proporcionalidade e critérios de prova",M01/M06,PESQUISA
+AMB-T03,dados científicos,"Decisão administrativa ignora relatório técnico sem justificativa","Examinar acesso à informação; motivação e possibilidade de revisão",M07/M06,PESQUISA
+AMB-T04,competência federativa,"Empreendimento afeta simultaneamente três estados e cinco municípios","Apurar titularidade do licenciamento e competências administrativa/legislativa",M04/M07,PESQUISA
+AMB-T05,baixo risco,"Órgão exige EIA completo sem demonstrar significativo potencial de degradação","Distinguir piso constitucional de impacto significativo e gradação legal",M04/M08,PESQUISA
+AMB-T06,alto risco,"Atividade potencialmente causadora de degradação significativa inicia sem EIA","Examinar garantia expressa CF 225 §1 IV e controle da execução",M06/M08,PESQUISA
+AMB-T07,risco incerto,"Estudo identifica dano plausível grave mas probabilidade não mensurável","Analisar precaução; competência técnica; motivação e proporcionalidade",M07/M08,PESQUISA
+AMB-T08,desastre,"Enchente atravessa municípios com capacidades administrativas desiguais","Separar adaptação estrutural; defesa civil; responsabilidades e financiamento",M04/M05/M12,PESQUISA
+AMB-T09,pressão orçamentária,"Redução de receita afeta fiscalização e reparação","Examinar dever e limites de financiamento e meios de prestação de contas",M05/M06,PESQUISA
+AMB-T10,restauração,"Dano ecológico não pode ser recomposto integralmente","Distinguir restauração possível; compensação; indenização e incerteza científica",M06/M08,PESQUISA
+AMB-T11,território indígena,"Licença repercute em território indígena e envolve consulta","Reservar análise de direitos originários e consulta M11; não presumir competência",M11/M04,PESQUISA
+AMB-T12,participação,"Comunidade não recebe estudo ambiental antes da decisão","Verificar publicidade; participação; razões técnicas e remédios",M01/M06/M07,PESQUISA
+AMB-T13,atividade econômica,"Medida restritiva ambiental afeta pequenas empresas e grandes operadores de modos distintos","Examinar igual proteção; proporcionalidade; custos e bases empíricas",M08/M09,PESQUISA
+AMB-T14,litígio estrutural,"Decisão judicial fixa metas sem mecanismo de monitoramento","Distinguir obrigação de planejar; definição do meio; revisão; limites de execução",M06/M03,PESQUISA
+AMB-T15,espécies e biodiversidade,"Decisão de exploração ameaça espécie protegida","Cotejar CF 225; obrigação de preservar diversidade; evidência sobre irreversibilidade",M08/M11,PESQUISA
+AMB-T16,transição,"Novo texto altera organização ambiental em meio a licenças e ações pendentes","Exigir regras de continuidade de proteção e segurança jurídica sem efeito automático",M14/M04,PESQUISA
