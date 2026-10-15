@@ -404,7 +404,7 @@ A suspensão de atividades associativas depende de decisão judicial, e a dissol
 
 ## CF-NOR-0051 — Núcleo do sufrágio e participação popular [H; A]
 
-A soberania popular é exercida por sufrágio universal e voto direto e secreto, de igual valor para todos, nas eleições submetidas a voto popular, bem como mediante plebiscito, referendo e iniciativa popular, nos termos desta Constituição e da lei.
+A soberania popular é exercida por sufrágio universal e voto direto, secreto e periódico, de igual valor para todos, nas eleições submetidas a voto popular, bem como mediante plebiscito, referendo e iniciativa popular, nos termos desta Constituição e da lei.
 
 O alistamento, o exercício do voto e a participação política serão assegurados em condições de igualdade, acessibilidade, liberdade e proteção contra coação, fraude, discriminação e interferência indevida, com fiscalização independente e meios eficazes de contestação.
 
@@ -412,7 +412,7 @@ A lei disciplinará os procedimentos de participação popular e eleitorais, res
 
 ## CF-NOR-0052 — Independência judicial juiz natural e motivação [H; A]
 
-Toda pessoa tem direito a órgão jurisdicional competente, independente, imparcial e previamente estabelecido por lei, à tutela judicial efetiva e a decisão fundamentada em prazo razoável, com publicidade dos julgamentos e ressalvas estritas para proteger direitos fundamentais e interesses constitucionalmente legítimos.
+Toda pessoa tem direito a órgão jurisdicional competente, independente, imparcial e previamente estabelecido por lei, à tutela judicial efetiva e a decisão fundamentada, sob pena de nulidade, em prazo razoável, com publicidade dos julgamentos e ressalvas estritas para proteger direitos fundamentais e interesses constitucionalmente legítimos.
 
 A magistratura de carreira terá garantias de permanência no cargo, inamovibilidade e irredutibilidade de subsídio, preservado o regime constitucional de vitaliciedade, com responsabilidade funcional, impedimentos e controle disciplinar sujeitos a procedimentos legais, motivação, defesa e revisão jurisdicional. É vedada a utilização de remoções, nomeações, sanções ou vantagens para punir decisões judiciais legalmente proferidas.
 
