@@ -5,6 +5,8 @@
 <!-- NORMA-INICIO -->
 No exercício da função administrativa, o poder público assegurará atendimento acessível e não discriminatório, recepção e exame de petições e reclamações, informação adequada sobre procedimentos e decisões que afetem as pessoas interessadas e resposta fundamentada em prazo razoável, ressalvados os sigilos constitucionalmente legítimos e os direitos de terceiros.
 
+Independentemente do pagamento de taxas, é assegurado a todas as pessoas o direito de petição aos poderes públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, bem como a obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal.
+
 Nos processos administrativos em que figurem litigantes ou acusados, são assegurados o contraditório e a ampla defesa, com os meios e recursos a eles inerentes. Nos demais procedimentos capazes de afetar direitos ou interesses juridicamente protegidos, será garantida oportunidade efetiva de ciência e manifestação compatível com a natureza do ato, sem prejuízo das garantias constitucionais especiais.
 
 A adoção de meios digitais não poderá inviabilizar o exercício dos direitos de petição, informação e defesa, nem o acesso efetivo aos serviços públicos. Serão assegurados acessibilidade, apoio apropriado e canais alternativos adequados quando necessários ao exercício desses direitos, na forma da lei e observadas as competências federativas.
@@ -14,7 +16,7 @@ Este dispositivo não afasta o devido processo legal, a tutela jurisdicional, a 
 
 ## Fundamento, proveniência e limites
 
-- **Direito vigente a confrontar:** CF/1988, arts. 5º, XXXIII, XXXIV, LIV, LV, LXXVIII e LXXIX; 37, caput e § 3º; 70, 74 e 175; direito a certidões (art. 5º, XXXIV, b) permanece pendência expressa, sem presunção de cobertura. A investigação da redação constitucional atual e da legislação está documentada no [M07.01 PR #102](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/102).
+- **Direito vigente a confrontar:** CF/1988, arts. 5º, XXXIII, XXXIV, LIV, LV, LXXVIII e LXXIX; 37, caput e § 3º; 70, 74 e 175; gratuidade de petição e certidões (art. 5º, XXXIV, a e b) agora enunciada expressamente em H; continuidade material e âmbito subjetivo ainda requerem auditoria, sem presunção de equivalência. A investigação da redação constitucional atual e da legislação está documentada no [M07.01 PR #102](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/102).
 - **Legislação infraconstitucional de controle de efeitos:** Lei 9.784/1999, arts. 1º a 3º, 26, 50 e 69; Lei 14.129/2021, arts. 2º, 3º, 5º, 6º e 14; LGPD, arts. 6º e 23. Não transportar para o texto constitucional a abrangência federal dessas leis nem presumir adesão por outros entes.
 - **Justificativa limitada da nova redação:** torna legível no M07 um piso administrativo e uma salvaguarda contra exclusão digital, já funcionalmente mapeados; **não comprova equivalência** à CF/1988 nem substitui disposições setoriais, remédios constitucionais ou hipóteses especiais.
 - **Alternativas abertas:** H-A (garantias distribuídas, com deveres institucionais no M07) e H-B (direito autônomo à boa administração). O protótipo acima é **H-invariante experimental**, útil para comparar as duas, **não é escolha de H-A ou H-B**; a localização final também está aberta.
@@ -25,8 +27,8 @@ Este dispositivo não afasta o devido processo legal, a tutela jurisdicional, a 
 | Âncora vigente | Ponto candidato no texto H | Lacuna/risco ainda aberto |
 |---|---|---|
 | CF 5º XXXIII (informação) | primeiro parágrafo | extensão, limites e dever de acesso ainda parciais |
-| CF 5º XXXIV a (petição) | primeiro e terceiro | independência de taxa e amplitude de titulares não expressas |
-| CF 5º XXXIV b (certidões) | **sem correspondente específico** | exige destino expresso em M01/M07 |
+| CF 5º XXXIV a (petição) | primeiro e terceiro | gratuidade agora enunciada; comprovação de continuidade material e amplitude pendentes |
+| CF 5º XXXIV b (certidões) | enunciado expresso nesta H | confirmar eventual destino definitivo em M01/M07 e continuidade material |
 | CF 5º LIV (devido processo) | segundo e quarto | procedimentos restritivos fora da hipótese litigiosa |
 | CF 5º LV (contraditório e defesa) | segundo | alcance, prova, intimação e recurso concreto em revisão |
 | CF 5º LXXVIII (duração razoável) | primeiro | não cobre expressamente todos os processos |
@@ -40,3 +42,7 @@ Este dispositivo não afasta o devido processo legal, a tutela jurisdicional, a 
 **Interface CLF:** T07 (procedimentos e especiais) e T43 (administração digital). Pedir concordância de âmbito, canais, intimações e efeitos sobre procedimento, **sem transpor texto automaticamente** nem modificar a decisão CLF DEC-016.
 
 **Decisão substantiva:** nenhuma. **Auditoria jurídica independente:** pendente. **Efeito sobre fonte canônica:** uma nova ficha H indexada com ordem editorial 0230; a ordem não é numeração constitucional definitiva.
+
+## CF-CC-003 — correção textual H (15/10/2026)
+
+A auditoria [CF-CC-002](../../auditoria/CF_CC_002_TESTES_M07_E_CONCORDANCIA_NN_2026-10-15.md) identificou lacuna na gratuidade de petições e certidões (art. 5º XXXIV a/b). A presente revisão **acrescenta um parágrafo expresso ao corpo H**, preservando a formulação dos demais parágrafos. Trata-se de alteração de hipótese jurídica para teste, não de ratificação D nem de decisão sobre localização final M01/M07. Exigir teste de acesso efetivo e revisão N:N; a auditoria anterior deve ser lida como diagnóstico da versão antecedente, preservado para histórico.
