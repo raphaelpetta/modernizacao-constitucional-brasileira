@@ -436,3 +436,29 @@ O Estado não estabelecerá cultos ou igrejas, não lhes embaraçará o funciona
 Os partidos políticos terão autonomia para definir sua estrutura, organização, funcionamento e procedimentos de escolha de candidaturas, observados os deveres constitucionais de transparência, prestação de contas, não discriminação e proteção à participação política. A lei estabelecerá garantias de controle e de tutela contra atos partidários que violem direitos fundamentais, vedada a interferência estatal arbitrária em sua autonomia.
 
 São vedados a utilização de organização paramilitar e o recebimento de recursos financeiros ou a subordinação a governos ou entidades estrangeiros, observadas as hipóteses e salvaguardas previstas nesta Constituição. O regime de financiamento, as condições de funcionamento parlamentar, as coligações e a disciplina e fidelidade partidárias dependerão de regulamentação e garantias próprias, respeitada a expressão da soberania popular e a diferença entre os sistemas eleitorais.
+
+## CF-NOR-0055 — Autonomia federativa e repartição cooperativa de competências [H; A]
+
+A República Federativa do Brasil compreende União, Estados, Distrito Federal e Municípios autônomos, com competências políticas, administrativas, legislativas e financeiras definidas nesta Constituição, vedada a subordinação de um ente federativo a outro fora das hipóteses constitucionais expressas.
+
+O exercício das competências administrativas comuns observará cooperação, coordenação, responsabilidade e proteção efetiva dos direitos, sem que a atuação de um ente afaste, por si, a competência dos demais. Na competência legislativa concorrente, caberá à União estabelecer normas gerais e aos Estados e ao Distrito Federal suplementá-las; na ausência de normas gerais federais, exercerão competência legislativa plena para suas peculiaridades, e a superveniência de norma geral federal suspenderá a eficácia da norma local no que lhe for contrário.
+
+Os Municípios legislarão sobre assuntos de interesse local e suplementarão a legislação federal e estadual no que couber, respeitadas as competências constitucionais dos demais entes. A definição de encargos, de recursos e de instrumentos cooperativos observará as demais garantias constitucionais de financiamento, controle e autonomia.
+
+
+## CF-NOR-0056 — Profissionalização da administração concurso e cargos de confiança [H; A]
+
+A administração pública direta e indireta de todos os Poderes e entes federativos observará legalidade, impessoalidade, moralidade, publicidade e eficiência, bem como integridade, igualdade de acesso, transparência e responsabilização, nos limites desta Constituição.
+
+A investidura em cargo ou emprego público permanente depende, como regra, de aprovação prévia em concurso público de provas ou de provas e títulos, com publicidade, critérios objetivos de seleção e respeito à classificação, ressalvadas as exceções constitucionais expressas e os mecanismos legítimos de igualdade material previstos em lei.
+
+As funções de confiança serão exercidas exclusivamente por servidores ocupantes de cargos efetivos; os cargos em comissão destinar-se-ão às atribuições de direção, chefia e assessoramento legalmente definidas, em quantidade proporcional à necessidade institucional, vedada sua utilização para substituir, de forma generalizada, atividades permanentes técnicas, burocráticas ou operacionais.
+
+São vedados o favorecimento pessoal ou familiar na nomeação e na designação, inclusive por ajustes recíprocos para contornar a impessoalidade, e a contratação temporária como substituição ordinária dos quadros permanentes; a admissão por tempo determinado dependerá de necessidade temporária de excepcional interesse público, nos casos previstos em lei e sob controle.
+
+
+## CF-NOR-0057 — Jurisdição penal internacional complementar [H; A]
+
+A República Federativa do Brasil se submete à jurisdição do Tribunal Penal Internacional a cuja criação tenha manifestado adesão, observadas as obrigações internacionais validamente assumidas e as garantias constitucionais aplicáveis.
+
+A cooperação com o Tribunal observará a complementaridade da jurisdição penal internacional, a legalidade, o devido processo e os direitos da pessoa investigada, acusada e das vítimas, na forma dos instrumentos internacionais vigentes para o Brasil e da legislação competente, sem atribuir a qualquer autoridade poder de afastar unilateralmente compromissos internacionais válidos.

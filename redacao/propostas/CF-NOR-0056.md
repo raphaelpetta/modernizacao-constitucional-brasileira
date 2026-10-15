@@ -1,0 +1,23 @@
+# CF-NOR-0056 — Profissionalização da administração concurso e cargos de confiança
+
+**Estado:** H/A/V, norma experimental não ratificada; **módulo:** M07; **tipo:** A; **corte:** 15/10/2026. **Base:** PR #123 HEAD `9541d25eb3d5ca04fb32933e9816508c78568ca0`; main `7c3bd80470899a09e31f25a6a3a47d7c9cca669c`, CF-GOV-019 já integrada. **Risco material:** R3 por competências, igualdade e tutela. **Ganho marginal:** acrescentar função constitucional ainda não coberta pela norma geral de seu módulo.
+
+<!-- NORMA-INICIO -->
+A administração pública direta e indireta de todos os Poderes e entes federativos observará legalidade, impessoalidade, moralidade, publicidade e eficiência, bem como integridade, igualdade de acesso, transparência e responsabilização, nos limites desta Constituição.
+
+A investidura em cargo ou emprego público permanente depende, como regra, de aprovação prévia em concurso público de provas ou de provas e títulos, com publicidade, critérios objetivos de seleção e respeito à classificação, ressalvadas as exceções constitucionais expressas e os mecanismos legítimos de igualdade material previstos em lei.
+
+As funções de confiança serão exercidas exclusivamente por servidores ocupantes de cargos efetivos; os cargos em comissão destinar-se-ão às atribuições de direção, chefia e assessoramento legalmente definidas, em quantidade proporcional à necessidade institucional, vedada sua utilização para substituir, de forma generalizada, atividades permanentes técnicas, burocráticas ou operacionais.
+
+São vedados o favorecimento pessoal ou familiar na nomeação e na designação, inclusive por ajustes recíprocos para contornar a impessoalidade, e a contratação temporária como substituição ordinária dos quadros permanentes; a admissão por tempo determinado dependerá de necessidade temporária de excepcional interesse público, nos casos previstos em lei e sob controle.
+<!-- NORMA-FIM -->
+
+## Fontes, objeções e continuidade da proteção
+
+**Âncoras positivas:** [CF/1988 art. 37 caput, I–V, IX e § 2º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm); [STF Tema 1010, RE 1.041.210](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5171382&numeroProcesso=1041210&numeroTema=1010); [STF Tema 784, RE 837.311](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4634356&numeroProcesso=837311&numeroTema=784); [Súmula Vinculante 13 comentada STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1227). A regra é **especialização autônoma** da profissionalização, não cópia de CF-NOR-0021 (petição, devido processo e acesso digital).
+
+**Ressalvas indispensáveis:** Tema 1010 limita cargos comissionados a direção/chefia/assessoramento com atribuições definidas em lei e proporcionalidade; a H não substitui exigências de percentual mínimo de servidores de carreira e demais disposições do art. 37 V. Tema 784 NÃO confere direito automático de nomeação a todo aprovado fora das vagas; proteção contra preterição deve preservar as condições da tese. SV13 e jurisprudência exigem análise das circunstâncias, inclusive os limites em casos de cargos políticos; a H não converte toda relação de parentesco em impedimento absoluto a todo cargo, cargo efetivo concursado ou função política. **Sem equivalência integral:** art. 37 §§ 1–16, acumulações, teto remuneratório, estabilidade do art. 41, concursos especiais, acessibilidade e cotas, carreiras essenciais, terceirização e agentes militares continuam a auditar.
+
+**Melhor objeção:** densidade excessiva no nível constitucional pode engessar gestão e impedir respostas a emergências; a H restringe o abuso de exceções, mas mantém previsão legal de contratação temporária excepcional e exige avaliação de capacidade fiscal. **Interfaces:** M01/M03/M04/M05/M06/M08/M09/M12/M14, CLF somente com remessa sobre regime administrativo, se necessário. Sem D/F6.
+
+**FEITO:** núcleo específico H e razões contra redundância. **PENDENTE:** destinos de garantias atuais fora do núcleo, prova de operacionalidade e parecer intermodular/jurídico independente. **PRÓXIMO:** revisar os itens marcados como ausência na matriz CF-CC-018, sem presumir equivalência nem continuar automaticamente nesta matéria por inércia. **D/P/H/A/V e F0–F8 permanecem distintos.**
