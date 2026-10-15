@@ -44,3 +44,7 @@ A verificação estrutural pode ser executada localmente com `python scripts/val
 O projeto opera com o [protocolo transversal de ciclos](governanca/12_PROTOCOLO_RODADAS_E_SINCRONIZACAO.md), um [quadro de frentes, entregas, pendências e próximas tarefas](governanca/13_QUADRO_DE_COORDENACAO.md), o [registro de marcos e handoffs](governanca/14_REGISTRO_DAS_RODADAS.md) e o [controle de identificadores](governanca/15_REGISTRO_RESERVAS_IDS.md).
 
 **Toda rodada substantiva deve encerrar com `FEITO / PENDENTE / PRÓXIMO`, registrar estado Git e dependências e salvar um pacote de continuidade.** Antes de reservar `CF-NOR` ou iniciar subciclo Mxx.yy, conferir também PRs e issues abertos. Quadro e contagens são fotografias datadas; verificar sempre `main` ao começar e antes de integrar. Nenhum resultado de pesquisa ou CI equivale a ratificação de conteúdo constitucional.
+
+## Desenvolvimento por cobertura e integração (proposta em PR)
+
+O [protocolo de execução por camadas](governanca/17_EXECUCAO_CAMADAS_E_AUDITORIA.md), o [plano diretor CF–CLF](governanca/18_PLANO_DIRETOR_EXECUCAO.md) e o [mapa funcional inicial](catalogo/COBERTURA_FUNCIONAL.csv) foram preparados como evolução operacional. O mapa explicita recortes parciais; não é auditoria exaustiva da CF/1988, não substitui `catalogo/MODULOS.csv` nem aprova conteúdo H. A integração dos arquivos requer revisão do PR de governança, e os links relativos só passarão a existir na `main` depois disso. A atividade horária e outras automações não são prova de resultado jurídico nem de acesso permanente a ferramentas.
