@@ -385,3 +385,35 @@ A autorização orçamentária provisória não equivale à disponibilidade fina
 A ameaça demonstrada à continuidade de prestação essencial deverá ser comunicada imediatamente ao Legislativo, para deliberação fundamentada de adequação do regime, preservados os limites constitucionais de despesa e os controles independentes. Enquanto perdurar o impasse, o Legislativo realizará exame público periódico da proposta e da execução provisória, sem aprovação tácita.
 
 A aprovação posterior da lei orçamentária exigirá conciliação e prestação de contas, sem convalidar despesas irregulares. A ausência de orçamento não autoriza novos tributos, programas ou endividamento, nem implica por si só destituição de Governo ou dissolução legislativa; ficam preservadas a autonomia financeira de outros Poderes e instituições e as hipóteses constitucionais próprias de crédito extraordinário.
+
+## CF-NOR-0049 — Liberdade de expressão informação e proibição de censura [H; A]
+
+São livres a manifestação do pensamento e as atividades intelectual, artística, científica, jornalística e de comunicação, independentemente de censura ou licença prévia, vedado o anonimato nos termos das garantias constitucionais aplicáveis.
+
+É assegurado o direito de buscar, receber e difundir informações, resguardado o sigilo da fonte quando necessário ao exercício profissional, bem como o direito de resposta proporcional ao agravo e a reparação dos danos decorrentes de abusos, na forma da lei e sob controle judicial.
+
+É vedada a censura de natureza política, ideológica ou artística, sem prejuízo da responsabilização posterior por condutas ilícitas, com observância da liberdade de crítica, do devido processo e dos direitos à honra, à privacidade, à igualdade e à proteção de crianças e adolescentes.
+
+## CF-NOR-0050 — Liberdade de reunião e autonomia associativa [H; A]
+
+Todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização, observado o prévio aviso à autoridade competente e o respeito à reunião anteriormente convocada para o mesmo local, sendo vedada a proibição por mera discordância com as ideias defendidas.
+
+É assegurada a liberdade de associação para fins lícitos, vedadas associações de caráter paramilitar. A criação de associações e de cooperativas, nos termos constitucionais e legais, independe de autorização, sendo vedada a ingerência estatal ilegítima em seu funcionamento. Ninguém será obrigado a associar-se ou a permanecer associado.
+
+A suspensão de atividades associativas depende de decisão judicial, e a dissolução compulsória somente ocorrerá por decisão judicial transitada em julgado. A representação de filiados por entidades associativas observará autorização expressa e as garantias processuais aplicáveis.
+
+## CF-NOR-0051 — Núcleo do sufrágio e participação popular [H; A]
+
+A soberania popular é exercida por sufrágio universal e voto direto e secreto, de igual valor para todos, nas eleições submetidas a voto popular, bem como mediante plebiscito, referendo e iniciativa popular, nos termos desta Constituição e da lei.
+
+O alistamento, o exercício do voto e a participação política serão assegurados em condições de igualdade, acessibilidade, liberdade e proteção contra coação, fraude, discriminação e interferência indevida, com fiscalização independente e meios eficazes de contestação.
+
+A lei disciplinará os procedimentos de participação popular e eleitorais, respeitadas a anterioridade e as demais garantias constitucionais; as condições de elegibilidade, as inelegibilidades, o regime do voto e a organização partidária dependerão de disposições constitucionais próprias, sem restrição implícita pelo presente dispositivo.
+
+## CF-NOR-0052 — Independência judicial juiz natural e motivação [H; A]
+
+Toda pessoa tem direito a órgão jurisdicional competente, independente, imparcial e previamente estabelecido por lei, à tutela judicial efetiva e a decisão fundamentada em prazo razoável, com publicidade dos julgamentos e ressalvas estritas para proteger direitos fundamentais e interesses constitucionalmente legítimos.
+
+A magistratura de carreira terá garantias de permanência no cargo, inamovibilidade e irredutibilidade de subsídio, preservado o regime constitucional de vitaliciedade, com responsabilidade funcional, impedimentos e controle disciplinar sujeitos a procedimentos legais, motivação, defesa e revisão jurisdicional. É vedada a utilização de remoções, nomeações, sanções ou vantagens para punir decisões judiciais legalmente proferidas.
+
+O Poder Judiciário terá autonomia administrativa e financeira, exercida com transparência, prestação de contas, controles constitucionais e respeito às competências orçamentárias dos Poderes.
