@@ -49,3 +49,6 @@ A entrega final em construção é um texto constitucional único, legível e cr
 - [Minuta atual](../redacao/anteprojeto-de-trabalho.md). A compilação é uma vista derivada; não editar suas cópias de forma independente.
 
 Os controles acima passam a ser definitivos somente após revisão e integração da documentação. O registro de tarefas não substitui a conferência dos PRs nem a revisão jurídica, e cada reserva é cooperativa.
+
+## Integracao de PRs e prioridade da fila (atualizacao operacional)
+O [plano de integracao dos PRs](02_PLANO_INTEGRACAO_PRS.md) registra a dependencia observada **#105 → #106 → #108 → #109**, mais o #107 independente, e as salvaguardas para nao fundir em `main` trabalhos de texto herdados sem conferir cada recorte. A [fila persistente](FILA_TRABALHO.csv) acompanha M07, M08, M10 e M03 como **EM_REVISAO** nesses PRs; nao iniciar do zero ou contabiliza-los como texto ja integrado. A [politica de portas](01_POLITICA_INTEGRACAO_E_CONCORRENCIA.md) separa PR, integracao experimental H e ratificacao D. Os [painéis](PAINEL_GERADO.csv) refletem o checkout das fontes versionadas, nao todos os PRs abertos.
