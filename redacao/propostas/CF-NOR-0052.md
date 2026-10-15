@@ -3,7 +3,7 @@
 **Estado:** H/A/V, hipótese constitucional experimental **não ratificada**; **modulo:** M06; **tipo:** A autônoma. **Corte:** 15/10/2026. **Stack base:** [PR #119](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/119), SHA `948e0405e8fb74d4b0945f1c44007967b5d5b5c0`; **main de governança** `7c3bd80470899a09e31f25a6a3a47d7c9cca669c`, CF-GOV-019 já integrada, sem merge desta H. **Risco:** R3 por afetar direitos políticos e garantias institucionais.
 
 <!-- NORMA-INICIO -->
-Toda pessoa tem direito a órgão jurisdicional competente, independente, imparcial e previamente estabelecido por lei, à tutela judicial efetiva e a decisão fundamentada em prazo razoável, com publicidade dos julgamentos e ressalvas estritas para proteger direitos fundamentais e interesses constitucionalmente legítimos.
+Toda pessoa tem direito a órgão jurisdicional competente, independente, imparcial e previamente estabelecido por lei, à tutela judicial efetiva e a decisão fundamentada, sob pena de nulidade, em prazo razoável, com publicidade dos julgamentos e ressalvas estritas para proteger direitos fundamentais e interesses constitucionalmente legítimos.
 
 A magistratura de carreira terá garantias de permanência no cargo, inamovibilidade e irredutibilidade de subsídio, preservado o regime constitucional de vitaliciedade, com responsabilidade funcional, impedimentos e controle disciplinar sujeitos a procedimentos legais, motivação, defesa e revisão jurisdicional. É vedada a utilização de remoções, nomeações, sanções ou vantagens para punir decisões judiciais legalmente proferidas.
 
