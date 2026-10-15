@@ -169,3 +169,13 @@ Nos processos administrativos em que figurem litigantes ou acusados, são assegu
 A adoção de meios digitais não poderá inviabilizar o exercício dos direitos de petição, informação e defesa, nem o acesso efetivo aos serviços públicos. Serão assegurados acessibilidade, apoio apropriado e canais alternativos adequados quando necessários ao exercício desses direitos, na forma da lei e observadas as competências federativas.
 
 Este dispositivo não afasta o devido processo legal, a tutela jurisdicional, a proteção de dados pessoais, as garantias de publicidade e sigilo constitucionalmente aplicáveis, nem os mecanismos de controle da administração pública.
+
+## CF-NOR-0022 — Serviços públicos adequados e garantias dos usuários [H; A]
+
+A organização e a prestação de serviços públicos observarão, segundo a natureza do serviço, regularidade, continuidade, segurança, qualidade, acessibilidade, transparência, tratamento não discriminatório e proteção dos direitos de seus usuários, respeitadas as competências constitucionais dos entes federativos.
+
+A prestação por particulares, mediante delegação constitucionalmente admitida, não afasta os deveres do poder público competente de regular, fiscalizar e assegurar mecanismos acessíveis de informação, reclamação e responsabilização, nem a tutela jurisdicional dos direitos afetados.
+
+A lei estabelecerá padrões de prestação adequada, condições de interrupção e restabelecimento, fiscalização e participação dos usuários, bem como critérios tarifários compatíveis com a sustentabilidade do serviço e a proteção constitucional das pessoas em situação de vulnerabilidade, vedadas interrupções arbitrárias de serviços essenciais.
+
+Este dispositivo não dispensa exigências constitucionais de contratação e delegação, competências federativas, devido processo legal e garantias específicas de usuários, trabalhadores, consumidores e titulares de direitos fundamentais.
