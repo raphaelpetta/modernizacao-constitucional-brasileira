@@ -192,4 +192,6 @@ Incumbe ainda ao poder público proteger a fauna e a flora, vedadas, na forma da
 
 Para os fins da proibição de crueldade, não se consideram cruéis as práticas desportivas que utilizem animais quando constituam manifestações culturais, nos termos desta Constituição, registradas como bens de natureza imaterial integrantes do patrimônio cultural brasileiro e regulamentadas por lei específica que assegure o bem-estar dos animais envolvidos.
 
+O reconhecimento cultural e o registro patrimonial não dispensam a observância efetiva dos padrões legais mínimos de bem-estar animal nem dos cuidados adicionais exigidos pelas circunstâncias concretas, e não afastam a fiscalização e as responsabilidades administrativas, civis e penais cabíveis por maus-tratos, assegurado o devido processo legal.
+
 Para a instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, exigir-se-á, na forma da lei, estudo prévio de impacto ambiental, ao qual se dará publicidade.

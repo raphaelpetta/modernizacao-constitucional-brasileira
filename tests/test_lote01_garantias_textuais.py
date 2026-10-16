@@ -48,6 +48,14 @@ class GuardasH(unittest.TestCase):
         self.assertIn("lei específica", text)
         self.assertIn("bem-estar dos animais", text)
 
+    def test_registro_cultural_nao_afasta_bem_estar_e_responsabilidade(self):
+        texto = norma("0023")
+        self.assertIn("o registro patrimonial não dispensam", texto)
+        self.assertIn("padrões legais mínimos de bem-estar animal", texto)
+        self.assertIn("cuidados adicionais exigidos pelas circunstâncias concretas", texto)
+        self.assertIn("não afastam a fiscalização", texto)
+        self.assertIn("responsabilidades administrativas, civis e penais cabíveis por maus-tratos", texto)
+
 
 if __name__ == "__main__":
     unittest.main()
