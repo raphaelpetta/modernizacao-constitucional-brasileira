@@ -40,6 +40,10 @@ A [CF/1988 art. 60 §4º](https://www4.planalto.gov.br/legislacao/legis-federal/
 
 ## Lacunas que ESTA NORMA NÃO RESOLVE — bloqueios de integração e F6
 
+**Matriz de não equivalência:** a [auditoria N:1 do art. 60 — 11 funções](../../auditoria/CF_CC_029_EQUIVALENCIA_ART60_11_FUNCOES.csv) identifica **quatro proteções materiais em texto H** e **sete funções procedimentais/circunstanciais ainda sem equivalência específica**. Não declarar capítulo de reforma integral nem promover H a D.
+
+
+
 **Procedimento constitucional completo ausente:** a H **não** define (a) sujeitos e frações de iniciativa; (b) quórum mínimo de **3/5** e **dois turnos em cada Casa** ou equivalente não regressivo se houver Parlamento diverso; (c) quem promulga; (d) limite de reapresentação no mesmo período legislativo; (e) **proibição circunstancial da reforma sob intervenção federal, estado de defesa ou estado de sítio**; (f) mecanismos de revisão, controle e efeitos temporais. Esses pontos **permanecem exigências do atual art.60 §§1º–3º/5º**, e a hipótese não fornece equivalência integral. **Não usar a falta deles como autorização para reduzi-los.** O eixo P1/P2/P3 do PR #130 segue pendente de decisão, assim como modos A/B/C de governo.
 
 **Via de mudança:** a proposta H descreve *a proteção em futura constituição*, não autoriza promulgá-la via PEC vigente se algum outro trecho violar cláusula pétrea da CF/1988. A consulta popular não substitui art.60. [CF-CC-027 sobre B-D/B-I](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/blob/main/modulos/M02-eleicoes/M02_CC027_ADMISSIBILIDADE_BD_BI_E_PRECEDENTES_v0.1.md) preserva o bloqueio quanto ao desenho institucional e direito de voto.
