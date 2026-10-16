@@ -157,3 +157,33 @@ Ninguém será privado de liberdade ou submetido a intervenção em saúde de fo
 Toda medida involuntária restritiva de liberdade ou integridade estará sujeita ao controle de sua validade constitucional, a fundamento legal estrito, informação acessível, registro de motivos, meios de impugnação, assistência e revisão independente, efetiva e tempestiva, conforme a natureza da medida.
 
 Este dispositivo não institui, por si, hipótese de internação, tratamento compulsório ou outra intervenção sem consentimento, nem autoriza o afastamento de proibições absolutas.
+
+## CF-NOR-0025 — Direitos originários territórios e consulta dos povos indígenas [H; A]
+
+São reconhecidos aos povos indígenas suas organizações sociais, costumes, línguas, crenças e tradições e os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, protegê-las e fazer respeitar seus bens e direitos.
+
+São terras tradicionalmente ocupadas pelos povos indígenas as por eles habitadas em caráter permanente, as utilizadas para suas atividades produtivas, as imprescindíveis à preservação dos recursos ambientais necessários a seu bem-estar e as necessárias à reprodução física e cultural, segundo seus usos, costumes e tradições. O reconhecimento administrativo desses direitos tem caráter declaratório.
+
+As terras tradicionalmente ocupadas destinam-se à posse permanente dos povos indígenas e ao usufruto exclusivo das riquezas do solo, dos rios e dos lagos nelas existentes, observadas as reservas constitucionais especiais aplicáveis. As terras são inalienáveis e indisponíveis, e os direitos sobre elas, imprescritíveis.
+
+Os povos indígenas interessados serão consultados previamente, de boa-fé e por procedimentos apropriados e suas instituições representativas, sobre medidas legislativas ou administrativas suscetíveis de afetá-los diretamente, com o objetivo de alcançar acordo ou consentimento, observadas as garantias específicas constitucionalmente aplicáveis. A audiência pública ambiental geral não substitui a consulta própria quando devida.
+
+O aproveitamento de recursos hídricos, incluídos os potenciais energéticos, e a pesquisa e lavra de riquezas minerais em terras indígenas dependem de autorização do Congresso Nacional, ouvidas as comunidades afetadas e assegurada sua participação nos resultados da lavra, na forma da lei, sem prejuízo dos demais requisitos constitucionais e convencionais aplicáveis.
+
+Os indígenas, suas comunidades e organizações são partes legítimas para ingressar em juízo em defesa de seus direitos e interesses, intervindo o Ministério Público em todos os atos do processo, sem prejuízo das atribuições constitucionais de outros órgãos de defesa.
+
+## CF-NOR-0028 — Remoção nulidades e salvaguardas territoriais indígenas [H; E]
+
+> Regra geral de referência: CF-NOR-0025. Relação em exame.
+
+É vedada a remoção de grupos indígenas de suas terras, salvo, ad referendum do Congresso Nacional, em caso de catástrofe ou epidemia que ponha em risco sua população, ou no interesse da soberania do País, após deliberação do Congresso Nacional, garantido, em qualquer hipótese, o retorno imediato logo que cesse o risco.
+
+São nulos e extintos, sem produção de efeitos jurídicos, os atos que tenham por objeto a ocupação, o domínio e a posse das terras tradicionalmente ocupadas pelos povos indígenas, ou a exploração das riquezas naturais do solo, dos rios e dos lagos nelas existentes, ressalvado relevante interesse público da União, nos termos de lei complementar. As consequências patrimoniais da nulidade observarão as garantias constitucionais cabíveis e o regime de benfeitorias decorrentes de ocupação de boa-fé, na forma da lei.
+
+Não se aplicam às terras indígenas as regras gerais de incentivo à garimpagem em cooperativas previstas nesta Constituição para outros territórios.
+
+## CF-NOR-0029 — Reconhecimento da propriedade territorial quilombola [H; A]
+
+Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, cabendo ao Estado emitir-lhes os títulos respectivos.
+
+O procedimento de identificação, reconhecimento, delimitação e titulação respeitará a identidade, a organização e a participação efetiva das comunidades, os vínculos territoriais e culturais e as garantias do devido processo legal, incluídos os direitos legítimos de terceiros na forma desta Constituição e da lei, sem tornar a expedição do título condição constitutiva da propriedade já reconhecida.

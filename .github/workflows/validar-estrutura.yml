@@ -30,3 +30,5 @@ jobs:
         run: python scripts/controle_operacional.py --check
       - name: Testar reservas, colisão e bloqueios da fila
         run: python -m unittest discover -s tests -p 'test_controle_operacional.py' -v
+      - name: Testar guardas documentais M11 ADCT (nao auditoria juridica)
+        run: python -m unittest discover -s tests -p 'test_lote02_m11_garantias_textuais.py' -v
