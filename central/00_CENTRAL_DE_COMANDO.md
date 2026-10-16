@@ -57,3 +57,7 @@ O [plano de integracao dos PRs](02_PLANO_INTEGRACAO_PRS.md) registra a cadeia co
 ## Reserva documental da integração CF-CC-019
 
 A versão integrada desta central **não inclui ainda** os recursos `FILA_TRABALHO.csv`, `PAINEL_GERADO.csv`, `scripts/controle_operacional.py` e `scripts/validar_operacao_local.sh`. Esses artefatos seguem no PR #104 para validação e reconciliação. Quando disponíveis, reativar links relativos, sem inventar saída de scripts. Para execução imediata, usar o [plano de integração](02_PLANO_INTEGRACAO_PRS.md) e a política [CF-GOV-019](../governanca/19_POLITICA_GANHO_MARGINAL_GLOBAL.md).
+
+## Funil de deliberações sem ratificação tácita — CF-CC-026
+
+A [pauta executiva F6](04_PAUTA_EXECUTIVA_F6_20261015.md) e o [funil estruturado das dez portas](04_FUNIL_DECISOES_F6.csv) identificam **uma escolha de prioridade de prototipagem P-A/P-B/P-C/D0 apresentável** (não feita pelo usuário) e **nove questões materiais ainda pendentes de prova**. A recomendação P-B preexistente no PR #99 não é decisão D nem aprovação de parlamentarismo. Letras isoladas autorizam rodadas executivas, nunca promovem H/P a D.
