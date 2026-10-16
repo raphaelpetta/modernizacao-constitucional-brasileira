@@ -39,6 +39,9 @@ Consultar [funil de 10 recortes](04_FUNIL_DECISOES_F6.csv) para estados e respon
 | **F6-01 — rigidez material R1/R2** | Preservar o piso vigente de [CF art.60§4](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) nas quatro categorias e obter revisão de alcance/efetividade. R3, só rito sem núcleo, é contraprova insuficiente, não recomendação |
 | **F6-02 — Governo A/B/C como D** | Exigir poderes, investidura, defesa, LOA e via constitucional testados; priorização P não substitui adoção D |
 | **F6-03 — B-D/B-I, eleição da chefia de Estado** | Prova específica do conteúdo do voto protegido por art.60§4 II; exceção de dupla vacância (art81§1) não resolve B-I ordinário; avaliar anterioridade |
+
+**Atualização probatória CF-CC-027 (não decisória):** [parecer M02 sobre B-D/B-I](../modulos/M02-eleicoes/M02_CC027_ADMISSIBILIDADE_BD_BI_E_PRECEDENTES_v0.1.md) e [oito cenários de admissibilidade](../auditoria/CF_CC_027_OITO_TESTES_ADMISSIBILIDADE_BD_BI.csv) diferenciam art.81 §1º (dupla vacância), ADI 5.525 (lei em vacância), ADI 3.685 (anterioridade da EC) e MS 22.972 (extinto sem mérito). B-D mantém vantagem relativa **apenas quanto à continuidade do voto direto**; B-I permanece sem prova jurídica suficiente por via de PEC. **F6-03 continua BLOQUEADO_ART60** até projeto institucional completo e revisão R3; não renovar esta pesquisa sem nova tese ou texto concreto.
+
 | **F6-04 — Parlamento P1/P2/P3** | Escolher Casas/competências separadamente do Governo; proteger consultas indígenas e rito de tratados H-0025/0028/0036, legitimidade coletiva H-0037 |
 | **F6-05 — Corte J1/J2/J3** | Legitimados, juiz natural, competência, conflito entre cortes, transição de feitos e remédios, não presumir Corte apartada aprovada |
 | **F6-06 — via PEC/consulta/constituinte** | Parecer de admissibilidade **por ato**: PEC sujeita art.60; consulta não sana inconstitucionalidade; processo constituinte não decorre automaticamente de PEC |
