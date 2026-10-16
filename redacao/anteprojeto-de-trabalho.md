@@ -454,6 +454,8 @@ A investidura em cargo ou emprego público permanente depende, como regra, de ap
 
 As funções de confiança serão exercidas exclusivamente por servidores ocupantes de cargos efetivos; os cargos em comissão destinar-se-ão às atribuições de direção, chefia e assessoramento legalmente definidas, em quantidade proporcional à necessidade institucional, vedada sua utilização para substituir, de forma generalizada, atividades permanentes técnicas, burocráticas ou operacionais.
 
+Os cargos em comissão serão preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, respeitada a autonomia normativa de cada ente federativo. A lei descreverá de modo claro e objetivo as atribuições dos cargos e sua criação dependerá de relação de confiança compatível com essas atribuições e de proporcionalidade entre o quantitativo de cargos em comissão e o de cargos efetivos do ente.
+
 São vedados o favorecimento pessoal ou familiar na nomeação e na designação, inclusive por ajustes recíprocos para contornar a impessoalidade, e a contratação temporária como substituição ordinária dos quadros permanentes; a admissão por tempo determinado dependerá de necessidade temporária de excepcional interesse público, nos casos previstos em lei e sob controle.
 
 
