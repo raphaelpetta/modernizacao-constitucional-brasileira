@@ -47,6 +47,9 @@ Consultar [funil de 10 recortes](04_FUNIL_DECISOES_F6.csv) para estados e respon
 | **F6-06 — via PEC/consulta/constituinte** | Parecer de admissibilidade **por ato**: PEC sujeita art.60; consulta não sana inconstitucionalidade; processo constituinte não decorre automaticamente de PEC |
 | **F6-07 — transição temporal M14** | Sequência de legitimidade, marcos eleitorais, instalação de casas, primeira investidura, processos e serviços, respeitando art16 |
 | **F6-08 — custeio, LOA e serviços** | Teste de direito exigível versus ente devedor, recurso, autorização, plano e tutela judicial sem criar despesa por decreto |
+
+**Evidência CF-CC-028, sem liberação D:** o [caso único de saúde urgente, LOA ausente e caixa por fonte](../auditoria/CF_CC_028_CASO_UNICO_SAUDE_LOA_FEDERACAO_v0.1.md) exercita oito portas de coaplicação e distingue 12 unidades de obrigações anteriores, seis de necessidade adicional, 15 de recursos potencialmente elegíveis e 20 vinculados à educação, vedado seu desvio. O déficit residual ilustrativo de três unidades **não** equivale a crédito, caixa livre ou inadimplemento real. STF Tema 698 orienta tutela por resultados/plano em regra, sem criar dotação por decisão judicial. **F6-08 permanece BLOQUEADO_EXECUCAO**: exigidas LDO do ente/ano, títulos de despesa e fontes efetivas, plano e revisão independente. **Critério de parada:** não reiterar cenários sintéticos até haver ato legal ou prova decisiva concreta.
+
 | **F6-09 — H→D de texto CF-NOR** | Cada artigo requer decisão específica, fonte, auditoria de CF/ADCT, parecer jurídico, controle de direitos e integração. **Nunca decisão em bloco por número de H** |
 
 ## 4. Ordem de desbloqueio — dependências em vez de rodadas isoladas
