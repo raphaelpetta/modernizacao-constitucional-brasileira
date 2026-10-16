@@ -58,3 +58,5 @@ A [central de comando da CF](central/00_CENTRAL_DE_COMANDO.md) e a [política de
 ## Consolidação, auditoria e fechamento
 
 A [política operacional de consolidação e fechamento](governanca/POLITICA_CONSOLIDACAO_E_FECHAMENTO_20261015.md) prioriza o ganho marginal entre novas propostas, auditoria jurídica, eliminação de bloqueios de integração e encaminhamento de decisões maduras. Enquanto perdurar a dívida da pilha de PRs e o incidente [CI #120](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/issues/120), o fechamento deve disputar prioridade real com novas CF-NOR. A fonte de conteúdo H e os estados D/P/H/A/V são preservados; **nenhuma integração implica ratificação constitucional**.
+
+**Decisões constitucionais pendentes:** consulte o [funil F6 de prioridades e dependências](central/04_PAUTA_EXECUTIVA_F6_20261015.md). A pauta existente no PR #99 admite eventual escolha expressa de **foco de trabalho P**, sem definir regime de governo ou ratificar artigos.
