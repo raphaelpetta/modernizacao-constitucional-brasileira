@@ -462,3 +462,19 @@ São vedados o favorecimento pessoal ou familiar na nomeação e na designação
 A República Federativa do Brasil se submete à jurisdição do Tribunal Penal Internacional a cuja criação tenha manifestado adesão, observadas as obrigações internacionais validamente assumidas e as garantias constitucionais aplicáveis.
 
 A cooperação com o Tribunal observará a complementaridade da jurisdição penal internacional, a legalidade, o devido processo e os direitos da pessoa investigada, acusada e das vítimas, na forma dos instrumentos internacionais vigentes para o Brasil e da legislação competente, sem atribuir a qualquer autoridade poder de afastar unilateralmente compromissos internacionais válidos.
+
+## CF-NOR-0058 — Limites materiais ao poder de reforma constitucional [H; A]
+
+Não será objeto de deliberação proposta de emenda a esta Constituição tendente a abolir:
+
+I — a forma federativa de Estado, incluída a autonomia política, administrativa e financeira dos entes que a compõem;
+
+II — o voto direto, secreto, universal e periódico, bem como as garantias fundamentais do processo eleitoral;
+
+III — a separação dos Poderes e a independência das funções de controle constitucionalmente asseguradas;
+
+IV — os direitos e garantias individuais e seus instrumentos essenciais de proteção e tutela jurisdicional.
+
+A vedação alcança a supressão direta e o esvaziamento material indireto das garantias protegidas, inclusive mediante mudanças de nome, atribuições, fiscalização, mecanismos de exercício ou acesso a remédios efetivos, devendo ser aferidos os efeitos concretos da proposta e não apenas sua forma ou finalidade declarada.
+
+A observância do procedimento de emenda ou a realização de consulta popular não afasta os limites materiais previstos neste artigo. O exercício do poder de reforma depende de iniciativa, deliberação e controle constitucionalmente competentes, nos termos do procedimento de reforma estabelecido nesta Constituição.
