@@ -428,7 +428,6 @@ Ninguém será privado de direitos por crença religiosa ou convicção filosóf
 
 O Estado não estabelecerá cultos ou igrejas, não lhes embaraçará o funcionamento nem manterá com eles relações de dependência ou aliança, ressalvada a colaboração de interesse público nos termos da lei, vedado favorecimento discriminatório.
 
-
 ## CF-NOR-0054 — Pluralismo e garantias dos partidos políticos [H; A]
 
 É livre a criação, a organização, a fusão, a incorporação e a extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluralismo, os direitos fundamentais e a igualdade de oportunidades na competição eleitoral, na forma desta Constituição.
@@ -445,7 +444,6 @@ O exercício das competências administrativas comuns observará cooperação, c
 
 Os Municípios legislarão sobre assuntos de interesse local e suplementarão a legislação federal e estadual no que couber, respeitadas as competências constitucionais dos demais entes. A definição de encargos, de recursos e de instrumentos cooperativos observará as demais garantias constitucionais de financiamento, controle e autonomia.
 
-
 ## CF-NOR-0056 — Profissionalização da administração concurso e cargos de confiança [H; A]
 
 A administração pública direta e indireta de todos os Poderes e entes federativos observará legalidade, impessoalidade, moralidade, publicidade e eficiência, bem como integridade, igualdade de acesso, transparência e responsabilização, nos limites desta Constituição.
@@ -457,7 +455,6 @@ As funções de confiança serão exercidas exclusivamente por servidores ocupan
 Os cargos em comissão serão preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, respeitada a autonomia normativa de cada ente federativo. A lei descreverá de modo claro e objetivo as atribuições dos cargos e sua criação dependerá de relação de confiança compatível com essas atribuições e de proporcionalidade entre o quantitativo de cargos em comissão e o de cargos efetivos do ente.
 
 São vedados o favorecimento pessoal ou familiar na nomeação e na designação, inclusive por ajustes recíprocos para contornar a impessoalidade, e a contratação temporária como substituição ordinária dos quadros permanentes; a admissão por tempo determinado dependerá de necessidade temporária de excepcional interesse público, nos casos previstos em lei e sob controle.
-
 
 ## CF-NOR-0057 — Jurisdição penal internacional complementar [H; A]
 
@@ -480,3 +477,17 @@ IV — os direitos e garantias individuais e seus instrumentos essenciais de pro
 A vedação alcança a supressão direta e o esvaziamento material indireto das garantias protegidas, inclusive mediante mudanças de nome, atribuições, fiscalização, mecanismos de exercício ou acesso a remédios efetivos, devendo ser aferidos os efeitos concretos da proposta e não apenas sua forma ou finalidade declarada.
 
 A observância do procedimento de emenda ou a realização de consulta popular não afasta os limites materiais previstos neste artigo. O exercício do poder de reforma depende de iniciativa, deliberação e controle constitucionalmente competentes, nos termos do procedimento de reforma estabelecido nesta Constituição.
+
+## CF-NOR-0059 — Direito à saúde e sistema público universal [H; A]
+
+A saúde é direito fundamental de todas as pessoas e dever do Estado, assegurado mediante políticas sociais e econômicas que reduzam riscos e promovam acesso universal, igualitário e equitativo às ações e aos serviços necessários de promoção, prevenção, diagnóstico, tratamento, reabilitação e cuidados paliativos.
+
+O Estado manterá sistema público universal de saúde, financiado solidariamente e acessível independentemente de contribuição previdenciária, contratação de seguro ou capacidade econômica. As ações e os serviços assegurados no âmbito desse sistema serão prestados gratuitamente aos usuários, observada a definição pública e juridicamente controlável das prestações devidas, vedada discriminação arbitrária.
+
+O sistema público organizar-se-á em redes regionais integradas, descentralizadas, com direção única em cada esfera de governo e responsabilidades cooperativas identificáveis, assegurados a integralidade, a continuidade, a qualidade, a segurança e a oportunidade do cuidado, com atenção primária como eixo de coordenação, sem prejuízo da assistência de urgência e da proteção coletiva da saúde.
+
+A definição de prioridades, a incorporação de tecnologias e a organização da oferta observarão evidências científicas, segurança, efetividade, necessidades da população e critérios distributivos transparentes e revisáveis. A avaliação de prioridades não afastará a tutela administrativa e jurisdicional contra omissão grave, discriminação ou negativa ilegal, resguardadas a autonomia e as garantias específicas das pessoas atendidas.
+
+A organização e o financiamento do sistema assegurarão participação da comunidade, fiscalização pública, transparência dos resultados e distribuição solidária de recursos para reduzir desigualdades territoriais. A disciplina de competências e financiamento observará as garantias constitucionais de aplicação mínima em saúde e as salvaguardas transitórias que forem estabelecidas de modo expresso, não se presumindo sua revogação ou redução por omissão desta disposição.
+
+A prestação privada de assistência à saúde é livre sob regulação e fiscalização públicas; sua participação na rede do sistema público será complementar, nos termos da lei, sem desobrigar o Estado de sua responsabilidade universal.
