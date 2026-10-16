@@ -15,7 +15,7 @@ Não atribuir pontuação numérica falsa de ganho ou percentuais de completude.
 
 ## 2. A única escolha que pode ser submetida AGORA, se houver decisão específica: F6-00 **P**, não D
 
-A [pauta original](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/blob/pesquisa/m03-f6-00-primeira-deliberacao-20261015/governanca/PAUTA_M03_F6_00_PRIMEIRA_DELIBERACAO_20261015.md) distingue a escolha revisável de **prioridade de prototipagem (P)** da adoção constitucional (**D**). Não duplicar sua análise: ela já compara responsabilidade política, investidura, LOA, dissolução, defesa, voto e transição.
+A [pauta original](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/pull/99) distingue a escolha revisável de **prioridade de prototipagem (P)** da adoção constitucional (**D**). Não duplicar sua análise: ela já compara responsabilidade política, investidura, LOA, dissolução, defesa, voto e transição.
 
 **Pergunta de escopo estrito para manifestação futura inequívoca:** *Qual arquitetura recebe a primeira minuta de Governo com contraprova obrigatória e análise R3 das interfaces, sem adoção constitucional?*
 
