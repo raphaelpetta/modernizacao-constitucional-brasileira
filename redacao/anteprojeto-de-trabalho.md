@@ -188,4 +188,8 @@ Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum
 
 Incumbe ao poder público, no âmbito das competências constitucionais de seus órgãos, preservar e restaurar os processos ecológicos essenciais e proteger a diversidade biológica e a integridade do patrimônio genético, asseguradas a prevenção e a reparação de danos ambientais nos termos desta Constituição e da lei.
 
+Incumbe ainda ao poder público proteger a fauna e a flora, vedadas, na forma da lei, as práticas que coloquem em risco sua função ecológica, provoquem a extinção de espécies ou submetam os animais a crueldade.
+
+Para os fins da proibição de crueldade, não se consideram cruéis as práticas desportivas que utilizem animais quando constituam manifestações culturais, nos termos desta Constituição, registradas como bens de natureza imaterial integrantes do patrimônio cultural brasileiro e regulamentadas por lei específica que assegure o bem-estar dos animais envolvidos.
+
 Para a instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, exigir-se-á, na forma da lei, estudo prévio de impacto ambiental, ao qual se dará publicidade.

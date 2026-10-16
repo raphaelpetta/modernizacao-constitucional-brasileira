@@ -34,6 +34,20 @@ class GuardasH(unittest.TestCase):
         self.assertIn("significativa degradação", text)
         self.assertIn("estudo prévio de impacto ambiental", text)
         self.assertIn("ao qual se dará publicidade", text)
+    def test_fauna_flora_extincao_e_crueldade(self):
+        text = norma("0023")
+        self.assertIn("proteger a fauna e a flora", text)
+        self.assertIn("extinção de espécies", text)
+        self.assertIn("animais a crueldade", text)
+
+    def test_cultura_animal_condicoes_especificas(self):
+        text = norma("0023")
+        self.assertIn("práticas desportivas", text)
+        self.assertIn("manifestações culturais", text)
+        self.assertIn("bens de natureza imaterial", text)
+        self.assertIn("lei específica", text)
+        self.assertIn("bem-estar dos animais", text)
+
 
 if __name__ == "__main__":
     unittest.main()

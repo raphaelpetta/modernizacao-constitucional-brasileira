@@ -7,12 +7,16 @@ Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum
 
 Incumbe ao poder público, no âmbito das competências constitucionais de seus órgãos, preservar e restaurar os processos ecológicos essenciais e proteger a diversidade biológica e a integridade do patrimônio genético, asseguradas a prevenção e a reparação de danos ambientais nos termos desta Constituição e da lei.
 
+Incumbe ainda ao poder público proteger a fauna e a flora, vedadas, na forma da lei, as práticas que coloquem em risco sua função ecológica, provoquem a extinção de espécies ou submetam os animais a crueldade.
+
+Para os fins da proibição de crueldade, não se consideram cruéis as práticas desportivas que utilizem animais quando constituam manifestações culturais, nos termos desta Constituição, registradas como bens de natureza imaterial integrantes do patrimônio cultural brasileiro e regulamentadas por lei específica que assegure o bem-estar dos animais envolvidos.
+
 Para a instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, exigir-se-á, na forma da lei, estudo prévio de impacto ambiental, ao qual se dará publicidade.
 <!-- NORMA-FIM -->
 
 ## Fontes positivas e delimitação
 
-- **Constituição vigente:** art. 225, caput, §1º I, II e IV ([texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm)). O núcleo da garantia vigente e o gatilho de EIA prévio/publicidade estão reproduzidos, **mas isso não é auditoria integral do art. 225** nem dos direitos conexos.
+- **Constituição vigente:** art. 225, caput, §1º I, II, IV, VII e §7º ([Câmara, versão atualizada consultada em 16/10/2026](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html)). O direito ambiental, o gatilho de EIA prévio/publicidade, o núcleo da proteção da fauna/flora e os requisitos culturais específicos constam desta H, **mas isso não prova equivalência integral ao art. 225** nem aos remédios conexos.
 - **M10 PR #89**: [A concentrada](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/blob/pesquisa/m10-01-ambiente-clima-20261014/modulos/M10-ambiente-clima/M10-01_R9_ESBOCO_A_NUCLEO_CONCENTRADO_v0.1.md); [B distribuída](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/blob/pesquisa/m10-01-ambiente-clima-20261014/modulos/M10-ambiente-clima/M10-01_R9_ESBOCO_B_PROTECAO_DISTRIBUIDA_v0.1.md). Ambos preservam os elementos literais escolhidos, embora difiram na distribuição de informação, tutela e competências.
 - **Pesquisa normativa conexa:** Lei 6.938/1981 (Política Nacional de Meio Ambiente), LC 140/2011 (cooperação administrativa), Lei 15.190/2025 (licenciamento) e Lei 15.300/2025 (licenciamento especial). Essas leis não conferem licença para enfraquecer o gatilho constitucional de significativa degradação, nem o texto H decide seu alcance ou constitucionalidade em processos pendentes.
 - **Clima:** mudanças climáticas são objeto da proteção ambiental e de políticas nacionais; não se elege nesta ficha meta de emissão, órgão, orçamento ou regime de carbono. Eventual obrigação climática constitucional específica é opção A/V futura, não consequência automática da presente H.
@@ -24,8 +28,10 @@ Para a instalação de obra ou atividade potencialmente causadora de significati
 | Art. 225 caput (direito, dever do poder público/coletividade, gerações) | §1 | correspondência textual nuclear, **não equivalência jurídica total** |
 | Art. 225 §1 I (processos ecológicos) | §2 | parcial, sem manejo ecológico de espécies/ecossistemas expresso |
 | Art. 225 §1 II (patrimônio genético) | §2 | parcial, sem fiscalização específica da pesquisa/manipulação genética |
-| Art. 225 §1 IV (obra/atividade, significância, EIA prévio, publicidade) | §3 | elementos expressamente preservados; remédios e procedimento ainda não auditados |
-| Art. 225 §1 III/V/VI/VII, §§2–7 e §1 VIII na redação temporal aplicável | **SEM TEXTO NESTA FICHA** | **reservas obrigatórias; não apagar ou substituir por remissão vazia** |
+| Art. 225 §1 VII (proteção da fauna e flora, extinção e crueldade) | novo §3 H | elementos centrais expressos; definição, sanções, bem-estar e casos difíceis pendentes |
+| Art. 225 §7 (práticas desportivas com animais e requisitos culturais específicos) | novo §4 H | condições de registro, lei específica e bem-estar enunciadas; alcance e revisão crítica R3 pendentes |
+| Art. 225 §1 IV (obra/atividade, significância, EIA prévio, publicidade) | novo §5 H | elementos expressos; remédios e procedimento ainda não auditados |
+| Art. 225 §1 III/V/VI/VIII, §§2–6 | **SEM TEXTO NESTA FICHA** | **reservas obrigatórias; CF-NOR-0026 trata parcialmente do III e §§2–3 apenas na ponta #137** |
 | Art. 5º XXXV/LXXIII e art. 129 III (tutela, ação popular, ACP) | direito material §1; remédios não especificados | M01/M06, **pendente** |
 | Arts. 23, 24, 30 (competências) | §2 por remissão | M04/M07/LC 140, **pendente** |
 | Arts. 170 VI, 186 II, 231–232 | sem correspondência nesta H | M08/M11/M13, **pendente** |
@@ -35,10 +41,12 @@ Para a instalação de obra ou atividade potencialmente causadora de significati
 - **H-A concentrada (PR #89):** núcleo material no M10, mais especialidades de prevenção, biodiversidade, fauna, áreas protegidas, mineração, sanções e reparação.
 - **H-B distribuída (PR #89):** direito fundamental, EIA, tutela coletiva, competências, economia e território repartidos entre módulos com correspondências N:N.
 - A CF-NOR-0023 é apenas a **interseção normativa inicial**, não escolha definitiva de A/B, e não revoga direitos especiais não transpostos.
-- **Melhor objeção:** reproduzir só caput/EIA pode dar aparência de proteção integral enquanto áreas protegidas, crueldade animal, exploração mineral, direitos territoriais, remédios e fiscalização genética permanecem sem destino normativo. A cláusula deve ser lida como fragmento do anteprojeto, nunca como substituição promulgável do art. 225.
+- **Melhor objeção:** a inclusão da proteção da fauna/flora e da condição cultural especial pode dar aparência de proteção integral, enquanto áreas protegidas, infrações ambientais, exploração mineral, direitos territoriais, remédios e fiscalização genética permanecem sem destino normativo; o alcance da exceção cultural demanda controle independente. A cláusula deve ser lida como fragmento do anteprojeto, nunca como substituição promulgável do art. 225.
 
 ## Testes de rejeição da hipótese se usada isoladamente
 
 T1: licença para grande impacto sem EIA prévio; T2: publicidade apenas após licença; T3: supressão de área protegida por ato infralegal; T4: infração ambiental sem reparação apesar de pagamento de multa; T5: audiência ambiental geral usada no lugar de consulta indígena devida; T6: ausência de órgão estadual/municipal competente; T7: meta climática confundida com autorização automática de gasto; T8: transição EC 132/2023 art. 225 §1 VIII omitida. **Somente T1/T2 possuem comando expresso suficiente na H para censura textual imediata; todos os demais exigem outras cláusulas**. São cenários propostos, não testes judiciais empíricos.
+
+**Rodada de aprofundamento do PR #138 — 16/10/2026:** dois parágrafos H propostos recuperam a proteção da fauna/flora contra extinção e crueldade (CF art. 225 §1 VII) e os requisitos do regime cultural específico (art. 225 §7, EC 96/2017), **sem decisão de mérito sobre a manutenção definitiva da exceção na futura Constituição**. A variante ainda exige debate crítico sobre colisão ambiente/cultura, identificação de prática desportiva, registro como patrimônio imaterial, legislação de bem-estar, fiscalização, sanções e precedentes; nenhum resultado de constitucionalidade foi provado. **O blob CF-NOR-0023 desta branch diverge agora intencionalmente do original #137, que permanece intocado.**
 
 **FEITO:** uma cláusula H/A canônica M10, com proveniência R9/R10, núcleo de garantia atual expresso e reserva de direitos especiais. **PENDENTE:** N:N integral do art. 225 e ADCT, respostas M01/M04/M05/M06/M08/M11/M13/M14, revisão independente, efeito de legislação de 2025, jurisprudência e testes reais. **PRÓXIMO:** fichas específicas de áreas protegidas, sanção/reparação e consulta especial, sem converter alternativas A/B em D.
