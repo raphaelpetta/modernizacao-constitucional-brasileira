@@ -428,7 +428,6 @@ Ninguém será privado de direitos por crença religiosa ou convicção filosóf
 
 O Estado não estabelecerá cultos ou igrejas, não lhes embaraçará o funcionamento nem manterá com eles relações de dependência ou aliança, ressalvada a colaboração de interesse público nos termos da lei, vedado favorecimento discriminatório.
 
-
 ## CF-NOR-0054 — Pluralismo e garantias dos partidos políticos [H; A]
 
 É livre a criação, a organização, a fusão, a incorporação e a extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluralismo, os direitos fundamentais e a igualdade de oportunidades na competição eleitoral, na forma desta Constituição.
@@ -445,7 +444,6 @@ O exercício das competências administrativas comuns observará cooperação, c
 
 Os Municípios legislarão sobre assuntos de interesse local e suplementarão a legislação federal e estadual no que couber, respeitadas as competências constitucionais dos demais entes. A definição de encargos, de recursos e de instrumentos cooperativos observará as demais garantias constitucionais de financiamento, controle e autonomia.
 
-
 ## CF-NOR-0056 — Profissionalização da administração concurso e cargos de confiança [H; A]
 
 A administração pública direta e indireta de todos os Poderes e entes federativos observará legalidade, impessoalidade, moralidade, publicidade e eficiência, bem como integridade, igualdade de acesso, transparência e responsabilização, nos limites desta Constituição.
@@ -457,7 +455,6 @@ As funções de confiança serão exercidas exclusivamente por servidores ocupan
 Os cargos em comissão serão preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, respeitada a autonomia normativa de cada ente federativo. A lei descreverá de modo claro e objetivo as atribuições dos cargos e sua criação dependerá de relação de confiança compatível com essas atribuições e de proporcionalidade entre o quantitativo de cargos em comissão e o de cargos efetivos do ente.
 
 São vedados o favorecimento pessoal ou familiar na nomeação e na designação, inclusive por ajustes recíprocos para contornar a impessoalidade, e a contratação temporária como substituição ordinária dos quadros permanentes; a admissão por tempo determinado dependerá de necessidade temporária de excepcional interesse público, nos casos previstos em lei e sob controle.
-
 
 ## CF-NOR-0057 — Jurisdição penal internacional complementar [H; A]
 
