@@ -176,6 +176,8 @@ A organização e a prestação de serviços públicos observarão, segundo a na
 
 A prestação por particulares, mediante delegação constitucionalmente admitida, não afasta os deveres do poder público competente de regular, fiscalizar e assegurar mecanismos acessíveis de informação, reclamação e responsabilização, nem a tutela jurisdicional dos direitos afetados.
 
+A delegação de serviços públicos a particulares, mediante concessão ou permissão, será precedida de licitação, na forma da lei, observadas as competências constitucionais dos entes federativos.
+
 A lei estabelecerá padrões de prestação adequada, condições de interrupção e restabelecimento, fiscalização e participação dos usuários, bem como critérios tarifários compatíveis com a sustentabilidade do serviço e a proteção constitucional das pessoas em situação de vulnerabilidade, vedadas interrupções arbitrárias de serviços essenciais.
 
 Este dispositivo não dispensa exigências constitucionais de contratação e delegação, competências federativas, devido processo legal e garantias específicas de usuários, trabalhadores, consumidores e titulares de direitos fundamentais.
