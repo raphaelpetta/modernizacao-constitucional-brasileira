@@ -12,6 +12,16 @@ Transformar pesquisa dispersa em proposta constitucional integral, com rastreabi
 
 As trilhas podem avançar em paralelo; a carência de uma decisão F6 não bloqueia investigação, texto condicional nem trabalho independente.
 
+## Quarta função transversal: convergência decisória sem interromper as três trilhas
+
+As três trilhas existentes **continuam independentes e simultâneas**. Em cada preflight e encerramento, comparar a entrega adicional esperada de **cobertura H, vertical V, integração I, e deliberação/fechamento D**. D não tem quota temporal nem autorização para contornar garantia; uma questão madura sobe à pauta e libera pesquisa em outra frente. A carteira é coordenada na [pauta única](../central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md), vinculada à issue #103; usar dossiês, fontes e matrizes existentes, sem PR ou relatório para cada troca de status.
+
+**Fluxo local, repetível e reversível:** `PESQUISA_FOCAL` → `PREFERENCIA_PROVISORIA`/investigação complementar → `APTO_A_DELIBERAR` (declarar *nível*: orientação, princípio/arquitetura ou redação) → registro expresso de eventual `RATIFICADO_D` → `FECHADO_NO_RECORTE` quando verificados efeitos e interfaces. `BLOQUEADO_POR_DEPENDENCIA` afeta **a decisão indicada**, não todo trabalho: prosseguir em invariantes, outros módulos e hipóteses H. Esse fluxo orienta trabalho e não substitui D/P/H/A/V ou G1–G4.
+
+**Relação H↔D:** a fonte versionada de CF-NOR não é atualizada automaticamente ao deliberar um princípio; um D de arquitetura não resolve seus artigos instrumentais. O sistema vigente (CF/1988/ADCT) e as alternativas seguem separados. Fechamento local exige auditoria N:N do recorte e interfaces identificadas; fechamento sistêmico exige integração das decisões interdependentes; global exige exame integral de CF/ADCT, transições e antinomias. Reabrir somente por evidência decisiva, erro, regressão de direitos, conflito de decisões ou autorização expressa, preservando histórico `SUBSTITUIDA`.
+
+**Aplicação piloto:** (a) questão estrutural conjunta M00/M02/M03/M14, aptidão **orientadora** a qualificar sem fingir D; (b) salvaguardas M07/M08/M10/M11 do PR #139 com revisão R3 ainda bloqueante para ratificação, mas execução H/V/I livre. Evitar induzir fechamento material por total de normas, número de módulos ou CI aprovada.
+
 ## Estados separados: maturidade técnica e aprovação política
 **Maturidade técnica por função:** `MAPEADA` (escopo/fontes e lacunas), `RECONSTRUIDA` (direito vigente e prática no recorte), `PROPOSTA` (variantes/recomendação e redação H quando cabível), `INTEGRADA_PROVISORIA` (texto experimental ou interface com variantes), `AUDITADA_NO_RECORTE` (evidências, garantias e testes adequados à classe de risco); `NAO_EXAMINADA` quando sem recorte. A trilha e o recorte devem ser explicitados: não inferir sequência concluída só por existir um arquivo.
 **Status normativo:** manter **D/P/H/A/V** de CF-GOV-003 sem equivalência automática com a maturidade técnica. Um item pode estar tecnicamente auditado e politicamente `A`; `D` exige ratificação expressa.

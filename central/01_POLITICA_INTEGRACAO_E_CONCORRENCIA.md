@@ -10,6 +10,14 @@
 
 **Regra de segurança:** uma proposta R3 sem fonte, objeção e preservação de garantias verificáveis não entra sequer no produto experimental como versão aparentemente estabilizada; pode permanecer variante em PR ou anexo de trabalho. Os estados H/P/A/V não são promovidos a D sem decisão CF-DEC expressa. CI detecta estrutura, não substitui exame jurídico independente. Integrar uma hipótese não equivale a promulgar, revogar ou modificar norma vigente.
 
+## Convergência e deliberação progressiva (PCCP — autorização operacional)
+
+**Quatro operações diferentes:** pesquisar/redigir **H**, integrar **H** com ressalvas, **deliberar sobre orientação P ou princípio** sob riscos delimitados, e **ratificar D material** expressamente após G1–G3 proporcionais. Uma D de princípio/arquitetura delimita seu próprio alcance e **não** aprova automaticamente artigos, arranjos parlamentares, critérios eleitorais ou regras transitórias. **Fechamento técnico, local, sistêmico e global são distintos**, segundo a [política de fechamento](../governanca/POLITICA_CONSOLIDACAO_E_FECHAMENTO_20261015.md).
+
+**Índice único:** [central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md](03_PAUTA_DELIBERACAO_PROGRESSIVA.md), ligado à issue #103. Cada entrada refere fontes/PR, módulo, alternativas, nível apto (P ou D), bloqueios R3 e pergunta decisória; manter dossiês originais como suporte, não repetir texto nem abrir PR por decisão. Atualizar quando maturidade, dependência ou D mudar; **não** a cada rodada sem fato novo. Usuário ratifica mérito por ato inequívoco, a ser registrado exclusivamente em `governanca/03_DECISOES.md`; a adoção do PCCP é **D operacional CF-DEC-016**, não D constitucional.
+
+**Produto constitucional:** permanecer com `redacao/indice.csv` + `redacao/propostas/` como únicas fontes normativas e compilador da vista; nenhuma decisão atualiza a redação automaticamente. Garantias CF/1988/ADCT, interfaces, custeio e transições são impeditivos materiais de fechamento quando R3 exigir revisão humana independente; podem permanecer variantes H para pesquisa.
+
 ## Fonte e painel
 - **Produto:** redacao/indice.csv, redacao/propostas/CF-NOR-####.md e redacao/anteprojeto-de-trabalho.md. Nunca editar apenas a vista gerada; reconciliar a origem e regenerar.
 - **Painel:** central/PAINEL_GERADO.csv decorre das fontes do checkout atual; não prova completude e não apaga observações históricas nos quadros manuais. Testar com `python3 scripts/controle_operacional.py --check` ou regenerar via `--write`.

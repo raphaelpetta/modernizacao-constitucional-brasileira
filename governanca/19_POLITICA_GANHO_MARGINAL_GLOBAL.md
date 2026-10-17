@@ -25,6 +25,12 @@ Para cada candidata, registrar sucintamente: **resultado novo verificável**, la
 
 **Sem pontuação fictícia:** os critérios são ordinais/qualitativos; não converter preferências em porcentagens, produtividade estimada ou dinheiro sem base. Escolher a opção de maior ganho líquido plausível **sujeita às garantias de direitos, à necessidade de evidência e aos bloqueios jurídicos reais**. Direitos fundamentais, casos R3, revisão crítica e obrigações legais não podem ser descartados porque sejam custosos.
 
+## 2A. Incorporação PCCP — decisão/consolidação competem pelo ganho marginal
+
+Incluir explicitamente **D (tornar questão deliberável, formular pauta, estabilizar decisão autorizada, fechar recorte)** entre as candidatas concorrentes H/V/I, **sem quota fixa nem presunção de que D é sempre superior**. No preflight, perguntar também: "Qual questão suficientemente pesquisada pode se tornar deliberável ou fechável com menor risco e maior impacto global, e que proteção adicional condiciona esse avanço?". Reabrir pesquisa se a fonte/objeção ainda puder alterar a preferência ou evitar regressão; em contrário, formular pergunta a quem ratifica. **CI verde sem revisão R3 não significa questão pronta para D material**; registrar orientação P quando for o limite seguro.
+
+Analisar duas espécies de benefício: **produção de opções auditáveis** (H/V/I) e **redução de indefinição jurídica/institucional** (D). Decisões estruturais com efeitos em muitos módulos têm prioridade potencial, mas **não** autorizam pacote de decisões implícitas. A [pauta única](../central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md) é índice de estados de trabalho baseado em documentos anteriores e issue #103; não duplicar pareceres ou adicionar sistemas de pontuação. Conservar até duas frentes profundas ativas mais integração transversal.
+
 ## 3. Sinais de SATURAÇÃO e regra de troca de frente
 
 Reavaliar e **presumir troca de subtema** quando ocorrer pelo menos um destes sinais:
