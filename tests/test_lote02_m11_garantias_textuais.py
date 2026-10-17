@@ -56,5 +56,23 @@ class GuardasM11(unittest.TestCase):
         self.assertNotIn("são nulos e extintos", x)
         self.assertNotIn("usufruto exclusivo", x)
 
+
+    def test_desapropriacao_regular_para_titulo_particular_legitimo(self):
+        texto = body("0029")
+        self.assertIn("título particular legítimo e eficaz", texto)
+        self.assertIn("procedimento regular de desapropriação", texto)
+        self.assertIn("quando cabível", texto)
+        self.assertIn("prévia avaliação", texto)
+        self.assertIn("garantias constitucionais de indenização", texto)
+        self.assertIn("sem aplicar automaticamente", texto)
+
+    def test_titulo_particular_nao_revoga_direito_quilombola_ou_adct68(self):
+        texto = body("0029")
+        self.assertIn("não poderá, por si só, suprimir o reconhecimento", texto)
+        self.assertIn("poder público de dar seguimento à titulação", texto)
+        ficha = (ROOT / "auditoria/M14_ADCT68_FICHA_TRANSICAO_20261016.md").read_text(encoding="utf-8")
+        for chave in ("ALTERNATIVA A", "ALTERNATIVA B", "ALTERNATIVA C", "SEM RATIFICAÇÃO", "ADCT 68", "CONTINUIDADE"):
+            self.assertIn(chave, ficha)
+
 if __name__ == "__main__":
     unittest.main()
