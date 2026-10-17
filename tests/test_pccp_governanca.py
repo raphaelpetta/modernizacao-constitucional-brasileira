@@ -93,11 +93,42 @@ class TestPccpGovernanca(unittest.TestCase):
 
     def test_doze_contraprovas_condicionais_nao_sao_cf_nor(self):
         doc = document("modulos/M03-parlamento/M03_PCCP_Q01_12_CONTRAPROVAS_20261016.md")
-        labels = re.findall(r"^\| PB-T(\d{2}) \|", doc, flags=re.MULTILINE)
+        casos_originais = doc.split("## Aplicação documental das 12 contraprovas")[0]
+        labels = re.findall(r"^\| PB-T(\d{2}) \|", casos_originais, flags=re.MULTILINE)
         self.assertEqual(labels, [f"{i:02d}" for i in range(1, 13)])
         for term in ("investidura", "LOA", "art. 16", "60 §4º", "ADCT", "ABERTO_R3"):
             self.assertIn(term, doc)
         self.assertIn("sem texto CF-NOR", doc)
+
+    def test_contraprovacao_documental_12_de_12_com_fontes_imutaveis(self):
+        doc = document("modulos/M03-parlamento/M03_PCCP_Q01_12_CONTRAPROVAS_20261016.md")
+        cotejo = doc.split("## Aplicação documental das 12 contraprovas")[1]
+        mapped = re.findall(r"^\| PB-T(\d{2}) \|([^|\n]+)\|([^|\n]+)\|([^|\n]+)\|([^|\n]+)\|([^|\n]+)\|", cotejo, re.MULTILINE)
+        self.assertEqual([x[0] for x in mapped], [f"{n:02d}" for n in range(1, 13)])
+        for item in mapped:
+            _, anchors, other, textual, pending, proof = item
+            self.assertRegex(anchors, r"B-\d\d|INV-\d\d")
+            self.assertRegex(other, r"A-\d\d|C-\d\d")
+            self.assertGreater(len(textual.strip()), 45)
+            self.assertGreater(len(pending.strip()), 45)
+            self.assertGreater(len(proof.strip()), 35)
+        for number in range(1, 7):
+            self.assertIn(f"B-{number:02d}", cotejo)
+        for sha in ("33790b7c493bb839d39a35831d3571895a6bf5c8",
+                    "2c785315270a39eaf033d28856dfdb8282f86703",
+                    "ff6ea0c74d4c33347b201cf2acf7b317db11c49a"):
+            self.assertIn(sha, cotejo)
+
+    def test_cotejo_textual_nao_cerifica_d_ou_r3(self):
+        doc = document("modulos/M03-parlamento/M03_PCCP_Q01_12_CONTRAPROVAS_20261016.md")
+        for token in ("TEXTO_IDENTIFICADO", "LACUNA_DE_IMPLEMENTACAO",
+                      "R3_PENDENTE", "não de cumprimento dos testes constitucionais",
+                      "não a validade de eleição indireta", "12/12"):
+            self.assertIn(token, doc)
+        self.assertIn("CF-DEC-006", doc)
+        decisions = document("governanca/03_DECISOES.md")
+        self.assertIn("| CF-DEC-006 | P (orientação provisória expressa)", decisions)
+        self.assertNotIn("| CF-DEC-006 | D |", decisions)
 
     def test_f6_pccp_nao_confunde_governo_parlamento_e_via(self):
         agenda = document("central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md")
