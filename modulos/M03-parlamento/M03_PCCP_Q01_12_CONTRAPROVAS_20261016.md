@@ -63,3 +63,6 @@
 
 Os casos PB-T01, T02, T05, T09 e T11 receberam [**cinco fichas funcionais condicionais**](M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md) com campos de **gatilho, atores vigentes, função hipotética, rito, controle, efeito transitório, prova faltante e condição de parada**, além de quatro remissões constitucionais do Legislativo. **Não se trata de texto normativo completo nem de solução das cinco contraprovas:** ainda faltam escolhas materiais, dados concretos e revisão R3 independente. Este parágrafo atualiza apenas o encaminhamento histórico acima e não muda o estado das doze hipóteses `ABERTO_R3` ou a orientação P-B.
 
+### Coaplicação das sete contraprovas restantes — 17/10/2026
+
+O [quadro transversal de PB-T03/T04/T06/T07/T08/T10/T12](M03_PCCP_Q01_SETE_CONTRAPROVAS_COAPLICACAO_20261017.md) conecta os **sete casos ainda não detalhados** às [cinco fichas funcionais condicionais](M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md), com âncoras do direito vigente, identificação das fontes experimentais do PR #107, documentação faltante e trava de inferência. **As 14 ligações são dependências documentais, não soluções de mérito nem novas decisões políticas.** As doze situações permanecem `ABERTO_R3`, sem ratificação D e sem substituir o controle jurídico independente.
