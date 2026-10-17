@@ -158,6 +158,44 @@ Toda medida involuntária restritiva de liberdade ou integridade estará sujeita
 
 Este dispositivo não institui, por si, hipótese de internação, tratamento compulsório ou outra intervenção sem consentimento, nem autoriza o afastamento de proibições absolutas.
 
+## CF-NOR-0021 — Garantias na atuação e no procedimento administrativo [H; G]
+
+No exercício da função administrativa, o poder público assegurará atendimento acessível e não discriminatório, recepção e exame de petições e reclamações, informação adequada sobre procedimentos e decisões que afetem as pessoas interessadas e resposta fundamentada em prazo razoável, ressalvados os sigilos constitucionalmente legítimos e os direitos de terceiros.
+
+Independentemente do pagamento de taxas, é assegurado a todas as pessoas o direito de petição aos poderes públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, bem como a obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal.
+
+Nos processos administrativos em que figurem litigantes ou acusados, são assegurados o contraditório e a ampla defesa, com os meios e recursos a eles inerentes. Nos demais procedimentos capazes de afetar direitos ou interesses juridicamente protegidos, será garantida oportunidade efetiva de ciência e manifestação compatível com a natureza do ato, sem prejuízo das garantias constitucionais especiais.
+
+A adoção de meios digitais não poderá inviabilizar o exercício dos direitos de petição, informação e defesa, nem o acesso efetivo aos serviços públicos. Serão assegurados acessibilidade, apoio apropriado e canais alternativos adequados quando necessários ao exercício desses direitos, na forma da lei e observadas as competências federativas.
+
+Este dispositivo não afasta o devido processo legal, a tutela jurisdicional, a proteção de dados pessoais, as garantias de publicidade e sigilo constitucionalmente aplicáveis, nem os mecanismos de controle da administração pública.
+
+## CF-NOR-0022 — Serviços públicos adequados e garantias dos usuários [H; A]
+
+A organização e a prestação de serviços públicos observarão, segundo a natureza do serviço, regularidade, continuidade, segurança, qualidade, acessibilidade, transparência, tratamento não discriminatório e proteção dos direitos de seus usuários, respeitadas as competências constitucionais dos entes federativos.
+
+A prestação por particulares, mediante delegação constitucionalmente admitida, não afasta os deveres do poder público competente de regular, fiscalizar e assegurar mecanismos acessíveis de informação, reclamação e responsabilização, nem a tutela jurisdicional dos direitos afetados.
+
+A delegação de serviços públicos a particulares, mediante concessão ou permissão, será precedida de licitação, na forma da lei, observadas as competências constitucionais dos entes federativos.
+
+A lei estabelecerá padrões de prestação adequada, condições de interrupção e restabelecimento, fiscalização e participação dos usuários, bem como critérios tarifários compatíveis com a sustentabilidade do serviço e a proteção constitucional das pessoas em situação de vulnerabilidade, vedadas interrupções arbitrárias de serviços essenciais.
+
+Este dispositivo não dispensa exigências constitucionais de contratação e delegação, competências federativas, devido processo legal e garantias específicas de usuários, trabalhadores, consumidores e titulares de direitos fundamentais.
+
+## CF-NOR-0023 — Meio ambiente ecologicamente equilibrado e estudo prévio de impacto [H; A]
+
+Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida. O poder público e a coletividade devem defendê-lo e preservá-lo para as presentes e futuras gerações.
+
+Incumbe ao poder público, no âmbito das competências constitucionais de seus órgãos, preservar e restaurar os processos ecológicos essenciais e proteger a diversidade biológica e a integridade do patrimônio genético, asseguradas a prevenção e a reparação de danos ambientais nos termos desta Constituição e da lei.
+
+Incumbe ainda ao poder público proteger a fauna e a flora, vedadas, na forma da lei, as práticas que coloquem em risco sua função ecológica, provoquem a extinção de espécies ou submetam os animais a crueldade.
+
+Para os fins da proibição de crueldade, não se consideram cruéis as práticas desportivas que utilizem animais quando constituam manifestações culturais, nos termos desta Constituição, registradas como bens de natureza imaterial integrantes do patrimônio cultural brasileiro e regulamentadas por lei específica que assegure o bem-estar dos animais envolvidos.
+
+O reconhecimento cultural e o registro patrimonial não dispensam a observância efetiva dos padrões legais mínimos de bem-estar animal nem dos cuidados adicionais exigidos pelas circunstâncias concretas, e não afastam a fiscalização e as responsabilidades administrativas, civis e penais cabíveis por maus-tratos, assegurado o devido processo legal.
+
+Para a instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, exigir-se-á, na forma da lei, estudo prévio de impacto ambiental, ao qual se dará publicidade.
+
 ## CF-NOR-0025 — Direitos originários territórios e consulta dos povos indígenas [H; A]
 
 São reconhecidos aos povos indígenas suas organizações sociais, costumes, línguas, crenças e tradições e os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, protegê-las e fazer respeitar seus bens e direitos.
