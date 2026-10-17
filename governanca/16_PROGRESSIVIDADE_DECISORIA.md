@@ -30,6 +30,18 @@ Não se exige falsa quantificação ou cálculo único de eficiência social; te
 
 Conservar `H` para hipóteses, `SUBSTITUIDA` para deliberações superadas e todas as regras de proveniência de CF-GOV-003. Esta diretriz não cria estado novo nem modifica as portas F0–F8.
 
+## 3A. Camadas de deliberação contínua do PCCP
+
+A pauta de deliberação é continuamente alimentada por recortes maduros, mas **nenhuma etapa de discussão equivale a ratificação tácita**:
+
+1. **Orientação** — identificar P superior e critérios para trabalho, ou apresentar alternativas para manifestação de preferência; não registrar D material se usuário apenas orientou investigação.
+2. **Princípio/arquitetura** — quando G1–G3 proporcionais estiverem satisfeitos, submeter escolha expressa com **alcance positivo e exclusões**. Uma eventual D de forma de governo, por exemplo, não resolve automaticamente eleição, bicameralismo, quóruns, poderes, financiamento ou transição.
+3. **Redação** — submeter dispositivo ou conjunto funcional depois da compatibilização e auditoria de proteção atual N:N, exceções, competências, direitos de terceiros, custos/implementação e transição, sob G4 expresso. D de arquitetura não altera automaticamente CF-NOR em H.
+
+Uma pergunta pode estar **apta à deliberação orientadora P** sem estar apta à **ratificação D**. Anotar esse alcance explicitamente na [pauta única](../central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md). Estados de andamento (`PESQUISA_FOCAL`, `PREFERENCIA_PROVISORIA`, `APTO_A_DELIBERAR`, `BLOQUEADO_POR_DEPENDENCIA`, `RATIFICADO_D`, `FECHADO_NO_RECORTE`) são **rótulos operacionais**, nunca novos estados da norma, e devem citar evidências; não se autoatribuem por idade, CI verde ou ausência de crítica.
+
+**Presunção de perguntar, não de aprovar:** se a investigação adicional não puder plausivelmente mudar preferência ou proteção e a questão puder ser apresentada, formulá-la para deliberação. Se subsistir R3 não resolvido, pode-se pedir orientação P ou autorização para pesquisa focal, mas **nunca** ratificar o risco por silêncio. Para dependências recíprocas, apresentar **pacote único com decisões explicitamente separáveis**, não escolhas artificiais por dispositivo.
+
 ## 4. Arquitetura final versus transição
 
 Avaliar separadamente **qual arranjo é preferível** e **qual trajetória é adequada para alcançá-lo**. A transformação incremental pode ser prudente, mas não é uma preferência absoluta: reformas intermediárias podem reproduzir disfunções ou inviabilizar a arquitetura final. Projetar revisão, mitigação de riscos, testes de implementação e continuidade de proteções.

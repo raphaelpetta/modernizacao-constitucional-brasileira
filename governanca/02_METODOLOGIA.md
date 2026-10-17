@@ -4,7 +4,7 @@
 
 A metodologia incorpora criticamente o método de pesquisa interdisciplinar proposto no PR #2 do Código da Legislação Federal, sem importar seus códigos de transposição legislativa C0/C1/M/Q nem o objetivo de um código único.
 
-## Ciclo funcional
+## Funções recorrentes F0–F8 (não sequência obrigatoriamente linear)
 - **F0 Problema:** delimitar pergunta, função constitucional, casos de referência, alternativas e dependências. Não começar de artigo do anteprojeto como premissa.
 - **F1 Estado atual:** Constituição de 1988 vigente, jurisprudência, normas relevantes e desempenho real das instituições; discriminar fonte, interpretação e prática.
 - **F2 História:** origem social e institucional, condições materiais, conflitos, dependência de trajetória, rupturas e continuidades.
@@ -14,6 +14,20 @@ A metodologia incorpora criticamente o método de pesquisa interdisciplinar prop
 - **F6 Decisão:** distinguir D/P/H/A/V e exigir aprovação explícita para escolhas materiais relevantes. Registrar dependências, fontes e versão.
 - **F7 Minuta:** redigir apenas o essencial no nível constitucional, com IDs CF-NOR-####. Distinguir direito subjetivo, objetivo público, princípio, competência, garantia institucional, procedimento e regra transitória.
 - **F8 Integração e testes:** simular governante de má-fé, fragmentação partidária, crise fiscal, captura de instituições, baixa capacidade estatal e impasse federativo. Revisão cruzada e interface CLF.
+
+## Convergência Constitucional Progressiva — PCCP (diretriz operacional, 16/10/2026)
+
+**Objetivo:** continuar construindo a CF por cobertura horizontal H, aprofundamento vertical V e integração I, **ao mesmo tempo** em que as questões suficientemente maduras ingressam em deliberação progressiva D. O objeto de planejamento é a **questão constitucional e suas dependências funcionais**, não a quantidade de artigos, relatórios ou PRs. Cada questão pode envolver vários módulos, fontes CF-NOR e decisões; manter IDs existentes e evitar duplicar documentos.
+
+**F0–F8 são funções iteráveis, não portões temporais universais.** F7 pode produzir H antes de F6; F8 audita texto H, alternativas e interfaces a qualquer momento; F6 é acionada quando a maturidade proporcional permite uma pergunta decisória relevante, podendo ocorrer antes, durante ou depois de F7/F8. A decisão **não converte automaticamente** textos H em D, e a pesquisa pode continuar em outras questões. Cada rodada avalia, conforme CF-GOV-019, a maior contribuição marginal entre **explorar lacuna (H), aprofundar garantia (V), integrar checkout (I), desbloquear decisão e fechar recorte (D)**.
+
+**Unidade de convergência:** registrar, preferencialmente em dossiê existente, (a) pergunta; (b) alternativas reais inclusive manutenção do vigente e resposta infraconstitucional; (c) fontes, limites e objeção mais forte; (d) garantias e correspondência N:N; (e) competências, custos totais intertemporais quando pertinentes, implementação, efeitos sistêmicos e transição; (f) evidência faltante capaz de inverter a escolha; (g) dependências bloqueantes e variantes invariantes; (h) proposta de deliberação com alcance e condição de reabertura. Não criar nova ficha extensa se os materiais já contêm essas informações.
+
+**Três níveis de deliberação:** orientação/proposta preferida **P**, sem ratificação; escolha expressa **D de princípio/arquitetura com alcance delimitado**, sem aprovar automaticamente detalhes normativos; e **D de redação específica**, somente após auditorias e autorização expressa. Em R3, não ratificar materialmente enquanto faltar revisão jurídica independente identificável e proteção não regressiva satisfatória. Pauta e destinos em [central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md](../central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md); registro material definitivo exclusivamente em [03_DECISOES.md](03_DECISOES.md).
+
+**Fechamento controlado:** técnico/documental, estabilização material, fechamento normativo local, fechamento sistêmico e global são objetos distintos; exigir G1–G4 proporcionais, revisão de interfaces e reabertura motivada. Não confundir 'texto fechado no recorte' com CF/1988 alterada ou com Constituição integral pronta. Estudo adicional só posterga deliberação se houver proteção, evidência ou dependência relevante; a abertura de novas possibilidades continua permitida quando o ganho marginal justificar.
+
+**Preservações:** status D/P/H/A/V, titularidade exclusiva do usuário para ratificação material, matriz N:N, direitos fundamentais, revisão crítica humana independente de R3, fonte única `redacao/indice.csv` + `redacao/propostas`, auditoria e testes reais, separação CF/CLF e liberdade de investigar modelos incomuns. A adoção deste PCCP **é operacional**, não uma escolha de sistema de governo, direitos ou texto.
 
 ## Pesquisa proporcional
 **Nível 1:** precisão editorial, normas e remissões. **Nível 2:** garantia ou arranjo setorial, com história, alternativas e impactos pertinentes. **Nível 3:** reforma estrutural e direitos sensíveis, com investigação comparada/empírica robusta e teste adversarial.
