@@ -130,6 +130,43 @@ class TestPccpGovernanca(unittest.TestCase):
         self.assertIn("| CF-DEC-006 | P (orientação provisória expressa)", decisions)
         self.assertNotIn("| CF-DEC-006 | D |", decisions)
 
+    def test_cinco_fichas_condicionais_com_campos_completos(self):
+        s = document("modulos/M03-parlamento/M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md")
+        ids = re.findall(r"^## PB-T(\d{2}) —", s, flags=re.MULTILINE)
+        self.assertEqual(ids, ["01", "02", "05", "09", "11"])
+        for numero in ids:
+            inicio = s.index(f"## PB-T{numero} —")
+            proximo = s.find("\n## ", inicio + 1)
+            section = s[inicio:proximo if proximo >= 0 else len(s)]
+            for campo in ("GATILHO", "ATORES_VIGENTES", "FUNCAO_CONDICIONAL",
+                          "RITO_CONDICIONAL", "CONTROLE", "EFEITO_TRANSITORIO",
+                          "PROVA_FALTANTE", "CONDICAO_DE_PARADA"):
+                self.assertIn(f"| **{campo}** |", section, msg=f"PB-T{numero} sem {campo}")
+            self.assertIn("**Rastreio:**", section)
+
+    def test_quatro_funcoes_parlamentares_e_fontes_juridicas(self):
+        s = document("modulos/M03-parlamento/M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md")
+        for term in ("TRATADOS_DH", "TERRAS_INDIGENAS_RECURSOS",
+                     "REMOCAO_INDIGENA", "MS_COLETIVO_PARTIDO"):
+            self.assertIn(chr(96) + term + chr(96), s)
+        for term in ("art. 5º §3º", "art. 49 XVI", "art. 231 §3º",
+                     "art. 231 §5º", "art. 5º LXX a",
+                     "ADI 3.685", "ADI 5.525", "EC 139/2026"):
+            self.assertIn(term, s)
+        self.assertIn("**não** resolve admissibilidade", s)
+
+    def test_fichas_preservam_r3_e_preferencia_p(self):
+        doc = document("modulos/M03-parlamento/M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md")
+        for phrase in ("ESPECIFICACAO_CONDICIONAL", "R3_PENDENTE",
+                       "sem norma CF-NOR", "sem decisão constitucional",
+                       "G1–G4", "Não há aqui avaliação de desempenho", "FEITO:"):
+            self.assertIn(phrase, doc)
+        orig = document("modulos/M03-parlamento/M03_PCCP_Q01_12_CONTRAPROVAS_20261016.md")
+        self.assertIn("M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md", orig)
+        dec = document("governanca/03_DECISOES.md")
+        self.assertIn("| CF-DEC-006 | P (orientação provisória expressa)", dec)
+        self.assertNotIn("| CF-DEC-006 | D |", dec)
+
     def test_f6_pccp_nao_confunde_governo_parlamento_e_via(self):
         agenda = document("central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md")
         executive = document("central/04_PAUTA_EXECUTIVA_F6_20261015.md")
