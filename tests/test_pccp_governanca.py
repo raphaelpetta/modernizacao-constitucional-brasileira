@@ -69,5 +69,35 @@ class TestPccpGovernanca(unittest.TestCase):
         self.assertIn("H/V/I", layering)
         self.assertIn("auditoria humana independente", layering)
 
+    def test_q01_maduro_apenas_para_orientacao_p(self):
+        agenda = document("central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md")
+        row = next(x for x in agenda.splitlines() if x.startswith("| PCCP-Q01 |"))
+        self.assertIn("`APTO_A_DELIBERAR`", row)
+        self.assertIn("SOMENTE para preferência orientadora P", row)
+        self.assertIn("não escolha do usuário nem D", row)
+        for option in ("P-A", "P-B", "P-C", "D0"):
+            self.assertIn(option, agenda)
+        self.assertIn("`CF-DEC-006=H/P` intacto", agenda)
+        self.assertIn("nenhuma resposta P-A/P-B/P-C/D0 foi atribuída", agenda)
+
+    def test_f6_pccp_nao_confunde_governo_parlamento_e_via(self):
+        agenda = document("central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md")
+        executive = document("central/04_PAUTA_EXECUTIVA_F6_20261015.md")
+        for text in (agenda, executive):
+            self.assertIn("P1/P2/P3", text)
+            self.assertIn("S1/C3", text)
+            self.assertIn("revisão jurídica humana independente R3", text)
+            self.assertIn("art.60", text)
+        self.assertIn("não inferir admissibilidade de uma PEC", executive)
+        self.assertIn("gabinete", executive)
+
+    def test_f6_sem_voto_automatico_por_comando_de_continuacao(self):
+        executive = document("central/04_PAUTA_EXECUTIVA_F6_20261015.md")
+        self.assertIn("“bora”, “continue”", executive)
+        self.assertIn("não conta como voto", executive)
+        decisions = document("governanca/03_DECISOES.md")
+        self.assertIn("| CF-DEC-006 | H/P |", decisions)
+        self.assertNotIn("CF-DEC-017", decisions)
+
 if __name__ == "__main__":
     unittest.main()
