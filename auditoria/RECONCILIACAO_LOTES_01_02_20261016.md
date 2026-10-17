@@ -46,8 +46,15 @@ Os textos normativos e blocos de vistas foram selecionados **sem nova reescrita*
 ## Portas e destino
 
 - **G1 PARCIAL:** conferência focal e proveniência da legislação/jurisprudência nas matrizes originais; atualizar efeitos de precedentes, indenizações, competências, financiamento, tratados, atos setoriais e ADCT quando a revisão se tornar decisória.
-- **G2 PENDENTE NESTE HEAD ATÉ CI:** o workflow combinado tem 18+7+9+4 = **38 testes previstos**, além de validador estrutural, gerador --check e controlador --check. Resultado do commit final somente em logs do GitHub.
+- **G2 histórico:** no SHA `246c9a122c420bb7165d976e9e1e601b26deeef9`, run [#38985545892](https://github.com/raphaelpetta/modernizacao-constitucional-brasileira/actions/runs/38985545892) concluído em sucesso com 38/38 testes, validador/gerador/painel aprovados. A variante M11 posterior demanda **novo run no novo SHA** com 40 testes esperados (38 + dois novos guardas), não se transfere o resultado do SHA anterior.
 - **G3 R3 ABERTO/BLOQUEANTE:** sem revisão jurídica humana independente, sem mapa N:N global, sem decisão sobre extensão dos direitos indígenas/quilombolas, lei/licitação setorial, crueldade, tratamento de terceiros e transições.
 - **G4 H SOMENTE:** nenhuma CF-DEC, F6, promoção a D, alteração da CF atual ou autorização de merge na main. O eventual fechamento administrativo do PR #138 como **superado por consolidação** não é aprovação normativa e não reduz a revisão R3 exigida no PR #139.
 
 **Critério de parada:** depois da CI verde e da verificação de blobs dos dois pais, encerrar a duplicação técnica de PR #138, conservar **um PR #139 draft** de revisão conjunta, sem abrir terceiro stack. **FEITO:** matriz e regras de recomposição; **PENDENTE:** CI no próprio SHA, revisão humana independente R3 e escolha material futura; **PRÓXIMO:** auditoria externa focal, corrigir lacunas comprovadas e só depois avaliar integração H na main.
+
+
+## Delta transversal R3 posterior à união — art. 20 XI (16/10/2026)
+
+**Mudança delimitada:** CF-NOR-0025 H/M11 acrescentou §7 expressando **domínio da União sobre terras tradicionalmente ocupadas** (CF20 XI, STF Tema1031 XI), **sem reduzir posse permanente nem usufruto indígena**. Agora a matriz N:N desse artigo passa de remissão parcial para comando textual candidato, ainda sem equivalência demonstrada. A CF-NOR-0029 permanece intocada: propriedade quilombola não se converte em bem da União por essa previsão. O domínio público tampouco resolve os efeitos patrimoniais de terceiros tratados nos itens IV–VI da tese STF Tema1031, que permanecem G3/R3. [Auditoria detalhada do lote02](LOTE_02_M11_ADCT68_R3_20261016.md).
+
+**Duas contraprovas documentais de regressão:** ausência de enunciado de domínio federal em 0025; aplicação de 'bens da União' à fonte 0029 ou perda da posse/uso exclusivo dos povos indígenas. CI detecta apenas a presença e o isolamento lexical, não a constitucionalidade material. **Porta G4:** zero decisões ratificadas; 26 H na branch, main original não alterada.

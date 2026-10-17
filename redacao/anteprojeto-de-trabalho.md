@@ -210,6 +210,8 @@ O aproveitamento de recursos hídricos, incluídos os potenciais energéticos, e
 
 Os indígenas, suas comunidades e organizações são partes legítimas para ingressar em juízo em defesa de seus direitos e interesses, intervindo o Ministério Público em todos os atos do processo, sem prejuízo das atribuições constitucionais de outros órgãos de defesa.
 
+São bens da União as terras tradicionalmente ocupadas pelos povos indígenas, sem prejuízo dos direitos originários, da posse permanente e do usufruto exclusivo assegurados às comunidades indígenas por esta Constituição.
+
 ## CF-NOR-0028 — Remoção nulidades e salvaguardas territoriais indígenas [H; E]
 
 > Regra geral de referência: CF-NOR-0025. Relação em exame.

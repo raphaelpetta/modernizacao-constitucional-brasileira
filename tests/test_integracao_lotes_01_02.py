@@ -57,5 +57,13 @@ class TesteIntegracaoR3(unittest.TestCase):
         ):
             self.assertTrue((ROOT / "auditoria" / filename).is_file(), filename)
 
+    def test_dominio_federal_indigena_nao_transposto_quilombola(self):
+        i = norm("CF-NOR-0025")
+        q = norm("CF-NOR-0029")
+        self.assertIn("são bens da união", i)
+        self.assertIn("propriedade definitiva", q)
+        self.assertNotIn("são bens da união", q)
+        self.assertIn("procedimento regular de desapropriação", q)
+
 if __name__ == "__main__":
     unittest.main()

@@ -74,5 +74,12 @@ class GuardasM11(unittest.TestCase):
         for chave in ("ALTERNATIVA A", "ALTERNATIVA B", "ALTERNATIVA C", "SEM RATIFICAÇÃO", "ADCT 68", "CONTINUIDADE"):
             self.assertIn(chave, ficha)
 
+    def test_dominio_uniao_preserva_posse_e_usufruto_indigenas(self):
+        x = body("0025")
+        self.assertIn("são bens da união as terras tradicionalmente ocupadas", x)
+        self.assertIn("sem prejuízo dos direitos originários", x)
+        self.assertIn("posse permanente", x)
+        self.assertIn("usufruto exclusivo", x)
+
 if __name__ == "__main__":
     unittest.main()
