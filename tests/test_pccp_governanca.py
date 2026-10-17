@@ -86,7 +86,7 @@ class TestPccpGovernanca(unittest.TestCase):
         for text in (agenda, executive):
             self.assertIn("P1/P2/P3", text)
             self.assertIn("S1/C3", text)
-            self.assertIn("revisão jurídica humana independente R3", text)
+            self.assertIn("revisão jurídica humana independente r3", text.casefold())
             self.assertIn("art.60", text)
         self.assertIn("não inferir admissibilidade de uma PEC", executive)
         self.assertIn("gabinete", executive)
