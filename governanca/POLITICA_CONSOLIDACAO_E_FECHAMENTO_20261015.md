@@ -19,6 +19,22 @@ A escolha da rodada compara **cobertura H**, **aprofundamento/contraprova V**, *
 ## 3. Ponto de parada e trilha de deliberação
 Para cada controvérsia madura, elaborar **uma ficha curta**, preferencialmente atualizando dossiê existente: problema; alternativas reais (inclusive manutenção); melhor argumento contrário; direitos/competências protegidos; consequências e transição; evidência que mudaria preferência; recomendação **provisória**; pergunta decisória; registro de ratificação **pendente**. Saídas: `APTO_A_DELIBERAR`, `PREFERENCIA_PROVISORIA`, `PESQUISA_FOCAL`, `BLOQUEADO_POR_DEPENDENCIA`. Se investigação adicional não puder alterar escolha material ou proteção, remeter a questão à deliberação do usuário; não prolongar pesquisa por inércia. Questões estruturantes interdependentes não devem ser artificialmente decididas em pedaços.
 
+## 3A. Critérios explícitos de fechamento progressivo e reabertura (PCCP)
+
+**1. Fechamento técnico/documental:** origens, IDs, texto fonte/vista, versões Git e CI do mesmo SHA coerentes; pode ocorrer sem escolha material e sem D. Em risco R3, a etiqueta **não** declara adequação jurídica.
+
+**2. Estabilização material:** decisão expressa do usuário em [03_DECISOES.md](03_DECISOES.md) com questão, data, fonte, alternativas, melhor objeção, alcance **e exclusões**, condicionantes e interfaces. Em R3, antes de D material exige parecer/revisão independente humana identificável, controle não regressivo N:N e efeitos sistêmicos proporcionais; não é aceitável ratificação automática ou fictícia.
+
+**3. Fechamento normativo local:** texto de dispositivo ou conjunto funcional com decisão de redação, relação N:N de direito vigente e proteções, efeitos, exceções, órgão responsável, implementação, custos pertinentes e ponte transitória revisados. Toda remissão a questão aberta mantém indicação de reserva, sem proclamar fechamento integral.
+
+**4. Fechamento sistêmico:** revisar **em conjunto** decisões e dispositivos ligados por eleições/governo/parlamento, tutela/direitos, federalismo/custeio, tratados e transição; conflito novo bloqueia apenas a parte afetada. Uma D orientadora anterior não supera ressalva sistêmica posterior.
+
+**5. Fechamento global:** matriz funcional CF/1988/ADCT e regimes de transição sem omissão crítica, versões integradas, interfaces CLF identificadas (sem transposição automática), auditoria jurídica intermodular independente R3, contraprovas, aprovação expressa de escolhas materiais e texto final gerado validado. A CF vigente não é modificada pelo projeto.
+
+**Reabertura motivada:** fato/julgado superveniente material, falha comprovada, regressão de garantia, incompatibilidade entre D, consequência não antecipada ou revisão expressa do usuário. Guardar a decisão anterior como `SUBSTITUIDA` e justificar impacto e novos testes. Não reabrir por mera alternativa retórica. **Nenhum percentual de completude geral** decorre de 20, 26 ou 56 H.
+
+**Saída deliberativa:** usar rótulos operacionais com motivo em [pauta única](../central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md); declarar separadamente se a questão admite **orientação P** ou **ratificação material D**. Falta de revisão R3 independente não proíbe pesquisar, redigir H, auditar ou coletar orientação P, mas **bloqueia estabilização D/fechamento material**.
+
 ## 4. Métricas de resultado e antirredundância
 Reportar, **se mensuráveis no checkout indicado**, (a) H na main versus H apenas em PR, sem soma dupla; (b) funções e direitos **efetivamente mapeados**, com denominador de recorte declarado; (c) verificações G1/G2/G3 cumpridas, pendentes ou não aplicáveis **por recorte**; (d) PRs empilhados/bloqueados e antiguidade; (e) questões aptas à decisão, submetidas e ratificadas; (f) conflitos e garantias resolvidos. **Não inventar percentual constitucional global** nem usar módulos com H como completude funcional.
 
