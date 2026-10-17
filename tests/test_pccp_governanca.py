@@ -153,7 +153,7 @@ class TestPccpGovernanca(unittest.TestCase):
                      "art. 231 §5º", "art. 5º LXX a",
                      "ADI 3.685", "ADI 5.525", "EC 139/2026"):
             self.assertIn(term, s)
-        self.assertIn("não resolve admissibilidade", s)
+        self.assertIn("**não** resolve admissibilidade", s)
 
     def test_fichas_preservam_r3_e_preferencia_p(self):
         doc = document("modulos/M03-parlamento/M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md")
