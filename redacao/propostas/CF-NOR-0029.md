@@ -1,0 +1,25 @@
+# CF-NOR-0029 — Reconhecimento da propriedade territorial quilombola
+
+**Estado:** H/A, hipótese não ratificada; **M11.03**. **Fonte:** ADCT art. 68, CF arts. 215–216, Decreto 4.887/2003 e STF ADI 3.239; pesquisa M11 PR #94. **Corte:** 15/10/2026. **Risco:** R3 de delimitação, titulares, terceiros e efetividade da titulação.
+
+<!-- NORMA-INICIO -->
+Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, cabendo ao Estado emitir-lhes os títulos respectivos.
+
+O procedimento de identificação, reconhecimento, delimitação e titulação respeitará a identidade, a organização e a participação efetiva das comunidades, os vínculos territoriais e culturais e as garantias do devido processo legal, incluídos os direitos legítimos de terceiros na forma desta Constituição e da lei, sem tornar a expedição do título condição constitutiva da propriedade já reconhecida.
+
+Quando for necessária a transferência de imóvel abrangido por título particular legítimo e eficaz para efetivar a titulação coletiva, será observado o procedimento regular de desapropriação, quando cabível, com prévia avaliação, devido processo legal e garantias constitucionais de indenização, sem aplicar automaticamente às terras quilombolas o regime de nulidades próprio das terras indígenas. A proteção dos direitos de terceiros não poderá, por si só, suprimir o reconhecimento do direito territorial da comunidade nem dispensar o poder público de dar seguimento à titulação, observadas as exigências constitucionais e legais.
+<!-- NORMA-FIM -->
+
+## Proveniência e limites
+
+- **Direito vigente:** [ADCT, art. 68](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Aato.disposicoes.constitucionais.transitorias%3A1988-10-05%3B1988%21art68), reconhece propriedade definitiva e dever estatal de titulação. A primeira frase preserva o núcleo literal.
+- **Decreto 4.887/2003, art. 13, e STF ADI 3.239:** reconhecem a exigência de procedimento expropriatório regular para o caso de **título de domínio particular legítimo** incidente sobre território quilombola, após exame de autenticidade/cadeia dominial, com avaliação e desapropriação quando cabível; [Decreto oficial](https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm), [STF, art. 68 do ADCT/ADI 3.239, ementa oficial](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=68&abrirBase=AD). A redação H adicional precisa conservar a eficácia imediata do ADCT 68, a proteção comunitária e os direitos legítimos de terceiros **sem importar a nulidade indígena do art. 231 §6**. A extensão, a indenização concreta, competências e os efeitos patrimoniais ainda dependem de G3 independente.
+- **Distinção indispensável:** a propriedade das comunidades quilombolas não é automaticamente domínio da União nem equivale ao regime de posse e usufruto indígena do art. 231. A nova ressalva textual impede importação automática das nulidades da CF-NOR-0028 e **não cria direito de bloquear a titulação comunitária indefinidamente**. A desapropriação só é exigida na hipótese cabível de título particular legítimo e eficaz, não para toda ocupação, título nulo ou terra pública.
+- **Temporalidade M14:** levar o núcleo do ADCT a uma norma permanente é hipótese editorial com efeitos jurídicos potenciais, ainda sem decisão sobre localização definitiva nem regras transitórias. Ver [ficha de transição M14 do PR #139](../../auditoria/M14_ADCT68_FICHA_TRANSICAO_20261016.md), que propõe alternativas e **preservação explícita da eficácia do ADCT68 até eventual escolha material com ponte de continuidade**.
+- **Outros povos tradicionais:** titularidade e proteção requerem base própria; não converter art. 68 ou 231 em cláusula genérica indistinta.
+- **Testes propostos:** falta de título anterior; ausência de oitiva da comunidade; títulos privados colidentes; demora administrativa; prova histórica/territorial; negação de direitos por deslocamento da regra para capítulo permanente.
+- **Alternativas:** H-A norma permanente (esta); H-B conservar ADCT com remissão permanente; H-C sistema coletivo geral a discutir apenas com estudo de sujeitos e propriedades. Nenhuma ratificada.
+
+**Aprofundamento H no PR #139, 16/10/2026:** o novo terceiro parágrafo diferencia a hipótese de **título particular legítimo** (desapropriação quando cabível, avaliação e indenização constitucional) do regime indígena de nulidades, sem bloquear automaticamente o reconhecimento quilombola. **Este blob é uma variante experimental distinta do original na ponta #137, que permanece intocado**. O texto não é conclusão sobre validade de cada título, indenização, responsabilidade financeira, expropriação de toda área ou destino final do ADCT.
+
+**FEITO:** primeira cláusula H específica do ADCT 68. **PENDENTE:** regras de titulação, compensações, competência, proteção coletiva, revisão M04/M06/M13, legislação e jurisprudência atualizadas. **PRÓXIMO:** verificar compatibilidade e especialidades antes de promover qualquer equivalência.

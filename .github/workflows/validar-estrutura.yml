@@ -32,3 +32,13 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_controle_operacional.py' -v
       - name: Conferir coerencia da progressividade, pauta e portas PCCP (somente testes documentais)
         run: python -m unittest discover -s tests -p 'test_pccp_governanca.py' -v
+      - name: Testar guardas documentais M11 ADCT (nao auditoria juridica)
+        run: python -m unittest discover -s tests -p 'test_lote02_m11_garantias_textuais.py' -v
+      - name: Testar guardas literais M07 M08 M10 (nao auditoria juridica)
+        run: python -m unittest discover -s tests -p 'test_lote01_garantias_textuais.py' -v
+      - name: Testar integracao documental dos lotes 01 e 02 (nao parecer juridico)
+        run: python -m unittest discover -s tests -p 'test_integracao_lotes_01_02.py' -v
+      - name: Conferir destinos de paragrafos M07 e M10 (sem equivalencia R3)
+        run: python -m unittest discover -s tests -p 'test_concordancia_paragrafos_r3.py' -v
+      - name: Provar coexistencia do PCCP na branch experimental 26 H (sem D)
+        run: python -m unittest discover -s tests -p 'test_reconciliacao_pr139_pccp.py' -v

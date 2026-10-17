@@ -157,3 +157,75 @@ Ninguém será privado de liberdade ou submetido a intervenção em saúde de fo
 Toda medida involuntária restritiva de liberdade ou integridade estará sujeita ao controle de sua validade constitucional, a fundamento legal estrito, informação acessível, registro de motivos, meios de impugnação, assistência e revisão independente, efetiva e tempestiva, conforme a natureza da medida.
 
 Este dispositivo não institui, por si, hipótese de internação, tratamento compulsório ou outra intervenção sem consentimento, nem autoriza o afastamento de proibições absolutas.
+
+## CF-NOR-0021 — Garantias na atuação e no procedimento administrativo [H; G]
+
+No exercício da função administrativa, o poder público assegurará atendimento acessível e não discriminatório, recepção e exame de petições e reclamações, informação adequada sobre procedimentos e decisões que afetem as pessoas interessadas e resposta fundamentada em prazo razoável, ressalvados os sigilos constitucionalmente legítimos e os direitos de terceiros.
+
+Independentemente do pagamento de taxas, é assegurado a todas as pessoas o direito de petição aos poderes públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, bem como a obtenção de certidões em repartições públicas para defesa de direitos e esclarecimento de situações de interesse pessoal.
+
+Nos processos administrativos em que figurem litigantes ou acusados, são assegurados o contraditório e a ampla defesa, com os meios e recursos a eles inerentes. Nos demais procedimentos capazes de afetar direitos ou interesses juridicamente protegidos, será garantida oportunidade efetiva de ciência e manifestação compatível com a natureza do ato, sem prejuízo das garantias constitucionais especiais.
+
+A adoção de meios digitais não poderá inviabilizar o exercício dos direitos de petição, informação e defesa, nem o acesso efetivo aos serviços públicos. Serão assegurados acessibilidade, apoio apropriado e canais alternativos adequados quando necessários ao exercício desses direitos, na forma da lei e observadas as competências federativas.
+
+Este dispositivo não afasta o devido processo legal, a tutela jurisdicional, a proteção de dados pessoais, as garantias de publicidade e sigilo constitucionalmente aplicáveis, nem os mecanismos de controle da administração pública.
+
+## CF-NOR-0022 — Serviços públicos adequados e garantias dos usuários [H; A]
+
+A organização e a prestação de serviços públicos observarão, segundo a natureza do serviço, regularidade, continuidade, segurança, qualidade, acessibilidade, transparência, tratamento não discriminatório e proteção dos direitos de seus usuários, respeitadas as competências constitucionais dos entes federativos.
+
+A prestação por particulares, mediante delegação constitucionalmente admitida, não afasta os deveres do poder público competente de regular, fiscalizar e assegurar mecanismos acessíveis de informação, reclamação e responsabilização, nem a tutela jurisdicional dos direitos afetados.
+
+A delegação de serviços públicos a particulares, mediante concessão ou permissão, será precedida de licitação, na forma da lei, observadas as competências constitucionais dos entes federativos.
+
+A lei estabelecerá padrões de prestação adequada, condições de interrupção e restabelecimento, fiscalização e participação dos usuários, bem como critérios tarifários compatíveis com a sustentabilidade do serviço e a proteção constitucional das pessoas em situação de vulnerabilidade, vedadas interrupções arbitrárias de serviços essenciais.
+
+Este dispositivo não dispensa exigências constitucionais de contratação e delegação, competências federativas, devido processo legal e garantias específicas de usuários, trabalhadores, consumidores e titulares de direitos fundamentais.
+
+## CF-NOR-0023 — Meio ambiente ecologicamente equilibrado e estudo prévio de impacto [H; A]
+
+Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida. O poder público e a coletividade devem defendê-lo e preservá-lo para as presentes e futuras gerações.
+
+Incumbe ao poder público, no âmbito das competências constitucionais de seus órgãos, preservar e restaurar os processos ecológicos essenciais e proteger a diversidade biológica e a integridade do patrimônio genético, asseguradas a prevenção e a reparação de danos ambientais nos termos desta Constituição e da lei.
+
+Incumbe ainda ao poder público proteger a fauna e a flora, vedadas, na forma da lei, as práticas que coloquem em risco sua função ecológica, provoquem a extinção de espécies ou submetam os animais a crueldade.
+
+Para os fins da proibição de crueldade, não se consideram cruéis as práticas desportivas que utilizem animais quando constituam manifestações culturais, nos termos desta Constituição, registradas como bens de natureza imaterial integrantes do patrimônio cultural brasileiro e regulamentadas por lei específica que assegure o bem-estar dos animais envolvidos.
+
+O reconhecimento cultural e o registro patrimonial não dispensam a observância efetiva dos padrões legais mínimos de bem-estar animal nem dos cuidados adicionais exigidos pelas circunstâncias concretas, e não afastam a fiscalização e as responsabilidades administrativas, civis e penais cabíveis por maus-tratos, assegurado o devido processo legal.
+
+Para a instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, exigir-se-á, na forma da lei, estudo prévio de impacto ambiental, ao qual se dará publicidade.
+
+## CF-NOR-0025 — Direitos originários territórios e consulta dos povos indígenas [H; A]
+
+São reconhecidos aos povos indígenas suas organizações sociais, costumes, línguas, crenças e tradições e os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, protegê-las e fazer respeitar seus bens e direitos.
+
+São terras tradicionalmente ocupadas pelos povos indígenas as por eles habitadas em caráter permanente, as utilizadas para suas atividades produtivas, as imprescindíveis à preservação dos recursos ambientais necessários a seu bem-estar e as necessárias à reprodução física e cultural, segundo seus usos, costumes e tradições. O reconhecimento administrativo desses direitos tem caráter declaratório.
+
+As terras tradicionalmente ocupadas destinam-se à posse permanente dos povos indígenas e ao usufruto exclusivo das riquezas do solo, dos rios e dos lagos nelas existentes, observadas as reservas constitucionais especiais aplicáveis. As terras são inalienáveis e indisponíveis, e os direitos sobre elas, imprescritíveis.
+
+Os povos indígenas interessados serão consultados previamente, de boa-fé e por procedimentos apropriados e suas instituições representativas, sobre medidas legislativas ou administrativas suscetíveis de afetá-los diretamente, com o objetivo de alcançar acordo ou consentimento, observadas as garantias específicas constitucionalmente aplicáveis. A audiência pública ambiental geral não substitui a consulta própria quando devida.
+
+O aproveitamento de recursos hídricos, incluídos os potenciais energéticos, e a pesquisa e lavra de riquezas minerais em terras indígenas dependem de autorização do Congresso Nacional, ouvidas as comunidades afetadas e assegurada sua participação nos resultados da lavra, na forma da lei, sem prejuízo dos demais requisitos constitucionais e convencionais aplicáveis.
+
+Os indígenas, suas comunidades e organizações são partes legítimas para ingressar em juízo em defesa de seus direitos e interesses, intervindo o Ministério Público em todos os atos do processo, sem prejuízo das atribuições constitucionais de outros órgãos de defesa.
+
+São bens da União as terras tradicionalmente ocupadas pelos povos indígenas, sem prejuízo dos direitos originários, da posse permanente e do usufruto exclusivo assegurados às comunidades indígenas por esta Constituição.
+
+## CF-NOR-0028 — Remoção nulidades e salvaguardas territoriais indígenas [H; E]
+
+> Regra geral de referência: CF-NOR-0025. Relação em exame.
+
+É vedada a remoção de grupos indígenas de suas terras, salvo, ad referendum do Congresso Nacional, em caso de catástrofe ou epidemia que ponha em risco sua população, ou no interesse da soberania do País, após deliberação do Congresso Nacional, garantido, em qualquer hipótese, o retorno imediato logo que cesse o risco.
+
+São nulos e extintos, sem produção de efeitos jurídicos, os atos que tenham por objeto a ocupação, o domínio e a posse das terras tradicionalmente ocupadas pelos povos indígenas, ou a exploração das riquezas naturais do solo, dos rios e dos lagos nelas existentes, ressalvado relevante interesse público da União, nos termos de lei complementar. As consequências patrimoniais da nulidade observarão as garantias constitucionais cabíveis e o regime de benfeitorias decorrentes de ocupação de boa-fé, na forma da lei.
+
+Não se aplicam às terras indígenas as regras gerais de incentivo à garimpagem em cooperativas previstas nesta Constituição para outros territórios.
+
+## CF-NOR-0029 — Reconhecimento da propriedade territorial quilombola [H; A]
+
+Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, cabendo ao Estado emitir-lhes os títulos respectivos.
+
+O procedimento de identificação, reconhecimento, delimitação e titulação respeitará a identidade, a organização e a participação efetiva das comunidades, os vínculos territoriais e culturais e as garantias do devido processo legal, incluídos os direitos legítimos de terceiros na forma desta Constituição e da lei, sem tornar a expedição do título condição constitutiva da propriedade já reconhecida.
+
+Quando for necessária a transferência de imóvel abrangido por título particular legítimo e eficaz para efetivar a titulação coletiva, será observado o procedimento regular de desapropriação, quando cabível, com prévia avaliação, devido processo legal e garantias constitucionais de indenização, sem aplicar automaticamente às terras quilombolas o regime de nulidades próprio das terras indígenas. A proteção dos direitos de terceiros não poderá, por si só, suprimir o reconhecimento do direito territorial da comunidade nem dispensar o poder público de dar seguimento à titulação, observadas as exigências constitucionais e legais.
