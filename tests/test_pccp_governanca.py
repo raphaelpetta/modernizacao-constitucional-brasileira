@@ -196,7 +196,7 @@ class TestPccpGovernanca(unittest.TestCase):
                       "TRAVA_DE_INFERENCIA", "LACUNA_DE_APLICACAO"):
             self.assertIn(token, s)
         self.assertIn("sem decidir", s)
-        self.assertIn("não declara sete contraprovas superadas", s)
+        self.assertIn("**não** declara sete contraprovas superadas", s)
 
     def test_coaplicacao_nao_altera_decisao_ou_estados_r3(self):
         s = document("modulos/M03-parlamento/M03_PCCP_Q01_SETE_CONTRAPROVAS_COAPLICACAO_20261017.md")
