@@ -26,16 +26,16 @@ Este dispositivo não afasta o devido processo legal, a tutela jurisdicional, a 
 
 | Âncora vigente | Ponto candidato no texto H | Lacuna/risco ainda aberto |
 |---|---|---|
-| CF 5º XXXIII (informação) | primeiro parágrafo | extensão, limites e dever de acesso ainda parciais |
-| CF 5º XXXIV a (petição) | primeiro e terceiro | gratuidade agora enunciada; comprovação de continuidade material e amplitude pendentes |
-| CF 5º XXXIV b (certidões) | enunciado expresso nesta H | confirmar eventual destino definitivo em M01/M07 e continuidade material |
-| CF 5º LIV (devido processo) | segundo e quarto | procedimentos restritivos fora da hipótese litigiosa |
-| CF 5º LV (contraditório e defesa) | segundo | alcance, prova, intimação e recurso concreto em revisão |
-| CF 5º LXXVIII (duração razoável) | primeiro | não cobre expressamente todos os processos |
-| CF 5º X e LXXIX (privacidade/dados) | primeiro e quarto | remissão, sem equivalência; ver PR #59 |
-| CF 37 caput/§3º (administração/usuários) | primeiro e terceiro | princípios e participação não reconstruídos integralmente |
-| CF 70/74 (controle) | quarto | controles financeiro e interno ainda sem novo destino |
-| CDPD e acessibilidade | primeiro e terceiro | deveres específicos e ônus indevido não exauridos |
+| CF 5º XXXIII (informação) | §1 (informação e sigilo); §5 (ressalva de dados) | extensão, limites e dever de acesso ainda parciais |
+| CF 5º XXXIV a (petição) | §2 (gratuidade e petição); §1 (recepção administrativa) | comprovação de continuidade material e amplitude pendentes |
+| CF 5º XXXIV b (certidões) | §2 (certidões e gratuidade) | confirmar eventual destino definitivo em M01/M07 e continuidade material |
+| CF 5º LIV (devido processo) | §3 (processos); §5 (ressalva de devido processo) | procedimentos restritivos fora da hipótese litigiosa |
+| CF 5º LV (contraditório e defesa) | §3 (contraditório e ampla defesa) | alcance, prova, intimação e recurso concreto em revisão |
+| CF 5º LXXVIII (duração razoável) | §1 (prazo razoável) | não cobre expressamente todos os processos |
+| CF 5º X e LXXIX (privacidade/dados) | §5 (ressalva de proteção de dados); §1 (sigilo) | remissão, sem equivalência; ver PR #59 |
+| CF 37 caput/§3º (administração/usuários) | §1 (atendimento); §4 (acesso digital) | princípios e participação não reconstruídos integralmente |
+| CF 70/74 (controle) | §5 (ressalva dos mecanismos de controle) | controles financeiro e interno ainda sem novo destino |
+| CDPD e acessibilidade | §4 (acessibilidade e apoio); §1 (atendimento) | deveres específicos e ônus indevido não exauridos |
 
 **Testes pendentes:** (1) intimação exclusivamente eletrônica de pessoa sem acesso; (2) dados sensíveis e sigilo de terceiros; (3) Município sem adesão à Lei 14.129/2021; (4) procedimento sancionador especial; (5) capacidade orçamentária para canal alternativo; (6) caso de petição e certidões; (7) urgência e contraditório posterior; (8) controle judicial/administrativo efetivo. Os casos são especificações de teste, **não resultados de validação**.
 

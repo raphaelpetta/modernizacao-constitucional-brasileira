@@ -33,7 +33,7 @@ Para a instalação de obra ou atividade potencialmente causadora de significati
 | Art. 225 §1 II (patrimônio genético) | §2 | parcial, sem fiscalização específica da pesquisa/manipulação genética |
 | Art. 225 §1 VII (proteção da fauna e flora, extinção e crueldade) | novo §3 H | elementos centrais expressos; definição, sanções, bem-estar e casos difíceis pendentes |
 | Art. 225 §7 (práticas desportivas com animais e requisitos culturais específicos) | novo §4 e §5 H | registro, lei específica e bem-estar expressos; §5 impede presunção de imunidade a controle e punição; futura opção política ainda pendente |
-| Art. 225 §1 IV (obra/atividade, significância, EIA prévio, publicidade) | novo §5 H | elementos expressos; remédios e procedimento ainda não auditados |
+| Art. 225 §1 IV (obra/atividade, significância, EIA prévio, publicidade) | §6 H (EIA prévio e publicidade) | elementos expressos; remédios e procedimento ainda não auditados |
 | Art. 225 §1 III/V/VI/VIII, §§2–6 | **SEM TEXTO NESTA FICHA** | **reservas obrigatórias; CF-NOR-0026 trata parcialmente do III e §§2–3 apenas na ponta #137** |
 | Art. 5º XXXV/LXXIII e art. 129 III (tutela, ação popular, ACP) | direito material §1; remédios não especificados | M01/M06, **pendente** |
 | Arts. 23, 24, 30 (competências) | §2 por remissão | M04/M07/LC 140, **pendente** |

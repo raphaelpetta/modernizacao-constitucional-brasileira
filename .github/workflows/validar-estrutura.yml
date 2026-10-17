@@ -36,3 +36,5 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_lote01_garantias_textuais.py' -v
       - name: Testar integracao documental dos lotes 01 e 02 (nao parecer juridico)
         run: python -m unittest discover -s tests -p 'test_integracao_lotes_01_02.py' -v
+      - name: Conferir destinos de paragrafos M07 e M10 (sem equivalencia R3)
+        run: python -m unittest discover -s tests -p 'test_concordancia_paragrafos_r3.py' -v
