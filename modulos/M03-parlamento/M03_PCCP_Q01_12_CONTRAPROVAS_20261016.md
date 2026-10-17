@@ -58,3 +58,8 @@
 5. **Resultado deste exercício:** `12/12` casos receberam âncora de protótipo, descrição de conteúdo textual, questão residual e artefato de prova esperado. Isto é um **indicador de rastreabilidade documental**, não de cumprimento dos testes constitucionais. A exigência `G3/R3` permanece bloqueante para ratificação, sem alteração de `CF-DEC-006` (P orientadora) nem de `F6-02…F6-09`.
 
 **Próxima execução focal, se superar outras frentes em ganho marginal:** transformar PB-T01, PB-T02, PB-T05, PB-T09 e PB-T11 em *modelos condicionais completos de competência, ator, gatilho, rito, controle e efeitos*; submeter as variantes à auditoria jurídica, sem adotar quórum ou forma de eleição tacitamente, e sem converter documentos externos do PR #107 em CF-NOR.
+
+### Desdobramento focal — cinco quadros verificáveis (17/10/2026)
+
+Os casos PB-T01, T02, T05, T09 e T11 receberam [**cinco fichas funcionais condicionais**](M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md) com campos de **gatilho, atores vigentes, função hipotética, rito, controle, efeito transitório, prova faltante e condição de parada**, além de quatro remissões constitucionais do Legislativo. **Não se trata de texto normativo completo nem de solução das cinco contraprovas:** ainda faltam escolhas materiais, dados concretos e revisão R3 independente. Este parágrafo atualiza apenas o encaminhamento histórico acima e não muda o estado das doze hipóteses `ABERTO_R3` ou a orientação P-B.
+
