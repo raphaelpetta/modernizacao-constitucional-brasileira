@@ -191,7 +191,7 @@ class TestPccpGovernanca(unittest.TestCase):
     def test_coaplicacao_controles_e_fontes_positivas(self):
         s = document("modulos/M03-parlamento/M03_PCCP_Q01_SETE_CONTRAPROVAS_COAPLICACAO_20261017.md")
         for token in ("Constituição Federal compilada", "ADI 3.685/DF",
-                      "art. 58", "art. 16", "art. 53", "art. 167",
+                      "art. 58", "art. 16", "art. 53", "167 §3º",
                       "art. 5º", "CF-CC-028", "PB-T03", "PB-T12",
                       "TRAVA_DE_INFERENCIA", "LACUNA_DE_APLICACAO"):
             self.assertIn(token, s)
