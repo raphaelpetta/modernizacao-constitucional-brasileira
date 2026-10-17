@@ -1,0 +1,8 @@
+id;situacao;presentes;sim;aprovacao;motivo
+C01;todos_presentes_cartel_3;5;3;SIM;APROVADO
+C02;um_opositor_ausente;4;3;SIM;APROVADO
+C03;um_cartel_ausente;4;2;NAO;SEM_TRES_VOTOS
+C04;dois_opositores_ausentes;3;3;NAO;SEM_QUORUM
+C05;dois_cartel_ausentes;3;1;NAO;SEM_QUORUM
+C06;nomeacao_sensivel_4_votos_sem_pacto;5;3;NAO;SEM_TRES_VOTOS
+C07;nomeacao_sensivel_4_votos_com_um_opositor;5;4;SIM;APROVADO

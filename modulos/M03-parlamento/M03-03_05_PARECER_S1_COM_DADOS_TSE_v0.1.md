@@ -1,0 +1,53 @@
+# M03.03 R05-S — Semiparlamentarismo sob bancadas/votos TSE de 2022: ensaio contrafactual reprodutível
+**Corte:** 15/10/2026. Pesquisa H/A/V; nenhum F6, D, F7, CF-NOR, CF-DEC ou CLF. Repositório PR #100 (draft). `M03-03_05_SIMULADOR_S1.js`, `M03-03_05_DADOS_TSE_2022_BASE.csv`, `M03-03_05_CENARIOS_S1_TSE_2022.csv` compõem a trilha de cálculo. Referências M03.02 PR #85, R04 PR #100 e pauta PR #99.
+
+## 1. Evidência empírica exata — o que é e o que NÃO é
+**Cadeiras observadas:** quadro do TSE, eleição da Câmara de 2022 com novas totalizações consideradas até 20/07/2024, 513 cadeiras (não somente 510 partidos/federações que superaram cláusula de desempenho). Fonte https://www.tse.jus.br/eleicoes/tabela-com-a-representatividade-dos-partidos-politicos-e-das-federacoes-na-camara-dos-deputados-e-no-senado-federal . **Votos observados:** votos nominais válidos mais votos válidos de legenda da eleição para deputado federal, agregados por partido/federação, em tabela oficial da Portaria TSE nº 10/2023 e suas redações de 2023 (Anexos I e III), total de **109.491.000** votos. Fonte https://www.tse.jus.br/legislacao/compilada/prt/2023/portaria-no-10-de-12-de-janeiro-de-2023 . São fotografia eleitoral histórica, NÃO a composição parlamentar de 2026, nem voto ordinal; datas de revisão das bancadas e dos votos diferem, e alguns agrupamentos refletem incorporações posteriores ao pleito (PODE+PSC, PRD=PATRIOTA+PTB, SOLI+PROS). `OUTROS_SEM_CADEIRAS` soma 1.065.034 votos de pequenos partidos sem representação; é **agregado auxiliar**, NÃO legenda em que votou eleitor real. O Congresso de 2022 distribuiu cadeiras por UF, NÃO por voto proporcional em distrito nacional único como na proposta acadêmica pura.
+
+A primeira preferência no sistema teórico Ganghof corresponde a voto em lista partidária. O voto brasileiro de deputado federal é nominal ou de legenda por UF: os 109.491.000 votos constituem apenas **proxy retrospectivo de afinidades eleitorais** para nossa pergunta contrafactual. Preferências de segundo, terceiro e demais graus NÃO foram observadas nem estimadas por survey.
+
+## 2. Definição verificável do experimento e limites
+A experiência e o script usam pesos observados de votos de cada agrupamento, com dois finalistas **hipoteticamente PL (18.200.300 votos = 16,62%) e Federação Brasil (15.345.988 = 14,02%)**; os demais partidos têm menos votos primários que esses finalistas. Para cada agrupamento restante, cenário `q` especifica percentagem contrafactual dos seus votos cujo próximo destino preferencial é PL, e os demais têm como próximo destino a Federação Brasil. O script constrói cédulas PESADAS artificiais [partido original, favorito entre dois finalistas, outro finalista]; o algoritmo elimina sucessivamente a menor legenda, redistribui as cédulas para a primeira legenda ainda ativa e PARA quando restam duas. Não há exaustão de votos, rankings incompletos ou transferências para terceiras legendas. Portanto, é execução real de um **algoritmo AV sobre PERFIS IMAGINÁRIOS**, não apuração real do eleitorado brasileiro, e os dois finalistas são pressupostos verificados a posteriori nos cenários — não previsão.
+
+A distribuição de cadeiras do Legislativo é fixada nos 513 assentos observados: PL 99, Federação Brasil 81, demais 333; isso testa compatibilidade INSTITUCIONAL COM A FEDERAÇÃO BRASILEIRA EXISTENTE, não a proporcionalidade nacional que Ganghof assume. Instância de confiança é subconjunto físico dos deputados eleitos, sem cadeiras inventadas: dentre os finalistas, **ancora-se** no partido com MENOR razão (cadeiras legislativas/votos finais); suas cadeiras de confiança equivalem às cadeiras totais, e o outro obtém `floor(cadeiras_âncora × votos_finais_outro / votos_finais_âncora)`. O artigo de Ganghof (2016) prevê regras de arredondamento e discute composição ímpar: https://doi.org/10.1177/2053168016665640 .
+
+**Não confundir** este `floor` ilustrativo com regra constitucional fechada ou fórmula validada para uma apuração multi-UF, inclusive empates, vacâncias e partidos federados.
+
+## 3. Oito cenários e teste de maioria
+| q dos votos das demais legendas que passam a PL | PL final | Federação final | Cadeiras de confiança PL × Federação | Resultado bruto |
+|---|---:|---:|---:|---|
+| 40,0% | 44,367% | 55,633% | 64 × 81 | Federação |
+| 45,0% | 47,835% | 52,165% | 74 × 81 | Federação |
+| 47,5% | 49,569% | 50,431% | 79 × 81 | Federação |
+| 48,0% | 49,916% | 50,084% | 80 × 81 | Federação |
+| 48,5% | 50,263% | 49,737% | **81 × 81** | **EMPATE** |
+| 50,0% | 51,303% | 48,697% | 85 × 81 | PL |
+| 55,0% | 54,772% | 45,228% | 98 × 81 | PL |
+| 60,0% | 58,240% | 41,760% | 99 × 70 | PL |
+
+**Achado concreto do modelo:** o Parlamento histórico de 513 cadeiras FICA IGUAL em todos os casos, mas a maioria de confiança pode trocar de partido em resposta a preferências secundárias assumidas. Uma diferença de cinco pontos percentuais em `q` entre 45% e 50% muda o vencedor, mas isso não é margem eleitoral BRASILEIRA observada nem prova de manipulação; é sensibilidade do mecanismo.
+
+**Achado adversarial novo:** em q=48,5% o partido que obteve maioria final de preferências PL 50,263% NÃO obtém maioria do colégio pela regra `floor` simples, que produz 81 × 81. O autor alerta para o problema dos empates e do tamanho par da instância. Testar três remédios ALTERNATIVOS, sem escolher: (E1) conceder cadeira adicional ao vencedor final se couber em sua bancada real — aqui PL82/Fed81, preserva subconjunto mas altera aproximação proporcional do colégio; (E2) retirar cadeira de confiança do perdedor — PL81/Fed80, altera regra de que âncora recebe todas as cadeiras; (E3) refazer colégio sob fórmula explícita de número ímpar, pisos, sobras e voto de desempate previamente legislados — exige verificar representação e igualdade. Nenhuma deixa de ser ajuste de fórmula com custos; “garantia automática” depende deles e de eventual exaustão de votos.
+
+## 4. Coalizões de maioria legislativa no MESMO quadro
+Maioria absoluta da Câmara histórica = **257/513**. É possível criar coalizão ARITMÉTICA de PL99 + União59 + PP47 + Republicanos40 = **245**, ainda minoritária; incluindo MDB42, alcança **287**. Em cenário PL vencedor S1, a confiança pode existir com apenas 85 ou 98 conselheiros de partido PL, mas suas decisões legislativas continuam exigindo negociação para 257 se a regra da matéria o exigir. No cenário Federação governante, seus 81 eleitos também precisam acordos diversos para aprovar LOA.
+
+Partidos são agrupamentos matemáticos; **não se presume** que PL, União, PP, Republicanos e MDB atuassem ou atuariam sempre em bloco ou partilhassem preferências sobre qualquer assunto. Congresso 2026, disciplina, lideranças, voto nominal, coligações governamentais e agenda fiscal são dados INDEPENDENTES da base eleitoral.
+
+## 5. Confrontos A/B/S1 com o mesmo veto
+**A presidencialismo reformado:** presidente de origem eleitoral PRÓPRIA; se partido presidente possuir 99 deputados, necessita coalizão legislativa para orçamento; mandato segue independente. Não inferir quem venceria eleição presidencial a partir do voto de deputados.
+**B parlamentarismo racionalizado:** governo precisa investidura da Câmara conforme B1/B2/B3 e maioria sucessora para censura construtiva. Em bloco hipotético de 287 membros, consegue maioria se coeso, mas pode perdê-la durante mandato; governo pode permanecer com LOA rejeitada e sem sucessor.
+**S1 semiparlamentarismo:** governante é identificável por voto preferencial nacional/colégio, sem 257 deputados de respaldo para leis. Isso pode PRESERVAR pluralismo nas votações de políticas, mas também desconectar sobrevivência executiva de capacidade fiscal.
+**F1/F2 como reserva:** presidente eleito e politicamente censurável pela Câmara reduz necessidade de chefe Estado distinto, sem criar votos para LOA; F1 pode provocar vacância, F2 bloqueio construtivo.
+
+### Três regras orçamentárias hipotéticas
+- **SF-1 (controle integral do Plenário):** todo programa novo e nova autorização fiscal requerem lei aprovada pelo Parlamento; rejeição não produz censura/dissolução fictícia; continuidade obrigacional só conforme regime excepcional controlado. Altamente representativo, admite impasse persistente.
+- **SF-3 (negociação transparente + continuidade estrita):** mesma reserva de leis novas, dever temporal de publicação de propostas orçamentárias alternativas, audiência e negociação; serviços essenciais seguem autorização provisória delimitada em direito, caixa e responsabilização; não pode criar gasto programático por decreto nem usar eleição extraordinária como ameaça regular. Aumenta transparência, não cria maioria fiscal.
+- **SF-2 (colégio controla LOA):** apenas CONTRAPROVA de desenho: reduz veto externo, mas pode despojar Câmara proporcional da competência decisiva de gastos, causando regressão democrática; **não recomendada** antes de estudo M05/M06/M04.
+
+## 6. Problema constitucional de arquitetura federativa
+Ganghof 2016 assume distrito único e listas partidárias nacionais. Brasil tem representação por UF e Senado com fundamento territorial. Há pelo menos três alternativas futuras NÃO avaliadas como constitucionalmente admissíveis: (N) adicionar ranking NACIONAL simultâneo ao voto nominal/legenda estadual, distinguindo dois mandatos eleitorais; (E) constituir colégio da confiança a partir de deputados estaduais já eleitos, com transferências agregadas nacionalmente e representação UF protegida; (H) recalcular cadeiras nacionais proporcionais com compensação territorial, exigindo reforma ampla da representação. Em N há custo de cédula/peso duplo; em E divergência entre votos primários e proporcionalidade da Câmara real; em H risco de distorção e veto territorial ou terceira instância. Cada uma exige revisão dos arts. 14, 16, 45, 46, 60 §4º da CF atual, M02/M04/M06/M14 e prova de voto igual.
+
+**Conclusão R05-S:** S1 tem **coerência matemática sob hipótese** mas sua vantagem específica é identificar Governo sem eliminar Parlamento proporcional; não resolveu bloqueio fiscal e criou custo real de justificação da desigualdade funcional entre deputados, arredondamento, federação e eleição. O ensaio não estabelece melhor governabilidade empírica que A/B/F.
+
+**FEITO:** dados TSE históricos e script AV reproduzível; 8 cenários verificáveis, empate de arredondamento descoberto, contraprova coalizões 245/287 e SF1/SF3. **PENDENTE:** ranking real (inexistente), UF, eleitorado 2026, procedimentos de contagem, M02/M04/M05/M06/M14, eleições e transição. **PRÓXIMO:** comparar modelos N/E/H e testar viabilidade de federação + currículo eleitoral sem alterar CF-DEC-006.
