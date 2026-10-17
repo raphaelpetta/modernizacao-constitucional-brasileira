@@ -167,6 +167,50 @@ class TestPccpGovernanca(unittest.TestCase):
         self.assertIn("| CF-DEC-006 | P (orientação provisória expressa)", dec)
         self.assertNotIn("| CF-DEC-006 | D |", dec)
 
+    def test_sete_casos_restantes_ligados_a_cinco_fichas(self):
+        s = document("modulos/M03-parlamento/M03_PCCP_Q01_SETE_CONTRAPROVAS_COAPLICACAO_20261017.md")
+        rows = [x for x in s.splitlines() if re.match(r"^\| PB-T\d{2} \|", x)]
+        expected = ["PB-T03", "PB-T04", "PB-T06", "PB-T07",
+                    "PB-T08", "PB-T10", "PB-T12"]
+        self.assertEqual([r.split("|")[1].strip() for r in rows], expected)
+        five = {"PB-T01", "PB-T02", "PB-T05", "PB-T09", "PB-T11"}
+        edges = []
+        for row in rows:
+            columns = row.split("|")
+            self.assertEqual(len(columns), 10)
+            links = columns[2].strip().split(";")
+            self.assertEqual(len(links), 2)
+            self.assertTrue(set(links).issubset(five))
+            edges.extend(links)
+            self.assertRegex(columns[3], r"B-\d{2}|INV-\d{2}")
+            for field in columns[4:9]:
+                self.assertGreater(len(field.strip()), 25)
+        self.assertEqual(len(edges), 14)
+        self.assertEqual(set(edges), five)
+
+    def test_coaplicacao_controles_e_fontes_positivas(self):
+        s = document("modulos/M03-parlamento/M03_PCCP_Q01_SETE_CONTRAPROVAS_COAPLICACAO_20261017.md")
+        for token in ("Constituição Federal compilada", "ADI 3.685/DF",
+                      "art. 58", "art. 16", "art. 53", "art. 167",
+                      "art. 5º", "CF-CC-028", "PB-T03", "PB-T12",
+                      "TRAVA_DE_INFERENCIA", "LACUNA_DE_APLICACAO"):
+            self.assertIn(token, s)
+        self.assertIn("sem decidir", s)
+        self.assertIn("não declara sete contraprovas superadas", s)
+
+    def test_coaplicacao_nao_altera_decisao_ou_estados_r3(self):
+        s = document("modulos/M03-parlamento/M03_PCCP_Q01_SETE_CONTRAPROVAS_COAPLICACAO_20261017.md")
+        doc = document("modulos/M03-parlamento/M03_PCCP_Q01_12_CONTRAPROVAS_20261016.md")
+        old = document("modulos/M03-parlamento/M03_PCCP_Q01_CINCO_FICHAS_FUNCIONAIS_20261017.md")
+        self.assertIn("SETE_CONTRAPROVAS_COAPLICACAO_20261017.md", doc)
+        self.assertIn("ABERTO_R3", s)
+        self.assertIn("R3_PENDENTE", s)
+        self.assertIn("ESPECIFICACAO_CONDICIONAL", old)
+        self.assertIn("G1–G4", s)
+        decisions = document("governanca/03_DECISOES.md")
+        self.assertIn("| CF-DEC-006 | P (orientação provisória expressa)", decisions)
+        self.assertNotIn("| CF-DEC-006 | D |", decisions)
+
     def test_f6_pccp_nao_confunde_governo_parlamento_e_via(self):
         agenda = document("central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md")
         executive = document("central/04_PAUTA_EXECUTIVA_F6_20261015.md")
