@@ -69,16 +69,35 @@ class TestPccpGovernanca(unittest.TestCase):
         self.assertIn("H/V/I", layering)
         self.assertIn("auditoria humana independente", layering)
 
-    def test_q01_maduro_apenas_para_orientacao_p(self):
+    def test_q01_preferencia_expressa_p_sem_ratificacao_d(self):
         agenda = document("central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md")
         row = next(x for x in agenda.splitlines() if x.startswith("| PCCP-Q01 |"))
-        self.assertIn("`APTO_A_DELIBERAR`", row)
-        self.assertIn("SOMENTE para preferência orientadora P", row)
-        self.assertIn("não escolha do usuário nem D", row)
-        for option in ("P-A", "P-B", "P-C", "D0"):
-            self.assertIn(option, agenda)
-        self.assertIn("`CF-DEC-006=H/P` intacto", agenda)
-        self.assertIn("nenhuma resposta P-A/P-B/P-C/D0 foi atribuída", agenda)
+        self.assertIn("`PREFERENCIA_PROVISORIA`", row)
+        self.assertIn("P-B escolhida expressamente pelo usuário", row)
+        self.assertIn("não D", row)
+        decision = document("governanca/03_DECISOES.md")
+        dec_row = next(x for x in decision.splitlines() if x.startswith("| CF-DEC-006 |"))
+        self.assertIn("P (orientação provisória expressa)", dec_row)
+        self.assertIn("16/10/2026", dec_row)
+        self.assertIn("sem ratificar", dec_row)
+        self.assertNotIn("| CF-DEC-006 | D |", decision)
+
+    def test_f6_00_orientacao_p_registrada_sem_alterar_demais_portas(self):
+        funnel = document("central/04_FUNIL_DECISOES_F6.csv").splitlines()
+        row = next(x for x in funnel if x.startswith('"F6-00",'))
+        self.assertIn('"ORIENTACAO_P_REGISTRADA"', row)
+        self.assertIn("P-B expressa do usuário", row)
+        self.assertEqual(len([x for x in funnel if x.startswith('"F6-')]), 10)
+        for label in ("BLOQUEADO_DEPENDENCIAS", "BLOQUEADO_ART60", "BLOQUEADO_COMPETENCIAS"):
+            self.assertIn(label, "\n".join(funnel))
+
+    def test_doze_contraprovas_condicionais_nao_sao_cf_nor(self):
+        doc = document("modulos/M03-parlamento/M03_PCCP_Q01_12_CONTRAPROVAS_20261016.md")
+        labels = re.findall(r"^\| PB-T(\d{2}) \|", doc, flags=re.MULTILINE)
+        self.assertEqual(labels, [f"{i:02d}" for i in range(1, 13)])
+        for term in ("investidura", "LOA", "art. 16", "60 §4º", "ADCT", "ABERTO_R3"):
+            self.assertIn(term, doc)
+        self.assertIn("sem texto CF-NOR", doc)
 
     def test_f6_pccp_nao_confunde_governo_parlamento_e_via(self):
         agenda = document("central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md")
@@ -96,7 +115,7 @@ class TestPccpGovernanca(unittest.TestCase):
         self.assertIn("“bora”, “continue”", executive)
         self.assertIn("não conta como voto", executive)
         decisions = document("governanca/03_DECISOES.md")
-        self.assertIn("| CF-DEC-006 | H/P |", decisions)
+        self.assertIn("| CF-DEC-006 | P (orientação provisória expressa) |", decisions)
         self.assertNotIn("CF-DEC-017", decisions)
 
 if __name__ == "__main__":

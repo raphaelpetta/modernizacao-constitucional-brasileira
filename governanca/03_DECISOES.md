@@ -19,7 +19,7 @@
 | CF-DEC-003 | D (guia) | Federação | Federação de Estados e autonomia local municipal garantida; extensão revisável |
 | CF-DEC-004 | D (guia) | Fundamentos | Trabalho e iniciativa privada, sustentabilidade e futuras gerações; redação revisável |
 | CF-DEC-005 | D (guia) | Redação | Artigos numerados, rubricas e subdivisões; critério técnico passível de teste |
-| CF-DEC-006 | H/P | Governo | Parlamentarismo racionalizado é proposta do anteprojeto, não decisão final |
+| CF-DEC-006 | P (orientação provisória expressa) | Governo — prioridade de prototipagem | Em 16/10/2026, o usuário escolheu expressamente **P-B** como **preferência provisória da primeira prototipagem PCCP-Q01/F6-00**, sem ratificar sistema constitucional, eleição, Parlamento ou transição. Mantém-se revisão por G1–G4, inclusive auditoria jurídica independente R3 antes de qualquer D material. **Não decide** quóruns, chefia de Estado, orçamento, competências, mandatos, via constitucional ou redação CF-NOR. A escolha revisável sucede o estado H/P histórico, que não constituía manifestação do usuário. [Registro PCCP-Q01](../central/03_PAUTA_DELIBERACAO_PROGRESSIVA.md); [verificações focais](../modulos/M03-parlamento/M03_PCCP_Q01_12_CONTRAPROVAS_20261016.md). |
 | CF-DEC-007 | H/P | Senado/Conselho | Delegações executivas estaduais são hipótese do anteprojeto |
 | CF-DEC-008 | H/P | Justiça constitucional | Tribunal Constitucional apartado ainda não definido |
 | CF-DEC-009 | A | Eleições | Tamanho da Câmara e fórmula eleitoral não decididos |
